@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='51'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='154' u='c'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='166' u='c'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='232' u='c'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='260' u='c'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='291' u='w'/>

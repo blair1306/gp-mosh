@@ -1,0 +1,36 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='368' type='void google::protobuf::io::CodedInputStream::SetTotalBytesLimit(int total_bytes_limit, int warning_threshold)'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='333'>// Total Bytes Limit -----------------------------------------------
+  // To prevent malicious users from sending excessively large messages
+  // and causing integer overflows or memory exhaustion, CodedInputStream
+  // imposes a hard limit on the total number of bytes it will read.
+
+  // Sets the maximum number of bytes that this CodedInputStream will read
+  // before refusing to continue.  To prevent integer overflows in the
+  // protocol buffers implementation, as well as to prevent servers from
+  // allocating enormous amounts of memory to hold parsed messages, the
+  // maximum message length should be limited to the shortest length that
+  // will not harm usability.  The theoretical shortest message that could
+  // cause integer overflows is 512MB.  The default limit is 64MB.  Apps
+  // should set shorter limits if possible.  If warning_threshold is not -1,
+  // a warning will be printed to stderr after warning_threshold bytes are
+  // read.  For backwards compatibility all negative values get squashed to -1,
+  // as other negative values might have special internal meanings.
+  // An error will always be printed to stderr if the limit is reached.
+  //
+  // This is unrelated to PushLimit()/PopLimit().
+  //
+  // Hint:  If you are reading this because your program is printing a
+  //   warning about dangerously large protocol messages, you may be
+  //   confused about what to do next.  The best option is to change your
+  //   design such that excessively large messages are not necessary.
+  //   For example, try to design file formats to consist of many small
+  //   messages rather than a single large one.  If this is infeasible,
+  //   you will need to increase the limit.  Chances are, though, that
+  //   your code never constructs a CodedInputStream on which the limit
+  //   can be set.  You probably parse messages by calling things like
+  //   Message::ParseFromString().  In this case, you will need to change
+  //   your code to instead construct some sort of ZeroCopyInputStream
+  //   (e.g. an ArrayInputStream), construct a CodedInputStream around
+  //   that, then call Message::ParseFromCodedStream() instead.  Then
+  //   you can adjust the limit.  Yes, it&apos;s more work, but you&apos;re doing
+  //   something unusual.</doc>

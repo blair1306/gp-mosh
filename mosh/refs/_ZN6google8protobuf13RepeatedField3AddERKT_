@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/repeated_field.h' l='119' type='void google::protobuf::RepeatedField::Add(const Element &amp; value)'/>
+<def f='include/google/protobuf/repeated_field.h' l='683' ll='687' type='void google::protobuf::RepeatedField::Add(const Element &amp; value)'/>

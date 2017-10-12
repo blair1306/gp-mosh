@@ -1,0 +1,3 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='139' ll='142' type='static bool Terminal::Cell::isprint_iso8859_1(const wchar_t c)'/>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='138'>// Is this a printing ISO 8859-1 character?</doc>
+<use f='codebrowser/src/terminal/terminal.cc' l='69' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>

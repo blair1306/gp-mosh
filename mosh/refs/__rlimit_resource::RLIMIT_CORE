@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/resource.h' l='50' type='4'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='295' macro='1' u='r'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='304' macro='1' u='r'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='313' macro='1' u='r'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='315' macro='1' u='r'/>
+<doc f='include/x86_64-linux-gnu/bits/resource.h' l='49'>/* Largest core file that can be created, in bytes.  */</doc>

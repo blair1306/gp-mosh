@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='258' type='void Terminal::DrawState::reinitialize_tabs(unsigned int start)'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='58' ll='64' type='void Terminal::DrawState::reinitialize_tabs(unsigned int start)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='77' u='c' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='439' u='c' c='_ZN8Terminal9DrawState6resizeEii'/>

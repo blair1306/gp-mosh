@@ -1,0 +1,4 @@
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='138' ll='140' type='::std::string * ClientBuffers::Instruction::mutable_unknown_fields()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='291' u='c' c='_ZN13ClientBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='299' u='c' c='_ZN13ClientBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='363' u='c' c='_ZN13ClientBuffers11Instruction9MergeFromERKS0_'/>

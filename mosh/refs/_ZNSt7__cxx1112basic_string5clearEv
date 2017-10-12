@@ -1,0 +1,32 @@
+<def f='include/c++/5/bits/basic_string.h' l='807' ll='809' type='void std::__cxx11::basic_string::clear()'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='282' u='c' c='_ZNKSt7num_get16_M_extract_floatB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='include/c++/5/bits/basic_string.h' l='804'>/**
+       *  Erases the string, making it empty.
+       */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='120' u='c' c='_ZN8Terminal4Cell5clearEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='410' u='c' c='_ZN6google8protobuf8internal21StringTypeHandlerBase5ClearEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='337' u='c' c='_ZN16TransportBuffers11Instruction10clear_diffEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='413' u='c' c='_ZN16TransportBuffers11Instruction11clear_chaffEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='552' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='311' u='c' c='_ZN7Overlay18NotificationEngine14adjust_messageEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='191' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='506' u='c' c='_ZN11HostBuffers9HostBytes16clear_hoststringEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='120' u='c' c='_ZN11HostBuffers11HostMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='298' u='c' c='_ZN11HostBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='459' u='c' c='_ZN11HostBuffers9HostBytes5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='463' u='c' c='_ZN11HostBuffers9HostBytes5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='661' u='c' c='_ZN11HostBuffers13ResizeMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='875' u='c' c='_ZN11HostBuffers7EchoAck5ClearEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='151' u='c' c='_ZN16TransportBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='156' u='c' c='_ZN16TransportBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='165' u='c' c='_ZN16TransportBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='424' u='c' c='_ZN13ClientBuffers9Keystroke10clear_keysEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='113' u='c' c='_ZN13ClientBuffers11UserMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='291' u='c' c='_ZN13ClientBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='452' u='c' c='_ZN13ClientBuffers9Keystroke5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='456' u='c' c='_ZN13ClientBuffers9Keystroke5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='654' u='c' c='_ZN13ClientBuffers13ResizeMessage5ClearEv'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='50' u='c' c='_ZN8Terminal8Emulator19read_octets_to_hostB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='74' u='c' c='_ZN8Terminal10Dispatcher5clearEPKN6Parser5ClearE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='75' u='c' c='_ZN8Terminal10Dispatcher5clearEPKN6Parser5ClearE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='51' u='c' c='_ZN8Terminal4Cell5resetEt'/>

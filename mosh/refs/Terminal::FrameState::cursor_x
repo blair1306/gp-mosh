@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='44' type='int'/>
+<offset>256</offset>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='143' u='w' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='146' u='w' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='234' u='w' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='242' u='w' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='251' u='w' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='275' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='357' u='w' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='408' u='w' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='433' u='w' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='439' u='w' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='458' u='w' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='472' u='w' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='478' u='w' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='484' u='w' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='494' u='r' c='_ZN8Terminal10FrameState18append_silent_moveEii'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='505' u='r' c='_ZN8Terminal10FrameState11append_moveEii'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='507' u='w' c='_ZN8Terminal10FrameState11append_moveEii'/>

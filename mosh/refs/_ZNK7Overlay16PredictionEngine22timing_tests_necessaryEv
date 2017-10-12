@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='269' ll='272' type='bool Overlay::PredictionEngine::timing_tests_necessary() const'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='292' u='c' c='_ZNK7Overlay16PredictionEngine9wait_timeEv'/>

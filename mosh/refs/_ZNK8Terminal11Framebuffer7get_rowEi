@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='393' ll='398' type='const Terminal::Row * Terminal::Framebuffer::get_row(int row) const'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='182' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='199' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='347' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/terminal/parserstatefamily.h' l='58' type='Parser::OSC_String'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='66' u='w' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='80' u='m' c='_ZN6Parser11StateFamilyC1Ev'/>
+<offset>1536</offset>
+<use f='codebrowser/src/terminal/parserstate.cc' l='55' u='a' c='_ZNK6Parser5State13anywhere_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='135' u='a' c='_ZNK6Parser6Escape16input_state_ruleEw'/>

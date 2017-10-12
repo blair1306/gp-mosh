@@ -1,0 +1,5 @@
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='173' macro='1' type='typename _proto_TypeTraits::Singular::MutableType ClientBuffers::Instruction::MutableExtension(const ::google::protobuf::internal::ExtensionIdentifier&lt;Instruction, _proto_TypeTraits, _field_type, _is_packed&gt; &amp; id)'/>
+<use f='codebrowser/src/statesync/user.cc' l='83' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='86' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='93' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='94' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>

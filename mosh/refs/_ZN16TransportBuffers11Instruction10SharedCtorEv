@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='90' type='void TransportBuffers::Instruction::SharedCtor()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='68' u='c' c='_ZN16TransportBuffers11InstructionC1Ev'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='77' u='c' c='_ZN16TransportBuffers11InstructionC1ERKS0_'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='82' ll='93' type='void TransportBuffers::Instruction::SharedCtor()'/>

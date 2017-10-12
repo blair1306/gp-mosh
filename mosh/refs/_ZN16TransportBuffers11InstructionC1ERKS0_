@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='44' type='void TransportBuffers::Instruction::Instruction(const TransportBuffers::Instruction &amp; from)'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='75' ll='80' type='void TransportBuffers::Instruction::Instruction(const TransportBuffers::Instruction &amp; from)'/>

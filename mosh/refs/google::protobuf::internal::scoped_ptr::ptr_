@@ -1,0 +1,17 @@
+<use f='include/google/protobuf/stubs/common.h' l='455' u='w' c='_ZN6google8protobuf8internal10scoped_ptrC1EPT_'/>
+<use f='include/google/protobuf/stubs/common.h' l='461' c='_ZN6google8protobuf8internal10scoped_ptrD1Ev'/>
+<use f='include/google/protobuf/stubs/common.h' l='468' u='r' c='_ZN6google8protobuf8internal10scoped_ptr5resetEPT_'/>
+<use f='include/google/protobuf/stubs/common.h' l='470' c='_ZN6google8protobuf8internal10scoped_ptr5resetEPT_'/>
+<use f='include/google/protobuf/stubs/common.h' l='471' u='w' c='_ZN6google8protobuf8internal10scoped_ptr5resetEPT_'/>
+<use f='include/google/protobuf/stubs/common.h' l='478' u='r' c='_ZNK6google8protobuf8internal10scoped_ptrdeEv'/>
+<use f='include/google/protobuf/stubs/common.h' l='479' u='r' c='_ZNK6google8protobuf8internal10scoped_ptrdeEv'/>
+<use f='include/google/protobuf/stubs/common.h' l='482' u='r' c='_ZNK6google8protobuf8internal10scoped_ptrptEv'/>
+<use f='include/google/protobuf/stubs/common.h' l='483' u='r' c='_ZNK6google8protobuf8internal10scoped_ptrptEv'/>
+<use f='include/google/protobuf/stubs/common.h' l='485' u='r' c='_ZNK6google8protobuf8internal10scoped_ptr3getEv'/>
+<use f='include/google/protobuf/stubs/common.h' l='490' u='r' c='_ZNK6google8protobuf8internal10scoped_ptreqEPT_'/>
+<use f='include/google/protobuf/stubs/common.h' l='491' u='r' c='_ZNK6google8protobuf8internal10scoped_ptrneEPT_'/>
+<use f='include/google/protobuf/stubs/common.h' l='495' u='r' c='_ZN6google8protobuf8internal10scoped_ptr4swapERNS1_10scoped_ptrIT_EE'/>
+<use f='include/google/protobuf/stubs/common.h' l='496' u='w' c='_ZN6google8protobuf8internal10scoped_ptr4swapERNS1_10scoped_ptrIT_EE'/>
+<use f='include/google/protobuf/stubs/common.h' l='506' u='r' c='_ZN6google8protobuf8internal10scoped_ptr7releaseEv'/>
+<use f='include/google/protobuf/stubs/common.h' l='507' u='w' c='_ZN6google8protobuf8internal10scoped_ptr7releaseEv'/>
+<dec f='include/google/protobuf/stubs/common.h' l='512' type='C *'/>

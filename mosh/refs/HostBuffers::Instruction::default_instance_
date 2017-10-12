@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='189' type='HostBuffers::Instruction *'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='20' u='r' c='_ZN11HostBuffers39protobuf_ShutdownFile_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='33' u='w' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='50' u='r' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='275' u='r' c='_ZN11HostBuffers11Instruction10SharedDtorEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='285' u='r' c='_ZN11HostBuffers11Instruction16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='286' u='r' c='_ZN11HostBuffers11Instruction16default_instanceEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='289' type='HostBuffers::Instruction *'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='321' u='r' c='_ZN11HostBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

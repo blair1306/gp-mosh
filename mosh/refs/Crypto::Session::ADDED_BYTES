@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='148' type='const int'/>
+<doc f='codebrowser/src/crypto/crypto.h' l='147'>/* Overhead (not counting the nonce, which is handled by network transport) */</doc>
+<doc f='codebrowser/src/crypto/crypto.h' l='148'>/* final OCB block */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='339' u='r' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>

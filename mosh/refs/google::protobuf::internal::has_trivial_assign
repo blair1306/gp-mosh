@@ -1,0 +1,7 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='249'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='250' ll='253'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='254' ll='255'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='245'>// We can&apos;t get has_trivial_assign right without compiler help, so fail
+// conservatively. We will assume it&apos;s false except for: (1) types
+// for which is_pod is true. (2) std::pair of types with trivial copy
+// constructors. (3) array of a type with a trivial assign constructor.</doc>

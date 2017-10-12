@@ -1,0 +1,4 @@
+<dec f='include/netdb.h' l='615'/>
+<use f='codebrowser/src/network/network.cc' l='59' u='a'/>
+<use f='codebrowser/src/network/network.cc' l='298' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='382' u='c'/>

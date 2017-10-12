@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportsender.h' l='97' type='uint64_t'/>
+<use f='codebrowser/src/network/transportsender.h' l='136' u='w' c='_ZN7Network15TransportSender14start_shutdownEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='62' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='379' c='_ZNK7Network15TransportSender22shutdown_ack_timed_outEv'/>

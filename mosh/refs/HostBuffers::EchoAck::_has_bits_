@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='427' type='::google::protobuf::uint32 [1]'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='628' u='r' c='_ZNK11HostBuffers7EchoAck16has_echo_ack_numEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='631' u='w' c='_ZN11HostBuffers7EchoAck20set_has_echo_ack_numEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='634' u='w' c='_ZN11HostBuffers7EchoAck22clear_has_echo_ack_numEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='843' u='r' c='_ZN11HostBuffers7EchoAck10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='843' u='r' c='_ZN11HostBuffers7EchoAck10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='874' u='r' c='_ZN11HostBuffers7EchoAck5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='874' u='r' c='_ZN11HostBuffers7EchoAck5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='944' u='r' c='_ZNK11HostBuffers7EchoAck8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='968' u='r' c='_ZN11HostBuffers7EchoAck9MergeFromERKS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='990' u='a' c='_ZN11HostBuffers7EchoAck4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='990' u='a' c='_ZN11HostBuffers7EchoAck4SwapEPS0_'/>
+<offset>320</offset>

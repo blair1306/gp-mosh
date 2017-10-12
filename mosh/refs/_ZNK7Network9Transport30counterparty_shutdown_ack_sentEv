@@ -1,0 +1,4 @@
+<def f='codebrowser/src/network/networktransport.h' l='95' type='bool Network::Transport::counterparty_shutdown_ack_sent() const'/>
+<doc f='codebrowser/src/network/networktransport.h' l='94'>/* Other side has requested shutdown and we have sent one ACK */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='857' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='524' u='c' c='_ZN9STMClient4mainEv'/>

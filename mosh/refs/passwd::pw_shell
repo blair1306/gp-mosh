@@ -1,0 +1,4 @@
+<dec f='include/pwd.h' l='57' type='char *'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='293' u='r' c='main'/>
+<offset>320</offset>
+<doc f='include/pwd.h' l='57'>/* Shell program.  */</doc>

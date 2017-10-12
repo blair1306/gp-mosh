@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/network.h' l='90' type='void Network::Packet::Packet(const Crypto::Message &amp; message)'/>
+<def f='codebrowser/src/network/network.cc' l='71' ll='85' type='void Network::Packet::Packet(const Crypto::Message &amp; message)'/>
+<use f='codebrowser/src/network/network.cc' l='512' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<doc f='codebrowser/src/network/network.cc' l='70'>/* Read in packet */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='165' type='void ClientBuffers::Instruction::SetCachedSize(int size) const'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='272' ll='276' type='void ClientBuffers::Instruction::SetCachedSize(int size) const'/>

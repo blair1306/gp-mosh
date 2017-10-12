@@ -1,0 +1,13 @@
+<def f='include/google/protobuf/io/zero_copy_stream.h' l='124' ll='177'/>
+<ovr f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='61' c='google::protobuf::io::ArrayInputStream'/>
+<ovr f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='195' c='google::protobuf::io::CopyingInputStreamAdaptor'/>
+<size>8</size>
+<doc f='include/google/protobuf/io/zero_copy_stream.h' l='122'>// Abstract interface similar to an input stream but designed to minimize
+// copying.</doc>
+<fun r='_ZN6google8protobuf2io19ZeroCopyInputStreamC1Ev'/>
+<fun r='_ZN6google8protobuf2io19ZeroCopyInputStreamD1Ev'/>
+<fun r='_ZN6google8protobuf2io19ZeroCopyInputStream4NextEPPKvPi'/>
+<fun r='_ZN6google8protobuf2io19ZeroCopyInputStream6BackUpEi'/>
+<fun r='_ZN6google8protobuf2io19ZeroCopyInputStream4SkipEi'/>
+<fun r='_ZNK6google8protobuf2io19ZeroCopyInputStream9ByteCountEv'/>
+<fun r='_ZN6google8protobuf2io19ZeroCopyInputStreamC1ERKS2_'/>

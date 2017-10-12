@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='154' type='Atomic64 google::protobuf::internal::NoBarrier_Load(const volatile Atomic64 * ptr)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='252' ll='254' type='Atomic64 google::protobuf::internal::NoBarrier_Load(const volatile Atomic64 * ptr)'/>

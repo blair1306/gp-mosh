@@ -1,0 +1,6 @@
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='187' u='c' c='_ZN7Overlay18NotificationEngine17set_network_errorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='195' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='571' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='241' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='246' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='248' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>

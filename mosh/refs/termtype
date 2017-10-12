@@ -1,0 +1,16 @@
+<def f='include/term.h' l='648' ll='668'/>
+<size>72</size>
+<doc f='include/term.h' l='648'>/* in-core form of terminfo data */</doc>
+<mbr r='termtype::term_names' o='0' t='char *'/>
+<mbr r='termtype::str_table' o='64' t='char *'/>
+<mbr r='termtype::Booleans' o='128' t='char *'/>
+<mbr r='termtype::Numbers' o='192' t='short *'/>
+<mbr r='termtype::Strings' o='256' t='char **'/>
+<mbr r='termtype::ext_str_table' o='320' t='char *'/>
+<mbr r='termtype::ext_Names' o='384' t='char **'/>
+<mbr r='termtype::num_Booleans' o='448' t='unsigned short'/>
+<mbr r='termtype::num_Numbers' o='464' t='unsigned short'/>
+<mbr r='termtype::num_Strings' o='480' t='unsigned short'/>
+<mbr r='termtype::ext_Booleans' o='496' t='unsigned short'/>
+<mbr r='termtype::ext_Numbers' o='512' t='unsigned short'/>
+<mbr r='termtype::ext_Strings' o='528' t='unsigned short'/>

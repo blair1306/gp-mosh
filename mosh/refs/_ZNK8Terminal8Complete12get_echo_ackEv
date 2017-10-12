@@ -1,0 +1,7 @@
+<def f='codebrowser/src/statesync/completeterminal.h' l='71' type='uint64_t Terminal::Complete::get_echo_ack() const'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='298' u='c' c='_ZN9STMClient21process_network_inputEv'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='76' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='76' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='77' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='77' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='79' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>

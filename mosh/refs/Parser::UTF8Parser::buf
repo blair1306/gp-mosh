@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/terminal/parser.h' l='76' type='char [8]'/>
+<use f='codebrowser/src/terminal/parser.h' l='87' u='w' c='_ZN6Parser10UTF8Parser11reset_inputEv'/>
+<offset>64</offset>
+<use f='codebrowser/src/terminal/parser.cc' l='73' u='w' c='_ZN6Parser10UTF8ParserC1Ev'/>
+<use f='codebrowser/src/terminal/parser.cc' l='86' u='w' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='101' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='115' u='w' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='115' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='130' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='130' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>

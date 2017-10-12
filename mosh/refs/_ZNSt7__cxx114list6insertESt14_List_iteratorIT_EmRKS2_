@@ -1,0 +1,13 @@
+<def f='include/c++/5/bits/stl_list.h' l='1229' ll='1234' type='void std::__cxx11::list::insert(iterator __position, size_type __n, const value_type &amp; __x)'/>
+<doc f='include/c++/5/bits/stl_list.h' l='1217'>/**
+       *  @brief  Inserts a number of copies of given data into the %list.
+       *  @param  __position  An iterator into the %list.
+       *  @param  __n  Number of elements to be inserted.
+       *  @param  __x  Data to be inserted.
+       *
+       *  This function will insert a specified number of copies of the
+       *  given data before the location specified by @a position.
+       *
+       *  This operation is linear in the number of elements inserted and
+       *  does not invalidate iterators and references.
+       */</doc>

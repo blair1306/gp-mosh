@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='249' type='void Overlay::PredictionEngine::init_cursor(const Terminal::Framebuffer &amp; fb)'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='415' ll='434' type='void Overlay::PredictionEngine::init_cursor(const Terminal::Framebuffer &amp; fb)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='681' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='836' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='842' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='859' u='c' c='_ZN7Overlay16PredictionEngine23newline_carriage_returnERKN8Terminal11FramebufferE'/>

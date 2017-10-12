@@ -1,0 +1,14 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='655' type='void google::protobuf::io::CodedOutputStream::WriteRaw(const void * buffer, int size)'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1104' u='c' c='_ZN6google8protobuf2io17CodedOutputStream11WriteStringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1112' u='c' c='_ZN6google8protobuf2io17CodedOutputStream20WriteRawMaybeAliasedEPKvi'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='182' u='c' c='_ZNK11HostBuffers11HostMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='344' u='c' c='_ZNK11HostBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='523' u='c' c='_ZNK11HostBuffers9HostBytes24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='742' u='c' c='_ZNK11HostBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='936' u='c' c='_ZNK11HostBuffers7EchoAck24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='654'>// Write raw bytes, copying them from the given buffer.</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='344' u='c' c='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='175' u='c' c='_ZNK13ClientBuffers11UserMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='337' u='c' c='_ZNK13ClientBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='516' u='c' c='_ZNK13ClientBuffers9Keystroke24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='735' u='c' c='_ZNK13ClientBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>

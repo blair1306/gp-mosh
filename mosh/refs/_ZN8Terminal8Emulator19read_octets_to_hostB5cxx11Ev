@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminal.h' l='79' type='std::string Terminal::Emulator::read_octets_to_host()'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='61' u='c' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='68' u='c' c='_ZN8Terminal8Complete3actB5cxx11ERKN6Parser6ActionE'/>
+<def f='codebrowser/src/terminal/terminal.cc' l='47' ll='52' type='std::string Terminal::Emulator::read_octets_to_host()'/>

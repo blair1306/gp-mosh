@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='825' ll='828' type='static string * google::protobuf::internal::RepeatedStringTypeTraits::Add(int number, FieldType field_type, google::protobuf::internal::ExtensionSet * set)'/>

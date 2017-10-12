@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='197' type='void ClientBuffers::Keystroke::Keystroke(const ClientBuffers::Keystroke &amp; from)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='406' ll='411' type='void ClientBuffers::Keystroke::Keystroke(const ClientBuffers::Keystroke &amp; from)'/>

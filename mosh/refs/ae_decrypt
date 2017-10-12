@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/crypto/ae.h' l='135' type='int ae_decrypt(ae_ctx * ctx, const void * nonce, const void * ct, int ct_len, const void * ad, int ad_len, void * pt, const void * tag, int final)'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='272' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>
+<doc f='codebrowser/src/crypto/ae.h' l='107'>/* --------------------------------------------------------------------------
+ *
+ * Encrypt plaintext; provide for authentication of ciphertext/associated data.
+ *
+ * Parameters:
+ *  ctx    - Pointer to an ae_ctx structure initialized by ae_init.
+ *  nonce  - Pointer to a nonce_len (defined in ae_init) byte nonce.
+ *  pt     - Pointer to plaintext bytes to be encrypted.
+ *  pt_len - number of bytes pointed to by pt.
+ *  ad     - Pointer to associated data.
+ *  ad_len - number of bytes pointed to by ad.
+ *  ct     - Pointer to buffer to receive ciphertext encryption.
+ *  tag    - Pointer to receive authentication tag; or NULL
+ *           if tag is to be bundled into the ciphertext.
+ *  final  - Non-zero if this call completes the plaintext being encrypted.
+ *
+ * If nonce!=NULL then a message is being initiated. If final!=0
+ * then a message is being finalized. If final==0 or nonce==NULL
+ * then the incremental interface is being used. If nonce!=NULL and
+ * ad_len&lt;0, then use same ad as last message.
+ *
+ * Returns:
+ *  non-negative     - Number of bytes written to ct.
+ *  AE_NOT_SUPPORTED - Usage mode unsupported (eg, incremental and/or sticky).
+ *  Otherwise        - Error. Check implementation documentation for codes.
+ *
+ * ----------------------------------------------------------------------- */</doc>
+<def f='codebrowser/src/crypto/ocb.cc' l='1204' ll='1399' type='int ae_decrypt(ae_ctx * ctx, const void * nonce, const void * ct, int ct_len, const void * ad, int ad_len, void * pt, const void * tag, int final)'/>

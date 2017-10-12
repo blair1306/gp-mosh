@@ -1,0 +1,15 @@
+<def f='codebrowser/src/terminal/parserstate.h' l='51' type='void Parser::State::setfamily(Parser::StateFamily * s_family)'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='68' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='69' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='70' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='71' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='72' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='73' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='74' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='75' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='76' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='77' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='78' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='79' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='80' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='81' u='c' c='_ZN6Parser11StateFamilyC1Ev'/>

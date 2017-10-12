@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/parser.h' l='80' type='void Parser::UTF8Parser::UTF8Parser()'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='63' u='c' c='_ZN8Terminal8CompleteC1Emm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='297' u='c' c='_ZN7Overlay16PredictionEngineC1Ev'/>
+<def f='codebrowser/src/terminal/parser.cc' l='69' ll='74' type='void Parser::UTF8Parser::UTF8Parser()'/>

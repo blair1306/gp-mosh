@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/transportsender.h' l='115' type='void Network::TransportSender::TransportSender&lt;MyState&gt;(Network::Connection * s_connection, MyState &amp; initial_state)'/>
+<doc f='codebrowser/src/network/transportsender.h' l='114'>/* constructor */</doc>
+<def f='codebrowser/src/network/transportsender-impl.h' l='50' ll='70' type='void Network::TransportSender::TransportSender&lt;MyState&gt;(Network::Connection * s_connection, MyState &amp; initial_state)'/>

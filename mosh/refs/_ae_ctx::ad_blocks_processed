@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/crypto/ocb.cc' l='739' type='uint32_t'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='813' u='w' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='876' u='r' c='_ZL10process_adP7_ae_ctxPKvii'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='915' u='w' c='_ZL10process_adP7_ae_ctxPKvii'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1010' u='w' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1232' u='w' c='ae_decrypt'/>
+<offset>3136</offset>

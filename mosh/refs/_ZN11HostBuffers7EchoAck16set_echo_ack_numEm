@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='418' type='void HostBuffers::EchoAck::set_echo_ack_num(::google::protobuf::uint64 value)'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='644' ll='648' type='void HostBuffers::EchoAck::set_echo_ack_num(::google::protobuf::uint64 value)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='970' u='c' c='_ZN11HostBuffers7EchoAck9MergeFromERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='79' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>

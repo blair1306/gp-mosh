@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/terminal/terminaluserinput.h' l='49' type='Terminal::UserInput::UserInputState'/>
+<use f='codebrowser/src/terminal/terminaluserinput.h' l='53' u='w' c='_ZN8Terminal9UserInputC1Ev'/>
+<use f='codebrowser/src/terminal/terminaluserinput.h' l='59' u='r' c='_ZNK8Terminal9UserInputeqERKS0_'/>
+<use f='codebrowser/src/terminal/terminaluserinput.h' l='59' u='r' c='_ZNK8Terminal9UserInputeqERKS0_'/>
+<offset>0</offset>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='52' u='r' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='55' u='w' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='61' u='w' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='64' u='w' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='68' u='w' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='81' u='w' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>

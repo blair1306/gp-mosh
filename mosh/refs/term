@@ -1,0 +1,9 @@
+<def f='include/term.h' l='670' ll='677'/>
+<size>208</size>
+<doc f='include/term.h' l='670'>/* describe an actual terminal */</doc>
+<mbr r='term::type' o='0' t='TERMTYPE'/>
+<mbr r='term::Filedes' o='576' t='short'/>
+<mbr r='term::Ottyb' o='608' t='struct termios'/>
+<mbr r='term::Nttyb' o='1088' t='struct termios'/>
+<mbr r='term::_baudrate' o='1568' t='int'/>
+<mbr r='term::_termname' o='1600' t='char *'/>

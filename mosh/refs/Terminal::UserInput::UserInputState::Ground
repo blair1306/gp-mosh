@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/terminal/terminaluserinput.h' l='43' type='0'/>
+<use f='codebrowser/src/terminal/terminaluserinput.h' l='53' u='r' c='_ZN8Terminal9UserInputC1Ev'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='53' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='64' u='r' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='68' u='r' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='81' u='r' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>

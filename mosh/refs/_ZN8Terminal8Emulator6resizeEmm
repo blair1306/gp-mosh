@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminal.h' l='74' type='void Terminal::Emulator::resize(size_t s_width, size_t s_height)'/>
+<use f='codebrowser/src/terminal/parseraction.cc' l='99' u='c' c='_ZNK6Parser6Resize15act_on_terminalEPN8Terminal8EmulatorE'/>
+<def f='codebrowser/src/terminal/terminal.cc' l='174' ll='177' type='void Terminal::Emulator::resize(size_t s_width, size_t s_height)'/>

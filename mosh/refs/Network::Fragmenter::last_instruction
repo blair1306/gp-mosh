@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/network/transportfragment.h' l='93' type='TransportBuffers::Instruction'/>
+<use f='codebrowser/src/network/transportfragment.h' l='97' u='w' c='_ZN7Network10FragmenterC1Ev'/>
+<use f='codebrowser/src/network/transportfragment.h' l='99' u='m' c='_ZN7Network10FragmenterC1Ev'/>
+<use f='codebrowser/src/network/transportfragment.h' l='100' u='m' c='_ZN7Network10FragmenterC1Ev'/>
+<use f='codebrowser/src/network/transportfragment.h' l='103' u='m' c='_ZNK7Network10Fragmenter13last_ack_sentEv'/>
+<offset>64</offset>
+<use f='codebrowser/src/network/transportfragment.cc' l='160' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='161' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='162' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='163' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='164' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='165' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='170' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='171' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='172' u='m' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='175' u='w' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>

@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='185' type='int google::protobuf::io::CopyingInputStream::Skip(int count)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='179'>// Skips the next &quot;count&quot; bytes of input.  Returns the number of bytes
+  // actually skipped.  This will always be exactly equal to &quot;count&quot; unless
+  // EOF was reached or a permanent read error occurred.
+  //
+  // The default implementation just repeatedly calls Read() into a scratch
+  // buffer.</doc>

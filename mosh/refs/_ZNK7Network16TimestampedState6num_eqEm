@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/transportstate.h' l='50' type='bool Network::TimestampedState::num_eq(uint64_t v) const'/>
+<doc f='codebrowser/src/network/transportstate.h' l='49'>/* For use with find_if, remove_if */</doc>

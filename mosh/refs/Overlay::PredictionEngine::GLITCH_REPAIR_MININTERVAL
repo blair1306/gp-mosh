@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='214' type='const uint64_t'/>
+<doc f='codebrowser/src/frontend/terminaloverlay.h' l='214'>/* required time in between non-glitches */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='552' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

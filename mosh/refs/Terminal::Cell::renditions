@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='91' type='Terminal::Renditions'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='108' u='m' c='_ZNK8Terminal4CelleqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='108' u='r' c='_ZNK8Terminal4CelleqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='191' u='a' c='_ZNK8Terminal4Cell14get_renditionsEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='192' u='a' c='_ZN8Terminal4Cell14get_renditionsEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='193' u='w' c='_ZN8Terminal4Cell14set_renditionsERKNS_10RenditionsE'/>
+<offset>256</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='43' u='w' c='_ZN8Terminal4CellC1Et'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='52' u='w' c='_ZN8Terminal4Cell5resetEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='639' u='m' c='_ZNK8Terminal4Cell7compareERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='639' u='r' c='_ZNK8Terminal4Cell7compareERKS0_'/>

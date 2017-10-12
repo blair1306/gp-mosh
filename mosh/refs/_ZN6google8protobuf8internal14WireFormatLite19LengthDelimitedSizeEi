@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='495' type='static int google::protobuf::internal::WireFormatLite::LengthDelimitedSize(int length)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='835' u='c' c='_ZN6google8protobuf8internal14WireFormatLite11MessageSizeERKNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='848' u='c' c='_ZN6google8protobuf8internal14WireFormatLite20MessageSizeNoVirtualERKT_'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='852' ll='854' type='static int google::protobuf::internal::WireFormatLite::LengthDelimitedSize(int length)'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='493'>// Given the length of data, calculate the byte size of the data on the
+  // wire if we encode the data as a length delimited field.</doc>

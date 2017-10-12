@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='168' type='void TransportBuffers::Instruction::clear_has_ack_num()'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='284' ll='286' type='void TransportBuffers::Instruction::clear_has_ack_num()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='289' u='c' c='_ZN16TransportBuffers11Instruction13clear_ack_numEv'/>

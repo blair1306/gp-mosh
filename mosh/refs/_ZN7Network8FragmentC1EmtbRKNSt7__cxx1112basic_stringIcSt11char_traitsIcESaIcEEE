@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/transportfragment.h' l='64' ll='67' type='void Network::Fragment::Fragment(uint64_t s_id, uint16_t s_fragment_num, bool s_final, const string &amp; s_contents)'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='195' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>

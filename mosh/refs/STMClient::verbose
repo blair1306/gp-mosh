@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='72' type='unsigned int'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='107' u='w' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<offset>8800</offset>
+<use f='codebrowser/src/frontend/stmclient.cc' l='261' u='r' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='262' u='r' c='_ZN9STMClient9main_initEv'/>

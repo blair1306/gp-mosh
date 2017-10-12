@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='338' type='void Overlay::OverlayManager::OverlayManager()'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='99' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>

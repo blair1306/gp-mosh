@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_vector.h' l='407' ll='414' type='void std::vector::vector&lt;_Tp, _Alloc&gt;(_InputIterator __first, _InputIterator __last, const allocator_type &amp; __a = allocator_type())'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='347' u='c' c='_ZN7Overlay11TitleEngine10set_prefixERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='578' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='602' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>

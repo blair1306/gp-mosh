@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/parseraction.h' l='152' type='void Parser::Resize::act_on_terminal(Terminal::Emulator * emu) const'/>
+<dec f='codebrowser/src/terminal/terminal.h' l='61' type='void Parser::Resize::act_on_terminal(Terminal::Emulator * ) const'/>
+<inh f='codebrowser/src/terminal/parseraction.h' l='54' c='_ZNK6Parser6Action15act_on_terminalEPN8Terminal8EmulatorE'/>
+<def f='codebrowser/src/terminal/parseraction.cc' l='97' ll='100' type='void Parser::Resize::act_on_terminal(Terminal::Emulator * emu) const'/>

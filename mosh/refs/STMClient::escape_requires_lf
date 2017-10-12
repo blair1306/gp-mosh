@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='55' type='bool'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='94' u='w' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<offset>864</offset>
+<use f='codebrowser/src/frontend/stmclient.cc' l='181' u='w' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='184' u='w' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='379' u='r' c='_ZN9STMClient18process_user_inputEi'/>

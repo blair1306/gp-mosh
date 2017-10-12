@@ -1,0 +1,3 @@
+<def f='include/c++/5/bits/stl_list.h' l='148' ll='150' type='reference std::_List_iterator::operator*() const'/>
+<doc f='include/c++/5/bits/stl_list.h' l='147'>// Must downcast from _List_node_base to _List_node to get to _M_data.</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='631' u='c' c='_ZN7Overlay16PredictionEngine15get_or_make_rowEii'/>

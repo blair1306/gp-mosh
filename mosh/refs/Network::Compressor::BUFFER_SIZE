@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/compressor.h' l='41' type='const int'/>
+<use f='codebrowser/src/network/compressor.h' l='43'/>
+<use f='codebrowser/src/network/compressor.cc' l='43' u='r' c='_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/compressor.cc' l='52' u='r' c='_ZN7Network10Compressor14uncompress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/src/network/compressor.h' l='41'>/* effective limit on terminal size */</doc>

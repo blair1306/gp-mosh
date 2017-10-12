@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='237' type='::std::string ClientBuffers::Keystroke::GetTypeName() const'/>
+<inh f='include/google/protobuf/message_lite.h' l='85' c='_ZNK6google8protobuf11MessageLite11GetTypeNameB5cxx11Ev'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='576' ll='578' type='::std::string ClientBuffers::Keystroke::GetTypeName() const'/>

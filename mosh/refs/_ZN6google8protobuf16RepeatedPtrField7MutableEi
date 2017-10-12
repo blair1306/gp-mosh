@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/repeated_field.h' l='444' type='Element * google::protobuf::RepeatedPtrField::Mutable(int index)'/>
+<def f='include/google/protobuf/repeated_field.h' l='1117' ll='1120' type='Element * google::protobuf::RepeatedPtrField::Mutable(int index)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='469' u='c' c='_ZN11HostBuffers11HostMessage19mutable_instructionEi'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='387' u='c' c='_ZN13ClientBuffers11UserMessage19mutable_instructionEi'/>

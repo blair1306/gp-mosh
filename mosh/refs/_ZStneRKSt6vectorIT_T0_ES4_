@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_vector.h' l='1534' ll='1536' type='bool std::operator!=(const vector&lt;_Tp, _Alloc&gt; &amp; __x, const vector&lt;_Tp, _Alloc&gt; &amp; __y)'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='76' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='77' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='114' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>

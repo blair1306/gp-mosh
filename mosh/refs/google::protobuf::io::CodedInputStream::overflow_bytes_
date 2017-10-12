@@ -1,0 +1,8 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='481' type='int'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1170' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPNS1_19ZeroCopyInputStreamE'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1191' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPKhi'/>
+<offset>224</offset>
+<doc f='include/google/protobuf/io/coded_stream.h' l='477'>// the current buffer
+
+  // If total_bytes_read_ surpasses INT_MAX, we record the extra bytes here
+  // so that we can BackUp() on destruction.</doc>

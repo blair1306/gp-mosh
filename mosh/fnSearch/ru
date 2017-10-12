@@ -1,0 +1,6 @@
+_ZN6google8protobuf8internal16FunctionClosure03RunEv|google::protobuf::internal::FunctionClosure0::Run
+_ZN6google8protobuf8internal16FunctionClosure13RunEv|google::protobuf::internal::FunctionClosure1::Run
+_ZN6google8protobuf8internal16FunctionClosure23RunEv|google::protobuf::internal::FunctionClosure2::Run
+_ZN6google8protobuf8internal14MethodClosure03RunEv|google::protobuf::internal::MethodClosure0::Run
+_ZN6google8protobuf8internal14MethodClosure13RunEv|google::protobuf::internal::MethodClosure1::Run
+_ZN6google8protobuf8internal14MethodClosure23RunEv|google::protobuf::internal::MethodClosure2::Run

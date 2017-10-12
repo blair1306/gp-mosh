@@ -1,0 +1,22 @@
+<def f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='169' ll='186'/>
+<size>8</size>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='152'>// Note:  There is no StringInputStream.  Instead, just create an
+// ArrayInputStream as follows:
+//   ArrayInputStream input(str.data(), str.size());
+
+// ===================================================================
+
+// A generic traditional input stream interface.
+//
+// Lots of traditional input streams (e.g. file descriptors, C stdio
+// streams, and C++ iostreams) expose an interface where every read
+// involves copying bytes into a buffer.  If you want to take such an
+// interface and make a ZeroCopyInputStream based on it, simply implement
+// CopyingInputStream and then use CopyingInputStreamAdaptor.
+//
+// CopyingInputStream implementations should avoid buffering if possible.
+// CopyingInputStreamAdaptor does its own buffering and will read data
+// in large blocks.</doc>
+<fun r='_ZN6google8protobuf2io18CopyingInputStreamD1Ev'/>
+<fun r='_ZN6google8protobuf2io18CopyingInputStream4ReadEPvi'/>
+<fun r='_ZN6google8protobuf2io18CopyingInputStream4SkipEi'/>

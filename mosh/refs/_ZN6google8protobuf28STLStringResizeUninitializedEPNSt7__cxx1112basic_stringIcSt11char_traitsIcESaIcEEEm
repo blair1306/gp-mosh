@@ -1,0 +1,7 @@
+<def f='include/google/protobuf/stubs/stl_util.h' l='67' ll='69' type='void google::protobuf::STLStringResizeUninitialized(string * s, size_t new_size)'/>
+<doc f='include/google/protobuf/stubs/stl_util.h' l='61'>// Inside Google, this function implements a horrible, disgusting hack in which
+// we reach into the string&apos;s private implementation and resize it without
+// initializing the new bytes.  In some cases doing this can significantly
+// improve performance.  However, since it&apos;s totally non-portable it has no
+// place in open source code.  Feel free to fill this function in with your
+// own disgusting hack if you want the perf boost.</doc>

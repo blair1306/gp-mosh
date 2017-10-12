@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='321' type='static void google::protobuf::internal::WireFormatLite::WriteInt32NoTag(int32 value, io::CodedOutputStream * output_arg)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='506' ll='509' type='static void google::protobuf::internal::WireFormatLite::WriteInt32NoTag(int32 value, io::CodedOutputStream * output)'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='320'>// Write fields, without tags.</doc>

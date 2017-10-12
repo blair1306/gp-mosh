@@ -1,0 +1,18 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='136' type='void google::protobuf::io::StringOutputStream::StringOutputStream(string * target)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='127' u='c' c='_ZN11HostBuffers11HostMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='305' u='c' c='_ZN11HostBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='470' u='c' c='_ZN11HostBuffers9HostBytes27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='668' u='c' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='882' u='c' c='_ZN11HostBuffers7EchoAck27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='129'>// Create a StringOutputStream which appends bytes to the given string.
+  // The string remains property of the caller, but it MUST NOT be accessed
+  // in any way until the stream is destroyed.
+  //
+  // Hint:  If you call target-&gt;reserve(n) before creating the stream,
+  //   the first call to Next() will return at least n bytes of buffer
+  //   space.</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='172' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='120' u='c' c='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='298' u='c' c='_ZN13ClientBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='463' u='c' c='_ZN13ClientBuffers9Keystroke27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='661' u='c' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

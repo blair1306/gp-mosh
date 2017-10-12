@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/parser.h' l='84' ll='89' type='void Parser::UTF8Parser::reset_input()'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='70' u='c' c='_ZN8Terminal8Complete11reset_inputEv'/>

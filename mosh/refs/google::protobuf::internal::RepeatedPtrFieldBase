@@ -1,0 +1,78 @@
+<def f='include/google/protobuf/repeated_field.h' l='250' ll='356'/>
+<ovr f='include/google/protobuf/repeated_field.h' l='430' c='google::protobuf::RepeatedPtrField'/>
+<size>24</size>
+<doc f='include/google/protobuf/repeated_field.h' l='234'>// This is the common base class for RepeatedPtrFields.  It deals only in void*
+// pointers.  Users should not use this interface directly.
+//
+// The methods of this interface correspond to the methods of RepeatedPtrField,
+// but may have a template argument called TypeHandler.  Its signature is:
+//   class TypeHandler {
+//    public:
+//     typedef MyType Type;
+//     static Type* New();
+//     static void Delete(Type*);
+//     static void Clear(Type*);
+//     static void Merge(const Type&amp; from, Type* to);
+//
+//     // Only needs to be implemented if SpaceUsedExcludingSelf() is called.
+//     static int SpaceUsed(const Type&amp;);
+//   };</doc>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBaseC1Ev'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase7DestroyEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase5emptyEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase4sizeEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase3GetEi'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase7MutableEi'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase3AddEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase10RemoveLastEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase5ClearEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase9MergeFromERKS2_'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase8CopyFromERKS2_'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase8CloseGapEii'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase7ReserveEi'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase8CapacityEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase8raw_dataEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase16raw_mutable_dataEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12mutable_dataEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase4dataEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase4SwapEPS2_'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12SwapElementsEii'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase22SpaceUsedExcludingSelfEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase14AddFromClearedEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12AddAllocatedEPNT_4TypeE'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase11ReleaseLastEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase12ClearedCountEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase10AddClearedEPNT_4TypeE'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase14ReleaseClearedEv'/>
+<smbr r='google::protobuf::internal::RepeatedPtrFieldBase::kInitialSize' t='const int'/>
+<mbr r='google::protobuf::internal::RepeatedPtrFieldBase::elements_' o='0' t='void **'/>
+<mbr r='google::protobuf::internal::RepeatedPtrFieldBase::current_size_' o='64' t='int'/>
+<mbr r='google::protobuf::internal::RepeatedPtrFieldBase::allocated_size_' o='96' t='int'/>
+<mbr r='google::protobuf::internal::RepeatedPtrFieldBase::total_size_' o='128' t='int'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase4castEPv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase4castEPKv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBaseC1ERKS2_'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBaseC1Ev'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase7DestroyEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase5emptyEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase4sizeEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase3GetEi'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase7MutableEi'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase3AddEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase10RemoveLastEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase5ClearEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase9MergeFromERKS2_'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase8CopyFromERKS2_'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase8CapacityEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase8raw_dataEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase16raw_mutable_dataEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12mutable_dataEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase4dataEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12SwapElementsEii'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase22SpaceUsedExcludingSelfEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase14AddFromClearedEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12AddAllocatedEPNT_4TypeE'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase11ReleaseLastEv'/>
+<fun r='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase12ClearedCountEv'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase10AddClearedEPNT_4TypeE'/>
+<fun r='_ZN6google8protobuf8internal20RepeatedPtrFieldBase14ReleaseClearedEv'/>

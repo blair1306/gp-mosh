@@ -1,0 +1,12 @@
+<def f='codebrowser/src/network/compressor.h' l='39' ll='55'/>
+<size>4194304</size>
+<smbr r='Network::Compressor::BUFFER_SIZE' t='const int'/>
+<mbr r='Network::Compressor::buffer' o='0' t='unsigned char [4194304]'/>
+<fun r='_ZN7Network10CompressorC1Ev'/>
+<fun r='_ZN7Network10CompressorD1Ev'/>
+<fun r='_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network10Compressor14uncompress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network10CompressorC1ERKS0_'/>
+<fun r='_ZN7Network10CompressoraSERKS0_'/>
+<fun r='_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network10Compressor14uncompress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

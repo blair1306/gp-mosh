@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/network/transportsender.h' l='75' type='MyState'/>
+<use f='codebrowser/src/network/transportsender.h' l='140' u='a' c='_ZN7Network15TransportSender17get_current_stateEv'/>
+<use f='codebrowser/src/network/transportsender.h' l='144' u='w' c='_ZN7Network15TransportSender17set_current_stateERKT_'/>
+<use f='codebrowser/src/network/transportsender.h' l='145' u='c' c='_ZN7Network15TransportSender17set_current_stateERKT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='53' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='102' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='109' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='115' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='171' u='c' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='179' u='c' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='183' u='c' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='221' u='a' c='_ZN7Network15TransportSender14send_empty_ackEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='243' c='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='257' u='a' c='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='300' u='c' c='_ZN7Network15TransportSender18rationalize_statesEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='403' u='c' c='_ZN7Network15TransportSender39attempt_prospective_resend_optimizationERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

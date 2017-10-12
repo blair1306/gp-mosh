@@ -1,0 +1,6 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='122' ll='128' type='bool Terminal::Cell::is_blank() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='132' u='c' c='_ZNK8Terminal4Cell14contents_matchERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='132' u='c' c='_ZNK8Terminal4Cell14contents_matchERKS0_'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='58' u='c' c='_ZNK7Overlay22ConditionalOverlayCell5applyERN8Terminal11FramebufferEmib'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='58' u='c' c='_ZNK7Overlay22ConditionalOverlayCell5applyERN8Terminal11FramebufferEmib'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='101' u='c' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>

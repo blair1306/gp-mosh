@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='179' type='bool google::protobuf::io::CodedInputStream::Skip(int count)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='287' u='c' c='_ZN6google8protobuf8internal14WireFormatLite30ReadRepeatedFixedSizePrimitiveEijPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='177'>// Skips a number of bytes.  Returns false if an underlying read error
+  // occurs.</doc>

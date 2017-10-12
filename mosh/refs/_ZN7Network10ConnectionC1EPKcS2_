@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/network.h' l='209' type='void Network::Connection::Connection(const char * desired_ip, const char * desired_port)'/>
+<doc f='codebrowser/src/network/network.h' l='209'>/* server */</doc>
+<use f='codebrowser/src/network/networktransport-impl.h' l='46' u='c' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_'/>
+<def f='codebrowser/src/network/network.cc' l='232' ll='290' type='void Network::Connection::Connection(const char * desired_ip, const char * desired_port)'/>
+<doc f='codebrowser/src/network/network.cc' l='232'>/* server */</doc>

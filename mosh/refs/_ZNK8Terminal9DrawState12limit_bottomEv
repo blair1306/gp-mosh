@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='320' type='int Terminal::DrawState::limit_bottom() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='129' u='c' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='129' u='c' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='259' ll='262' type='int Terminal::DrawState::limit_bottom() const'/>

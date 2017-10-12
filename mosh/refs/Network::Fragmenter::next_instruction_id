@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/transportfragment.h' l='92' type='uint64_t'/>
+<use f='codebrowser/src/network/transportfragment.h' l='97' u='w' c='_ZN7Network10FragmenterC1Ev'/>
+<offset>0</offset>
+<use f='codebrowser/src/network/transportfragment.cc' l='167' u='w' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='195' u='r' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>

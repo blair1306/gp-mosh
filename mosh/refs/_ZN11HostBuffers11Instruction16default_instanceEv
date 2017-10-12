@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='143' type='static const HostBuffers::Instruction &amp; HostBuffers::Instruction::default_instance()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='38' u='c' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='42' u='c' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='46' u='c' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='284' ll='287' type='static const HostBuffers::Instruction &amp; HostBuffers::Instruction::default_instance()'/>

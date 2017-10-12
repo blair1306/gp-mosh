@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportsender.h' l='96' type='int'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='61' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='334' u='w' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='377' c='_ZNK7Network15TransportSender22shutdown_ack_timed_outEv'/>

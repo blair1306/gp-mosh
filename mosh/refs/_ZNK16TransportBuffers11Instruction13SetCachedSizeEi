@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='92' type='void TransportBuffers::Instruction::SetCachedSize(int size) const'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='115' ll='119' type='void TransportBuffers::Instruction::SetCachedSize(int size) const'/>

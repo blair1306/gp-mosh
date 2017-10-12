@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/signum.h' l='33'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='648' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='231' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='500' u='c'/>

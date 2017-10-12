@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='270' type='bool'/>
+<offset>824</offset>
+<use f='codebrowser/src/terminal/terminal.cc' l='96' u='r' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='73' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='392' u='w' c='_ZN8Terminal11Framebuffer10soft_resetEv'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='353' u='a' c='_ZL13get_ANSI_modeiPN8Terminal11FramebufferE'/>

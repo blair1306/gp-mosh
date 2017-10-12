@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/network.h' l='234' type='static bool Network::Connection::parse_portrange(const char * desired_port_range, int &amp; desired_port_low, int &amp; desired_port_high)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='273' u='c' c='main'/>
+<use f='codebrowser/src/network/network.cc' l='265' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<def f='codebrowser/src/network/network.cc' l='657' ll='707' type='static bool Network::Connection::parse_portrange(const char * desired_port, int &amp; desired_port_low, int &amp; desired_port_high)'/>

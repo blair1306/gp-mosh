@@ -1,0 +1,60 @@
+<def f='codebrowser/src/network/network.h' l='102' ll='235'/>
+<size>480</size>
+<smbr r='Network::Connection::IPV4_HEADER_LEN' t='const int'/>
+<smbr r='Network::Connection::IPV6_HEADER_LEN' t='const int'/>
+<smbr r='Network::Connection::DEFAULT_SEND_MTU' t='const int'/>
+<smbr r='Network::Connection::DEFAULT_IPV4_MTU' t='const int'/>
+<smbr r='Network::Connection::DEFAULT_IPV6_MTU' t='const int'/>
+<smbr r='Network::Connection::MIN_RTO' t='const uint64_t'/>
+<smbr r='Network::Connection::MAX_RTO' t='const uint64_t'/>
+<smbr r='Network::Connection::PORT_RANGE_LOW' t='const int'/>
+<smbr r='Network::Connection::PORT_RANGE_HIGH' t='const int'/>
+<smbr r='Network::Connection::SERVER_ASSOCIATION_TIMEOUT' t='const unsigned int'/>
+<smbr r='Network::Connection::PORT_HOP_INTERVAL' t='const unsigned int'/>
+<smbr r='Network::Connection::MAX_PORTS_OPEN' t='const unsigned int'/>
+<smbr r='Network::Connection::MAX_OLD_SOCKET_AGE' t='const unsigned int'/>
+<smbr r='Network::Connection::CONGESTION_TIMESTAMP_PENALTY' t='const int'/>
+<fun r='_ZN7Network10Connection8try_bindEPKcii'/>
+<mbr r='Network::Connection::socks' o='0' t='std::deque&lt;Socket&gt;'/>
+<mbr r='Network::Connection::has_remote_addr' o='640' t='bool'/>
+<mbr r='Network::Connection::remote_addr' o='704' t='Network::Addr'/>
+<mbr r='Network::Connection::remote_addr_len' o='1728' t='socklen_t'/>
+<mbr r='Network::Connection::server' o='1760' t='bool'/>
+<mbr r='Network::Connection::MTU' o='1792' t='int'/>
+<mbr r='Network::Connection::key' o='1824' t='Crypto::Base64Key'/>
+<mbr r='Network::Connection::session' o='1984' t='Crypto::Session'/>
+<fun r='_ZN7Network10Connection5setupEv'/>
+<mbr r='Network::Connection::direction' o='3008' t='Network::Direction'/>
+<mbr r='Network::Connection::saved_timestamp' o='3040' t='uint16_t'/>
+<mbr r='Network::Connection::saved_timestamp_received_at' o='3072' t='uint64_t'/>
+<mbr r='Network::Connection::expected_receiver_seq' o='3136' t='uint64_t'/>
+<mbr r='Network::Connection::last_heard' o='3200' t='uint64_t'/>
+<mbr r='Network::Connection::last_port_choice' o='3264' t='uint64_t'/>
+<mbr r='Network::Connection::last_roundtrip_success' o='3328' t='uint64_t'/>
+<mbr r='Network::Connection::RTT_hit' o='3392' t='bool'/>
+<mbr r='Network::Connection::SRTT' o='3456' t='double'/>
+<mbr r='Network::Connection::RTTVAR' o='3520' t='double'/>
+<mbr r='Network::Connection::send_error' o='3584' t='string'/>
+<fun r='_ZN7Network10Connection10new_packetERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network10Connection8hop_portEv'/>
+<fun r='_ZNK7Network10Connection4sockEv'/>
+<fun r='_ZN7Network10Connection13prune_socketsEv'/>
+<fun r='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<fun r='_ZN7Network10Connection7set_MTUEi'/>
+<smbr r='Network::Connection::ADDED_BYTES' t='const int'/>
+<fun r='_ZN7Network10ConnectionC1EPKcS2_'/>
+<fun r='_ZN7Network10ConnectionC1EPKcS2_S2_'/>
+<fun r='_ZN7Network10Connection4sendERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network10Connection4recvB5cxx11Ev'/>
+<fun r='_ZNK7Network10Connection3fdsEv'/>
+<fun r='_ZNK7Network10Connection7get_MTUEv'/>
+<fun r='_ZNK7Network10Connection4portB5cxx11Ev'/>
+<fun r='_ZNK7Network10Connection7get_keyB5cxx11Ev'/>
+<fun r='_ZNK7Network10Connection19get_has_remote_addrEv'/>
+<fun r='_ZNK7Network10Connection7timeoutEv'/>
+<fun r='_ZNK7Network10Connection8get_SRTTEv'/>
+<fun r='_ZNK7Network10Connection15get_remote_addrEv'/>
+<fun r='_ZNK7Network10Connection19get_remote_addr_lenEv'/>
+<fun r='_ZN7Network10Connection14get_send_errorB5cxx11Ev'/>
+<fun r='_ZN7Network10Connection26set_last_roundtrip_successEm'/>
+<fun r='_ZN7Network10Connection15parse_portrangeEPKcRiS3_'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='101' type='bool TransportBuffers::Instruction::has_protocol_version() const'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='206' ll='208' type='bool TransportBuffers::Instruction::has_protocol_version() const'/>
+<doc f='codebrowser/src/protobufs/transportinstruction.pb.h' l='96'>// nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional uint32 protocol_version = 1;</doc>
+<doc f='codebrowser/src/protobufs/transportinstruction.pb.h' l='198'>// ===================================================================
+
+
+// ===================================================================
+
+// Instruction
+
+// optional uint32 protocol_version = 1;</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='308' u='c' c='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='354' u='c' c='_ZNK16TransportBuffers11Instruction8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='419' u='c' c='_ZN16TransportBuffers11Instruction9MergeFromERKS0_'/>

@@ -1,0 +1,4 @@
+<dec f='include/pwd.h' l='56' type='char *'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='936' u='r' c='_ZL13chdir_homedirv'/>
+<offset>256</offset>
+<doc f='include/pwd.h' l='56'>/* Home directory.  */</doc>

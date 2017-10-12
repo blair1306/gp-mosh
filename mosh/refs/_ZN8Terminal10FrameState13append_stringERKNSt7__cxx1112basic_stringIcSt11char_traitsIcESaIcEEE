@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminaldisplay.h' l='56' type='void Terminal::FrameState::append_string(const std::string &amp; append)'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='534' u='c' c='_ZN8Terminal10FrameState16update_renditionERKNS_10RenditionsEb'/>

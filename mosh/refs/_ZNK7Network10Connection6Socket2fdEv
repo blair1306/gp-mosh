@@ -1,0 +1,4 @@
+<def f='codebrowser/src/network/network.h' l='155' type='int Network::Connection::Socket::fd() const'/>
+<use f='codebrowser/src/network/network.h' l='197' u='c' c='_ZNK7Network10Connection4sockEv'/>
+<use f='codebrowser/src/network/network.cc' l='195' u='c' c='_ZNK7Network10Connection3fdsEv'/>
+<use f='codebrowser/src/network/network.cc' l='440' u='c' c='_ZN7Network10Connection4recvB5cxx11Ev'/>

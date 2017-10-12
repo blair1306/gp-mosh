@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/stubs/platform_macros.h' l='45'/>
+<use f='include/google/protobuf/stubs/atomicops.h' l='66' u='a'/>
+<use f='include/google/protobuf/stubs/atomicops.h' l='137' u='a'/>

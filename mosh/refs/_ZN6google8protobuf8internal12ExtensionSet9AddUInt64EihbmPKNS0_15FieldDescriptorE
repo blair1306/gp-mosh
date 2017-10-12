@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/extension_set.h' l='313' type='void google::protobuf::internal::ExtensionSet::AddUInt64(int number, FieldType type, bool packed, uint64 value, const google::protobuf::FieldDescriptor * descriptor)'/>
+<use f='include/google/protobuf/extension_set.h' l='770' macro='1' u='c'/>

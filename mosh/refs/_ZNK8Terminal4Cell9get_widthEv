@@ -1,0 +1,5 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='196' type='unsigned int Terminal::Cell::get_width() const'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='356' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='357' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='380' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='424' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>

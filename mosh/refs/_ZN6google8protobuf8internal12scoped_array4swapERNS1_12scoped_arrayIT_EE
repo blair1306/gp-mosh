@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/stubs/common.h' l='583' ll='587' type='void google::protobuf::internal::scoped_array::swap(scoped_array&lt;C&gt; &amp; p2)'/>
+<doc f='include/google/protobuf/stubs/common.h' l='582'>// Swap two scoped arrays.</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportsender.h' l='70' type='void Network::TransportSender::add_sent_state(uint64_t the_timestamp, uint64_t num, MyState &amp; state)'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='221' u='c' c='_ZN7Network15TransportSender14send_empty_ackEv'/>
+<def f='codebrowser/src/network/transportsender-impl.h' l='228' ll='237' type='void Network::TransportSender::add_sent_state(uint64_t the_timestamp, uint64_t num, MyState &amp; state)'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='257' u='c' c='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='213' type='const uint64_t'/>
+<doc f='codebrowser/src/frontend/terminaloverlay.h' l='213'>/* non-glitches required to cure glitch trigger */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='468' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='576' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='578' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='579' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

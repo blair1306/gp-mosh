@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_map.h' l='355' ll='357' type='iterator std::map::end()'/>
+<doc f='include/c++/5/bits/stl_map.h' l='350'>/**
+       *  Returns a read/write iterator that points one past the last
+       *  pair in the %map.  Iteration is done in ascending order
+       *  according to the keys.
+       */</doc>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='225' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>

@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='646' type='WINDOW * initscr()'/>
+<doc f='include/curses.h' l='646'>/* implemented */</doc>

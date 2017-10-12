@@ -1,0 +1,4 @@
+_ZNKSt9basic_ios4goodEv|std::basic_ios::good
+_ZN6google8protobuf17GoogleOnceDynamicC1Ev|google::protobuf::GoogleOnceDynamic::GoogleOnceDynamic
+_ZN6google8protobuf17GoogleOnceDynamic4InitEPFvPT_ES3_|google::protobuf::GoogleOnceDynamic::Init
+_ZN6google8protobuf14GoogleOnceInitEPlPFvvE|google::protobuf::GoogleOnceInit

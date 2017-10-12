@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='435' type='void Terminal::Framebuffer::delete_cell(int row, int col)'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='375' ll='378' type='void Terminal::Framebuffer::delete_cell(int row, int col)'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='516' u='c' c='_ZL7CSI_DCHPN8Terminal11FramebufferEPNS_10DispatcherE'/>

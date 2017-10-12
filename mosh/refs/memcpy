@@ -1,0 +1,28 @@
+<dec f='include/string.h' l='42' type='void * memcpy(void *__restrict __dest, const void *__restrict __src, size_t __n)'/>
+<def f='include/x86_64-linux-gnu/bits/string3.h' l='49' ll='54' macro='1' type='void * memcpy(void *__restrict __dest, const void *__restrict __src, size_t __len)'/>
+<use f='include/string.h' l='652' u='c' c='__mempcpy_inline'/>
+<doc f='include/string.h' l='41'>/* Copy N bytes of SRC to DEST.  */</doc>
+<use f='codebrowser/src/crypto/crypto.cc' l='107' u='c' c='_ZN6Crypto13AlignedBufferC1EmPKc'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='181' u='c' c='_ZN6Crypto5NonceC1Em'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='187' u='c' c='_ZNK6Crypto5Nonce3valEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='198' u='c' c='_ZN6Crypto5NonceC1EPKcm'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='209' u='c' c='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='210' u='c' c='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='269' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='270' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='958' u='c' c='_ZL10process_adP7_ae_ctxPKvii'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1123' u='c' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1137' u='c' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1169' u='c' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1340' u='c' c='ae_decrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1343' u='c' c='ae_decrypt'/>
+<use f='codebrowser/src/util/select.h' l='121' u='c' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/network/network.cc' l='303' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='386' u='c' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='84' u='c' c='_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='818' u='c' c='_ZN6google8protobuf2io16CodedInputStream27ReadLittleEndian32FromArrayEPKhPj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='833' u='c' c='_ZN6google8protobuf2io16CodedInputStream27ReadLittleEndian64FromArrayEPKhPm'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='853' u='c' c='_ZN6google8protobuf2io16CodedInputStream18ReadLittleEndian32EPj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='867' u='c' c='_ZN6google8protobuf2io16CodedInputStream18ReadLittleEndian64EPm'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1039' u='c' c='_ZN6google8protobuf2io17CodedOutputStream26WriteLittleEndian32ToArrayEjPh'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1052' u='c' c='_ZN6google8protobuf2io17CodedOutputStream26WriteLittleEndian64ToArrayEmPh'/>

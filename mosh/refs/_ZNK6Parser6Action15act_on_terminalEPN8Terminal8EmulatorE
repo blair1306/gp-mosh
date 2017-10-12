@@ -1,0 +1,15 @@
+<def f='codebrowser/src/terminal/parseraction.h' l='54' type='void Parser::Action::act_on_terminal(Terminal::Emulator * ) const'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='56' u='c' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='67' u='c' c='_ZN8Terminal8Complete3actB5cxx11ERKN6Parser6ActionE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='41' c='_ZNK6Parser5Print15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='46' c='_ZNK6Parser7Execute15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='51' c='_ZNK6Parser5Clear15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='56' c='_ZNK6Parser5Param15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='61' c='_ZNK6Parser7Collect15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='66' c='_ZNK6Parser12CSI_Dispatch15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='71' c='_ZNK6Parser12Esc_Dispatch15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='76' c='_ZNK6Parser7OSC_Put15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='81' c='_ZNK6Parser9OSC_Start15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='86' c='_ZNK6Parser7OSC_End15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='91' c='_ZNK6Parser8UserByte15act_on_terminalEPN8Terminal8EmulatorE'/>
+<ovr f='codebrowser/src/terminal/parseraction.cc' l='97' c='_ZNK6Parser6Resize15act_on_terminalEPN8Terminal8EmulatorE'/>

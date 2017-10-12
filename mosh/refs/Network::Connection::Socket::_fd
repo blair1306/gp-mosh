@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/network/network.h' l='152' type='int'/>
+<use f='codebrowser/src/network/network.h' l='155' u='r' c='_ZNK7Network10Connection6Socket2fdEv'/>
+<offset>0</offset>
+<use f='codebrowser/src/network/network.cc' l='153' u='w' c='_ZN7Network10Connection6SocketC1Ei'/>
+<use f='codebrowser/src/network/network.cc' l='155' u='r' c='_ZN7Network10Connection6SocketC1Ei'/>
+<use f='codebrowser/src/network/network.cc' l='162' u='r' c='_ZN7Network10Connection6SocketC1Ei'/>
+<use f='codebrowser/src/network/network.cc' l='169' u='r' c='_ZN7Network10Connection6SocketC1Ei'/>
+<use f='codebrowser/src/network/network.cc' l='176' u='r' c='_ZN7Network10Connection6SocketC1Ei'/>
+<use f='codebrowser/src/network/network.cc' l='637' u='r' c='_ZN7Network10Connection6SocketD1Ev'/>
+<use f='codebrowser/src/network/network.cc' l='641' u='w' c='_ZN7Network10Connection6SocketC1ERKS1_'/>
+<use f='codebrowser/src/network/network.cc' l='641' u='r' c='_ZN7Network10Connection6SocketC1ERKS1_'/>
+<use f='codebrowser/src/network/network.cc' l='643' u='r' c='_ZN7Network10Connection6SocketC1ERKS1_'/>
+<use f='codebrowser/src/network/network.cc' l='650' u='r' c='_ZN7Network10Connection6SocketaSERKS1_'/>
+<use f='codebrowser/src/network/network.cc' l='650' u='r' c='_ZN7Network10Connection6SocketaSERKS1_'/>

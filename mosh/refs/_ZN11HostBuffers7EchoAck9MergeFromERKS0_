@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='391' type='void HostBuffers::EchoAck::MergeFrom(const HostBuffers::EchoAck &amp; from)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='836' u='c' c='_ZN11HostBuffers7EchoAckC1ERKS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='963' u='c' c='_ZN11HostBuffers7EchoAck21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='966' ll='974' type='void HostBuffers::EchoAck::MergeFrom(const HostBuffers::EchoAck &amp; from)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='979' u='c' c='_ZN11HostBuffers7EchoAck8CopyFromERKS0_'/>

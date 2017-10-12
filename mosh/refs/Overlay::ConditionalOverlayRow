@@ -1,0 +1,7 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='127' ll='140'/>
+<size>32</size>
+<mbr r='Overlay::ConditionalOverlayRow::row_num' o='0' t='int'/>
+<mbr r='Overlay::ConditionalOverlayRow::overlay_cells' o='64' t='overlay_cells_type'/>
+<fun r='_ZNK7Overlay21ConditionalOverlayRow5applyERN8Terminal11FramebufferEmb'/>
+<fun r='_ZNK7Overlay21ConditionalOverlayRow10row_num_eqEi'/>
+<fun r='_ZN7Overlay21ConditionalOverlayRowC1Ei'/>

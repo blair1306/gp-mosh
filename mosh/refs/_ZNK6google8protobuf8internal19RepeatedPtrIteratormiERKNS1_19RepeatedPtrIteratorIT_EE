@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/repeated_field.h' l='1331' type='difference_type google::protobuf::internal::RepeatedPtrIterator::operator-(const iterator &amp; x) const'/>
+<doc f='include/google/protobuf/repeated_field.h' l='1330'>// random access iterator</doc>

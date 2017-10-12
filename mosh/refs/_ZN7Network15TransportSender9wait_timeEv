@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportsender.h' l='121' type='int Network::TransportSender::wait_time()'/>
+<doc f='codebrowser/src/network/transportsender.h' l='120'>/* Returns the number of ms to wait until next possible event. */</doc>
+<def f='codebrowser/src/network/transportsender-impl.h' l='129' ll='150' type='int Network::TransportSender::wait_time()'/>
+<doc f='codebrowser/src/network/transportsender-impl.h' l='128'>/* How many ms to wait until next event */</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='371' type='title_type'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='444' u='w' c='_ZN8Terminal11Framebuffer13set_clipboardERKSt6vectorIwSaIwEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='447' u='a' c='_ZNK8Terminal11Framebuffer13get_clipboardEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='461' u='r' c='_ZNK8Terminal11FramebuffereqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='461' u='r' c='_ZNK8Terminal11FramebuffereqERKS0_'/>
+<offset>576</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='81' u='w' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='92' u='w' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='92' u='r' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='103' u='w' c='_ZN8Terminal11FramebufferaSERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='103' u='r' c='_ZN8Terminal11FramebufferaSERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='386' u='m' c='_ZN8Terminal11Framebuffer5resetEv'/>

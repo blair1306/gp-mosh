@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ae.h source code [codebrowser/src/crypto/ae.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/crypto/ae.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>crypto</a>/<a href='ae.h.html'>ae.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/* ---------------------------------------------------------------------------</i></td></tr>
+<tr><th id="2">2</th><td><i> *</i></td></tr>
+<tr><th id="3">3</th><td><i> * AEAD API 0.12 - 13 July 2011</i></td></tr>
+<tr><th id="4">4</th><td><i> *</i></td></tr>
+<tr><th id="5">5</th><td><i> * This file gives an interface appropriate for many authenticated</i></td></tr>
+<tr><th id="6">6</th><td><i> * encryption with associated data (AEAD) implementations. It does not try</i></td></tr>
+<tr><th id="7">7</th><td><i> * to accommodate all possible options or limitations that an implementation</i></td></tr>
+<tr><th id="8">8</th><td><i> * might have -- you should consult the documentation of your chosen</i></td></tr>
+<tr><th id="9">9</th><td><i> * implementation to find things like RFC 5116 constants, alignment</i></td></tr>
+<tr><th id="10">10</th><td><i> * requirements, whether the incremental interface is supported, etc.</i></td></tr>
+<tr><th id="11">11</th><td><i> *</i></td></tr>
+<tr><th id="12">12</th><td><i> * This file is in the public domain. It is provided "as is", without</i></td></tr>
+<tr><th id="13">13</th><td><i> * warranty of any kind. Use at your own risk.</i></td></tr>
+<tr><th id="14">14</th><td><i> *</i></td></tr>
+<tr><th id="15">15</th><td><i> * Comments are welcome: Ted Krovetz &lt;ted@krovetz&gt;.</i></td></tr>
+<tr><th id="16">16</th><td><i> *</i></td></tr>
+<tr><th id="17">17</th><td><i> * ------------------------------------------------------------------------ */</i></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><u>#<span data-ppcond="19">ifndef</span> <span class="macro" data-ref="_M/_AE_H_">_AE_H_</span></u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/_AE_H_" data-ref="_M/_AE_H_">_AE_H_</dfn></u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#<span data-ppcond="22">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="23">23</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="22">endif</span></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><i>/* --------------------------------------------------------------------------</i></td></tr>
+<tr><th id="27">27</th><td><i> *</i></td></tr>
+<tr><th id="28">28</th><td><i> * Constants</i></td></tr>
+<tr><th id="29">29</th><td><i> *</i></td></tr>
+<tr><th id="30">30</th><td><i> * ----------------------------------------------------------------------- */</i></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><i>/* Return status codes: Negative return values indicate an error occurred.</i></td></tr>
+<tr><th id="33">33</th><td><i> * For full explanations of error values, consult the implementation's</i></td></tr>
+<tr><th id="34">34</th><td><i> * documentation.                                                          */</i></td></tr>
+<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/AE_SUCCESS" data-ref="_M/AE_SUCCESS">AE_SUCCESS</dfn>       ( 0)  /* Indicates successful completion of call  */</u></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/AE_INVALID" data-ref="_M/AE_INVALID">AE_INVALID</dfn>       (-1)  /* Indicates bad tag during decryption      */</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/AE_NOT_SUPPORTED" data-ref="_M/AE_NOT_SUPPORTED">AE_NOT_SUPPORTED</dfn> (-2)  /* Indicates unsupported option requested   */</u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><i>/* Flags: When data can be processed "incrementally", these flags are used</i></td></tr>
+<tr><th id="40">40</th><td><i> * to indicate whether the submitted data is the last or not.               */</i></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/AE_FINALIZE" data-ref="_M/AE_FINALIZE">AE_FINALIZE</dfn>      (1)   /* This is the last of data                  */</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/AE_PENDING" data-ref="_M/AE_PENDING">AE_PENDING</dfn>       (0)   /* More data of is coming                    */</u></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><i>/* --------------------------------------------------------------------------</i></td></tr>
+<tr><th id="45">45</th><td><i> *</i></td></tr>
+<tr><th id="46">46</th><td><i> * AEAD opaque structure definition</i></td></tr>
+<tr><th id="47">47</th><td><i> *</i></td></tr>
+<tr><th id="48">48</th><td><i> * ----------------------------------------------------------------------- */</i></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><b>typedef</b> <b>struct</b> <dfn class="type" id="_ae_ctx" title='_ae_ctx' data-ref="_ae_ctx"><a class="type" href="#_ae_ctx" title='_ae_ctx' data-ref="_ae_ctx">_ae_ctx</a></dfn> <dfn class="typedef" id="ae_ctx" title='ae_ctx' data-type='struct _ae_ctx' data-ref="ae_ctx">ae_ctx</dfn>;</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><i>/* --------------------------------------------------------------------------</i></td></tr>
+<tr><th id="53">53</th><td><i> *</i></td></tr>
+<tr><th id="54">54</th><td><i> * Data Structure Routines</i></td></tr>
+<tr><th id="55">55</th><td><i> *</i></td></tr>
+<tr><th id="56">56</th><td><i> * ----------------------------------------------------------------------- */</i></td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><a class="typedef" href="#ae_ctx" title='ae_ctx' data-type='struct _ae_ctx' data-ref="ae_ctx">ae_ctx</a>* <dfn class="decl" id="ae_allocate" title='ae_allocate' data-ref="ae_allocate">ae_allocate</dfn>  (<em>void</em> *<dfn class="local col8 decl" id="3468misc" title='misc' data-type='void *' data-ref="3468misc">misc</dfn>);  <i>/* Allocate ae_ctx, set optional ptr   */</i></td></tr>
+<tr><th id="59">59</th><td><em>void</em>    <dfn class="decl" id="ae_free" title='ae_free' data-ref="ae_free">ae_free</dfn>      (<a class="typedef" href="#ae_ctx" title='ae_ctx' data-type='struct _ae_ctx' data-ref="ae_ctx">ae_ctx</a> *<dfn class="local col9 decl" id="3469ctx" title='ctx' data-type='ae_ctx *' data-ref="3469ctx">ctx</dfn>); <i>/* Deallocate ae_ctx struct            */</i></td></tr>
+<tr><th id="60">60</th><td><em>int</em>     <dfn class="decl" id="ae_clear" title='ae_clear' data-ref="ae_clear">ae_clear</dfn>     (<a class="typedef" href="#ae_ctx" title='ae_ctx' data-type='struct _ae_ctx' data-ref="ae_ctx">ae_ctx</a> *<dfn class="local col0 decl" id="3470ctx" title='ctx' data-type='ae_ctx *' data-ref="3470ctx">ctx</dfn>); <i>/* Undo initialization                 */</i></td></tr>
+<tr><th id="61">61</th><td><em>int</em>     <dfn class="decl" id="ae_ctx_sizeof" title='ae_ctx_sizeof' data-ref="ae_ctx_sizeof">ae_ctx_sizeof</dfn>(<em>void</em>);        <i>/* Return sizeof(ae_ctx)               */</i></td></tr>
+<tr><th id="62">62</th><td><i>/* ae_allocate() allocates an ae_ctx structure, but does not initialize it.</i></td></tr>
+<tr><th id="63">63</th><td><i> * ae_free() deallocates an ae_ctx structure, but does not zeroize it.</i></td></tr>
+<tr><th id="64">64</th><td><i> * ae_clear() zeroes sensitive values associated with an ae_ctx structure</i></td></tr>
+<tr><th id="65">65</th><td><i> * and deallocates any auxiliary structures allocated during ae_init().</i></td></tr>
+<tr><th id="66">66</th><td><i> * ae_ctx_sizeof() returns sizeof(ae_ctx), to aid in any static allocations.</i></td></tr>
+<tr><th id="67">67</th><td><i> */</i></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><i>/* --------------------------------------------------------------------------</i></td></tr>
+<tr><th id="70">70</th><td><i> *</i></td></tr>
+<tr><th id="71">71</th><td><i> * AEAD Routines</i></td></tr>
+<tr><th id="72">72</th><td><i> *</i></td></tr>
+<tr><th id="73">73</th><td><i> * ----------------------------------------------------------------------- */</i></td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><em>int</em> <dfn class="decl" id="ae_init" title='ae_init' data-ref="ae_init">ae_init</dfn>(<a class="typedef" href="#ae_ctx" title='ae_ctx' data-type='struct _ae_ctx' data-ref="ae_ctx">ae_ctx</a>     *<dfn class="local col1 decl" id="3471ctx" title='ctx' data-type='ae_ctx *' data-ref="3471ctx">ctx</dfn>,</td></tr>
+<tr><th id="76">76</th><td>            <em>const</em> <em>void</em> *<dfn class="local col2 decl" id="3472key" title='key' data-type='const void *' data-ref="3472key">key</dfn>,</td></tr>
+<tr><th id="77">77</th><td>            <em>int</em>         <dfn class="local col3 decl" id="3473key_len" title='key_len' data-type='int' data-ref="3473key_len">key_len</dfn>,</td></tr>
+<tr><th id="78">78</th><td>            <em>int</em>         <dfn class="local col4 decl" id="3474nonce_len" title='nonce_len' data-type='int' data-ref="3474nonce_len">nonce_len</dfn>,</td></tr>
+<tr><th id="79">79</th><td>            <em>int</em>         <dfn class="local col5 decl" id="3475tag_len" title='tag_len' data-type='int' data-ref="3475tag_len">tag_len</dfn>);</td></tr>
+<tr><th id="80">80</th><td><i>/* --------------------------------------------------------------------------</i></td></tr>
+<tr><th id="81">81</th><td><i> *</i></td></tr>
+<tr><th id="82">82</th><td><i> * Initialize an ae_ctx context structure.</i></td></tr>
+<tr><th id="83">83</th><td><i> *</i></td></tr>
+<tr><th id="84">84</th><td><i> * Parameters:</i></td></tr>
+<tr><th id="85">85</th><td><i> *  ctx       - Pointer to an ae_ctx structure to be initialized</i></td></tr>
+<tr><th id="86">86</th><td><i> *  key       - Pointer to user-supplied key</i></td></tr>
+<tr><th id="87">87</th><td><i> *  key_len   - Length of key supplied, in bytes</i></td></tr>
+<tr><th id="88">88</th><td><i> *  nonce_len - Length of nonces to be used for this key, in bytes</i></td></tr>
+<tr><th id="89">89</th><td><i> *  tag_len   - Length of tags to be produced for this key, in bytes</i></td></tr>
+<tr><th id="90">90</th><td><i> *</i></td></tr>
+<tr><th id="91">91</th><td><i> * Returns:</i></td></tr>
+<tr><th id="92">92</th><td><i> *  AE_SUCCESS       - Success. Ctx ready for use.</i></td></tr>
+<tr><th id="93">93</th><td><i> *  AE_NOT_SUPPORTED - An unsupported length was supplied. Ctx is untouched.</i></td></tr>
+<tr><th id="94">94</th><td><i> *  Otherwise        - Error. Check implementation documentation for codes.</i></td></tr>
+<tr><th id="95">95</th><td><i> *</i></td></tr>
+<tr><th id="96">96</th><td><i> * ----------------------------------------------------------------------- */</i></td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td><em>int</em> <dfn class="decl" id="ae_encrypt" title='ae_encrypt' data-ref="ae_encrypt">ae_encrypt</dfn>(<a class="typedef" href="#ae_ctx" title='ae_ctx' data-type='struct _ae_ctx' data-ref="ae_ctx">ae_ctx</a>     *<dfn class="local col6 decl" id="3476ctx" title='ctx' data-type='ae_ctx *' data-ref="3476ctx">ctx</dfn>,</td></tr>
+<tr><th id="99">99</th><td>               <em>const</em> <em>void</em> *<dfn class="local col7 decl" id="3477nonce" title='nonce' data-type='const void *' data-ref="3477nonce">nonce</dfn>,</td></tr>
+<tr><th id="100">100</th><td>               <em>const</em> <em>void</em> *<dfn class="local col8 decl" id="3478pt" title='pt' data-type='const void *' data-ref="3478pt">pt</dfn>,</td></tr>
+<tr><th id="101">101</th><td>               <em>int</em>         <dfn class="local col9 decl" id="3479pt_len" title='pt_len' data-type='int' data-ref="3479pt_len">pt_len</dfn>,</td></tr>
+<tr><th id="102">102</th><td>               <em>const</em> <em>void</em> *<dfn class="local col0 decl" id="3480ad" title='ad' data-type='const void *' data-ref="3480ad">ad</dfn>,</td></tr>
+<tr><th id="103">103</th><td>               <em>int</em>         <dfn class="local col1 decl" id="3481ad_len" title='ad_len' data-type='int' data-ref="3481ad_len">ad_len</dfn>,</td></tr>
+<tr><th id="104">104</th><td>               <em>void</em>       *<dfn class="local col2 decl" id="3482ct" title='ct' data-type='void *' data-ref="3482ct">ct</dfn>,</td></tr>
+<tr><th id="105">105</th><td>               <em>void</em>       *<dfn class="local col3 decl" id="3483tag" title='tag' data-type='void *' data-ref="3483tag">tag</dfn>,</td></tr>
+<tr><th id="106">106</th><td>               <em>int</em>         <dfn class="local col4 decl" id="3484final" title='final' data-type='int' data-ref="3484final">final</dfn>);</td></tr>
+<tr><th id="107">107</th><td><i>/* --------------------------------------------------------------------------</i></td></tr>
+<tr><th id="108">108</th><td><i> *</i></td></tr>
+<tr><th id="109">109</th><td><i> * Encrypt plaintext; provide for authentication of ciphertext/associated data.</i></td></tr>
+<tr><th id="110">110</th><td><i> *</i></td></tr>
+<tr><th id="111">111</th><td><i> * Parameters:</i></td></tr>
+<tr><th id="112">112</th><td><i> *  ctx    - Pointer to an ae_ctx structure initialized by ae_init.</i></td></tr>
+<tr><th id="113">113</th><td><i> *  nonce  - Pointer to a nonce_len (defined in ae_init) byte nonce.</i></td></tr>
+<tr><th id="114">114</th><td><i> *  pt     - Pointer to plaintext bytes to be encrypted.</i></td></tr>
+<tr><th id="115">115</th><td><i> *  pt_len - number of bytes pointed to by pt.</i></td></tr>
+<tr><th id="116">116</th><td><i> *  ad     - Pointer to associated data.</i></td></tr>
+<tr><th id="117">117</th><td><i> *  ad_len - number of bytes pointed to by ad.</i></td></tr>
+<tr><th id="118">118</th><td><i> *  ct     - Pointer to buffer to receive ciphertext encryption.</i></td></tr>
+<tr><th id="119">119</th><td><i> *  tag    - Pointer to receive authentication tag; or NULL</i></td></tr>
+<tr><th id="120">120</th><td><i> *           if tag is to be bundled into the ciphertext.</i></td></tr>
+<tr><th id="121">121</th><td><i> *  final  - Non-zero if this call completes the plaintext being encrypted.</i></td></tr>
+<tr><th id="122">122</th><td><i> *</i></td></tr>
+<tr><th id="123">123</th><td><i> * If nonce!=NULL then a message is being initiated. If final!=0</i></td></tr>
+<tr><th id="124">124</th><td><i> * then a message is being finalized. If final==0 or nonce==NULL</i></td></tr>
+<tr><th id="125">125</th><td><i> * then the incremental interface is being used. If nonce!=NULL and</i></td></tr>
+<tr><th id="126">126</th><td><i> * ad_len&lt;0, then use same ad as last message.</i></td></tr>
+<tr><th id="127">127</th><td><i> *</i></td></tr>
+<tr><th id="128">128</th><td><i> * Returns:</i></td></tr>
+<tr><th id="129">129</th><td><i> *  non-negative     - Number of bytes written to ct.</i></td></tr>
+<tr><th id="130">130</th><td><i> *  AE_NOT_SUPPORTED - Usage mode unsupported (eg, incremental and/or sticky).</i></td></tr>
+<tr><th id="131">131</th><td><i> *  Otherwise        - Error. Check implementation documentation for codes.</i></td></tr>
+<tr><th id="132">132</th><td><i> *</i></td></tr>
+<tr><th id="133">133</th><td><i> * ----------------------------------------------------------------------- */</i></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><em>int</em> <dfn class="decl" id="ae_decrypt" title='ae_decrypt' data-ref="ae_decrypt">ae_decrypt</dfn>(<a class="typedef" href="#ae_ctx" title='ae_ctx' data-type='struct _ae_ctx' data-ref="ae_ctx">ae_ctx</a>     *<dfn class="local col5 decl" id="3485ctx" title='ctx' data-type='ae_ctx *' data-ref="3485ctx">ctx</dfn>,</td></tr>
+<tr><th id="136">136</th><td>               <em>const</em> <em>void</em> *<dfn class="local col6 decl" id="3486nonce" title='nonce' data-type='const void *' data-ref="3486nonce">nonce</dfn>,</td></tr>
+<tr><th id="137">137</th><td>               <em>const</em> <em>void</em> *<dfn class="local col7 decl" id="3487ct" title='ct' data-type='const void *' data-ref="3487ct">ct</dfn>,</td></tr>
+<tr><th id="138">138</th><td>               <em>int</em>         <dfn class="local col8 decl" id="3488ct_len" title='ct_len' data-type='int' data-ref="3488ct_len">ct_len</dfn>,</td></tr>
+<tr><th id="139">139</th><td>               <em>const</em> <em>void</em> *<dfn class="local col9 decl" id="3489ad" title='ad' data-type='const void *' data-ref="3489ad">ad</dfn>,</td></tr>
+<tr><th id="140">140</th><td>               <em>int</em>         <dfn class="local col0 decl" id="3490ad_len" title='ad_len' data-type='int' data-ref="3490ad_len">ad_len</dfn>,</td></tr>
+<tr><th id="141">141</th><td>               <em>void</em>       *<dfn class="local col1 decl" id="3491pt" title='pt' data-type='void *' data-ref="3491pt">pt</dfn>,</td></tr>
+<tr><th id="142">142</th><td>               <em>const</em> <em>void</em> *<dfn class="local col2 decl" id="3492tag" title='tag' data-type='const void *' data-ref="3492tag">tag</dfn>,</td></tr>
+<tr><th id="143">143</th><td>               <em>int</em>         <dfn class="local col3 decl" id="3493final" title='final' data-type='int' data-ref="3493final">final</dfn>);</td></tr>
+<tr><th id="144">144</th><td><i>/* --------------------------------------------------------------------------</i></td></tr>
+<tr><th id="145">145</th><td><i> *</i></td></tr>
+<tr><th id="146">146</th><td><i> * Decrypt ciphertext; provide authenticity of plaintext and associated data.</i></td></tr>
+<tr><th id="147">147</th><td><i> *</i></td></tr>
+<tr><th id="148">148</th><td><i> * Parameters:</i></td></tr>
+<tr><th id="149">149</th><td><i> *  ctx    - Pointer to an ae_ctx structure initialized by ae_init.</i></td></tr>
+<tr><th id="150">150</th><td><i> *  nonce  - Pointer to a nonce_len (defined in ae_init) byte nonce.</i></td></tr>
+<tr><th id="151">151</th><td><i> *  ct     - Pointer to ciphertext bytes to be decrypted.</i></td></tr>
+<tr><th id="152">152</th><td><i> *  ct_len - number of bytes pointed to by ct.</i></td></tr>
+<tr><th id="153">153</th><td><i> *  ad     - Pointer to associated data.</i></td></tr>
+<tr><th id="154">154</th><td><i> *  ad_len - number of bytes pointed to by ad.</i></td></tr>
+<tr><th id="155">155</th><td><i> *  pt     - Pointer to buffer to receive plaintext decryption.</i></td></tr>
+<tr><th id="156">156</th><td><i> *  tag    - Pointer to tag_len (defined in ae_init) bytes; or NULL</i></td></tr>
+<tr><th id="157">157</th><td><i> *           if tag is bundled into the ciphertext. Non-NULL tag is only</i></td></tr>
+<tr><th id="158">158</th><td><i> *           read when final is non-zero.</i></td></tr>
+<tr><th id="159">159</th><td><i> *  final  - Non-zero if this call completes the ciphertext being decrypted.</i></td></tr>
+<tr><th id="160">160</th><td><i> *</i></td></tr>
+<tr><th id="161">161</th><td><i> * If nonce!=NULL then "ct" points to the start of a ciphertext. If final!=0</i></td></tr>
+<tr><th id="162">162</th><td><i> * then "in" points to the final piece of ciphertext. If final==0 or nonce==</i></td></tr>
+<tr><th id="163">163</th><td><i> * NULL then the incremental interface is being used. If nonce!=NULL and</i></td></tr>
+<tr><th id="164">164</th><td><i> * ad_len&lt;0, then use same ad as last message.</i></td></tr>
+<tr><th id="165">165</th><td><i> *</i></td></tr>
+<tr><th id="166">166</th><td><i> * Returns:</i></td></tr>
+<tr><th id="167">167</th><td><i> *  non-negative     - Number of bytes written to pt.</i></td></tr>
+<tr><th id="168">168</th><td><i> *  AE_INVALID       - Authentication failure.</i></td></tr>
+<tr><th id="169">169</th><td><i> *  AE_NOT_SUPPORTED - Usage mode unsupported (eg, incremental and/or sticky).</i></td></tr>
+<tr><th id="170">170</th><td><i> *  Otherwise        - Error. Check implementation documentation for codes.</i></td></tr>
+<tr><th id="171">171</th><td><i> *</i></td></tr>
+<tr><th id="172">172</th><td><i> * NOTE !!! NOTE !!! -- The ciphertext should be assumed possibly inauthentic</i></td></tr>
+<tr><th id="173">173</th><td><i> *                      until it has been completely written and it is</i></td></tr>
+<tr><th id="174">174</th><td><i> *                      verified that this routine did not return AE_INVALID.</i></td></tr>
+<tr><th id="175">175</th><td><i> *</i></td></tr>
+<tr><th id="176">176</th><td><i> * ----------------------------------------------------------------------- */</i></td></tr>
+<tr><th id="177">177</th><td></td></tr>
+<tr><th id="178">178</th><td><u>#<span data-ppcond="178">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="179">179</th><td>} <i>/* closing brace for extern "C" */</i></td></tr>
+<tr><th id="180">180</th><td><u>#<span data-ppcond="178">endif</span></u></td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td><u>#<span data-ppcond="19">endif</span> /* _AE_H_ */</u></td></tr>
+<tr><th id="183">183</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='crypto.cc.html'>codebrowser/src/crypto/crypto.cc</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>mosh-1.3.2-38-ge9c3bbd</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

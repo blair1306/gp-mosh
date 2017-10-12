@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='148' type='wstring'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='160' u='a' c='_ZNK7Overlay18NotificationEngine23get_notification_stringB5cxx11Ev'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='167' u='w' c='_ZN7Overlay18NotificationEngine23set_notification_stringERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEEbb'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='189' u='w' c='_ZN7Overlay18NotificationEngine17set_network_errorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>384</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='166' u='w' c='_ZN7Overlay18NotificationEngineC1Ev'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='191' u='m' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='237' u='m' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='240' u='m' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='245' u='m' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='246' u='m' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='248' u='m' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='311' u='m' c='_ZN7Overlay18NotificationEngine14adjust_messageEv'/>

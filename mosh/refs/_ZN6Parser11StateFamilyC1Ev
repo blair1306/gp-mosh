@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/parserstatefamily.h' l='61' ll='82' type='void Parser::StateFamily::StateFamily()'/>
+<use f='codebrowser/src/terminal/parser.cc' l='41' u='c'/>

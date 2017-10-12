@@ -1,0 +1,1 @@
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' type='typename _proto_TypeTraits::Repeated::MutableType HostBuffers::Instruction::AddExtension(const ::google::protobuf::internal::ExtensionIdentifier&lt;Instruction, _proto_TypeTraits, _field_type, _is_packed&gt; &amp; id)'/>

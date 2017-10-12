@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='718' type='static uint8 * google::protobuf::io::CodedOutputStream::WriteTagToArray(uint32 value, uint8 * target)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1073' ll='1085' type='static uint8 * google::protobuf::io::CodedOutputStream::WriteTagToArray(uint32 value, uint8 * target)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='588' u='c' c='_ZN6google8protobuf8internal14WireFormatLite15WriteTagToArrayEiNS2_8WireTypeEPh'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='717'>// Like WriteTag()  but writing directly to the target array.</doc>

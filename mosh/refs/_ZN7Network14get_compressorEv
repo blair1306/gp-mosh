@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/compressor.h' l='57' type='Network::Compressor &amp; Network::get_compressor()'/>
+<def f='codebrowser/src/network/compressor.cc' l='60' ll='64' type='Network::Compressor &amp; Network::get_compressor()'/>
+<doc f='codebrowser/src/network/compressor.cc' l='59'>/* construct on first use */</doc>
+<use f='codebrowser/src/network/transportfragment.cc' l='142' u='c' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='178' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>

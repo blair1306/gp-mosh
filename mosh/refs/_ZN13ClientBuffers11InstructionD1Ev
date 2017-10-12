@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='125' type='void ClientBuffers::Instruction::~Instruction()'/>
+<inh f='include/google/protobuf/message_lite.h' l='80' c='_ZN6google8protobuf11MessageLiteD1Ev'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='262' ll='265' type='void ClientBuffers::Instruction::~Instruction()'/>

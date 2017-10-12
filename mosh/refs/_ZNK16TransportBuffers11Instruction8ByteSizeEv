@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='82' type='int TransportBuffers::Instruction::ByteSize() const'/>
+<inh f='include/google/protobuf/message_lite.h' l='214' c='_ZNK6google8protobuf11MessageLite8ByteSizeEv'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='349' ll='409' type='int TransportBuffers::Instruction::ByteSize() const'/>

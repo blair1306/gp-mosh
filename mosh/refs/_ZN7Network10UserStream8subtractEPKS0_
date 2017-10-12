@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/statesync/user.h' l='86' type='void Network::UserStream::subtract(const Network::UserStream * prefix)'/>
+<doc f='codebrowser/src/statesync/user.h' l='85'>/* interface for Network::Transport */</doc>
+<def f='codebrowser/src/statesync/user.cc' l='44' ll='59' type='void Network::UserStream::subtract(const Network::UserStream * prefix)'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='234' type='uint64_t'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='300' u='w' c='_ZN7Overlay16PredictionEngineC1Ev'/>
+<offset>896</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='371' u='r' c='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='377' u='r' c='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='490' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='539' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='540' u='w' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='650' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>

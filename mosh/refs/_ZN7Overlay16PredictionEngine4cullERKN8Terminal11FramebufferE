@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='280' type='void Overlay::PredictionEngine::cull(const Terminal::Framebuffer &amp; fb)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='338' u='c' c='_ZN7Overlay14OverlayManager5applyERN8Terminal11FramebufferE'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='436' ll='622' type='void Overlay::PredictionEngine::cull(const Terminal::Framebuffer &amp; fb)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='653' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>

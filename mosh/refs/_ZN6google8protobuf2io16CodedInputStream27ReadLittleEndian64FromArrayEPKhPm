@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='223' type='static const uint8 * google::protobuf::io::CodedInputStream::ReadLittleEndian64FromArray(const uint8 * buffer, uint64 * value)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='829' ll='848' type='static const uint8 * google::protobuf::io::CodedInputStream::ReadLittleEndian64FromArray(const uint8 * buffer, uint64 * value)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='185' u='c' c='_ZN6google8protobuf8internal14WireFormatLite22ReadPrimitiveFromArrayEPKhPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='203' u='c' c='_ZN6google8protobuf8internal14WireFormatLite22ReadPrimitiveFromArrayEPKhPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='223' u='c' c='_ZN6google8protobuf8internal14WireFormatLite22ReadPrimitiveFromArrayEPKhPT_'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='222'>// Read a 64-bit little-endian integer.</doc>
+<doc f='include/google/protobuf/io/coded_stream.h' l='828'>// static</doc>

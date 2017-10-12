@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='73' type='void Terminal::Complete::register_input_frame(uint64_t n, uint64_t now)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='752' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<def f='codebrowser/src/statesync/completeterminal.cc' l='159' ll='162' type='void Terminal::Complete::register_input_frame(uint64_t n, uint64_t now)'/>

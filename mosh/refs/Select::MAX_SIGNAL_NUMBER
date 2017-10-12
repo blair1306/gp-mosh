@@ -1,0 +1,6 @@
+<use f='codebrowser/src/util/select.h' l='101' u='r' c='_ZN6Select10add_signalEi'/>
+<use f='codebrowser/src/util/select.h' l='201' u='r' c='_ZN6Select6signalEi'/>
+<use f='codebrowser/src/util/select.h' l='212' u='r' c='_ZNK6Select10any_signalEv'/>
+<dec f='codebrowser/src/util/select.h' l='221' type='const int'/>
+<use f='codebrowser/src/util/select.h' l='232' u='r'/>
+<use f='codebrowser/src/util/select.cc' l='44' u='r' c='_ZN6Select13handle_signalEi'/>

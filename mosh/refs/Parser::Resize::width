@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/terminal/parseraction.h' l='149' type='size_t'/>
+<use f='codebrowser/src/terminal/parseraction.h' l='155' u='w' c='_ZN6Parser6ResizeC1Emm'/>
+<use f='codebrowser/src/terminal/parseraction.h' l='161' u='r' c='_ZNK6Parser6ResizeeqERKS0_'/>
+<use f='codebrowser/src/terminal/parseraction.h' l='161' u='r' c='_ZNK6Parser6ResizeeqERKS0_'/>
+<offset>128</offset>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='740' u='r' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/statesync/user.cc' l='93' u='r' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/terminal/parseraction.cc' l='99' u='r' c='_ZNK6Parser6Resize15act_on_terminalEPN8Terminal8EmulatorE'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='129' type='void STMClient::shutdown()'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='200' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='204' u='c' c='main'/>
+<def f='codebrowser/src/frontend/stmclient.cc' l='199' ll='224' type='void STMClient::shutdown()'/>

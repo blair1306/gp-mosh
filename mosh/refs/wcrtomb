@@ -1,0 +1,5 @@
+<def f='include/x86_64-linux-gnu/bits/wchar2.h' l='439' ll='453' macro='1' type='size_t wcrtomb(char *__restrict __s, wchar_t __wchar, mbstate_t *__restrict __ps)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='153' u='c' c='_ZN8Terminal4Cell13append_to_strERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEw'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='155' u='c' c='_ZN8Terminal4Cell13append_to_strERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEw'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='168' u='c' c='_ZN8Terminal4Cell6appendEw'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='170' u='c' c='_ZN8Terminal4Cell6appendEw'/>

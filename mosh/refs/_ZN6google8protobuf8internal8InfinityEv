@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/generated_message_util.h' l='64' type='double google::protobuf::internal::Infinity()'/>
+<doc f='include/google/protobuf/generated_message_util.h' l='63'>// Constants for special floating point values.</doc>

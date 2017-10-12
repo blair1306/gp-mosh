@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/network.h' l='133' type='const uint64_t'/>
+<doc f='codebrowser/src/network/network.h' l='133'>/* ms */</doc>
+<use f='codebrowser/src/network/network.cc' l='627' u='r' c='_ZNK7Network10Connection7timeoutEv'/>
+<use f='codebrowser/src/network/network.cc' l='628' u='r' c='_ZNK7Network10Connection7timeoutEv'/>

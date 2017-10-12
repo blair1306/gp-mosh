@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='181' type='double fabs(double __x)'/>
+<use f='codebrowser/src/network/network.cc' l='549' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

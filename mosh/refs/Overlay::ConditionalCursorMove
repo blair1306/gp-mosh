@@ -1,0 +1,7 @@
+<inh f='codebrowser/src/frontend/terminaloverlay.h' l='60' c='Overlay::ConditionalOverlay'/>
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='84' ll='95'/>
+<size>48</size>
+<mbr r='Overlay::ConditionalCursorMove::row' o='320' t='int'/>
+<fun r='_ZNK7Overlay21ConditionalCursorMove5applyERN8Terminal11FramebufferEm'/>
+<fun r='_ZNK7Overlay21ConditionalCursorMove12get_validityERKN8Terminal11FramebufferEmm'/>
+<fun r='_ZN7Overlay21ConditionalCursorMoveC1Emiim'/>

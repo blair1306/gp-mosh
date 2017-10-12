@@ -1,0 +1,6 @@
+_ZN6Crypto15CryptoExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb|Crypto::CryptoException::CryptoException
+_ZNK6Crypto15CryptoException4whatEv|Crypto::CryptoException::what
+_ZN6Crypto15CryptoExceptionD1Ev|Crypto::CryptoException::~CryptoException
+_ZN6Crypto20disable_dumping_coreEv|Crypto::disable_dumping_core
+_ZN6Crypto21reenable_dumping_coreEv|Crypto::reenable_dumping_core
+_ZN6Crypto6uniqueEv|Crypto::unique

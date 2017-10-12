@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='495' type='Limit'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='986' u='r' c='_ZN6google8protobuf2io16CodedInputStream11ExpectAtEndEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1174' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPNS1_19ZeroCopyInputStreamE'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1195' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPKhi'/>
+<offset>320</offset>
+<doc f='include/google/protobuf/io/coded_stream.h' l='494'>// Limits</doc>
+<doc f='include/google/protobuf/io/coded_stream.h' l='495'>// if position = -1, no limit is applied</doc>

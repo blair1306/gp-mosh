@@ -1,0 +1,9 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='236'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='237' ll='240'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='241' ll='242'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='243'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='231'>// We can&apos;t get has_trivial_copy right without compiler help, so fail
+// conservatively. We will assume it&apos;s false except for: (1) types
+// for which is_pod is true. (2) std::pair of types with trivial copy
+// constructors. (3) array of a type with a trivial copy constructor.
+// (4) const versions thereof.</doc>

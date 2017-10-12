@@ -1,0 +1,9 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='221'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='222' ll='225'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='226' ll='227'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='228' ll='229'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='216'>// We can&apos;t get has_trivial_constructor right without compiler help, so
+// fail conservatively. We will assume it&apos;s false except for: (1) types
+// for which is_pod is true. (2) std::pair of types with trivial
+// constructors. (3) array of a type with a trivial constructor.
+// (4) const versions thereof.</doc>

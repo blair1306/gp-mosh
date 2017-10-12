@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='530' type='bool google::protobuf::internal::FieldSkipper::SkipField(io::CodedInputStream * input, uint32 tag)'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='529'>// Skip a field whose tag has already been consumed.</doc>

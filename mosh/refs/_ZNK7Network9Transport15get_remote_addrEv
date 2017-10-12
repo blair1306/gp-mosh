@@ -1,0 +1,1 @@
+<def f='codebrowser/src/network/networktransport.h' l='119' type='const Network::Addr &amp; Network::Transport::get_remote_addr() const'/>

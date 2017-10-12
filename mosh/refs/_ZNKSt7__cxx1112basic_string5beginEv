@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/basic_string.h' l='618' ll='620' type='const_iterator std::__cxx11::basic_string::begin() const'/>
+<doc f='include/c++/5/bits/basic_string.h' l='614'>/**
+       *  Returns a read-only (constant) iterator that points to the first
+       *  character in the %string.
+       */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='347' u='c' c='_ZN7Overlay11TitleEngine10set_prefixERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/network/network.cc' l='84' u='c' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='80' u='c' c='_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='591' u='c' c='_ZNK8Terminal4Cell14debug_contentsB5cxx11Ev'/>

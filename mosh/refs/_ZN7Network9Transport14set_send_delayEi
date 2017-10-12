@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/networktransport.h' l='111' type='void Network::Transport::set_send_delay(int new_delay)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='255' u='c' c='_ZN9STMClient9main_initEv'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='118' type='ClientBuffers::UserMessage *'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='19' u='r' c='_ZN13ClientBuffers39protobuf_ShutdownFile_userinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='31' u='w' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='43' u='r' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='90' u='r' c='_ZN13ClientBuffers11UserMessage10SharedDtorEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='100' u='r' c='_ZN13ClientBuffers11UserMessage16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='101' u='r' c='_ZN13ClientBuffers11UserMessage16default_instanceEv'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='104' type='ClientBuffers::UserMessage *'/>

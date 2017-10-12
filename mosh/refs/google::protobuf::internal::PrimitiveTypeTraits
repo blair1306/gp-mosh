@@ -1,0 +1,17 @@
+<def f='include/google/protobuf/extension_set.h' l='670' ll='680'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3GetEiRKNS1_12ExtensionSetET_'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3SetEihT_PNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3GetEiRKNS1_12ExtensionSetET_'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3SetEihT_PNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3GetEiRKNS1_12ExtensionSetET_'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3SetEihT_PNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3GetEiRKNS1_12ExtensionSetET_'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3SetEihT_PNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3GetEiRKNS1_12ExtensionSetET_'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3SetEihT_PNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3GetEiRKNS1_12ExtensionSetET_'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3SetEihT_PNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3GetEiRKNS1_12ExtensionSetET_'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3SetEihT_PNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3GetEiRKNS1_12ExtensionSetET_'/>
+<fun r='_ZN6google8protobuf8internal19PrimitiveTypeTraits3SetEihT_PNS1_12ExtensionSetE'/>

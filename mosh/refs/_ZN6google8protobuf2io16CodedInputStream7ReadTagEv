@@ -1,0 +1,8 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='239' type='uint32 google::protobuf::io::CodedInputStream::ReadTag()'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='878' ll='887' type='uint32 google::protobuf::io::CodedInputStream::ReadTag()'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='233'>// Read a tag.  This calls ReadVarint32() and returns the result, or returns
+  // zero (which is not a valid tag) if ReadVarint32() fails.  Also, it updates
+  // the last tag value, which can be checked with LastTagWas().
+  // Always inline because this is only called in one place per parse loop
+  // but it is called for every iteration of said loop, so it should be fast.
+  // GCC doesn&apos;t want to inline this by default.</doc>

@@ -1,0 +1,7 @@
+_ZNK6Crypto13AlignedBuffer4dataEv|Crypto::AlignedBuffer::data
+_ZN6Crypto9Base64Key4dataEv|Crypto::Base64Key::data
+_ZNK6Crypto5Nonce4dataEv|Crypto::Nonce::data
+_ZNK6google8protobuf13RepeatedField4dataEv|google::protobuf::RepeatedField::data
+_ZNK6google8protobuf16RepeatedPtrField4dataEv|google::protobuf::RepeatedPtrField::data
+_ZNK6google8protobuf8internal20RepeatedPtrFieldBase4dataEv|google::protobuf::internal::RepeatedPtrFieldBase::data
+_ZNSt6vector4dataEv|std::vector::data

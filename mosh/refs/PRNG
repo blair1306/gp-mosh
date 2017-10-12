@@ -1,0 +1,10 @@
+<def f='codebrowser/src/crypto/prng.h' l='50' ll='89'/>
+<size>520</size>
+<mbr r='PRNG::randfile' o='0' t='std::ifstream'/>
+<fun r='_ZN4PRNGC1ERKS_'/>
+<fun r='_ZN4PRNGaSERKS_'/>
+<fun r='_ZN4PRNGC1Ev'/>
+<fun r='_ZN4PRNG4fillEPvm'/>
+<fun r='_ZN4PRNG5uint8Ev'/>
+<fun r='_ZN4PRNG6uint32Ev'/>
+<fun r='_ZN4PRNG6uint64Ev'/>

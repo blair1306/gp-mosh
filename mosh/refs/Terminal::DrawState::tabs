@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='256' type='std::vector&lt;bool&gt;'/>
+<offset>256</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='61' u='m' c='_ZN8Terminal9DrawState17reinitialize_tabsEj'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='62' u='m' c='_ZN8Terminal9DrawState17reinitialize_tabsEj'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='69' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='206' u='m' c='_ZN8Terminal9DrawState7set_tabEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='211' u='m' c='_ZN8Terminal9DrawState9clear_tabEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='218' u='m' c='_ZNK8Terminal9DrawState12get_next_tabEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='225' u='m' c='_ZNK8Terminal9DrawState12get_next_tabEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='437' u='m' c='_ZN8Terminal9DrawState6resizeEii'/>

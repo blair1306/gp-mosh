@@ -1,0 +1,9 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='191' type='const Terminal::Renditions &amp; Terminal::Cell::get_renditions() const'/>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='190'>/* Other accessors */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='559' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='798' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='354' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='387' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='389' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='414' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='436' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>

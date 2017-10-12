@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/crypto/ocb.cc' l='738' type='uint64_t [3]'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='854' u='a' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='856' u='w' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='856' u='r' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='857' u='w' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='857' u='r' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='859' u='w' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='859' u='r' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='860' u='r' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='860' u='r' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='862' u='r' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<offset>2944</offset>
+<doc f='codebrowser/src/crypto/ocb.cc' l='738'>/* Register correct, each item  */</doc>

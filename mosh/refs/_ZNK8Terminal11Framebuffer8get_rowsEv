@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='388' type='const rows_type &amp; Terminal::Framebuffer::get_rows() const'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='159' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>

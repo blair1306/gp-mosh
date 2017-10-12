@@ -1,0 +1,16 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='229' type='bool google::protobuf::io::CodedInputStream::ReadVarint32(uint32 * value)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='793' ll='801' type='bool google::protobuf::io::CodedInputStream::ReadVarint32(uint32 * value)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='63' u='c' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='80' u='c' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='93' u='c' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='168' u='c' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='331' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19ReadPackedPrimitiveEPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='346' u='c' c='_ZN6google8protobuf8internal14WireFormatLite28ReadPackedFixedSizePrimitiveEPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='444' u='c' c='_ZN6google8protobuf8internal14WireFormatLite11ReadMessageEPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='485' u='c' c='_ZN6google8protobuf8internal14WireFormatLite20ReadMessageNoVirtualEPNS0_2io16CodedInputStreamEPT_'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='226'>// Read an unsigned integer with Varint encoding, truncating to 32 bits.
+  // Reading a 32-bit value is equivalent to reading a 64-bit one and casting
+  // it to uint32, but may be more efficient.</doc>
+<doc f='include/google/protobuf/io/coded_stream.h' l='789'>// inline methods ====================================================
+// The vast majority of varints are only one byte.  These inline
+// methods optimize for that case.</doc>

@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='762' type='void google::protobuf::io::CodedOutputStream::Advance(int amount)'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1004' u='c' c='_ZN6google8protobuf2io17CodedOutputStream34GetDirectBufferForNBytesAndAdvanceEi'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1129' ll='1132' type='void google::protobuf::io::CodedOutputStream::Advance(int amount)'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='761'>// Advance the buffer by a given number of bytes.</doc>

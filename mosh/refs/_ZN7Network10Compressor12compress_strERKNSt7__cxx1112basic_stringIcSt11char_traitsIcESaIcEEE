@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/compressor.h' l='49' type='std::string Network::Compressor::compress_str(const std::string &amp; input)'/>
+<def f='codebrowser/src/network/compressor.cc' l='41' ll='48' type='string Network::Compressor::compress_str(const string &amp; input)'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='178' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>

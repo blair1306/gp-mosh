@@ -1,0 +1,10 @@
+_ZL11fatal_errorPKcS0_iS0_|fatal_error
+_ZNKSt9basic_ios4failEv|std::basic_ios::fail
+_ZNKSt6locale5facet16_M_add_referenceEv|std::locale::facet::_M_add_reference
+_ZNKSt6locale5facet19_M_remove_referenceEv|std::locale::facet::_M_remove_reference
+_ZNSt6locale5facetC1Em|std::locale::facet::facet
+_ZNKSt19ostreambuf_iterator6failedEv|std::ostreambuf_iterator::failed
+_ZN6google8protobuf14FatalExceptionC1EPKciRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE|google::protobuf::FatalException::FatalException
+_ZNK6google8protobuf14FatalException8filenameEv|google::protobuf::FatalException::filename
+_ZNK6google8protobuf14FatalException4lineEv|google::protobuf::FatalException::line
+_ZNK6google8protobuf14FatalException7messageB5cxx11Ev|google::protobuf::FatalException::message

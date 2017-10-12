@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/utmpx.h' l='62' type='char [256]'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='984' u='r' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>608</offset>
+<doc f='include/x86_64-linux-gnu/bits/utmpx.h' l='62'>/* Hostname for remote login.  */</doc>

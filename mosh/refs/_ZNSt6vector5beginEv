@@ -1,0 +1,29 @@
+<def f='include/c++/5/bits/stl_vector.h' l='546' ll='548' type='iterator std::vector::begin()'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='541'>/**
+       *  Returns a read/write iterator that points to the first
+       *  element in the %vector.  Iteration is done in ordinary
+       *  element order.
+       */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='340' u='c' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='1004' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='453' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='468' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='394' u='c' c='_ZN7Overlay16PredictionEngine10kill_epochEmRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='484' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='667' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='880' u='c' c='_ZN7Overlay16PredictionEngine23newline_carriage_returnERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='52' u='c' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='162' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='317' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='320' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='341' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='344' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='360' u='c' c='_ZN8Terminal3Row11insert_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='367' u='c' c='_ZN8Terminal3Row11delete_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='417' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='565' u='c' c='_ZN8Terminal3Row5resetEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='576' u='c' c='_ZN8Terminal11Framebuffer19prefix_window_titleERKSt6vectorIwSaIwEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='578' u='c' c='_ZN8Terminal11Framebuffer19prefix_window_titleERKSt6vectorIwSaIwEE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='579' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='602' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='602' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>

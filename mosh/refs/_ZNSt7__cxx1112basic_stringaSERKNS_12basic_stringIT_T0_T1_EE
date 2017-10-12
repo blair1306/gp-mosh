@@ -1,0 +1,24 @@
+<def f='include/c++/5/bits/basic_string.h' l='549' ll='551' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::operator=(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __str)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='545'>/**
+       *  @brief  Assign the value of @a str to this string.
+       *  @param  __str  Source string.
+       */</doc>
+<use f='include/google/protobuf/repeated_field.h' l='411' u='c' c='_ZN6google8protobuf8internal21StringTypeHandlerBase5MergeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPS8_'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='167' u='c' c='_ZN7Overlay18NotificationEngine23set_notification_stringERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEEbb'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='413' u='c' c='_ZN7Network15TransportSender39attempt_prospective_resend_optimizationERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='231' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='301' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='305' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='307' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='311' u='c' c='main'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='187' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='189' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='191' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='196' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/network/network.cc' l='84' u='c' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<use f='codebrowser/src/network/network.cc' l='440' u='c' c='_ZN7Network10Connection4recvB5cxx11Ev'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='80' u='c' c='_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='187' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='188' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='190' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='221' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>

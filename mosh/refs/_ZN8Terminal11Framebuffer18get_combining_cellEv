@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='427' type='Terminal::Cell * Terminal::Framebuffer::get_combining_cell()'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='122' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='192' ll='202' type='Terminal::Cell * Terminal::Framebuffer::get_combining_cell()'/>

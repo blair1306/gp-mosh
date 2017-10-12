@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='724' type='static int google::protobuf::io::CodedOutputStream::VarintSize64(uint64 value)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='803' u='c' c='_ZN6google8protobuf8internal14WireFormatLite9Int64SizeEl'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='809' u='c' c='_ZN6google8protobuf8internal14WireFormatLite10UInt64SizeEm'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='815' u='c' c='_ZN6google8protobuf8internal14WireFormatLite10SInt64SizeEl'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='723'>// Returns the number of bytes needed to encode the given value as a varint.</doc>

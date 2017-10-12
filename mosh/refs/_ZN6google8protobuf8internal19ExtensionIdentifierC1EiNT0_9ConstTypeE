@@ -1,0 +1,6 @@
+<def f='include/google/protobuf/extension_set.h' l='1051' ll='1052' type='void google::protobuf::internal::ExtensionIdentifier::ExtensionIdentifier&lt;ExtendeeType, TypeTraitsType, field_type, is_packed&gt;(int number, typename TypeTraits::ConstType default_value)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='1002' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='1005' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='1008' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='812' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='815' u='c'/>

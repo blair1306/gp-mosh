@@ -1,0 +1,6 @@
+<dec f='include/time.h' l='122' type='__time_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/util/select.h' l='145' u='w' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='136' u='w' c='_ZL4spinv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='562' u='w' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/util/timestamp.cc' l='78' u='r' c='_Z16freeze_timestampv'/>

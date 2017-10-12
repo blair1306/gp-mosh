@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/crypto/ocb.cc' l='742' type='AES_KEY'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='804' u='a' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='817' u='a' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='854' u='a' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='902' u='a' c='_ZL10process_adP7_ae_ctxPKvii'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='963' u='a' c='_ZL10process_adP7_ae_ctxPKvii'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1060' u='a' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1132' u='a' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1338' u='a' c='ae_decrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1376' u='a' c='ae_decrypt'/>
+<offset>5152</offset>

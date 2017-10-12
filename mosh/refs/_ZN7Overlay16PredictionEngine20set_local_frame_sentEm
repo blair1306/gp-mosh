@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='284' type='void Overlay::PredictionEngine::set_local_frame_sent(uint64_t x)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='320' u='c' c='_ZN9STMClient18process_user_inputEi'/>

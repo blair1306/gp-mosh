@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/transportsender.h' l='66' type='void Network::TransportSender::rationalize_states()'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='96' u='c' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<def f='codebrowser/src/network/transportsender-impl.h' l='295' ll='307' type='void Network::TransportSender::rationalize_states()'/>

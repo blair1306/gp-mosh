@@ -1,0 +1,8 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='316' type='int Terminal::DrawState::get_scrolling_region_top_row() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='114' u='c' c='_ZN8Terminal11Framebuffer6scrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='116' u='c' c='_ZN8Terminal11Framebuffer6scrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='173' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='183' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='184' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='302' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='326' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>

@@ -1,0 +1,48 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='204' ll='311'/>
+<size>160</size>
+<smbr r='Overlay::PredictionEngine::SRTT_TRIGGER_LOW' t='const uint64_t'/>
+<smbr r='Overlay::PredictionEngine::SRTT_TRIGGER_HIGH' t='const uint64_t'/>
+<smbr r='Overlay::PredictionEngine::FLAG_TRIGGER_LOW' t='const uint64_t'/>
+<smbr r='Overlay::PredictionEngine::FLAG_TRIGGER_HIGH' t='const uint64_t'/>
+<smbr r='Overlay::PredictionEngine::GLITCH_THRESHOLD' t='const uint64_t'/>
+<smbr r='Overlay::PredictionEngine::GLITCH_REPAIR_COUNT' t='const uint64_t'/>
+<smbr r='Overlay::PredictionEngine::GLITCH_REPAIR_MININTERVAL' t='const uint64_t'/>
+<smbr r='Overlay::PredictionEngine::GLITCH_FLAG_THRESHOLD' t='const uint64_t'/>
+<mbr r='Overlay::PredictionEngine::last_byte' o='0' t='char'/>
+<mbr r='Overlay::PredictionEngine::parser' o='64' t='Parser::UTF8Parser'/>
+<mbr r='Overlay::PredictionEngine::overlays' o='256' t='overlays_type'/>
+<mbr r='Overlay::PredictionEngine::cursors' o='448' t='cursors_type'/>
+<mbr r='Overlay::PredictionEngine::local_frame_sent' o='640' t='uint64_t'/>
+<mbr r='Overlay::PredictionEngine::local_frame_acked' o='704' t='uint64_t'/>
+<mbr r='Overlay::PredictionEngine::local_frame_late_acked' o='768' t='uint64_t'/>
+<fun r='_ZN7Overlay16PredictionEngine15get_or_make_rowEii'/>
+<mbr r='Overlay::PredictionEngine::prediction_epoch' o='832' t='uint64_t'/>
+<mbr r='Overlay::PredictionEngine::confirmed_epoch' o='896' t='uint64_t'/>
+<fun r='_ZN7Overlay16PredictionEngine16become_tentativeEv'/>
+<fun r='_ZN7Overlay16PredictionEngine23newline_carriage_returnERKN8Terminal11FramebufferE'/>
+<mbr r='Overlay::PredictionEngine::flagging' o='960' t='bool'/>
+<mbr r='Overlay::PredictionEngine::srtt_trigger' o='968' t='bool'/>
+<mbr r='Overlay::PredictionEngine::glitch_trigger' o='992' t='unsigned int'/>
+<mbr r='Overlay::PredictionEngine::last_quick_confirmation' o='1024' t='uint64_t'/>
+<fun r='_ZN7Overlay16PredictionEngine6cursorEv'/>
+<fun r='_ZN7Overlay16PredictionEngine10kill_epochEmRKN8Terminal11FramebufferE'/>
+<fun r='_ZN7Overlay16PredictionEngine11init_cursorERKN8Terminal11FramebufferE'/>
+<mbr r='Overlay::PredictionEngine::send_interval' o='1088' t='unsigned int'/>
+<mbr r='Overlay::PredictionEngine::last_height' o='1120' t='int'/>
+<mbr r='Overlay::PredictionEngine::last_width' o='1152' t='int'/>
+<mbr r='Overlay::PredictionEngine::display_preference' o='1184' t='Overlay::PredictionEngine::DisplayPreference'/>
+<mbr r='Overlay::PredictionEngine::predict_overwrite' o='1216' t='bool'/>
+<fun r='_ZNK7Overlay16PredictionEngine6activeEv'/>
+<fun r='_ZNK7Overlay16PredictionEngine22timing_tests_necessaryEv'/>
+<fun r='_ZN7Overlay16PredictionEngine22set_display_preferenceENS0_17DisplayPreferenceE'/>
+<fun r='_ZN7Overlay16PredictionEngine21set_predict_overwriteEb'/>
+<fun r='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<fun r='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<fun r='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<fun r='_ZN7Overlay16PredictionEngine5resetEv'/>
+<fun r='_ZN7Overlay16PredictionEngine20set_local_frame_sentEm'/>
+<fun r='_ZN7Overlay16PredictionEngine21set_local_frame_ackedEm'/>
+<fun r='_ZN7Overlay16PredictionEngine26set_local_frame_late_ackedEm'/>
+<fun r='_ZN7Overlay16PredictionEngine17set_send_intervalEj'/>
+<fun r='_ZNK7Overlay16PredictionEngine9wait_timeEv'/>
+<fun r='_ZN7Overlay16PredictionEngineC1Ev'/>

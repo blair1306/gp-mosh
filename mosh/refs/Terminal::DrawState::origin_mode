@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='268' type='bool'/>
+<offset>808</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='156' u='r' c='_ZNK7Overlay21ConditionalCursorMove5applyERN8Terminal11FramebufferEm'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='72' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='248' u='r' c='_ZN8Terminal9DrawState20set_scrolling_regionEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='256' u='r' c='_ZNK8Terminal9DrawState9limit_topEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='261' u='r' c='_ZNK8Terminal9DrawState12limit_bottomEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='285' u='r' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='294' u='w' c='_ZN8Terminal9DrawState14restore_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='393' u='w' c='_ZN8Terminal11Framebuffer10soft_resetEv'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='294' u='a' c='_ZL12get_DEC_modeiPN8Terminal11FramebufferE'/>

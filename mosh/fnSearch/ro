@@ -1,0 +1,11 @@
+_ZNK7Overlay21ConditionalOverlayRow10row_num_eqEi|Overlay::ConditionalOverlayRow::row_num_eq
+_ZNK8Terminal3Row8get_wrapEv|Terminal::Row::get_wrap
+_ZNK8Terminal3RoweqERKS0_|Terminal::Row::operator==
+_ZN8Terminal3Row8set_wrapEb|Terminal::Row::set_wrap
+_ZNSt3_V26rotateET_S0_S0_|std::_V2::rotate
+_ZSt11rotate_copyT_S_S_T0_|std::rotate_copy
+_ZN8Terminal3RowC1Emt|Terminal::Row::Row
+_ZN8Terminal3Row11delete_cellEit|Terminal::Row::delete_cell
+_ZNK8Terminal3Row7get_genEv|Terminal::Row::get_gen
+_ZN8Terminal3Row11insert_cellEit|Terminal::Row::insert_cell
+_ZN8Terminal3Row5resetEt|Terminal::Row::reset

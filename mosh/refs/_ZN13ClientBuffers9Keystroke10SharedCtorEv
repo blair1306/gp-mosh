@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='233' type='void ClientBuffers::Keystroke::SharedCtor()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='399' u='c' c='_ZN13ClientBuffers9KeystrokeC1Ev'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='408' u='c' c='_ZN13ClientBuffers9KeystrokeC1ERKS0_'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='413' ll='418' type='void ClientBuffers::Keystroke::SharedCtor()'/>

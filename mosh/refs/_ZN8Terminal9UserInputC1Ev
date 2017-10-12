@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminaluserinput.h' l='52' ll='54' type='void Terminal::UserInput::UserInput()'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='44' u='c' c='_ZN8Terminal8EmulatorC1Emm'/>

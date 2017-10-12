@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='434' type='void Terminal::Framebuffer::insert_cell(int row, int col)'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='98' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='370' ll='373' type='void Terminal::Framebuffer::insert_cell(int row, int col)'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='504' u='c' c='_ZL7CSI_ICHPN8Terminal11FramebufferEPNS_10DispatcherE'/>

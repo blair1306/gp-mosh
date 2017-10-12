@@ -1,0 +1,4 @@
+<use f='codebrowser/src/util/select.h' l='63' u='r' c='_ZN6SelectC1Ev'/>
+<use f='codebrowser/src/util/select.h' l='64' u='r' c='_ZN6SelectC1Ev'/>
+<dec f='codebrowser/src/util/select.h' l='238' type='fd_set'/>
+<def f='codebrowser/src/util/select.cc' l='35' type='fd_set'/>

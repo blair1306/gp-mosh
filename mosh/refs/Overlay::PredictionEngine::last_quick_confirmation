@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='243' type='uint64_t'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='304' u='w' c='_ZN7Overlay16PredictionEngineC1Ev'/>
+<offset>1024</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='552' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='554' u='w' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

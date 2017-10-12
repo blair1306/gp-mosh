@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='251' type='::std::string * ClientBuffers::Keystroke::mutable_keys()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='456' ll='463' type='::std::string * ClientBuffers::Keystroke::mutable_keys()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='477' u='c' c='_ZN13ClientBuffers9Keystroke27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/statesync/user.cc' l='83' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>

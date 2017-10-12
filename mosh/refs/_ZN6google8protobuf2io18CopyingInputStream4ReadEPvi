@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='177' type='int google::protobuf::io::CopyingInputStream::Read(void * buffer, int size)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='173'>// Reads up to &quot;size&quot; bytes into the given buffer.  Returns the number of
+  // bytes read.  Read() waits until at least one byte is available, or
+  // returns zero if no bytes will ever become available (EOF), or -1 if a
+  // permanent read error occurred.</doc>

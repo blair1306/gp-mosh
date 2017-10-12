@@ -1,0 +1,12 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='624' type='void google::protobuf::io::CodedOutputStream::CodedOutputStream(google::protobuf::io::ZeroCopyOutputStream * output)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='129' u='c' c='_ZN11HostBuffers11HostMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='307' u='c' c='_ZN11HostBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='472' u='c' c='_ZN11HostBuffers9HostBytes27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='670' u='c' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='884' u='c' c='_ZN11HostBuffers7EchoAck27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='623'>// Create an CodedOutputStream that writes to the given ZeroCopyOutputStream.</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='174' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='122' u='c' c='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='300' u='c' c='_ZN13ClientBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='465' u='c' c='_ZN13ClientBuffers9Keystroke27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='663' u='c' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

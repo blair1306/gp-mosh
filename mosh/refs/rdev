@@ -1,0 +1,6 @@
+<def f='codebrowser/src/crypto/prng.h' l='46' type='const char [13]'/>
+<use f='codebrowser/src/crypto/prng.h' l='59' u='r' c='_ZN4PRNGC1Ev'/>
+<use f='codebrowser/src/crypto/prng.h' l='68' u='r' c='_ZN4PRNG4fillEPvm'/>
+<doc f='codebrowser/src/crypto/prng.h' l='42'>/* Read random bytes from /dev/urandom.
+
+   We rely on stdio buffering for efficiency. */</doc>

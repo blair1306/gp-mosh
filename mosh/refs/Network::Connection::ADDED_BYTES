@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/network.h' l='207' type='const int'/>
+<doc f='codebrowser/src/network/network.h' l='206'>/* Network transport overhead. */</doc>
+<doc f='codebrowser/src/network/network.h' l='207'>/* seqno/nonce */</doc>
+<doc f='codebrowser/src/network/network.h' l='207'>/* timestamps */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='338' u='r' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>

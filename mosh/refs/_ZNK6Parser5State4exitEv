@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/parserstate.h' l='54' type='ActionPointer Parser::State::exit() const'/>
+<use f='codebrowser/src/terminal/parser.cc' l='58' u='c' c='_ZN6Parser6Parser5inputEwRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<ovr f='codebrowser/src/terminal/parserstate.cc' l='333' c='_ZNK6Parser15DCS_Passthrough4exitEv'/>
+<ovr f='codebrowser/src/terminal/parserstate.cc' l='365' c='_ZNK6Parser10OSC_String4exitEv'/>

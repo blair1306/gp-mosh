@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='795' ll='798' type='static string * google::protobuf::internal::StringTypeTraits::Mutable(int number, FieldType field_type, google::protobuf::internal::ExtensionSet * set)'/>

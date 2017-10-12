@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='568' type='const int'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1176' u='r' c='_ZN6google8protobuf2io16CodedInputStreamC1EPNS1_19ZeroCopyInputStreamE'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1197' u='r' c='_ZN6google8protobuf2io16CodedInputStreamC1EPKhi'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='568'>// 64MB</doc>

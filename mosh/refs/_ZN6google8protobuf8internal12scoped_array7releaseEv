@@ -1,0 +1,6 @@
+<def f='include/google/protobuf/stubs/common.h' l='594' ll='598' type='C * google::protobuf::internal::scoped_array::release()'/>
+<doc f='include/google/protobuf/stubs/common.h' l='589'>// Release an array.
+  // The return value is the current pointer held by this object.
+  // If this object holds a NULL pointer, the return value is NULL.
+  // After this operation, this object will hold a NULL pointer,
+  // and will not own the object any more.</doc>

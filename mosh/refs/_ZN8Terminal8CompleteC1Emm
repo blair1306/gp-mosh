@@ -1,0 +1,4 @@
+<def f='codebrowser/src/statesync/completeterminal.h' l='63' ll='64' type='void Terminal::Complete::Complete(size_t width, size_t height)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='417' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='252' u='c' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='101' u='c' c='_ZNK8Terminal8Complete9init_diffB5cxx11Ev'/>

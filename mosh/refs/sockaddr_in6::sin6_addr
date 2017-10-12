@@ -1,0 +1,4 @@
+<dec f='include/netinet/in.h' l='259' type='struct in6_addr'/>
+<offset>64</offset>
+<doc f='include/netinet/in.h' l='259'>/* IPv6 address */</doc>
+<use f='codebrowser/src/network/network.cc' l='328' u='a' c='_ZN7Network10Connection8try_bindEPKcii'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/statesync/user.h' l='83' type='const Parser::Action &amp; Network::UserStream::get_action(unsigned int i) const'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='723' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='727' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<def f='codebrowser/src/statesync/user.cc' l='126' ll='138' type='const Parser::Action &amp; Network::UserStream::get_action(unsigned int i) const'/>

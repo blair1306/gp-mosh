@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='240' type='bool'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='271' u='r' c='_ZNK7Overlay16PredictionEngine22timing_tests_necessaryEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='301' u='w' c='_ZN7Overlay16PredictionEngineC1Ev'/>
+<offset>960</offset>
+<doc f='codebrowser/src/frontend/terminaloverlay.h' l='240'>/* whether we are underlining predictions */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='377' u='r' c='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='462' u='w' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='464' u='w' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='469' u='w' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

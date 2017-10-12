@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/repeated_field.h' l='152' type='Element * google::protobuf::RepeatedField::mutable_data()'/>
+<def f='include/google/protobuf/repeated_field.h' l='744' ll='747' type='Element * google::protobuf::RepeatedField::mutable_data()'/>
+<doc f='include/google/protobuf/repeated_field.h' l='150'>// Gets the underlying array.  This pointer is possibly invalidated by
+  // any add or remove operation.</doc>

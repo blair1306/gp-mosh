@@ -1,0 +1,10 @@
+<def f='include/c++/5/bits/stl_list.h' l='1365' ll='1370' type='void std::__cxx11::list::clear()'/>
+<doc f='include/c++/5/bits/stl_list.h' l='1359'>/**
+       *  Erases all the elements.  Note that this function only erases
+       *  the elements, and that if the elements themselves are
+       *  pointers, the pointed-to memory is not touched in any way.
+       *  Managing the pointer is the user&apos;s responsibility.
+       */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='408' u='c' c='_ZN7Overlay16PredictionEngine5resetEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='409' u='c' c='_ZN7Overlay16PredictionEngine5resetEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='605' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

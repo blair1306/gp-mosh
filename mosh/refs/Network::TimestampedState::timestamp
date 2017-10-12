@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/network/transportstate.h' l='41' type='uint64_t'/>
+<use f='codebrowser/src/network/transportstate.h' l='46' u='w' c='_ZN7Network16TimestampedStateC1EmmRKT_'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='680' u='r' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='707' u='r' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='293' u='r' c='_ZN9STMClient21process_network_inputEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='532' u='r' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='533' u='r' c='_ZN9STMClient4mainEv'/>

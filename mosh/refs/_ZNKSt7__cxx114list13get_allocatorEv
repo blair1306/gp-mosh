@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_list.h' l='821' ll='823' type='allocator_type std::__cxx11::list::get_allocator() const'/>
+<use f='include/c++/5/bits/stl_list.h' l='1232' u='c' c='_ZNSt7__cxx114list6insertESt14_List_iteratorIT_EmRKS2_'/>
+<use f='include/c++/5/bits/stl_list.h' l='1277' u='c' c='_ZNSt7__cxx114list6insertESt14_List_iteratorIT_ET_S4_'/>
+<doc f='include/c++/5/bits/stl_list.h' l='820'>/// Get a copy of the memory allocation object.</doc>

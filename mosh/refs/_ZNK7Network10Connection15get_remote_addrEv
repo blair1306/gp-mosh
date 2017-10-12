@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/network.h' l='224' type='const Network::Addr &amp; Network::Connection::get_remote_addr() const'/>
+<use f='codebrowser/src/network/networktransport.h' l='119' u='c' c='_ZNK7Network9Transport15get_remote_addrEv'/>

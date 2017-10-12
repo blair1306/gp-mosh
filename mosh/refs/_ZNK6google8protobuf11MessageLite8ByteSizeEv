@@ -1,0 +1,16 @@
+<dec f='include/google/protobuf/message_lite.h' l='214' type='int google::protobuf::MessageLite::ByteSize() const'/>
+<doc f='include/google/protobuf/message_lite.h' l='211'>// Computes the serialized size of the message.  This recursively calls
+  // ByteSize() on all embedded messages.  If a subclass does not override
+  // this, it MUST override SetCachedSize().</doc>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='832' u='c' c='_ZN6google8protobuf8internal14WireFormatLite9GroupSizeERKNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='835' u='c' c='_ZN6google8protobuf8internal14WireFormatLite11MessageSizeERKNS0_11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='187' c='_ZNK11HostBuffers11HostMessage8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='349' c='_ZNK11HostBuffers11Instruction8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='528' c='_ZNK11HostBuffers9HostBytes8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='747' c='_ZNK11HostBuffers13ResizeMessage8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='941' c='_ZNK11HostBuffers7EchoAck8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='349' c='_ZNK16TransportBuffers11Instruction8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='180' c='_ZNK13ClientBuffers11UserMessage8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='342' c='_ZNK13ClientBuffers11Instruction8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='521' c='_ZNK13ClientBuffers9Keystroke8ByteSizeEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='740' c='_ZNK13ClientBuffers13ResizeMessage8ByteSizeEv'/>

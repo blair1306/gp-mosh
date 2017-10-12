@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/terminal/parser.h' l='74' type='Parser::Parser'/>
+<use f='codebrowser/src/terminal/parser.h' l='86' u='m' c='_ZN6Parser10UTF8Parser11reset_inputEv'/>
+<offset>0</offset>
+<use f='codebrowser/src/terminal/parser.cc' l='70' u='w' c='_ZN6Parser10UTF8ParserC1Ev'/>
+<use f='codebrowser/src/terminal/parser.cc' l='82' u='m' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='152' u='m' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>

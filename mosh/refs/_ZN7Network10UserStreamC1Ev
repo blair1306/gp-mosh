@@ -1,0 +1,5 @@
+<def f='codebrowser/src/statesync/user.h' l='76' type='void Network::UserStream::UserStream()'/>
+<use f='codebrowser/src/statesync/user.h' l='88' u='c' c='_ZNK7Network10UserStream9init_diffB5cxx11Ev'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='420' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='719' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='251' u='c' c='_ZN9STMClient9main_initEv'/>

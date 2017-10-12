@@ -1,0 +1,2 @@
+<def f='codebrowser/src/crypto/crypto.h' l='114' type='string Crypto::Nonce::cc_str() const'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='248' u='c' c='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>

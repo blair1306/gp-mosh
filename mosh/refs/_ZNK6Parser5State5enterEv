@@ -1,0 +1,7 @@
+<def f='codebrowser/src/terminal/parserstate.h' l='53' type='ActionPointer Parser::State::enter() const'/>
+<use f='codebrowser/src/terminal/parser.cc' l='64' u='c' c='_ZN6Parser6Parser5inputEwRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<ovr f='codebrowser/src/terminal/parserstate.cc' l='106' c='_ZNK6Parser6Escape5enterEv'/>
+<ovr f='codebrowser/src/terminal/parserstate.cc' l='166' c='_ZNK6Parser9CSI_Entry5enterEv'/>
+<ovr f='codebrowser/src/terminal/parserstate.cc' l='260' c='_ZNK6Parser9DCS_Entry5enterEv'/>
+<ovr f='codebrowser/src/terminal/parserstate.cc' l='328' c='_ZNK6Parser15DCS_Passthrough5enterEv'/>
+<ovr f='codebrowser/src/terminal/parserstate.cc' l='360' c='_ZNK6Parser10OSC_String5enterEv'/>

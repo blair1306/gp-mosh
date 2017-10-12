@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/terminal/parserstatefamily.h' l='53' type='Parser::DCS_Param'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='64' u='w' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='76' u='m' c='_ZN6Parser11StateFamilyC1Ev'/>
+<offset>1024</offset>
+<use f='codebrowser/src/terminal/parserstate.cc' l='276' u='a' c='_ZNK6Parser9DCS_Entry16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='280' u='a' c='_ZNK6Parser9DCS_Entry16input_state_ruleEw'/>

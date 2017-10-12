@@ -1,0 +1,3 @@
+<def f='codebrowser/src/terminal/terminaldisplay.h' l='58' type='void Terminal::FrameState::append_cell(const Terminal::Cell &amp; cell)'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='355' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='437' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>

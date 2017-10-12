@@ -1,0 +1,5 @@
+<dec f='include/c++/5/bits/basic_string.h' l='4799' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::operator+(const _CharT * __lhs, const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __rhs)'/>
+<def f='include/c++/5/bits/basic_string.tcc' l='1150' ll='1163' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::operator+(const _CharT * __lhs, const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __rhs)'/>
+<use f='codebrowser/src/crypto/prng.h' l='68' u='c' c='_ZN4PRNG4fillEPvm'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='1007' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='191' u='c' c='_ZN9STMClient4initEv'/>

@@ -1,0 +1,43 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='349' ll='463'/>
+<size>232</size>
+<mbr r='Terminal::Framebuffer::rows' o='0' t='rows_type'/>
+<mbr r='Terminal::Framebuffer::icon_name' o='192' t='title_type'/>
+<mbr r='Terminal::Framebuffer::window_title' o='384' t='title_type'/>
+<mbr r='Terminal::Framebuffer::clipboard' o='576' t='title_type'/>
+<mbr r='Terminal::Framebuffer::bell_count' o='768' t='unsigned int'/>
+<mbr r='Terminal::Framebuffer::title_initialized' o='800' t='bool'/>
+<fun r='_ZN8Terminal11Framebuffer6newrowEv'/>
+<fun r='_ZN8Terminal11FramebufferC1Eii'/>
+<fun r='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<fun r='_ZN8Terminal11FramebufferaSERKS0_'/>
+<mbr r='Terminal::Framebuffer::ds' o='832' t='Terminal::DrawState'/>
+<fun r='_ZNK8Terminal11Framebuffer8get_rowsEv'/>
+<fun r='_ZN8Terminal11Framebuffer6scrollEi'/>
+<fun r='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<fun r='_ZNK8Terminal11Framebuffer7get_rowEi'/>
+<fun r='_ZNK8Terminal11Framebuffer8get_cellEii'/>
+<fun r='_ZN8Terminal11Framebuffer15get_mutable_rowEi'/>
+<fun r='_ZN8Terminal11Framebuffer16get_mutable_cellEii'/>
+<fun r='_ZN8Terminal11Framebuffer18get_combining_cellEv'/>
+<fun r='_ZN8Terminal11Framebuffer24apply_renditions_to_cellEPNS_4CellE'/>
+<fun r='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<fun r='_ZN8Terminal11Framebuffer11delete_lineEii'/>
+<fun r='_ZN8Terminal11Framebuffer11insert_cellEii'/>
+<fun r='_ZN8Terminal11Framebuffer11delete_cellEii'/>
+<fun r='_ZN8Terminal11Framebuffer5resetEv'/>
+<fun r='_ZN8Terminal11Framebuffer10soft_resetEv'/>
+<fun r='_ZN8Terminal11Framebuffer21set_title_initializedEv'/>
+<fun r='_ZNK8Terminal11Framebuffer20is_title_initializedEv'/>
+<fun r='_ZN8Terminal11Framebuffer13set_icon_nameERKSt6vectorIwSaIwEE'/>
+<fun r='_ZN8Terminal11Framebuffer16set_window_titleERKSt6vectorIwSaIwEE'/>
+<fun r='_ZN8Terminal11Framebuffer13set_clipboardERKSt6vectorIwSaIwEE'/>
+<fun r='_ZNK8Terminal11Framebuffer13get_icon_nameEv'/>
+<fun r='_ZNK8Terminal11Framebuffer16get_window_titleEv'/>
+<fun r='_ZNK8Terminal11Framebuffer13get_clipboardEv'/>
+<fun r='_ZN8Terminal11Framebuffer19prefix_window_titleERKSt6vectorIwSaIwEE'/>
+<fun r='_ZN8Terminal11Framebuffer6resizeEii'/>
+<fun r='_ZN8Terminal11Framebuffer10reset_cellEPNS_4CellE'/>
+<fun r='_ZN8Terminal11Framebuffer9reset_rowEPNS_3RowE'/>
+<fun r='_ZN8Terminal11Framebuffer9ring_bellEv'/>
+<fun r='_ZNK8Terminal11Framebuffer14get_bell_countEv'/>
+<fun r='_ZNK8Terminal11FramebuffereqERKS0_'/>

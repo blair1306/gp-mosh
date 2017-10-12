@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_list.h' l='332' ll='354'/>
+<mbr r='std::__cxx11::_List_base::_List_impl::_M_node' t='_List_node&lt;size_t&gt;'/>
+<fun r='_ZNSt7__cxx1110_List_base10_List_implC1Ev'/>
+<fun r='_ZNSt7__cxx1110_List_base10_List_implC1ERKNT0_6rebindISt10_List_nodeIT_EE5otherE'/>

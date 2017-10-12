@@ -1,0 +1,10 @@
+<dec f='include/unistd.h' l='214'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='468' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='469' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='491' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='75' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='120' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='208' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='248' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='281' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='345' u='c'/>

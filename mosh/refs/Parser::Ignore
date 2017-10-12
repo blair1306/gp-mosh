@@ -1,0 +1,5 @@
+<inh f='codebrowser/src/terminal/parseraction.h' l='46' c='Parser::Action'/>
+<def f='codebrowser/src/terminal/parseraction.h' l='65' ll='69'/>
+<size>16</size>
+<fun r='_ZN6Parser6Ignore4nameB5cxx11Ev'/>
+<fun r='_ZNK6Parser6Ignore6ignoreEv'/>

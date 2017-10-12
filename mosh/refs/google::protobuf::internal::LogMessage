@@ -1,0 +1,17 @@
+<def f='include/google/protobuf/stubs/common.h' l='647' ll='669'/>
+<size>56</size>
+<fun r='_ZN6google8protobuf8internal10LogMessageC1ENS0_8LogLevelEPKci'/>
+<fun r='_ZN6google8protobuf8internal10LogMessageD1Ev'/>
+<fun r='_ZN6google8protobuf8internal10LogMessagelsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN6google8protobuf8internal10LogMessagelsEPKc'/>
+<fun r='_ZN6google8protobuf8internal10LogMessagelsEc'/>
+<fun r='_ZN6google8protobuf8internal10LogMessagelsEi'/>
+<fun r='_ZN6google8protobuf8internal10LogMessagelsEj'/>
+<fun r='_ZN6google8protobuf8internal10LogMessagelsEl'/>
+<fun r='_ZN6google8protobuf8internal10LogMessagelsEm'/>
+<fun r='_ZN6google8protobuf8internal10LogMessagelsEd'/>
+<fun r='_ZN6google8protobuf8internal10LogMessage6FinishEv'/>
+<mbr r='google::protobuf::internal::LogMessage::level_' o='0' t='google::protobuf::LogLevel'/>
+<mbr r='google::protobuf::internal::LogMessage::filename_' o='64' t='const char *'/>
+<mbr r='google::protobuf::internal::LogMessage::line_' o='128' t='int'/>
+<mbr r='google::protobuf::internal::LogMessage::message_' o='192' t='std::string'/>

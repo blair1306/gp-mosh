@@ -1,0 +1,4 @@
+<dec f='include/c++/5/bits/stl_list.h' l='1564' type='void std::__cxx11::list::remove_if(_Predicate )'/>
+<def f='include/c++/5/bits/list.tcc' l='438' ll='454' type='void std::__cxx11::list::remove_if(_Predicate __pred)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='383' u='c' c='_ZN7Overlay16PredictionEngine10kill_epochEmRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='148' u='c' c='_ZN8Terminal8Complete12set_echo_ackEm'/>

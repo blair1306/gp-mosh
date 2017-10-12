@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/message_lite.h' l='142' type='bool google::protobuf::MessageLite::ParseFromArray(const void * data, int size)'/>
+<doc f='include/google/protobuf/message_lite.h' l='141'>// Parse a protocol buffer contained in an array of bytes.</doc>

@@ -1,0 +1,17 @@
+<dec f='include/string.h' l='140' type='int strcmp(const char * __s1, const char * __s2)'/>
+<doc f='include/string.h' l='139'>/* Compare S1 and S2.  */</doc>
+<use f='codebrowser/src/frontend/stmclient.h' l='110' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='112' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='114' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='116' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='123' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='119' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='123' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='189' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='189' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='193' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='197' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='208' u='c' c='main'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='78' u='c' c='_Z14locale_charsetv'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='87' u='c' c='_Z14is_utf8_localev'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='88' u='c' c='_Z14is_utf8_localev'/>

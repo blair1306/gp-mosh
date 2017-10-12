@@ -1,0 +1,5 @@
+<def f='codebrowser/src/statesync/user.h' l='78' type='void Network::UserStream::push_back(const Parser::UserByte &amp; s_userbyte)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='363' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='366' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='367' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='392' u='c' c='_ZN9STMClient18process_user_inputEi'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='151' type='bool'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='174' u='w' c='_ZN7Overlay18NotificationEngine23set_notification_stringERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEEbb'/>
+<offset>768</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='169' u='w' c='_ZN7Overlay18NotificationEngineC1Ev'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='235' u='r' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>

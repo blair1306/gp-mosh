@@ -1,0 +1,6 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='454' type='void Terminal::Framebuffer::reset_row(Terminal::Row * r)'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='65' u='c' c='_ZL6CSI_ELPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='80' u='c' c='_ZL6CSI_EDPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='85' u='c' c='_ZL6CSI_EDPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='91' u='c' c='_ZL6CSI_EDPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='286' u='c' c='_ZL12get_DEC_modeiPN8Terminal11FramebufferE'/>

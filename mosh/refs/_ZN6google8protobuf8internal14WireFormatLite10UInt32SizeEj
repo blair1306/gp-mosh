@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='464' type='static int google::protobuf::internal::WireFormatLite::UInt32Size(uint32 value)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='252' u='c' c='_ZN6google8protobuf8internal14WireFormatLite30ReadRepeatedFixedSizePrimitiveEijPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='805' ll='807' type='static int google::protobuf::internal::WireFormatLite::UInt32Size(uint32 value)'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='356' u='c' c='_ZNK16TransportBuffers11Instruction8ByteSizeEv'/>

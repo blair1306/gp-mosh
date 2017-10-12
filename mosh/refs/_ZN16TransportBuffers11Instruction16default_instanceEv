@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='59' type='static const TransportBuffers::Instruction &amp; TransportBuffers::Instruction::default_instance()'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='120' ll='127' type='static const TransportBuffers::Instruction &amp; TransportBuffers::Instruction::default_instance()'/>

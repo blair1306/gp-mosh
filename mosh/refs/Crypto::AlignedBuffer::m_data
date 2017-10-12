@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='73' type='char *'/>
+<use f='codebrowser/src/crypto/crypto.h' l='82' u='r' c='_ZNK6Crypto13AlignedBuffer4dataEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='76' u='w' c='_ZN6Crypto13AlignedBufferC1EmPKc'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='84' u='w' c='_ZN6Crypto13AlignedBufferC1EmPKc'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='107' u='r' c='_ZN6Crypto13AlignedBufferC1EmPKc'/>
+<offset>128</offset>

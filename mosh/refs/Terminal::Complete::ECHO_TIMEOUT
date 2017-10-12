@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='60' type='const int'/>
+<doc f='codebrowser/src/statesync/completeterminal.h' l='60'>/* for late ack */</doc>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='143' u='r' c='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='173' u='r' c='_ZNK8Terminal8Complete9wait_timeEm'/>

@@ -1,0 +1,7 @@
+<inh f='include/c++/5/exception' l='68' c='_ZNKSt9exception4whatEv'/>
+<def f='codebrowser/src/crypto/crypto.h' l='57' type='const char * Crypto::CryptoException::what() const'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='211' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='368' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='622' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='895' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='571' u='c' c='_ZN9STMClient4mainEv'/>

@@ -1,0 +1,18 @@
+<use f='include/google/protobuf/repeated_field.h' l='1366' u='w' c='_ZN6google8protobuf8internal27RepeatedPtrOverPtrsIteratorC1Ev'/>
+<use f='include/google/protobuf/repeated_field.h' l='1367' u='w' c='_ZN6google8protobuf8internal27RepeatedPtrOverPtrsIteratorC1EPT0_'/>
+<use f='include/google/protobuf/repeated_field.h' l='1370' u='r' c='_ZNK6google8protobuf8internal27RepeatedPtrOverPtrsIteratordeEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1374' u='w' c='_ZN6google8protobuf8internal27RepeatedPtrOverPtrsIteratorppEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1375' u='w' c='_ZN6google8protobuf8internal27RepeatedPtrOverPtrsIteratorppEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='1376' u='w' c='_ZN6google8protobuf8internal27RepeatedPtrOverPtrsIteratormmEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1377' u='w' c='_ZN6google8protobuf8internal27RepeatedPtrOverPtrsIteratormmEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='1380' c='_ZNK6google8protobuf8internal27RepeatedPtrOverPtrsIteratoreqERKNS1_27RepeatedPtrOverPtrsIteratorIT_T0_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1381' c='_ZNK6google8protobuf8internal27RepeatedPtrOverPtrsIteratorneERKNS1_27RepeatedPtrOverPtrsIteratorIT_T0_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1384' c='_ZNK6google8protobuf8internal27RepeatedPtrOverPtrsIteratorltERKNS1_27RepeatedPtrOverPtrsIteratorIT_T0_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1385' c='_ZNK6google8protobuf8internal27RepeatedPtrOverPtrsIteratorleERKNS1_27RepeatedPtrOverPtrsIteratorIT_T0_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1386' c='_ZNK6google8protobuf8internal27RepeatedPtrOverPtrsIteratorgtERKNS1_27RepeatedPtrOverPtrsIteratorIT_T0_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1387' c='_ZNK6google8protobuf8internal27RepeatedPtrOverPtrsIteratorgeERKNS1_27RepeatedPtrOverPtrsIteratorIT_T0_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1391' u='w' c='_ZN6google8protobuf8internal27RepeatedPtrOverPtrsIteratorpLENSt8iteratorISt26random_access_iterator_tagPT_lPS6_RS6_E15difference_typeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1403' u='w' c='_ZN6google8protobuf8internal27RepeatedPtrOverPtrsIteratormIENSt8iteratorISt26random_access_iterator_tagPT_lPS6_RS6_E15difference_typeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1415' c='_ZNK6google8protobuf8internal27RepeatedPtrOverPtrsIteratormiERKNS1_27RepeatedPtrOverPtrsIteratorIT_T0_EE'/>
+<dec f='include/google/protobuf/repeated_field.h' l='1422' type='VoidPtr *'/>
+<doc f='include/google/protobuf/repeated_field.h' l='1421'>// The internal iterator.</doc>

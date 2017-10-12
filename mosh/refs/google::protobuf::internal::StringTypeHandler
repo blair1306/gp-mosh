@@ -1,0 +1,5 @@
+<inh f='include/google/protobuf/repeated_field.h' l='405' c='google::protobuf::internal::StringTypeHandlerBase'/>
+<def f='include/google/protobuf/repeated_field.h' l='417' ll='422'/>
+<ovr f='include/google/protobuf/repeated_field.h' l='1060' c='google::protobuf::RepeatedPtrField::TypeHandler'/>
+<size>1</size>
+<fun r='_ZN6google8protobuf8internal17StringTypeHandler9SpaceUsedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

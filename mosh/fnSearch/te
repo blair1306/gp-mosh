@@ -1,0 +1,4 @@
+_ZNSt13basic_istream5tellgEv|std::basic_istream::tellg
+_ZNSt13basic_ostream5tellpEv|std::basic_ostream::tellp
+_ZNK7Overlay18ConditionalOverlay9tentativeEm|Overlay::ConditionalOverlay::tentative
+_ZN8Terminal28get_global_dispatch_registryEv|Terminal::get_global_dispatch_registry

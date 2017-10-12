@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='87' type='void STMClient::resume()'/>
+<doc f='codebrowser/src/frontend/stmclient.h' l='87'>/* restore state after SIGCONT */</doc>
+<def f='codebrowser/src/frontend/stmclient.cc' l='66' ll='79' type='void STMClient::resume()'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='359' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='496' u='c' c='_ZN9STMClient4mainEv'/>

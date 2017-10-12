@@ -1,0 +1,7 @@
+<def f='include/google/protobuf/stubs/common.h' l='1139' ll='1147'/>
+<size>8</size>
+<doc f='include/google/protobuf/stubs/common.h' l='1138'>// MutexLockMaybe is like MutexLock, but is a no-op when mu is NULL.</doc>
+<fun r='_ZN6google8protobuf8internal14MutexLockMaybeC1EPNS1_5MutexE'/>
+<fun r='_ZN6google8protobuf8internal14MutexLockMaybeD1Ev'/>
+<mbr r='google::protobuf::internal::MutexLockMaybe::mu_' o='0' t='google::protobuf::internal::Mutex *const'/>
+<fun r='_ZN6google8protobuf8internal14MutexLockMaybeC1ERKS2_'/>

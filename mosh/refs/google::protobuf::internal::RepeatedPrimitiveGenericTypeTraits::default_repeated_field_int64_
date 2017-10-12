@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/extension_set.h' l='715' type='const RepeatedField&lt;int64&gt; *'/>
+<use f='include/google/protobuf/extension_set.h' l='768' macro='1' u='r'/>

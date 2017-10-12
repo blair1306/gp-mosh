@@ -1,0 +1,5 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='275' type='void Overlay::PredictionEngine::set_display_preference(Overlay::PredictionEngine::DisplayPreference s_pref)'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='111' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='113' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='115' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='117' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>

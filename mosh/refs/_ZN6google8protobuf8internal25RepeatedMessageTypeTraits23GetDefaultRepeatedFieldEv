@@ -1,0 +1,3 @@
+<use f='include/google/protobuf/extension_set.h' l='995' u='c' c='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits11GetRepeatedEiRKNS1_12ExtensionSetE'/>
+<dec f='include/google/protobuf/extension_set.h' l='1005' type='static const RepeatedFieldType * google::protobuf::internal::RepeatedMessageTypeTraits::GetDefaultRepeatedField()'/>
+<def f='include/google/protobuf/extension_set.h' l='1020' ll='1025' type='static const typename RepeatedMessageTypeTraits&lt;Type&gt;::RepeatedFieldType * google::protobuf::internal::RepeatedMessageTypeTraits::GetDefaultRepeatedField()'/>

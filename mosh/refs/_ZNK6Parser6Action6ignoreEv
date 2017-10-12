@@ -1,0 +1,3 @@
+<def f='codebrowser/src/terminal/parseraction.h' l='56' type='bool Parser::Action::ignore() const'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='68' c='_ZNK6Parser6Ignore6ignoreEv'/>
+<use f='codebrowser/src/terminal/parser.cc' l='48' u='c' c='_ZL16append_or_deleteNSt3tr110shared_ptrIN6Parser6ActionEEERSt6vectorIS3_SaIS3_EE'/>

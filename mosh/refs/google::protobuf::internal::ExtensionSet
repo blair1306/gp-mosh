@@ -1,0 +1,123 @@
+<def f='include/google/protobuf/extension_set.h' l='157' ll='592'/>
+<size>48</size>
+<doc f='include/google/protobuf/extension_set.h' l='143'>// Note:  extension_set_heavy.cc defines DescriptorPoolExtensionFinder for
+// finding extensions from a DescriptorPool.
+
+// This is an internal helper class intended for use within the protocol buffer
+// library and generated classes.  Clients should not use it directly.  Instead,
+// use the generated accessors such as GetExtension() of the class being
+// extended.
+//
+// This class manages extensions for a protocol message object.  The
+// message&apos;s HasExtension(), GetExtension(), MutableExtension(), and
+// ClearExtension() methods are just thin wrappers around the embedded
+// ExtensionSet.  When parsing, if a tag number is encountered which is
+// inside one of the message type&apos;s extension ranges, the tag is passed
+// off to the ExtensionSet for parsing.  Etc.</doc>
+<fun r='_ZN6google8protobuf8internal12ExtensionSetC1Ev'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSetD1Ev'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet17RegisterExtensionEPKNS0_11MessageLiteEihbb'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet21RegisterEnumExtensionEPKNS0_11MessageLiteEihbbPFbiE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet24RegisterMessageExtensionEPKNS0_11MessageLiteEihbbS5_'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet12AppendToListEPKNS0_10DescriptorEPKNS0_14DescriptorPoolEPSt6vectorIPKNS0_15FieldDescriptorESaISC_EE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet3HasEi'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet13ExtensionSizeEi'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet13NumExtensionsEv'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet13ExtensionTypeEi'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet14ClearExtensionEi'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet8GetInt32Eii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet8GetInt64Eil'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9GetUInt32Eij'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9GetUInt64Eim'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet8GetFloatEif'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9GetDoubleEid'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet7GetBoolEib'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet7GetEnumEii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9GetStringEiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet10GetMessageEiRKNS0_11MessageLiteE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet10GetMessageEiPKNS0_10DescriptorEPNS0_14MessageFactoryE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet8SetInt32EihiPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet8SetInt64EihlPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9SetUInt32EihjPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9SetUInt64EihmPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet8SetFloatEihfPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9SetDoubleEihdPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet7SetBoolEihbPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet7SetEnumEihiPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9SetStringEihRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet13MutableStringB5cxx11EihPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet14MutableMessageEihRKNS0_11MessageLiteEPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet14MutableMessageEPKNS0_15FieldDescriptorEPNS0_14MessageFactoryE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet19SetAllocatedMessageEihPKNS0_15FieldDescriptorEPNS0_11MessageLiteE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet14ReleaseMessageEiRKNS0_11MessageLiteE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet14ReleaseMessageEPKNS0_15FieldDescriptorEPNS0_14MessageFactoryE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet19GetRawRepeatedFieldEiPKv'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet23MutableRawRepeatedFieldEihbPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet23MutableRawRepeatedFieldEi'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet16GetRepeatedInt32Eii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet16GetRepeatedInt64Eii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet17GetRepeatedUInt32Eii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet17GetRepeatedUInt64Eii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet16GetRepeatedFloatEii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet17GetRepeatedDoubleEii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet15GetRepeatedBoolEii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet15GetRepeatedEnumEii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet17GetRepeatedStringB5cxx11Eii'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet18GetRepeatedMessageEii'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet16SetRepeatedInt32Eiii'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet16SetRepeatedInt64Eiil'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet17SetRepeatedUInt32Eiij'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet17SetRepeatedUInt64Eiim'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet16SetRepeatedFloatEiif'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet17SetRepeatedDoubleEiid'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet15SetRepeatedBoolEiib'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet15SetRepeatedEnumEiii'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet17SetRepeatedStringEiiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet21MutableRepeatedStringB5cxx11Eii'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet22MutableRepeatedMessageEii'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet8AddInt32EihbiPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet8AddInt64EihblPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9AddUInt32EihbjPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9AddUInt64EihbmPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet8AddFloatEihbfPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9AddDoubleEihbdPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet7AddBoolEihbbPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet7AddEnumEihbiPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9AddStringEihRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9AddStringB5cxx11EihPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet10AddMessageEihRKNS0_11MessageLiteEPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet10AddMessageEPKNS0_15FieldDescriptorEPNS0_14MessageFactoryE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet10RemoveLastEi'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet11ReleaseLastEi'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet12SwapElementsEiii'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet5ClearEv'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9MergeFromERKS2_'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet4SwapEPS2_'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet13SwapExtensionEPS2_i'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet13IsInitializedEv'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet10ParseFieldEjPNS0_2io16CodedInputStreamEPNS1_15ExtensionFinderEPNS1_12FieldSkipperE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet10ParseFieldEjPNS0_2io16CodedInputStreamEPKNS0_11MessageLiteE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet10ParseFieldEjPNS0_2io16CodedInputStreamEPKNS0_7MessageEPNS0_15UnknownFieldSetE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet10ParseFieldEjPNS0_2io16CodedInputStreamEPKNS0_11MessageLiteEPNS3_17CodedOutputStreamE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet15ParseMessageSetEPNS0_2io16CodedInputStreamEPNS1_15ExtensionFinderEPNS1_22MessageSetFieldSkipperE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet15ParseMessageSetEPNS0_2io16CodedInputStreamEPKNS0_11MessageLiteE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet15ParseMessageSetEPNS0_2io16CodedInputStreamEPKNS0_7MessageEPNS0_15UnknownFieldSetE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet24SerializeWithCachedSizesEiiPNS0_2io17CodedOutputStreamE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet31SerializeWithCachedSizesToArrayEiiPh'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet34SerializeMessageSetWithCachedSizesEPNS0_2io17CodedOutputStreamE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet41SerializeMessageSetWithCachedSizesToArrayEPh'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet8ByteSizeEv'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet18MessageSetByteSizeEv'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet22SpaceUsedExcludingSelfEv'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet24FindExtensionInfoFromTagEjPNS1_15ExtensionFinderEPiPNS1_13ExtensionInfoEPb'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet32FindExtensionInfoFromFieldNumberEiiPNS1_15ExtensionFinderEPNS1_13ExtensionInfoEPb'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet27ParseFieldWithExtensionInfoEibRKNS1_13ExtensionInfoEPNS0_2io16CodedInputStreamEPNS1_12FieldSkipperE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet21ParseFieldMaybeLazilyEiiPNS0_2io16CodedInputStreamEPNS1_15ExtensionFinderEPNS1_22MessageSetFieldSkipperE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet17MaybeNewExtensionEiPKNS0_15FieldDescriptorEPPNS2_9ExtensionE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet19ParseMessageSetItemEPNS0_2io16CodedInputStreamEPNS1_15ExtensionFinderEPNS1_22MessageSetFieldSkipperE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet38RepeatedMessage_SpaceUsedExcludingSelfEPNS1_20RepeatedPtrFieldBaseE'/>
+<mbr r='google::protobuf::internal::ExtensionSet::extensions_' o='0' t='std::map&lt;int, Extension&gt;'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSetC1ERKS2_'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9SetStringEihRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS0_15FieldDescriptorE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet17SetRepeatedStringEiiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9AddStringEihRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS0_15FieldDescriptorE'/>

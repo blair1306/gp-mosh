@@ -1,0 +1,20 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='249' type='std::pair&lt;uint32, bool&gt; google::protobuf::io::CodedInputStream::ReadTagWithCutoff(uint32 cutoff)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='889' ll='926' type='std::pair&lt;uint32, bool&gt; google::protobuf::io::CodedInputStream::ReadTagWithCutoff(uint32 cutoff)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='133' u='c' c='_ZN11HostBuffers11HostMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='311' u='c' c='_ZN11HostBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='476' u='c' c='_ZN11HostBuffers9HostBytes27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='674' u='c' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='888' u='c' c='_ZN11HostBuffers7EchoAck27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='241'>// This usually a faster alternative to ReadTag() when cutoff is a manifest
+  // constant.  It does particularly well for cutoff &gt;= 127.  The first part
+  // of the return value is the tag that was read, though it can also be 0 in
+  // the cases where ReadTag() would return 0.  If the second part is true
+  // then the tag is known to be in [0, cutoff].  If not, the tag either is
+  // above cutoff or is 0.  (There&apos;s intentional wiggle room when tag is 0,
+  // because that can arise in several ways, and for best performance we want
+  // to avoid an extra &quot;is tag == 0?&quot; check here.)</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='178' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='126' u='c' c='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='304' u='c' c='_ZN13ClientBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='469' u='c' c='_ZN13ClientBuffers9Keystroke27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='667' u='c' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

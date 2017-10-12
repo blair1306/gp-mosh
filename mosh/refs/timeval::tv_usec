@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/time.h' l='33' type='__suseconds_t'/>
+<offset>64</offset>
+<doc f='include/x86_64-linux-gnu/bits/time.h' l='33'>/* Microseconds.  */</doc>
+<use f='codebrowser/src/util/timestamp.cc' l='111' u='r' c='_Z16freeze_timestampv'/>

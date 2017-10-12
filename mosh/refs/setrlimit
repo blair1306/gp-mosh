@@ -1,0 +1,3 @@
+<dec f='include/x86_64-linux-gnu/sys/resource.h' l='69' type='int setrlimit(__rlimit_resource_t __resource, const struct rlimit * __rlimits)'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='304' u='c' c='_ZN6Crypto20disable_dumping_coreEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='315' u='c' c='_ZN6Crypto21reenable_dumping_coreEv'/>

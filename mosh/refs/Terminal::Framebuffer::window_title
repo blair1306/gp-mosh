@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='370' type='title_type'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='443' u='w' c='_ZN8Terminal11Framebuffer16set_window_titleERKSt6vectorIwSaIwEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='446' u='a' c='_ZNK8Terminal11Framebuffer16get_window_titleEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='461' u='r' c='_ZNK8Terminal11FramebuffereqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='461' u='r' c='_ZNK8Terminal11FramebuffereqERKS0_'/>
+<offset>384</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='81' u='w' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='91' u='w' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='91' u='r' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='102' u='w' c='_ZN8Terminal11FramebufferaSERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='102' u='r' c='_ZN8Terminal11FramebufferaSERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='385' u='m' c='_ZN8Terminal11Framebuffer5resetEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='574' u='r' c='_ZN8Terminal11Framebuffer19prefix_window_titleERKSt6vectorIwSaIwEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='578' u='m' c='_ZN8Terminal11Framebuffer19prefix_window_titleERKSt6vectorIwSaIwEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='578' u='m' c='_ZN8Terminal11Framebuffer19prefix_window_titleERKSt6vectorIwSaIwEE'/>

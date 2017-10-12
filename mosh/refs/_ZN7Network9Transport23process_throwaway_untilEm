@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/networktransport.h' l='59' type='void Network::Transport::process_throwaway_until(uint64_t throwaway_num)'/>
+<doc f='codebrowser/src/network/networktransport.h' l='58'>/* helper methods for recv() */</doc>
+<use f='codebrowser/src/network/networktransport-impl.h' l='119' u='c' c='_ZN7Network9Transport4recvEv'/>
+<def f='codebrowser/src/network/networktransport-impl.h' l='171' ll='185' type='void Network::Transport::process_throwaway_until(uint64_t throwaway_num)'/>
+<doc f='codebrowser/src/network/networktransport-impl.h' l='170'>/* The sender uses throwaway_num to tell us the earliest received state that we need to keep around */</doc>

@@ -1,0 +1,24 @@
+<def f='codebrowser/src/terminal/terminaldispatcher.h' l='82' ll='118'/>
+<size>152</size>
+<mbr r='Terminal::Dispatcher::params' o='0' t='std::string'/>
+<mbr r='Terminal::Dispatcher::parsed_params' o='256' t='std::vector&lt;int&gt;'/>
+<mbr r='Terminal::Dispatcher::parsed' o='448' t='bool'/>
+<mbr r='Terminal::Dispatcher::dispatch_chars' o='512' t='std::string'/>
+<mbr r='Terminal::Dispatcher::OSC_string' o='768' t='std::vector&lt;wchar_t&gt;'/>
+<fun r='_ZN8Terminal10Dispatcher12parse_paramsEv'/>
+<smbr r='Terminal::Dispatcher::PARAM_MAX' t='const int'/>
+<mbr r='Terminal::Dispatcher::terminal_to_host' o='960' t='std::string'/>
+<fun r='_ZN8Terminal10DispatcherC1Ev'/>
+<fun r='_ZN8Terminal10Dispatcher8getparamEmi'/>
+<fun r='_ZN8Terminal10Dispatcher11param_countEv'/>
+<fun r='_ZN8Terminal10Dispatcher12newparamcharEPKN6Parser5ParamE'/>
+<fun r='_ZN8Terminal10Dispatcher7collectEPKN6Parser7CollectE'/>
+<fun r='_ZN8Terminal10Dispatcher5clearEPKN6Parser5ClearE'/>
+<fun r='_ZN8Terminal10Dispatcher3strB5cxx11Ev'/>
+<fun r='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<fun r='_ZNK8Terminal10Dispatcher18get_dispatch_charsB5cxx11Ev'/>
+<fun r='_ZNK8Terminal10Dispatcher14get_OSC_stringEv'/>
+<fun r='_ZN8Terminal10Dispatcher7OSC_putEPKN6Parser7OSC_PutE'/>
+<fun r='_ZN8Terminal10Dispatcher9OSC_startEPKN6Parser9OSC_StartE'/>
+<fun r='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<fun r='_ZNK8Terminal10DispatchereqERKS0_'/>

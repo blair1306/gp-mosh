@@ -1,0 +1,8 @@
+<dec f='include/google/protobuf/repeated_field.h' l='531' type='void google::protobuf::RepeatedPtrField::AddAllocated(Element * value)'/>
+<def f='include/google/protobuf/repeated_field.h' l='1201' ll='1204' type='void google::protobuf::RepeatedPtrField::AddAllocated(Element * value)'/>
+<doc f='include/google/protobuf/repeated_field.h' l='525'>// Advanced memory management --------------------------------------
+  // When hardcore memory management becomes necessary -- as it sometimes
+  // does here at Google -- the following methods may be useful.
+
+  // Add an already-allocated object, passing ownership to the
+  // RepeatedPtrField.</doc>

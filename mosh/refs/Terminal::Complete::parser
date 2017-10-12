@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='47' type='Parser::UTF8Parser'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='63' u='w' c='_ZN8Terminal8CompleteC1Emm'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='70' u='m' c='_ZN8Terminal8Complete11reset_inputEv'/>
+<offset>0</offset>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='49' u='m' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

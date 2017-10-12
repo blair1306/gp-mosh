@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='99' type='Atomic32 google::protobuf::internal::NoBarrier_AtomicExchange(volatile Atomic32 * ptr, Atomic32 new_value)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='66' ll='73' type='Atomic32 google::protobuf::internal::NoBarrier_AtomicExchange(volatile Atomic32 * ptr, Atomic32 new_value)'/>
+<doc f='include/google/protobuf/stubs/atomicops.h' l='97'>// Atomically store new_value into *ptr, returning the previous value held in
+// *ptr.  This routine implies no memory barriers.</doc>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='33' type='void ClientBuffers::protobuf_ShutdownFile_userinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='115' type='void ClientBuffers::protobuf_ShutdownFile_userinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='185' type='void ClientBuffers::protobuf_ShutdownFile_userinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='267' type='void ClientBuffers::protobuf_ShutdownFile_userinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='354' type='void ClientBuffers::protobuf_ShutdownFile_userinput_2eproto()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='18' ll='23' type='void ClientBuffers::protobuf_ShutdownFile_userinput_2eproto()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='47' u='a' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>

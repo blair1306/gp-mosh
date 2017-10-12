@@ -1,0 +1,8 @@
+<dec f='include/termios.h' l='70' type='int tcsetattr(int __fd, int __optional_actions, const struct termios * __termios_p)'/>
+<doc f='include/termios.h' l='68'>/* Set the state of FD to *TERMIOS_P.
+   Values for OPTIONAL_ACTIONS (TCSA*) are in &lt;bits/termios.h&gt;.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='538' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='69' u='c' c='_ZN9STMClient6resumeEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='114' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='210' u='c' c='_ZN9STMClient8shutdownEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='347' u='c' c='_ZN9STMClient18process_user_inputEi'/>

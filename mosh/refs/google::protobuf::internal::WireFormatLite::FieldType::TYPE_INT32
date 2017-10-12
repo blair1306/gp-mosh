@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='101' type='5'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='59' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='682' u='c' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='697' u='c' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='675' u='c' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='690' u='c' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

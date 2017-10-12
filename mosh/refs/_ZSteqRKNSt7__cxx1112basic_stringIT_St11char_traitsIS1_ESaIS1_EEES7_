@@ -1,0 +1,11 @@
+<def f='include/c++/5/bits/basic_string.h' l='4909' ll='4915' type='typename __gnu_cxx::__enable_if&lt;__is_char&lt;_CharT&gt;::__value, bool&gt;::__type std::operator==(const basic_string&lt;_CharT&gt; &amp; __lhs, const basic_string&lt;_CharT&gt; &amp; __rhs)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='105' u='c' c='_ZNK8Terminal4CelleqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='133' u='c' c='_ZNK8Terminal4Cell14contents_matchERKS0_'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='982' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='372' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='543' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='154' u='c' c='_ZNK7Network8FragmenteqERKS0_'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='172' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='251' u='c' c='_ZNK8Terminal10DispatchereqERKS0_'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='254' u='c' c='_ZNK8Terminal10DispatchereqERKS0_'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='256' u='c' c='_ZNK8Terminal10DispatchereqERKS0_'/>

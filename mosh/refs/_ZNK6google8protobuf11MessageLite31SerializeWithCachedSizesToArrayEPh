@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/message_lite.h' l='225' type='uint8 * google::protobuf::MessageLite::SerializeWithCachedSizesToArray(uint8 * target) const'/>
+<doc f='include/google/protobuf/message_lite.h' l='222'>// Like SerializeWithCachedSizes, but writes directly to *target, returning
+  // a pointer to the byte immediately after the last byte written.  &quot;target&quot;
+  // must point at a byte array of at least ByteSize() bytes.</doc>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='763' u='c' c='_ZN6google8protobuf8internal14WireFormatLite17WriteGroupToArrayEiRKNS0_11MessageLiteEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='772' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19WriteMessageToArrayEiRKNS0_11MessageLiteEPh'/>

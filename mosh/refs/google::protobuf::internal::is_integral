@@ -1,0 +1,30 @@
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='96'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='97'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='98'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='99'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='100'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='107'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='109'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='110'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='111'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='112'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='113'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='114'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='119'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='120'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='121'/>
+<size>1</size>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='94'>// is_integral is false except for the built-in integer types. A
+// cv-qualified type is integral if and only if the underlying type is.</doc>

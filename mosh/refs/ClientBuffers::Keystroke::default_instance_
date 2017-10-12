@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='270' type='ClientBuffers::Keystroke *'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='21' u='r' c='_ZN13ClientBuffers39protobuf_ShutdownFile_userinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='33' u='w' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='45' u='r' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='429' u='r' c='_ZN13ClientBuffers9Keystroke10SharedDtorEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='439' u='r' c='_ZN13ClientBuffers9Keystroke16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='440' u='r' c='_ZN13ClientBuffers9Keystroke16default_instanceEv'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='443' type='ClientBuffers::Keystroke *'/>

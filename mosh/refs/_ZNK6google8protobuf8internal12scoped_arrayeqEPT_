@@ -1,0 +1,4 @@
+<def f='include/google/protobuf/stubs/common.h' l='579' type='bool google::protobuf::internal::scoped_array::operator==(C * p) const'/>
+<doc f='include/google/protobuf/stubs/common.h' l='576'>// Comparison operators.
+  // These return whether two scoped_array refer to the same object, not just to
+  // two different but equal objects.</doc>

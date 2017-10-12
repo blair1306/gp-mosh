@@ -1,0 +1,2 @@
+<dec f='codebrowser/config.h' l='160'/>
+<doc f='codebrowser/config.h' l='159'>/* Define if pipe2(..., O_CLOEXEC) is available. */</doc>

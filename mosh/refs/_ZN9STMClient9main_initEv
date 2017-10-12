@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='74' type='void STMClient::main_init()'/>
+<def f='codebrowser/src/frontend/stmclient.cc' l='226' ll='263' type='void STMClient::main_init()'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='424' u='c' c='_ZN9STMClient4mainEv'/>

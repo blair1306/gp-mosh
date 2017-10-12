@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='563' type='bool google::protobuf::io::CodedInputStream::ReadStringFallback(string * buffer, int size)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/config.h' l='47'/>
+<doc f='codebrowser/config.h' l='45'>/* Define to 1 if you have the declaration of `bswap64&apos;, and to 0 if you
+   don&apos;t. */</doc>
+<use f='codebrowser/src/crypto/ocb.cc' l='122' u='c'/>

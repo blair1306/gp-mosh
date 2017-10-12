@@ -1,0 +1,14 @@
+<dec f='include/google/protobuf/message_lite.h' l='85' type='string google::protobuf::MessageLite::GetTypeName() const'/>
+<doc f='include/google/protobuf/message_lite.h' l='82'>// Basic Operations ------------------------------------------------
+
+  // Get the name of this message type, e.g. &quot;foo.bar.BazProto&quot;.</doc>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='238' c='_ZNK11HostBuffers11HostMessage11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='393' c='_ZNK11HostBuffers11Instruction11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='583' c='_ZNK11HostBuffers9HostBytes11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='813' c='_ZNK11HostBuffers13ResizeMessage11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='996' c='_ZNK11HostBuffers7EchoAck11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='470' c='_ZNK16TransportBuffers11Instruction11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='231' c='_ZNK13ClientBuffers11UserMessage11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='386' c='_ZNK13ClientBuffers11Instruction11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='576' c='_ZNK13ClientBuffers9Keystroke11GetTypeNameB5cxx11Ev'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='806' c='_ZNK13ClientBuffers13ResizeMessage11GetTypeNameB5cxx11Ev'/>

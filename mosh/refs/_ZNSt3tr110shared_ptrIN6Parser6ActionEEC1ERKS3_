@@ -1,0 +1,4 @@
+<use f='codebrowser/src/terminal/parsertransition.h' l='52' u='c' c='_ZN6Parser10TransitionC1ERKS0_'/>
+<use f='codebrowser/src/terminal/parsertransition.h' l='62' u='c' c='_ZN6Parser10TransitionC1ENSt3tr110shared_ptrINS_6ActionEEEPNS_5StateE'/>
+<use f='codebrowser/src/terminal/parsertransition.h' l='69' u='c' c='_ZN6Parser10TransitionC1EPNS_5StateENSt3tr110shared_ptrINS_6ActionEEE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='61' u='c' c='_ZN6Parser6Parser5inputEwRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>

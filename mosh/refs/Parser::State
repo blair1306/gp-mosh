@@ -1,0 +1,27 @@
+<def f='codebrowser/src/terminal/parserstate.h' l='41' ll='61'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='63' c='Parser::Ground'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='67' c='Parser::Escape'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='72' c='Parser::Escape_Intermediate'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='76' c='Parser::CSI_Entry'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='80' c='Parser::CSI_Param'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='83' c='Parser::CSI_Intermediate'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='86' c='Parser::CSI_Ignore'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='90' c='Parser::DCS_Entry'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='94' c='Parser::DCS_Param'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='97' c='Parser::DCS_Intermediate'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='100' c='Parser::DCS_Passthrough'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='105' c='Parser::DCS_Ignore'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='109' c='Parser::OSC_String'/>
+<ovr f='codebrowser/src/terminal/parserstate.h' l='114' c='Parser::SOS_PM_APC_String'/>
+<size>16</size>
+<fun r='_ZNK6Parser5State16input_state_ruleEw'/>
+<mbr r='Parser::State::family' o='64' t='Parser::StateFamily *'/>
+<fun r='_ZNK6Parser5State13anywhere_ruleEw'/>
+<fun r='_ZN6Parser5State9setfamilyEPNS_11StateFamilyE'/>
+<fun r='_ZNK6Parser5State5inputEw'/>
+<fun r='_ZNK6Parser5State5enterEv'/>
+<fun r='_ZNK6Parser5State4exitEv'/>
+<fun r='_ZN6Parser5StateC1Ev'/>
+<fun r='_ZN6Parser5StateD1Ev'/>
+<fun r='_ZN6Parser5StateC1ERKS0_'/>
+<fun r='_ZN6Parser5StateaSERKS0_'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='247' type='int'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='305' u='r' c='_ZNK8Terminal9DrawState9get_widthEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='340' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='340' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<offset>0</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='67' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='131' u='r' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='131' u='r' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='160' u='r' c='_ZN8Terminal9DrawState8move_colEibb'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='217' u='r' c='_ZNK8Terminal9DrawState12get_next_tabEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='428' u='r' c='_ZN8Terminal9DrawState6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='439' u='r' c='_ZN8Terminal9DrawState6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='442' u='w' c='_ZN8Terminal9DrawState6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='450' u='r' c='_ZN8Terminal9DrawState6resizeEii'/>

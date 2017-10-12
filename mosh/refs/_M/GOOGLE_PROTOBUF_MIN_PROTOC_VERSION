@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/stubs/common.h' l='129'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='16' u='c'/>
+<doc f='include/google/protobuf/stubs/common.h' l='127'>// The minimum protoc version which works with the current version of the
+// headers.</doc>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='16' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='16' u='c'/>

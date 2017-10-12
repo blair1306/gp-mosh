@@ -1,0 +1,5 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='174' ll='188' type='void Terminal::Cell::print_grapheme(std::string &amp; output) const'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='58' u='c' c='_ZN8Terminal10FrameState11append_cellERKNS_4CellE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='587' u='c' c='_ZNK8Terminal4Cell14debug_contentsB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='609' u='c' c='_ZNK8Terminal4Cell7compareERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='610' u='c' c='_ZNK8Terminal4Cell7compareERKS0_'/>

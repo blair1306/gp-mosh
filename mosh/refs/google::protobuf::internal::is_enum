@@ -1,0 +1,19 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='179' ll='186'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='188'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='189'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='190'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='164'>// Specified by TR1 [4.5.1] primary type categories.
+
+// Implementation note:
+//
+// Each type is either void, integral, floating point, array, pointer,
+// reference, member object pointer, member function pointer, enum,
+// union or class. Out of these, only integral, floating point, reference,
+// class and enum types are potentially convertible to int. Therefore,
+// if a type is not a reference, integral, floating point or class and
+// is convertible to int, it&apos;s a enum. Adding cv-qualification to a type
+// does not change whether it&apos;s an enum.
+//
+// Is-convertible-to-int check is done only if all other checks pass,
+// because it can&apos;t be used with some types (e.g. void or classes with
+// inaccessible conversion operators).</doc>

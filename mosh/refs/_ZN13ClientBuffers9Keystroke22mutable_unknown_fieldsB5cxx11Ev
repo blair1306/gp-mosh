@@ -1,0 +1,4 @@
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='208' ll='210' type='::std::string * ClientBuffers::Keystroke::mutable_unknown_fields()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='456' u='c' c='_ZN13ClientBuffers9Keystroke5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='464' u='c' c='_ZN13ClientBuffers9Keystroke27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='553' u='c' c='_ZN13ClientBuffers9Keystroke9MergeFromERKS0_'/>

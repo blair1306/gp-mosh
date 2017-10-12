@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='96' type='void Crypto::Base64Key::Base64Key()'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='134' ll='137' type='void Crypto::Base64Key::Base64Key()'/>
+<doc f='codebrowser/src/crypto/crypto.h' l='96'>/* random key */</doc>
+<use f='codebrowser/src/network/network.cc' l='239' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>

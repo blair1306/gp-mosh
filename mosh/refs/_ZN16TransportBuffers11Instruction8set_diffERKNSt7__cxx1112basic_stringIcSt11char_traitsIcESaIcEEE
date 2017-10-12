@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='140' type='void TransportBuffers::Instruction::set_diff(const ::std::string &amp; value)'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='345' ll='352' type='void TransportBuffers::Instruction::set_diff(const ::std::string &amp; value)'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='330' u='c' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='435' u='c' c='_ZN16TransportBuffers11Instruction9MergeFromERKS0_'/>

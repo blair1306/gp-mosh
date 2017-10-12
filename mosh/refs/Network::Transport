@@ -1,0 +1,37 @@
+<def f='codebrowser/src/network/networktransport.h' l='49' ll='123'/>
+<mbr r='Network::Transport::connection' t='Network::Connection'/>
+<mbr r='Network::Transport::sender' t='TransportSender&lt;MyState&gt;'/>
+<fun r='_ZN7Network9Transport23process_throwaway_untilEm'/>
+<mbr r='Network::Transport::received_states' t='list&lt;TimestampedState&lt;RemoteState&gt; &gt;'/>
+<mbr r='Network::Transport::receiver_quench_timer' t='uint64_t'/>
+<mbr r='Network::Transport::last_receiver_state' t='RemoteState'/>
+<mbr r='Network::Transport::fragments' t='Network::FragmentAssembly'/>
+<mbr r='Network::Transport::verbose' t='unsigned int'/>
+<fun r='_ZN7Network9TransportC1ERT_RT0_PKcS6_'/>
+<fun r='_ZN7Network9TransportC1ERT_RT0_PKcS6_S6_'/>
+<fun r='_ZN7Network9Transport4tickEv'/>
+<fun r='_ZN7Network9Transport9wait_timeEv'/>
+<fun r='_ZN7Network9Transport4recvEv'/>
+<fun r='_ZN7Network9Transport15get_remote_diffB5cxx11Ev'/>
+<fun r='_ZN7Network9Transport14start_shutdownEv'/>
+<fun r='_ZNK7Network9Transport20shutdown_in_progressEv'/>
+<fun r='_ZNK7Network9Transport21shutdown_acknowledgedEv'/>
+<fun r='_ZNK7Network9Transport22shutdown_ack_timed_outEv'/>
+<fun r='_ZNK7Network9Transport15has_remote_addrEv'/>
+<fun r='_ZNK7Network9Transport30counterparty_shutdown_ack_sentEv'/>
+<fun r='_ZNK7Network9Transport4portB5cxx11Ev'/>
+<fun r='_ZNK7Network9Transport7get_keyB5cxx11Ev'/>
+<fun r='_ZN7Network9Transport17get_current_stateEv'/>
+<fun r='_ZN7Network9Transport17set_current_stateERKT_'/>
+<fun r='_ZNK7Network9Transport20get_remote_state_numEv'/>
+<fun r='_ZNK7Network9Transport23get_latest_remote_stateEv'/>
+<fun r='_ZNK7Network9Transport3fdsEv'/>
+<fun r='_ZN7Network9Transport11set_verboseEj'/>
+<fun r='_ZN7Network9Transport14set_send_delayEi'/>
+<fun r='_ZNK7Network9Transport30get_sent_state_acked_timestampEv'/>
+<fun r='_ZNK7Network9Transport20get_sent_state_ackedEv'/>
+<fun r='_ZNK7Network9Transport19get_sent_state_lastEv'/>
+<fun r='_ZNK7Network9Transport13send_intervalEv'/>
+<fun r='_ZNK7Network9Transport15get_remote_addrEv'/>
+<fun r='_ZNK7Network9Transport19get_remote_addr_lenEv'/>
+<fun r='_ZN7Network9Transport14get_send_errorB5cxx11Ev'/>

@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/repeated_field.h' l='198' type='const int'/>
+<use f='include/google/protobuf/repeated_field.h' l='582' u='r' c='_ZN6google8protobuf13RepeatedFieldC1Ev'/>
+<use f='include/google/protobuf/repeated_field.h' l='589' u='r' c='_ZN6google8protobuf13RepeatedFieldC1ERKNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='598' u='r' c='_ZN6google8protobuf13RepeatedFieldC1ET_RKS2_'/>

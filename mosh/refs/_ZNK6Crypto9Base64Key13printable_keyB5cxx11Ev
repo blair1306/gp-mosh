@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='99' type='string Crypto::Base64Key::printable_key() const'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='129' u='c' c='_ZN6Crypto9Base64KeyC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='144' ll='157' type='string Crypto::Base64Key::printable_key() const'/>
+<use f='codebrowser/src/network/network.h' l='218' u='c' c='_ZNK7Network10Connection7get_keyB5cxx11Ev'/>

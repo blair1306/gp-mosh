@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='143' type='Atomic64 google::protobuf::internal::Barrier_AtomicIncrement(volatile Atomic64 * ptr, Atomic64 increment)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='209' ll='220' type='Atomic64 google::protobuf::internal::Barrier_AtomicIncrement(volatile Atomic64 * ptr, Atomic64 increment)'/>

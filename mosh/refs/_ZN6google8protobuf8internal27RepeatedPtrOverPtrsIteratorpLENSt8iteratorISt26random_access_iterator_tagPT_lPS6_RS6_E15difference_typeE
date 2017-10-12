@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/repeated_field.h' l='1390' ll='1393' type='iterator &amp; google::protobuf::internal::RepeatedPtrOverPtrsIterator::operator+=(difference_type d)'/>
+<doc f='include/google/protobuf/repeated_field.h' l='1389'>// addable, subtractable</doc>

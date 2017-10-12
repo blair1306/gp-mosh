@@ -1,0 +1,5 @@
+<inh f='codebrowser/src/terminal/parserstate.h' l='41' c='Parser::State'/>
+<def f='codebrowser/src/terminal/parserstate.h' l='90' ll='93'/>
+<size>16</size>
+<fun r='_ZNK6Parser9DCS_Entry5enterEv'/>
+<fun r='_ZNK6Parser9DCS_Entry16input_state_ruleEw'/>

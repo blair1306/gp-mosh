@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='148' type='bool TransportBuffers::Instruction::has_chaff() const'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='402' ll='404' type='bool TransportBuffers::Instruction::has_chaff() const'/>
+<doc f='codebrowser/src/protobufs/transportinstruction.pb.h' l='147'>// optional bytes chaff = 7;</doc>
+<doc f='codebrowser/src/protobufs/transportinstruction.pb.h' l='401'>// optional bytes chaff = 7;</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='154' u='c' c='_ZN16TransportBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='339' u='c' c='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='396' u='c' c='_ZNK16TransportBuffers11Instruction8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='437' u='c' c='_ZN16TransportBuffers11Instruction9MergeFromERKS0_'/>

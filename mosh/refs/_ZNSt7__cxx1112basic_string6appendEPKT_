@@ -1,0 +1,27 @@
+<def f='include/c++/5/bits/basic_string.h' l='1023' ll='1030' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::append(const _CharT * __s)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1018'>/**
+       *  @brief  Append a C string.
+       *  @param __s  The C string to append.
+       *  @return  Reference to this string.
+       */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='185' u='c' c='_ZNK8Terminal4Cell14print_graphemeERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='55' u='c' c='_ZN8Terminal10FrameState6appendEPKc'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='522' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='523' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='524' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='525' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='526' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='527' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='528' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='535' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='542' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='545' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='550' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='556' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='588' u='c' c='_ZNK8Terminal4Cell14debug_contentsB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='596' u='c' c='_ZNK8Terminal4Cell14debug_contentsB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='599' u='c' c='_ZNK8Terminal4Cell14debug_contentsB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='139' u='c' c='_ZL6CSI_DAPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='147' u='c' c='_ZL7CSI_SDAPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='454' u='c' c='_ZL7CSI_DSRPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='461' u='c' c='_ZL7CSI_DSRPN8Terminal11FramebufferEPNS_10DispatcherE'/>

@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/utmpx.h' l='61' type='char [32]'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='982' u='r' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>352</offset>
+<doc f='include/x86_64-linux-gnu/bits/utmpx.h' l='61'>/* Username.  */</doc>

@@ -1,0 +1,1 @@
+<dec f='include/term.h' l='725' type='int _nc_get_tty_mode(struct termios * buf)'/>

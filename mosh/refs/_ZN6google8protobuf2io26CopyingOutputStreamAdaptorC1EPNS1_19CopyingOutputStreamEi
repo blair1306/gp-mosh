@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='285' type='void google::protobuf::io::CopyingOutputStreamAdaptor::CopyingOutputStreamAdaptor(google::protobuf::io::CopyingOutputStream * copying_stream, int block_size = -1)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='281'>// Creates a stream that writes to the given Unix file descriptor.
+  // If a block_size is given, it specifies the size of the buffers
+  // that should be returned by Next().  Otherwise, a reasonable default
+  // is used.</doc>

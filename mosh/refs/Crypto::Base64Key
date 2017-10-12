@@ -1,0 +1,12 @@
+<def f='codebrowser/src/crypto/crypto.h' l='91' ll='101'/>
+<size>16</size>
+<mbr r='Crypto::Base64Key::key' o='0' t='unsigned char [16]'/>
+<fun r='_ZN6Crypto9Base64KeyC1Ev'/>
+<fun r='_ZN6Crypto9Base64KeyC1ER4PRNG'/>
+<fun r='_ZN6Crypto9Base64KeyC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK6Crypto9Base64Key13printable_keyB5cxx11Ev'/>
+<fun r='_ZN6Crypto9Base64Key4dataEv'/>
+<fun r='_ZN6Crypto9Base64KeyC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN6Crypto9Base64KeyC1Ev'/>
+<fun r='_ZN6Crypto9Base64KeyC1ER4PRNG'/>
+<fun r='_ZNK6Crypto9Base64Key13printable_keyB5cxx11Ev'/>

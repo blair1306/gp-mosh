@@ -1,0 +1,10 @@
+_ZN6google8protobuf13RepeatedField5beginEv|google::protobuf::RepeatedField::begin
+_ZN6google8protobuf16RepeatedPtrField5beginEv|google::protobuf::RepeatedPtrField::begin
+_ZNSt8_Rb_tree5beginEv|std::_Rb_tree::begin
+_ZNSt17_Temporary_buffer5beginEv|std::_Temporary_buffer::begin
+_ZNSt5deque5beginEv|std::deque::begin
+_ZNSt3map5beginEv|std::map::begin
+_ZNSt8multimap5beginEv|std::multimap::begin
+_ZNKSt9type_info6beforeERKS_|std::type_info::before
+_ZNSt6vector5beginEv|std::vector::begin
+_ZN7Overlay16PredictionEngine16become_tentativeEv|Overlay::PredictionEngine::become_tentative

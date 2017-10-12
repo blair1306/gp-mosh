@@ -1,0 +1,5 @@
+<def f='include/google/protobuf/repeated_field.h' l='1054' ll='1057'/>
+<inh f='include/google/protobuf/repeated_field.h' l='417' c='google::protobuf::internal::StringTypeHandler'/>
+<def f='include/google/protobuf/repeated_field.h' l='1059' ll='1062'/>
+<size>1</size>
+<doc f='include/google/protobuf/repeated_field.h' l='1052'>// -------------------------------------------------------------------</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='101' type='int Terminal::Dispatcher::param_count()'/>
+<def f='codebrowser/src/terminal/terminaldispatcher.cc' l='150' ll='157' type='int Terminal::Dispatcher::param_count()'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='320' u='c' c='_ZL9CSI_DECSMPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='335' u='c' c='_ZL9CSI_DECRMPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='361' u='c' c='_ZL6CSI_SMPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='372' u='c' c='_ZL6CSI_RMPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='412' u='c' c='_ZL7CSI_SGRPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='419' u='c' c='_ZL7CSI_SGRPN8Terminal11FramebufferEPNS_10DispatcherE'/>

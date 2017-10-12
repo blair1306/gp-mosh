@@ -1,0 +1,12 @@
+<def f='include/google/protobuf/wire_format_lite.h' l='524' ll='540'/>
+<ovr f='include/google/protobuf/wire_format_lite.h' l='544' c='google::protobuf::internal::CodedOutputStreamFieldSkipper'/>
+<size>8</size>
+<doc f='include/google/protobuf/wire_format_lite.h' l='520'>// A class which deals with unknown values.  The default implementation just
+// discards them.  WireFormat defines a subclass which writes to an
+// UnknownFieldSet.  This class is used by ExtensionSet::ParseField(), since
+// ExtensionSet is part of the lite library but UnknownFieldSet is not.</doc>
+<fun r='_ZN6google8protobuf8internal12FieldSkipperC1Ev'/>
+<fun r='_ZN6google8protobuf8internal12FieldSkipperD1Ev'/>
+<fun r='_ZN6google8protobuf8internal12FieldSkipper9SkipFieldEPNS0_2io16CodedInputStreamEj'/>
+<fun r='_ZN6google8protobuf8internal12FieldSkipper11SkipMessageEPNS0_2io16CodedInputStreamE'/>
+<fun r='_ZN6google8protobuf8internal12FieldSkipper15SkipUnknownEnumEii'/>

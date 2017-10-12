@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='351' type='::google::protobuf::int32'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='527' u='w' c='_ZN13ClientBuffers13ResizeMessage12clear_heightEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='532' u='r' c='_ZNK13ClientBuffers13ResizeMessage6heightEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='536' u='w' c='_ZN13ClientBuffers13ResizeMessage10set_heightEi'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='607' u='w' c='_ZN13ClientBuffers13ResizeMessage10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='648' u='a' c='_ZN13ClientBuffers13ResizeMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='648' u='r' c='_ZN13ClientBuffers13ResizeMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='691' u='a' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='799' u='a' c='_ZN13ClientBuffers13ResizeMessage4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='799' u='a' c='_ZN13ClientBuffers13ResizeMessage4SwapEPS0_'/>
+<offset>416</offset>

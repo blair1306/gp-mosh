@@ -1,0 +1,4 @@
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' type='bool HostBuffers::Instruction::HasExtension(const ::google::protobuf::internal::ExtensionIdentifier&lt;Instruction, _proto_TypeTraits, _field_type, _is_packed&gt; &amp; id) const'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='110' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='113' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='116' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

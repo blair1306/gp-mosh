@@ -1,0 +1,19 @@
+<def f='include/google/protobuf/extension_set.h' l='419' ll='445'/>
+<size>8</size>
+<doc f='include/google/protobuf/extension_set.h' l='418'>// Interface of a lazily parsed singular message extension.</doc>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtensionC1Ev'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtensionD1Ev'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet20LazyMessageExtension3NewEv'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet20LazyMessageExtension10GetMessageERKNS0_11MessageLiteE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtension14MutableMessageERKNS0_11MessageLiteE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtension19SetAllocatedMessageEPNS0_11MessageLiteE'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtension14ReleaseMessageERKNS0_11MessageLiteE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet20LazyMessageExtension13IsInitializedEv'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet20LazyMessageExtension8ByteSizeEv'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet20LazyMessageExtension9SpaceUsedEv'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtension9MergeFromERKS3_'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtension5ClearEv'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtension11ReadMessageERKNS0_11MessageLiteEPNS0_2io16CodedInputStreamE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet20LazyMessageExtension12WriteMessageEiPNS0_2io17CodedOutputStreamE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet20LazyMessageExtension19WriteMessageToArrayEiPh'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet20LazyMessageExtensionC1ERKS3_'/>

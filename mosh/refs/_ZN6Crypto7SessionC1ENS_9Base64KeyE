@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='150' type='void Crypto::Session::Session(Crypto::Base64Key s_key)'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='159' ll='169' type='void Crypto::Session::Session(Crypto::Base64Key s_key)'/>
+<use f='codebrowser/src/network/network.cc' l='240' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<use f='codebrowser/src/network/network.cc' l='362' u='c' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>

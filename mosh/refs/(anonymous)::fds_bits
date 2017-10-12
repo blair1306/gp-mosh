@@ -1,0 +1,10 @@
+<dec f='include/x86_64-linux-gnu/sys/select.h' l='69' type='__fd_mask [16]'/>
+<offset>0</offset>
+<use f='codebrowser/src/util/select.h' l='68' macro='1' u='a'/>
+<use f='codebrowser/src/util/select.h' l='69' macro='1' u='a'/>
+<use f='codebrowser/src/util/select.h' l='90' macro='1' u='w'/>
+<use f='codebrowser/src/util/select.h' l='95' macro='1' u='a'/>
+<use f='codebrowser/src/util/select.h' l='173' macro='1' u='r'/>
+<use f='codebrowser/src/util/select.h' l='179' macro='1' u='a'/>
+<use f='codebrowser/src/util/select.h' l='193' macro='1' u='r'/>
+<use f='codebrowser/src/util/select.h' l='194' macro='1' u='r'/>

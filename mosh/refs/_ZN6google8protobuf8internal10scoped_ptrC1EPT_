@@ -1,0 +1,4 @@
+<def f='include/google/protobuf/stubs/common.h' l='455' type='void google::protobuf::internal::scoped_ptr::scoped_ptr&lt;C&gt;(C * p = __null)'/>
+<doc f='include/google/protobuf/stubs/common.h' l='452'>// Constructor.  Defaults to intializing with NULL.
+  // There is no way to create an uninitialized scoped_ptr.
+  // The input parameter must be allocated with new.</doc>

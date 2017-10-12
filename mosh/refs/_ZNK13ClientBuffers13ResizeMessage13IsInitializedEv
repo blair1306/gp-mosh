@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='305' type='bool ClientBuffers::ResizeMessage::IsInitialized() const'/>
+<inh f='include/google/protobuf/message_lite.h' l='99' c='_ZNK6google8protobuf11MessageLite13IsInitializedEv'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='791' ll='794' type='bool ClientBuffers::ResizeMessage::IsInitialized() const'/>

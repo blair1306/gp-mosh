@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/message_lite.h' l='193' type='bool google::protobuf::MessageLite::SerializePartialToArray(void * data, int size) const'/>
+<doc f='include/google/protobuf/message_lite.h' l='192'>// Like SerializeToArray(), but allows missing required fields.</doc>

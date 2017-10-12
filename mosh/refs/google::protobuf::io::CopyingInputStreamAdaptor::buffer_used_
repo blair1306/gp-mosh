@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='240' type='int'/>
+<offset>352</offset>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='238'>// Number of valid bytes currently in the buffer (i.e. the size last
+  // returned by Next()).  0 &lt;= buffer_used_ &lt;= buffer_size_.</doc>

@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='206' type='cells_type'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='224' u='r' c='_ZNK8Terminal3RoweqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='224' u='r' c='_ZNK8Terminal3RoweqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='227' u='m' c='_ZNK8Terminal3Row8get_wrapEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='228' u='m' c='_ZN8Terminal3Row8set_wrapEb'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='405' u='m' c='_ZNK8Terminal11Framebuffer8get_cellEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='424' u='m' c='_ZN8Terminal11Framebuffer16get_mutable_cellEii'/>
+<offset>0</offset>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='164' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='348' u='r' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='349' u='r' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='349' u='w' c='_ZN8Terminal3RowC1Emt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='360' u='m' c='_ZN8Terminal3Row11insert_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='360' u='m' c='_ZN8Terminal3Row11insert_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='361' u='m' c='_ZN8Terminal3Row11insert_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='366' u='m' c='_ZN8Terminal3Row11delete_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='367' u='m' c='_ZN8Terminal3Row11delete_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='367' u='m' c='_ZN8Terminal3Row11delete_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='422' u='m' c='_ZN8Terminal11Framebuffer6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='565' u='m' c='_ZN8Terminal3Row5resetEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='566' u='m' c='_ZN8Terminal3Row5resetEt'/>

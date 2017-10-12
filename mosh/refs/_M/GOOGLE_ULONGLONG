@@ -1,0 +1,13 @@
+<dec f='include/google/protobuf/stubs/common.h' l='193'/>
+<use f='include/google/protobuf/stubs/common.h' l='202' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='240' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='264' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='288' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='312' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='637' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='842' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='873' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='86' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='87' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='88' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='89' u='c'/>

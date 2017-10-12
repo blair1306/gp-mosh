@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='279' type='static const uint8 * google::protobuf::internal::WireFormatLite::ReadPrimitiveFromArray(const uint8 * buffer, CType * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='173' ll='179' type='static const uint8 * google::protobuf::internal::WireFormatLite::ReadPrimitiveFromArray(const uint8 * buffer, uint32 * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='180' ll='186' type='static const uint8 * google::protobuf::internal::WireFormatLite::ReadPrimitiveFromArray(const uint8 * buffer, uint64 * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='187' ll='196' type='static const uint8 * google::protobuf::internal::WireFormatLite::ReadPrimitiveFromArray(const uint8 * buffer, int32 * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='197' ll='206' type='static const uint8 * google::protobuf::internal::WireFormatLite::ReadPrimitiveFromArray(const uint8 * buffer, int64 * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='207' ll='216' type='static const uint8 * google::protobuf::internal::WireFormatLite::ReadPrimitiveFromArray(const uint8 * buffer, float * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='217' ll='226' type='static const uint8 * google::protobuf::internal::WireFormatLite::ReadPrimitiveFromArray(const uint8 * buffer, double * value)'/>

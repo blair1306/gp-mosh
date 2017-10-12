@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='288' type='void Overlay::PredictionEngine::set_send_interval(unsigned int x)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='297' u='c' c='_ZN9STMClient21process_network_inputEv'/>

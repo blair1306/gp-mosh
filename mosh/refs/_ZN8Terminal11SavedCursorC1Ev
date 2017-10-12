@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='242' type='void Terminal::SavedCursor::SavedCursor()'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='331' u='c' c='_ZN8Terminal9DrawState18clear_saved_cursorEv'/>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='240'>/* not implemented: state of selective erase */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='71' u='c' c='_ZN8Terminal9DrawStateC1Eii'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='272' ll='277' type='void Terminal::SavedCursor::SavedCursor()'/>

@@ -1,0 +1,45 @@
+<dec f='include/stdio.h' l='846' type='void perror(const char * __s)'/>
+<doc f='include/stdio.h' l='842'>/* Print a message describing the meaning of the value of errno.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/crypto/crypto.cc' l='298' u='c' c='_ZN6Crypto20disable_dumping_coreEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='305' u='c' c='_ZN6Crypto20disable_dumping_coreEv'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='185' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='290' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='339' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='451' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='486' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='493' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='498' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='510' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='532' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='539' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='549' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='555' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='561' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='588' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='595' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='630' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='702' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='737' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='743' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='790' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='933' u='c' c='_ZL13chdir_homedirv'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='940' u='c' c='_ZL13chdir_homedirv'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='944' u='c' c='_ZL13chdir_homedirv'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='970' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='70' u='c' c='_ZN9STMClient6resumeEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='97' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='115' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='211' u='c' c='_ZN9STMClient8shutdownEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='238' u='c' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='311' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='348' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='402' u='c' c='_ZN9STMClient14process_resizeEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='462' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/network/network.cc' l='178' u='c' c='_ZN7Network10Connection6SocketC1Ei'/>
+<use f='codebrowser/src/network/network.cc' l='331' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='107' u='c' c='_Z17set_native_localev'/>
+<use f='codebrowser/src/util/swrite.cc' l='47' u='c' c='_Z6swriteiPKcl'/>
+<use f='codebrowser/src/util/timestamp.cc' l='109' u='c' c='_Z16freeze_timestampv'/>

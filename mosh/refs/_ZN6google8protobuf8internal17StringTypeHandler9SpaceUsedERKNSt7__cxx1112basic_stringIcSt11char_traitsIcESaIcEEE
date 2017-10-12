@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/repeated_field.h' l='419' ll='421' type='static int google::protobuf::internal::StringTypeHandler::SpaceUsed(const string &amp; value)'/>

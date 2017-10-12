@@ -1,0 +1,2 @@
+<dec f='include/fcntl.h' l='156' type='int open(const char * __file, int __oflag)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='484' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>

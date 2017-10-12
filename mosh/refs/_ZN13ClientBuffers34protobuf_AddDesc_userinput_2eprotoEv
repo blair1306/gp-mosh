@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='31' type='void ClientBuffers::protobuf_AddDesc_userinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='113' type='void ClientBuffers::protobuf_AddDesc_userinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='183' type='void ClientBuffers::protobuf_AddDesc_userinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='265' type='void ClientBuffers::protobuf_AddDesc_userinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='352' type='void ClientBuffers::protobuf_AddDesc_userinput_2eproto()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='25' ll='48' type='void ClientBuffers::protobuf_AddDesc_userinput_2eproto()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='53' u='c' c='_ZN13ClientBuffers45StaticDescriptorInitializer_userinput_2eprotoC1Ev'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='100' u='c' c='_ZN13ClientBuffers11UserMessage16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='278' u='c' c='_ZN13ClientBuffers11Instruction16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='439' u='c' c='_ZN13ClientBuffers9Keystroke16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='627' u='c' c='_ZN13ClientBuffers13ResizeMessage16default_instanceEv'/>
+<doc f='codebrowser/src/protobufs/userinput.pb.h' l='30'>// Internal implementation detail -- do not call these.</doc>

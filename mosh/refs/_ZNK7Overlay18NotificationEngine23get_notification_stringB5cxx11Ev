@@ -1,0 +1,3 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='160' type='const wstring &amp; Overlay::NotificationEngine::get_notification_string() const'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='372' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='542' u='c' c='_ZN9STMClient4mainEv'/>

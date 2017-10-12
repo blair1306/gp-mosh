@@ -1,0 +1,18 @@
+<def f='include/c++/5/bits/stl_iterator.h' l='792' ll='794' type='__normal_iterator&lt;_Iterator, _Container&gt; __gnu_cxx::__normal_iterator::operator+(difference_type __n) const'/>
+<use f='codebrowser/src/network/network.cc' l='84' u='c' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='80' u='c' c='_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='187' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='188' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='317' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='317' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='318' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='320' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='341' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='342' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='344' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='344' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='360' u='c' c='_ZN8Terminal3Row11insert_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='367' u='c' c='_ZN8Terminal3Row11delete_cellEit'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='579' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='602' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='602' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>

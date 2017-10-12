@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='337' ll='346' type='bool Terminal::DrawState::operator==(const Terminal::DrawState &amp; x) const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='461' u='c' c='_ZNK8Terminal11FramebuffereqERKS0_'/>

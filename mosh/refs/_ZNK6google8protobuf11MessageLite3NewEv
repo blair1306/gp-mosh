@@ -1,0 +1,13 @@
+<dec f='include/google/protobuf/message_lite.h' l='89' type='google::protobuf::MessageLite * google::protobuf::MessageLite::New() const'/>
+<doc f='include/google/protobuf/message_lite.h' l='87'>// Construct a new instance of the same type.  Ownership is passed to the
+  // caller.</doc>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='113' c='_ZNK11HostBuffers11HostMessage3NewEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='291' c='_ZNK11HostBuffers11Instruction3NewEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='452' c='_ZNK11HostBuffers9HostBytes3NewEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='640' c='_ZNK11HostBuffers13ResizeMessage3NewEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='868' c='_ZNK11HostBuffers7EchoAck3NewEv'/>
+<ovr f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='131' c='_ZNK16TransportBuffers11Instruction3NewEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='106' c='_ZNK13ClientBuffers11UserMessage3NewEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='284' c='_ZNK13ClientBuffers11Instruction3NewEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='445' c='_ZNK13ClientBuffers9Keystroke3NewEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='633' c='_ZNK13ClientBuffers13ResizeMessage3NewEv'/>

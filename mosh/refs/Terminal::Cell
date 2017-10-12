@@ -1,0 +1,33 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='87' ll='201'/>
+<size>40</size>
+<mbr r='Terminal::Cell::contents' o='0' t='content_type'/>
+<mbr r='Terminal::Cell::renditions' o='256' t='Terminal::Renditions'/>
+<mbr r='Terminal::Cell::wide' o='288' t='unsigned int'/>
+<mbr r='Terminal::Cell::fallback' o='289' t='unsigned int'/>
+<mbr r='Terminal::Cell::wrap' o='290' t='unsigned int'/>
+<fun r='_ZN8Terminal4CellC1Ev'/>
+<fun r='_ZN8Terminal4CellC1Et'/>
+<fun r='_ZN8Terminal4Cell5resetEt'/>
+<fun r='_ZNK8Terminal4CelleqERKS0_'/>
+<fun r='_ZNK8Terminal4CellneERKS0_'/>
+<fun r='_ZNK8Terminal4Cell14debug_contentsB5cxx11Ev'/>
+<fun r='_ZNK8Terminal4Cell5emptyEv'/>
+<fun r='_ZNK8Terminal4Cell4fullEv'/>
+<fun r='_ZN8Terminal4Cell5clearEv'/>
+<fun r='_ZNK8Terminal4Cell8is_blankEv'/>
+<fun r='_ZNK8Terminal4Cell14contents_matchERKS0_'/>
+<fun r='_ZNK8Terminal4Cell7compareERKS0_'/>
+<fun r='_ZN8Terminal4Cell17isprint_iso8859_1Ew'/>
+<fun r='_ZN8Terminal4Cell13append_to_strERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEw'/>
+<fun r='_ZN8Terminal4Cell6appendEw'/>
+<fun r='_ZNK8Terminal4Cell14print_graphemeERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK8Terminal4Cell14get_renditionsEv'/>
+<fun r='_ZN8Terminal4Cell14get_renditionsEv'/>
+<fun r='_ZN8Terminal4Cell14set_renditionsERKNS_10RenditionsE'/>
+<fun r='_ZNK8Terminal4Cell8get_wideEv'/>
+<fun r='_ZN8Terminal4Cell8set_wideEb'/>
+<fun r='_ZNK8Terminal4Cell9get_widthEv'/>
+<fun r='_ZNK8Terminal4Cell12get_fallbackEv'/>
+<fun r='_ZN8Terminal4Cell12set_fallbackEb'/>
+<fun r='_ZNK8Terminal4Cell8get_wrapEv'/>
+<fun r='_ZN8Terminal4Cell8set_wrapEb'/>

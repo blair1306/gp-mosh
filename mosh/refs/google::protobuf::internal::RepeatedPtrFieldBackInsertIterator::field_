@@ -1,0 +1,4 @@
+<use f='include/google/protobuf/repeated_field.h' l='1513' u='w' c='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratorC1EPNS0_16RepeatedPtrFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1516' u='c' c='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratoraSERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='1521' u='c' c='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratoraSEPKT_'/>
+<dec f='include/google/protobuf/repeated_field.h' l='1535' type='RepeatedPtrField&lt;T&gt; *'/>

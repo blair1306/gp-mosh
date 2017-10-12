@@ -1,0 +1,10 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='518' type='int'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1139' u='w' c='_ZN6google8protobuf2io16CodedInputStream23IncrementRecursionDepthEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1140' u='r' c='_ZN6google8protobuf2io16CodedInputStream23IncrementRecursionDepthEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1144' u='r' c='_ZN6google8protobuf2io16CodedInputStream23DecrementRecursionDepthEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1144' u='w' c='_ZN6google8protobuf2io16CodedInputStream23DecrementRecursionDepthEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1178' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPNS1_19ZeroCopyInputStreamE'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1199' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPKhi'/>
+<offset>448</offset>
+<doc f='include/google/protobuf/io/coded_stream.h' l='516'>// Current recursion depth, controlled by IncrementRecursionDepth() and
+  // DecrementRecursionDepth().</doc>

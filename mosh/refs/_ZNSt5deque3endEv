@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_deque.h' l='1174' ll='1176' type='iterator std::deque::end()'/>
+<doc f='include/c++/5/bits/stl_deque.h' l='1169'>/**
+       *  Returns a read/write iterator that points one past the last
+       *  element in the %deque.  Iteration is done in ordinary
+       *  element order.
+       */</doc>
+<use f='codebrowser/src/network/network.cc' l='436' u='c' c='_ZN7Network10Connection4recvB5cxx11Ev'/>

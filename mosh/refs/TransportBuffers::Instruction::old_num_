@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='180' type='::google::protobuf::uint64'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='240' u='w' c='_ZN16TransportBuffers11Instruction13clear_old_numEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='245' u='r' c='_ZNK16TransportBuffers11Instruction7old_numEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='249' u='w' c='_ZN16TransportBuffers11Instruction11set_old_numEm'/>
+<offset>384</offset>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='86' u='w' c='_ZN16TransportBuffers11Instruction10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='147' u='a' c='_ZN16TransportBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='147' u='a' c='_ZN16TransportBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='202' u='a' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='458' u='a' c='_ZN16TransportBuffers11Instruction4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='458' u='a' c='_ZN16TransportBuffers11Instruction4SwapEPS0_'/>

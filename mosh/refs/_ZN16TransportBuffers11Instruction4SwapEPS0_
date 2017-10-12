@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='71' type='void TransportBuffers::Instruction::Swap(TransportBuffers::Instruction * other)'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='455' ll='468' type='void TransportBuffers::Instruction::Swap(TransportBuffers::Instruction * other)'/>

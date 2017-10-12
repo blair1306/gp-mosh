@@ -1,0 +1,5 @@
+<def f='include/c++/5/bits/stl_pair.h' l='285' ll='287' type='pair&lt;_T1, _T2&gt; std::make_pair(_T1 __x, _T2 __y)'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='902' u='c' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='920' u='c' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='925' u='c' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='161' u='c' c='_ZN8Terminal8Complete20register_input_frameEmm'/>

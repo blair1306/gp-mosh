@@ -1,0 +1,2 @@
+_ZN11HostBuffers9HostBytesD1Ev|HostBuffers::HostBytes::~HostBytes
+_ZN11HostBuffers11HostMessageD1Ev|HostBuffers::HostMessage::~HostMessage

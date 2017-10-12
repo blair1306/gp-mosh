@@ -1,0 +1,9 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='159' ll='172' type='void Terminal::Cell::append(const wchar_t c)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='207' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='279' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='297' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='706' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='803' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='108' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='138' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='158' u='c' c='_ZL10Esc_DECALNPN8Terminal11FramebufferEPNS_10DispatcherE'/>

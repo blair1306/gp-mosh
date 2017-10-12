@@ -1,0 +1,6 @@
+<def f='codebrowser/src/crypto/crypto.h' l='119' ll='132'/>
+<size>48</size>
+<mbr r='Crypto::Message::nonce' o='0' t='const Crypto::Nonce'/>
+<mbr r='Crypto::Message::text' o='128' t='const string'/>
+<fun r='_ZN6Crypto7MessageC1EPKcmS2_m'/>
+<fun r='_ZN6Crypto7MessageC1ERKNS_5NonceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

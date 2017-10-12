@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/network/transportfragment.h' l='81' type='int'/>
+<use f='codebrowser/src/network/transportfragment.h' l='84' u='w' c='_ZN7Network16FragmentAssemblyC1Ev'/>
+<offset>288</offset>
+<use f='codebrowser/src/network/transportfragment.cc' l='99' u='w' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='117' u='w' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='118' u='r' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='119' u='r' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='122' u='r' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='123' u='r' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='127' u='r' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='132' u='r' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='136' u='r' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='146' u='w' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>

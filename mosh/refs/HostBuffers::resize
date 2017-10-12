@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='446' type='::google::protobuf::internal::ExtensionIdentifier&lt; ::HostBuffers::Instruction, ::google::protobuf::internal::MessageTypeTraits&lt; ::HostBuffers::ResizeMessage&gt;, 11, false&gt;'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='1003' ll='1005' type='::google::protobuf::internal::ExtensionIdentifier&lt; ::HostBuffers::Instruction, ::google::protobuf::internal::MessageTypeTraits&lt; ::HostBuffers::ResizeMessage&gt;, 11, false&gt;'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='86' u='r' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='87' u='r' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='113' u='r' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='114' u='r' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='115' u='r' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='153' type='void google::protobuf::internal::Release_Store(volatile Atomic64 * ptr, Atomic64 value)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='231' ll='250' type='void google::protobuf::internal::Release_Store(volatile Atomic64 * ptr, Atomic64 value)'/>

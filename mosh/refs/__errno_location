@@ -1,0 +1,35 @@
+<dec f='include/x86_64-linux-gnu/bits/errno.h' l='50' type='int * __errno_location()'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='54' macro='1' u='c'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='57' macro='1' u='c'/>
+<doc f='include/x86_64-linux-gnu/bits/errno.h' l='49'>/* Function to get address of global `errno&apos; variable.  */</doc>
+<use f='codebrowser/src/util/select.h' l='169' macro='1' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='380' macro='1' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='383' macro='1' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='394' macro='1' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='397' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='156' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='163' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='289' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='340' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='411' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='413' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='487' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='491' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='583' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='644' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='651' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='665' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='667' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='683' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='685' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/parser.cc' l='113' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='95' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='102' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='104' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='107' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='115' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='122' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='124' macro='1' u='c'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='127' macro='1' u='c'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='97' macro='1' u='c'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='106' macro='1' u='c'/>

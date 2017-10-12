@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/crypto/ae.h' l='75' type='int ae_init(ae_ctx * ctx, const void * key, int key_len, int nonce_len, int tag_len)'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='166' u='c' c='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>
+<doc f='codebrowser/src/crypto/ae.h' l='69'>/* --------------------------------------------------------------------------
+ *
+ * AEAD Routines
+ *
+ * ----------------------------------------------------------------------- */</doc>
+<def f='codebrowser/src/crypto/ocb.cc' l='792' ll='835' type='int ae_init(ae_ctx * ctx, const void * key, int key_len, int nonce_len, int tag_len)'/>
+<doc f='codebrowser/src/crypto/ocb.cc' l='790'>/* ----------------------------------------------------------------------- */</doc>

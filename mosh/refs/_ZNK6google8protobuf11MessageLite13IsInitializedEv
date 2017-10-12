@@ -1,0 +1,12 @@
+<dec f='include/google/protobuf/message_lite.h' l='99' type='bool google::protobuf::MessageLite::IsInitialized() const'/>
+<doc f='include/google/protobuf/message_lite.h' l='98'>// Quickly check if all required fields have values set.</doc>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='223' c='_ZNK11HostBuffers11HostMessage13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='379' c='_ZNK11HostBuffers11Instruction13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='569' c='_ZNK11HostBuffers9HostBytes13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='798' c='_ZNK11HostBuffers13ResizeMessage13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='982' c='_ZNK11HostBuffers7EchoAck13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='450' c='_ZNK16TransportBuffers11Instruction13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='216' c='_ZNK13ClientBuffers11UserMessage13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='372' c='_ZNK13ClientBuffers11Instruction13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='562' c='_ZNK13ClientBuffers9Keystroke13IsInitializedEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='791' c='_ZNK13ClientBuffers13ResizeMessage13IsInitializedEv'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='46' type='void HostBuffers::HostMessage::~HostMessage()'/>
+<inh f='include/google/protobuf/message_lite.h' l='80' c='_ZN6google8protobuf11MessageLiteD1Ev'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='91' ll='94' type='void HostBuffers::HostMessage::~HostMessage()'/>

@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/repeated_field.h' l='491' type='iterator google::protobuf::RepeatedPtrField::end()'/>
+<def f='include/google/protobuf/repeated_field.h' l='1437' ll='1441' type='typename RepeatedPtrField&lt;Element&gt;::iterator google::protobuf::RepeatedPtrField::end()'/>

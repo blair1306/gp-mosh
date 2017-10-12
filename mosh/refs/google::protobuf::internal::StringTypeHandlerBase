@@ -1,0 +1,16 @@
+<def f='include/google/protobuf/repeated_field.h' l='405' ll='415'/>
+<ovr f='include/google/protobuf/repeated_field.h' l='417' c='google::protobuf::internal::StringTypeHandler'/>
+<size>1</size>
+<doc f='include/google/protobuf/repeated_field.h' l='397'>// HACK:  If a class is declared as DLL-exported in MSVC, it insists on
+//   generating copies of all its methods -- even inline ones -- to include
+//   in the DLL.  But SpaceUsed() calls StringSpaceUsedExcludingSelf() which
+//   isn&apos;t in the lite library, therefore the lite library cannot link if
+//   StringTypeHandler is exported.  So, we factor out StringTypeHandlerBase,
+//   export that, then make StringTypeHandler be a subclass which is NOT
+//   exported.
+// TODO(kenton):  There has to be a better way.</doc>
+<fun r='_ZN6google8protobuf8internal21StringTypeHandlerBase3NewB5cxx11Ev'/>
+<fun r='_ZN6google8protobuf8internal21StringTypeHandlerBase6DeleteEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN6google8protobuf8internal21StringTypeHandlerBase5ClearEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN6google8protobuf8internal21StringTypeHandlerBase5MergeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPS8_'/>
+<fun r='_ZN6google8protobuf8internal21StringTypeHandlerBase16default_instanceB5cxx11Ev'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='164' type='void ClientBuffers::Instruction::SharedDtor()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='264' u='c' c='_ZN13ClientBuffers11InstructionD1Ev'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='267' ll='270' type='void ClientBuffers::Instruction::SharedDtor()'/>

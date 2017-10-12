@@ -1,0 +1,1 @@
+<dec f='codebrowser/src/util/pty_compat.h' l='45' type='pid_t my_forkpty(int * amaster, char * name, const struct termios * termp, const struct winsize * winp)'/>

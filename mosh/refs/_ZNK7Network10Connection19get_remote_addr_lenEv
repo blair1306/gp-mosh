@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/network.h' l='225' type='socklen_t Network::Connection::get_remote_addr_len() const'/>
+<use f='codebrowser/src/network/networktransport.h' l='120' u='c' c='_ZNK7Network9Transport19get_remote_addr_lenEv'/>

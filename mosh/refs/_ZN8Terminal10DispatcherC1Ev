@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='99' type='void Terminal::Dispatcher::Dispatcher()'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='44' u='c' c='_ZN8Terminal8EmulatorC1Emm'/>
+<def f='codebrowser/src/terminal/terminaldispatcher.cc' l='47' ll='50' type='void Terminal::Dispatcher::Dispatcher()'/>

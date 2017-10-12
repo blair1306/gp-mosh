@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='104' type='::google::protobuf::uint32 TransportBuffers::Instruction::protocol_version() const'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='219' ll='222' type='::google::protobuf::uint32 TransportBuffers::Instruction::protocol_version() const'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='80' u='c' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='165' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='165' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='309' u='c' c='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='357' u='c' c='_ZNK16TransportBuffers11Instruction8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='420' u='c' c='_ZN16TransportBuffers11Instruction9MergeFromERKS0_'/>

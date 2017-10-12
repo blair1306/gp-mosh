@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/ae.h' l='61' type='int ae_ctx_sizeof()'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='160' u='c' c='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>
+<doc f='codebrowser/src/crypto/ae.h' l='61'>/* Return sizeof(ae_ctx)               */</doc>
+<def f='codebrowser/src/crypto/ocb.cc' l='788' type='int ae_ctx_sizeof()'/>

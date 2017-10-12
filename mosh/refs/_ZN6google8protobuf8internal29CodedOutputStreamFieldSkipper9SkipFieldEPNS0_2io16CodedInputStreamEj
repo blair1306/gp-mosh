@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='551' type='bool google::protobuf::internal::CodedOutputStreamFieldSkipper::SkipField(io::CodedInputStream * input, uint32 tag)'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='550'>// implements FieldSkipper -----------------------------------------</doc>

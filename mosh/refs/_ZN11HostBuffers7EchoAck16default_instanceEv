@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='382' type='static const HostBuffers::EchoAck &amp; HostBuffers::EchoAck::default_instance()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='48' u='c' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='861' ll='864' type='static const HostBuffers::EchoAck &amp; HostBuffers::EchoAck::default_instance()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='1008' u='c'/>

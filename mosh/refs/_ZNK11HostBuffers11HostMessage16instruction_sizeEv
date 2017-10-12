@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='95' type='int HostBuffers::HostMessage::instruction_size() const'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='457' ll='459' type='int HostBuffers::HostMessage::instruction_size() const'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='177' u='c' c='_ZNK11HostBuffers11HostMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='191' u='c' c='_ZNK11HostBuffers11HostMessage8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='192' u='c' c='_ZNK11HostBuffers11HostMessage8ByteSizeEv'/>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='90'>// nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .HostBuffers.Instruction instruction = 1;</doc>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='452'>// ===================================================================
+
+// HostMessage
+
+// repeated .HostBuffers.Instruction instruction = 1;</doc>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='109' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

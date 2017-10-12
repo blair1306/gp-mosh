@@ -1,0 +1,2 @@
+<def f='codebrowser/src/crypto/crypto.h' l='100' type='unsigned char * Crypto::Base64Key::data()'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='166' u='c' c='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>

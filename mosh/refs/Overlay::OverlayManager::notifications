@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='326' type='Overlay::NotificationEngine'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='333' u='a' c='_ZN7Overlay14OverlayManager23get_notification_engineEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='338' u='w' c='_ZN7Overlay14OverlayManagerC1Ev'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='342' u='m' c='_ZNK7Overlay14OverlayManager9wait_timeEv'/>
+<offset>0</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='340' u='m' c='_ZN7Overlay14OverlayManager5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='341' u='m' c='_ZN7Overlay14OverlayManager5applyERN8Terminal11FramebufferE'/>

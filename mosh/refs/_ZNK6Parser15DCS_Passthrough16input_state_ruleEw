@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/parserstate.h' l='102' type='Parser::Transition Parser::DCS_Passthrough::input_state_rule(wchar_t ch) const'/>
+<inh f='codebrowser/src/terminal/parserstate.h' l='44' c='_ZNK6Parser5State16input_state_ruleEw'/>
+<def f='codebrowser/src/terminal/parserstate.cc' l='338' ll='349' type='Parser::Transition Parser::DCS_Passthrough::input_state_rule(wchar_t ch) const'/>

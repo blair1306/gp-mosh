@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='231' type='socklen_t'/>
+<offset>64</offset>
+<doc f='include/x86_64-linux-gnu/bits/socket.h' l='231'>/* Length of address data.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='469' u='w' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='560' u='r' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='563' u='r' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

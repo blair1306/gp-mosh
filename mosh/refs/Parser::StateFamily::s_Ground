@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/terminal/parserstatefamily.h' l='42' type='Parser::Ground'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='62' u='w' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='68' u='m' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parser.h' l='55' u='a' c='_ZN6Parser6ParserC1Ev'/>
+<use f='codebrowser/src/terminal/parser.h' l='65' u='a' c='_ZN6Parser6Parser11reset_inputEv'/>
+<offset>0</offset>
+<use f='codebrowser/src/terminal/parserstate.cc' l='45' u='a' c='_ZNK6Parser5State13anywhere_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='47' u='a' c='_ZNK6Parser5State13anywhere_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='127' u='a' c='_ZNK6Parser6Escape16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='160' u='a' c='_ZNK6Parser19Escape_Intermediate16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='178' u='a' c='_ZNK6Parser9CSI_Entry16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='220' u='a' c='_ZNK6Parser9CSI_Param16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='237' u='a' c='_ZNK6Parser16CSI_Intermediate16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='254' u='a' c='_ZNK6Parser10CSI_Ignore16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='345' u='a' c='_ZNK6Parser15DCS_Passthrough16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='354' u='a' c='_ZNK6Parser10DCS_Ignore16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='377' u='a' c='_ZNK6Parser10OSC_String16input_state_ruleEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='386' u='a' c='_ZNK6Parser17SOS_PM_APC_String16input_state_ruleEw'/>

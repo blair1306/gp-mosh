@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='414' type='bool HostBuffers::EchoAck::has_echo_ack_num() const'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='627' ll='629' type='bool HostBuffers::EchoAck::has_echo_ack_num() const'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='932' u='c' c='_ZNK11HostBuffers7EchoAck24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='946' u='c' c='_ZNK11HostBuffers7EchoAck8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='969' u='c' c='_ZN11HostBuffers7EchoAck9MergeFromERKS0_'/>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='409'>// nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional uint64 echo_ack_num = 8;</doc>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='622'>// -------------------------------------------------------------------
+
+// EchoAck
+
+// optional uint64 echo_ack_num = 8;</doc>

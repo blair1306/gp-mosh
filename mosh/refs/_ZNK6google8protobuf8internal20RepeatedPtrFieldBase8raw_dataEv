@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/repeated_field.h' l='305' type='void *const * google::protobuf::internal::RepeatedPtrFieldBase::raw_data() const'/>
+<def f='include/google/protobuf/repeated_field.h' l='945' ll='947' type='void *const * google::protobuf::internal::RepeatedPtrFieldBase::raw_data() const'/>
+<use f='include/google/protobuf/repeated_field.h' l='1430' u='c' c='_ZN6google8protobuf16RepeatedPtrField5beginEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1435' u='c' c='_ZNK6google8protobuf16RepeatedPtrField5beginEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1440' u='c' c='_ZN6google8protobuf16RepeatedPtrField3endEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1445' u='c' c='_ZNK6google8protobuf16RepeatedPtrField3endEv'/>
+<doc f='include/google/protobuf/repeated_field.h' l='304'>// Used for constructing iterators.</doc>

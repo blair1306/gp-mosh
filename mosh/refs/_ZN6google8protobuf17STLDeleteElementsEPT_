@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/stubs/stl_util.h' l='99' ll='103' type='void google::protobuf::STLDeleteElements(T * container)'/>

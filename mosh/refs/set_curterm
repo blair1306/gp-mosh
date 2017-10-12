@@ -1,0 +1,2 @@
+<dec f='include/term.h' l='735' type='TERMINAL * set_curterm(TERMINAL * )'/>
+<doc f='include/term.h' l='734'>/* entry points */</doc>

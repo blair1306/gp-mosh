@@ -1,0 +1,16 @@
+<dec f='include/google/protobuf/repeated_field.h' l='202' type='int'/>
+<use f='include/google/protobuf/repeated_field.h' l='582' u='w' c='_ZN6google8protobuf13RepeatedFieldC1Ev'/>
+<use f='include/google/protobuf/repeated_field.h' l='589' u='w' c='_ZN6google8protobuf13RepeatedFieldC1ERKNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='598' u='w' c='_ZN6google8protobuf13RepeatedFieldC1ET_RKS2_'/>
+<use f='include/google/protobuf/repeated_field.h' l='637' u='r' c='_ZNK6google8protobuf13RepeatedField8CapacityEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='685' c='_ZN6google8protobuf13RepeatedField3AddERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='685' c='_ZN6google8protobuf13RepeatedField3AddERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='691' c='_ZN6google8protobuf13RepeatedField3AddEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='691' c='_ZN6google8protobuf13RepeatedField3AddEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='760' u='r' c='_ZN6google8protobuf13RepeatedField4SwapEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='764' u='w' c='_ZN6google8protobuf13RepeatedField4SwapEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='800' u='r' c='_ZNK6google8protobuf13RepeatedField22SpaceUsedExcludingSelfEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='807' c='_ZN6google8protobuf13RepeatedField7ReserveEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='810' u='w' c='_ZN6google8protobuf13RepeatedField7ReserveEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='811' u='r' c='_ZN6google8protobuf13RepeatedField7ReserveEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='812' u='r' c='_ZN6google8protobuf13RepeatedField7ReserveEi'/>

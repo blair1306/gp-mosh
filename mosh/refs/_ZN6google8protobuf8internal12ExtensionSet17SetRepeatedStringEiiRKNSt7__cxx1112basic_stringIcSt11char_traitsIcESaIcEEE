@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/extension_set.h' l='305' type='void google::protobuf::internal::ExtensionSet::SetRepeatedString(int number, int index, const string &amp; value)'/>
+<def f='include/google/protobuf/extension_set.h' l='600' ll='603' type='void google::protobuf::internal::ExtensionSet::SetRepeatedString(int number, int index, const string &amp; value)'/>
+<use f='include/google/protobuf/extension_set.h' l='815' u='c' c='_ZN6google8protobuf8internal24RepeatedStringTypeTraits3SetEiiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS1_12ExtensionSetE'/>

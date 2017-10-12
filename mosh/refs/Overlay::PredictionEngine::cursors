@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='225' type='cursors_type'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='245' u='m' c='_ZN7Overlay16PredictionEngine6cursorEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='245' u='m' c='_ZN7Overlay16PredictionEngine6cursorEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='297' u='w' c='_ZN7Overlay16PredictionEngineC1Ev'/>
+<offset>448</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='368' u='m' c='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='369' u='m' c='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='383' u='m' c='_ZN7Overlay16PredictionEngine10kill_epochEmRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='385' u='m' c='_ZN7Overlay16PredictionEngine10kill_epochEmRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='408' u='m' c='_ZN7Overlay16PredictionEngine5resetEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='417' u='m' c='_ZN7Overlay16PredictionEngine11init_cursorERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='420' u='m' c='_ZN7Overlay16PredictionEngine11init_cursorERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='427' u='m' c='_ZN7Overlay16PredictionEngine11init_cursorERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='592' u='m' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='605' u='m' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='614' u='m' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='615' u='m' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='617' u='m' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='907' u='m' c='_ZNK7Overlay16PredictionEngine6activeEv'/>

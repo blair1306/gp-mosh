@@ -1,0 +1,8 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='781' type='static uint8 * google::protobuf::io::CodedOutputStream::WriteVarint32FallbackToArrayInline(uint32 value, uint8 * target)'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='774'>// Always-inlined versions of WriteVarint* functions so that code can be
+  // reused, while still controlling size. For instance, WriteVarint32ToArray()
+  // should not directly call this: since it is inlined itself, doing so
+  // would greatly increase the size of generated code. Instead, it should call
+  // WriteVarint32FallbackToArray.  Meanwhile, WriteVarint32() is already
+  // out-of-line, so it should just invoke this directly to avoid any extra
+  // function call overhead.</doc>

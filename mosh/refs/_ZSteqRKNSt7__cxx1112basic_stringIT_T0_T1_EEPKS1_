@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/basic_string.h' l='4936' ll='4939' type='bool std::operator==(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __lhs, const _CharT * __rhs)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='126' u='c' c='_ZNK8Terminal4Cell8is_blankEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='127' u='c' c='_ZNK8Terminal4Cell8is_blankEv'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='986' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

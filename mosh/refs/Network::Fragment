@@ -1,0 +1,13 @@
+<def f='codebrowser/src/network/transportfragment.h' l='47' ll='74'/>
+<size>48</size>
+<smbr r='Network::Fragment::frag_header_len' t='const size_t'/>
+<mbr r='Network::Fragment::id' o='0' t='uint64_t'/>
+<mbr r='Network::Fragment::fragment_num' o='64' t='uint16_t'/>
+<mbr r='Network::Fragment::final' o='80' t='bool'/>
+<mbr r='Network::Fragment::initialized' o='88' t='bool'/>
+<mbr r='Network::Fragment::contents' o='128' t='string'/>
+<fun r='_ZN7Network8FragmentC1Ev'/>
+<fun r='_ZN7Network8FragmentC1EmtbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network8Fragment8tostringB5cxx11Ev'/>
+<fun r='_ZNK7Network8FragmenteqERKS0_'/>

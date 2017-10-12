@@ -1,0 +1,2 @@
+_ZNSt15basic_streambuf6snextcEv|std::basic_streambuf::snextc
+_ZN8Terminal9DrawState21snap_cursor_to_borderEv|Terminal::DrawState::snap_cursor_to_border

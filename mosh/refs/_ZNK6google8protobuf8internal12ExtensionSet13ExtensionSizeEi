@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/extension_set.h' l='218' type='int google::protobuf::internal::ExtensionSet::ExtensionSize(int number) const'/>
+<doc f='include/google/protobuf/extension_set.h' l='218'>// Size of a repeated extension.</doc>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='173' macro='1' u='c'/>

@@ -1,0 +1,10 @@
+<def f='codebrowser/src/network/network.h' l='77' ll='93'/>
+<size>48</size>
+<mbr r='Network::Packet::seq' o='0' t='const uint64_t'/>
+<mbr r='Network::Packet::direction' o='64' t='Network::Direction'/>
+<mbr r='Network::Packet::timestamp' o='96' t='uint16_t'/>
+<mbr r='Network::Packet::timestamp_reply' o='112' t='uint16_t'/>
+<mbr r='Network::Packet::payload' o='128' t='string'/>
+<fun r='_ZN7Network6PacketC1ENS_9DirectionEttRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<fun r='_ZN7Network6Packet9toMessageEv'/>

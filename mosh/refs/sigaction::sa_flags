@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/sigaction.h' l='46' type='int'/>
+<offset>1088</offset>
+<doc f='include/x86_64-linux-gnu/bits/sigaction.h' l='45'>/* Special flags.  */</doc>
+<use f='codebrowser/src/util/select.h' l='112' u='w' c='_ZN6Select10add_signalEi'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='440' u='w' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='520' u='w' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>

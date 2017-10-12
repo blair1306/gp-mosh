@@ -1,0 +1,19 @@
+<def f='codebrowser/src/network/network.h' l='65' ll='67' type='void Network::NetworkException::NetworkException(string s_function = &quot;&lt;none&gt;&quot;, int s_errno = 0)'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='81' u='c' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/network.cc' l='156' u='c' c='_ZN7Network10Connection6SocketC1Ei'/>
+<use f='codebrowser/src/network/network.cc' l='163' u='c' c='_ZN7Network10Connection6SocketC1Ei'/>
+<use f='codebrowser/src/network/network.cc' l='211' u='c' c='_ZN7Network10Connection7set_MTUEi'/>
+<use f='codebrowser/src/network/network.cc' l='223' u='c' c='_ZN8AddrInfoC1EPKcS1_PK8addrinfo'/>
+<use f='codebrowser/src/network/network.cc' l='266' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<use f='codebrowser/src/network/network.cc' l='289' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<use f='codebrowser/src/network/network.cc' l='324' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='347' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='351' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='454' u='c' c='_ZN7Network10Connection4recvB5cxx11Ev'/>
+<use f='codebrowser/src/network/network.cc' l='487' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='491' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='569' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='583' u='c' c='_ZNK7Network10Connection4portB5cxx11Ev'/>
+<use f='codebrowser/src/network/network.cc' l='591' u='c' c='_ZNK7Network10Connection4portB5cxx11Ev'/>
+<use f='codebrowser/src/network/network.cc' l='644' u='c' c='_ZN7Network10Connection6SocketC1ERKS1_'/>
+<use f='codebrowser/src/network/network.cc' l='651' u='c' c='_ZN7Network10Connection6SocketaSERKS1_'/>

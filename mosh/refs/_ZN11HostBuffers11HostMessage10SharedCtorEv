@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='84' type='void HostBuffers::HostMessage::SharedCtor()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='72' u='c' c='_ZN11HostBuffers11HostMessageC1Ev'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='81' u='c' c='_ZN11HostBuffers11HostMessageC1ERKS0_'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='86' ll='89' type='void HostBuffers::HostMessage::SharedCtor()'/>

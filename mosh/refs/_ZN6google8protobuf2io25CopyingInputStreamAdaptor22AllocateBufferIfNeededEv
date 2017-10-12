@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='218' type='void google::protobuf::io::CopyingInputStreamAdaptor::AllocateBufferIfNeeded()'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='217'>// Insures that buffer_ is not NULL.</doc>

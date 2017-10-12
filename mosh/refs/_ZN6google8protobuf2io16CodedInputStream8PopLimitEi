@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='324' type='void google::protobuf::io::CodedInputStream::PopLimit(Limit limit)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='338' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19ReadPackedPrimitiveEPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='451' u='c' c='_ZN6google8protobuf8internal14WireFormatLite11ReadMessageEPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='494' u='c' c='_ZN6google8protobuf8internal14WireFormatLite20ReadMessageNoVirtualEPNS0_2io16CodedInputStreamEPT_'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='322'>// Pops the last limit pushed by PushLimit().  The input must be the value
+  // returned by that call to PushLimit().</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='67' type='std::string Terminal::Complete::act(const Parser::Action &amp; act)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='747' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<def f='codebrowser/src/statesync/completeterminal.cc' l='64' ll='69' type='string Terminal::Complete::act(const Parser::Action &amp; act)'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='114' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

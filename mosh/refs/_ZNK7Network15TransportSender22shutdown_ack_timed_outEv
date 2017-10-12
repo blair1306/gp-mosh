@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/transportsender.h' l='156' type='bool Network::TransportSender::shutdown_ack_timed_out() const'/>
+<def f='codebrowser/src/network/transportsender-impl.h' l='373' ll='385' type='bool Network::TransportSender::shutdown_ack_timed_out() const'/>
+<doc f='codebrowser/src/network/transportsender-impl.h' l='372'>/* give up on getting acknowledgement for shutdown */</doc>

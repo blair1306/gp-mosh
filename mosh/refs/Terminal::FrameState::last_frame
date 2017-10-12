@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='48' type='const Terminal::Framebuffer &amp;'/>
+<offset>384</offset>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='68' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='76' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='77' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='114' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='127' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='135' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='136' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='146' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='147' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='148' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='159' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='161' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='294' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='300' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='307' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='308' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='318' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='324' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='330' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='331' u='m' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='486' u='w' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='489' u='m' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='489' u='m' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/dos_assert.h' l='41' ll='47' type='void dos_detected(const char * expression, const char * file, int line, const char * function)'/>
+<use f='codebrowser/src/network/compressor.cc' l='44' macro='1' u='c'/>
+<use f='codebrowser/src/network/compressor.cc' l='53' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='78' macro='1' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='514' macro='1' u='c'/>

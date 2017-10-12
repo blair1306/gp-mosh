@@ -1,0 +1,10 @@
+<use f='codebrowser/src/util/select.h' l='64' u='w' c='_ZN6SelectC1Ev'/>
+<use f='codebrowser/src/util/select.h' l='69' u='a' c='_ZN6SelectC1Ev'/>
+<use f='codebrowser/src/util/select.h' l='121' u='a' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/util/select.h' l='121' u='r' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/util/select.h' l='150' u='a' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/util/select.h' l='173' u='a' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/util/select.h' l='179' u='a' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/util/select.h' l='194' u='a' c='_ZNK6Select4readEi'/>
+<dec f='codebrowser/src/util/select.h' l='234' type='fd_set'/>
+<offset>3136</offset>

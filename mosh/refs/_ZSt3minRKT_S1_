@@ -1,0 +1,20 @@
+<def f='include/c++/5/bits/stl_algobase.h' l='194' ll='203' type='const _Tp &amp; std::min(const _Tp &amp; __a, const _Tp &amp; __b)'/>
+<use f='include/c++/5/bits/stl_algobase.h' l='935' u='c' c='_ZNSt25__lexicographical_compareILb1EE4__lcEPKT_S3_PKT0_S6_'/>
+<use f='include/c++/5/bits/streambuf.tcc' l='55' u='c' c='_ZNSt15basic_streambuf6xsgetnEPT_l'/>
+<use f='include/c++/5/bits/streambuf.tcc' l='89' u='c' c='_ZNSt15basic_streambuf6xsputnEPKT_l'/>
+<use f='include/c++/5/bits/istream.tcc' l='691' u='c' c='_ZNSt13basic_istream8readsomeEPT_l'/>
+<use f='include/c++/5/bits/fstream.tcc' l='396' u='c' c='_ZNSt13basic_filebuf9underflowEv'/>
+<use f='include/c++/5/bits/fstream.tcc' l='742' u='c' c='_ZNSt13basic_filebuf6xsputnEPKT_l'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='197' u='c' c='_ZN7Overlay18NotificationEngine19clear_network_errorEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='342' u='c' c='_ZNK7Overlay14OverlayManager9wait_timeEv'/>
+<dec f='include/c++/5/bits/algorithmfwd.h' l='370' type='const _Tp &amp; std::min(const _Tp &amp; , const _Tp &amp; )'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='668' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='669' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='672' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='687' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='442' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='446' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='321' u='c' c='_ZNK7Overlay18NotificationEngine9wait_timeEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='330' u='c' c='_ZNK7Overlay18NotificationEngine9wait_timeEv'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='368' u='c' c='_ZN6google8protobuf8internal14WireFormatLite28ReadPackedFixedSizePrimitiveEPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='601' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>

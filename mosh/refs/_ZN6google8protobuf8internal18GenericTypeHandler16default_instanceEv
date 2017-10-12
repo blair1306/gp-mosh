@@ -1,0 +1,3 @@
+<def f='include/google/protobuf/repeated_field.h' l='369' type='static const Type &amp; google::protobuf::internal::GenericTypeHandler::default_instance()'/>
+<def f='include/google/protobuf/repeated_field.h' l='378' ll='385' type='static const google::protobuf::MessageLite &amp; google::protobuf::internal::GenericTypeHandler&lt;google::protobuf::MessageLite&gt;::default_instance()'/>
+<def f='include/google/protobuf/repeated_field.h' l='387' ll='394' type='static const google::protobuf::Message &amp; google::protobuf::internal::GenericTypeHandler&lt;google::protobuf::Message&gt;::default_instance()'/>

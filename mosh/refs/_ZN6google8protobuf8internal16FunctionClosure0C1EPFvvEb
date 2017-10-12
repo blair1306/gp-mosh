@@ -1,0 +1,4 @@
+<def f='include/google/protobuf/stubs/common.h' l='870' ll='871' type='void google::protobuf::internal::FunctionClosure0::FunctionClosure0(FunctionType function, bool self_deleting)'/>
+<use f='include/google/protobuf/stubs/common.h' l='1006' u='c' c='_ZN6google8protobuf11NewCallbackEPFvvE'/>
+<use f='include/google/protobuf/stubs/common.h' l='1011' u='c' c='_ZN6google8protobuf20NewPermanentCallbackEPFvvE'/>
+<use f='include/google/protobuf/stubs/once.h' l='126' u='c' c='_ZN6google8protobuf14GoogleOnceInitEPlPFvvE'/>

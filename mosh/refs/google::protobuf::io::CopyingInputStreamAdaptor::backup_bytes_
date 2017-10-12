@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='245' type='int'/>
+<offset>384</offset>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='242'>// Number of bytes in the buffer which were backed up over by a call to
+  // BackUp().  These need to be returned again.
+  // 0 &lt;= backup_bytes_ &lt;= buffer_used_</doc>

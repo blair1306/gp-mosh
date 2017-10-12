@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='124' type='void ClientBuffers::Instruction::Instruction()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='32' u='c' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='241' ll='245' type='void ClientBuffers::Instruction::Instruction()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='285' u='c' c='_ZNK13ClientBuffers11Instruction3NewEv'/>

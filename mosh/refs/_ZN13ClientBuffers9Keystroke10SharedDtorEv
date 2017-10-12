@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='234' type='void ClientBuffers::Keystroke::SharedDtor()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='422' u='c' c='_ZN13ClientBuffers9KeystrokeD1Ev'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='425' ll='431' type='void ClientBuffers::Keystroke::SharedDtor()'/>

@@ -1,0 +1,77 @@
+<inh f='include/google/protobuf/message_lite.h' l='77' c='google::protobuf::MessageLite'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='193' ll='272'/>
+<size>56</size>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='191'>// -------------------------------------------------------------------</doc>
+<fun r='_ZN11HostBuffers9HostBytesC1Ev'/>
+<fun r='_ZN11HostBuffers9HostBytesD1Ev'/>
+<fun r='_ZN11HostBuffers9HostBytesC1ERKS0_'/>
+<fun r='_ZN11HostBuffers9HostBytesaSERKS0_'/>
+<fun r='_ZNK11HostBuffers9HostBytes14unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes22mutable_unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes16default_instanceEv'/>
+<fun r='_ZN11HostBuffers9HostBytes4SwapEPS0_'/>
+<fun r='_ZNK11HostBuffers9HostBytes3NewEv'/>
+<fun r='_ZN11HostBuffers9HostBytes21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN11HostBuffers9HostBytes8CopyFromERKS0_'/>
+<fun r='_ZN11HostBuffers9HostBytes9MergeFromERKS0_'/>
+<fun r='_ZN11HostBuffers9HostBytes5ClearEv'/>
+<fun r='_ZNK11HostBuffers9HostBytes13IsInitializedEv'/>
+<fun r='_ZNK11HostBuffers9HostBytes8ByteSizeEv'/>
+<fun r='_ZN11HostBuffers9HostBytes27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK11HostBuffers9HostBytes24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZN11HostBuffers9HostBytes20DiscardUnknownFieldsEv'/>
+<fun r='_ZNK11HostBuffers9HostBytes13GetCachedSizeEv'/>
+<fun r='_ZN11HostBuffers9HostBytes10SharedCtorEv'/>
+<fun r='_ZN11HostBuffers9HostBytes10SharedDtorEv'/>
+<fun r='_ZNK11HostBuffers9HostBytes13SetCachedSizeEi'/>
+<fun r='_ZNK11HostBuffers9HostBytes11GetTypeNameB5cxx11Ev'/>
+<fun r='_ZNK11HostBuffers9HostBytes14has_hoststringEv'/>
+<fun r='_ZN11HostBuffers9HostBytes16clear_hoststringEv'/>
+<smbr r='HostBuffers::HostBytes::kHoststringFieldNumber' t='const int'/>
+<fun r='_ZNK11HostBuffers9HostBytes10hoststringB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes14set_hoststringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN11HostBuffers9HostBytes14set_hoststringEPKc'/>
+<fun r='_ZN11HostBuffers9HostBytes14set_hoststringEPKvm'/>
+<fun r='_ZN11HostBuffers9HostBytes18mutable_hoststringB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes18release_hoststringB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes24set_allocated_hoststringEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN11HostBuffers9HostBytes18set_has_hoststringEv'/>
+<fun r='_ZN11HostBuffers9HostBytes20clear_has_hoststringEv'/>
+<mbr r='HostBuffers::HostBytes::_unknown_fields_' o='64' t='::std::string'/>
+<mbr r='HostBuffers::HostBytes::_has_bits_' o='320' t='::google::protobuf::uint32 [1]'/>
+<mbr r='HostBuffers::HostBytes::_cached_size_' o='352' t='int'/>
+<mbr r='HostBuffers::HostBytes::hoststring_' o='384' t='::std::string *'/>
+<fun r='_ZN11HostBuffers9HostBytes21InitAsDefaultInstanceEv'/>
+<smbr r='HostBuffers::HostBytes::default_instance_' t='HostBuffers::HostBytes *'/>
+<fun r='_ZNK11HostBuffers9HostBytes14has_hoststringEv'/>
+<fun r='_ZN11HostBuffers9HostBytes18set_has_hoststringEv'/>
+<fun r='_ZN11HostBuffers9HostBytes20clear_has_hoststringEv'/>
+<fun r='_ZN11HostBuffers9HostBytes16clear_hoststringEv'/>
+<fun r='_ZNK11HostBuffers9HostBytes10hoststringB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes14set_hoststringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN11HostBuffers9HostBytes14set_hoststringEPKc'/>
+<fun r='_ZN11HostBuffers9HostBytes14set_hoststringEPKvm'/>
+<fun r='_ZN11HostBuffers9HostBytes18mutable_hoststringB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes18release_hoststringB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes24set_allocated_hoststringEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<smbr r='HostBuffers::HostBytes::kHoststringFieldNumber' t='const int'/>
+<fun r='_ZN11HostBuffers9HostBytesC1Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes21InitAsDefaultInstanceEv'/>
+<fun r='_ZN11HostBuffers9HostBytesC1ERKS0_'/>
+<fun r='_ZN11HostBuffers9HostBytes10SharedCtorEv'/>
+<fun r='_ZN11HostBuffers9HostBytesD1Ev'/>
+<fun r='_ZN11HostBuffers9HostBytes10SharedDtorEv'/>
+<fun r='_ZNK11HostBuffers9HostBytes13SetCachedSizeEi'/>
+<fun r='_ZN11HostBuffers9HostBytes16default_instanceEv'/>
+<smbr r='HostBuffers::HostBytes::default_instance_' t='HostBuffers::HostBytes *'/>
+<fun r='_ZNK11HostBuffers9HostBytes3NewEv'/>
+<fun r='_ZN11HostBuffers9HostBytes5ClearEv'/>
+<fun r='_ZN11HostBuffers9HostBytes27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK11HostBuffers9HostBytes24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZNK11HostBuffers9HostBytes8ByteSizeEv'/>
+<fun r='_ZN11HostBuffers9HostBytes21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN11HostBuffers9HostBytes9MergeFromERKS0_'/>
+<fun r='_ZN11HostBuffers9HostBytes8CopyFromERKS0_'/>
+<fun r='_ZNK11HostBuffers9HostBytes13IsInitializedEv'/>
+<fun r='_ZN11HostBuffers9HostBytes4SwapEPS0_'/>
+<fun r='_ZNK11HostBuffers9HostBytes11GetTypeNameB5cxx11Ev'/>

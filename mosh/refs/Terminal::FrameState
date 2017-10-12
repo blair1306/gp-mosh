@@ -1,0 +1,19 @@
+<def f='codebrowser/src/terminal/terminaldisplay.h' l='40' ll='62'/>
+<size>56</size>
+<doc f='codebrowser/src/terminal/terminaldisplay.h' l='39'>/* variables used within a new_frame */</doc>
+<mbr r='Terminal::FrameState::str' o='0' t='std::string'/>
+<mbr r='Terminal::FrameState::cursor_x' o='256' t='int'/>
+<mbr r='Terminal::FrameState::cursor_y' o='288' t='int'/>
+<mbr r='Terminal::FrameState::current_rendition' o='320' t='Terminal::Renditions'/>
+<mbr r='Terminal::FrameState::cursor_visible' o='352' t='bool'/>
+<mbr r='Terminal::FrameState::last_frame' o='384' t='const Terminal::Framebuffer &amp;'/>
+<fun r='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<fun r='_ZN8Terminal10FrameState6appendEc'/>
+<fun r='_ZN8Terminal10FrameState6appendEmc'/>
+<fun r='_ZN8Terminal10FrameState6appendEw'/>
+<fun r='_ZN8Terminal10FrameState6appendEPKc'/>
+<fun r='_ZN8Terminal10FrameState13append_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN8Terminal10FrameState11append_cellERKNS_4CellE'/>
+<fun r='_ZN8Terminal10FrameState18append_silent_moveEii'/>
+<fun r='_ZN8Terminal10FrameState11append_moveEii'/>
+<fun r='_ZN8Terminal10FrameState16update_renditionERKNS_10RenditionsEb'/>

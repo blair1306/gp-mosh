@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='85' type='std::vector&lt;int&gt;'/>
+<offset>256</offset>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='48' u='w' c='_ZN8Terminal10DispatcherC1Ev'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='85' u='m' c='_ZN8Terminal10Dispatcher12parse_paramsEv'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='108' u='m' c='_ZN8Terminal10Dispatcher12parse_paramsEv'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='128' u='m' c='_ZN8Terminal10Dispatcher12parse_paramsEv'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='141' u='m' c='_ZN8Terminal10Dispatcher8getparamEmi'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='142' u='m' c='_ZN8Terminal10Dispatcher8getparamEmi'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='156' u='m' c='_ZN8Terminal10Dispatcher11param_countEv'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='252' u='r' c='_ZNK8Terminal10DispatchereqERKS0_'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='252' u='r' c='_ZNK8Terminal10DispatchereqERKS0_'/>

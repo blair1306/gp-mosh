@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='46' type='bool'/>
+<offset>352</offset>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='153' u='w' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='281' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='485' u='w' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='496' u='r' c='_ZN8Terminal10FrameState18append_silent_moveEii'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='498' u='w' c='_ZN8Terminal10FrameState18append_silent_moveEii'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/statesync/completeterminal.h' l='77' type='void Terminal::Complete::subtract(const Terminal::Complete * ) const'/>
+<doc f='codebrowser/src/statesync/completeterminal.h' l='76'>/* interface for Network::Transport */</doc>

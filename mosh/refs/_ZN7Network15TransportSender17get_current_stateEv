@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/transportsender.h' l='140' type='MyState &amp; Network::TransportSender::get_current_state()'/>
+<doc f='codebrowser/src/network/transportsender.h' l='139'>/* Cannot modify current_state while shutdown in progress */</doc>

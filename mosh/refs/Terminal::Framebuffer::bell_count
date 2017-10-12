@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='372' type='unsigned int'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='456' u='w' c='_ZN8Terminal11Framebuffer9ring_bellEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='457' u='r' c='_ZNK8Terminal11Framebuffer14get_bell_countEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='461' u='r' c='_ZNK8Terminal11FramebuffereqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='461' u='r' c='_ZNK8Terminal11FramebuffereqERKS0_'/>
+<offset>768</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='81' u='w' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='92' u='w' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='92' u='r' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='104' u='w' c='_ZN8Terminal11FramebufferaSERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='104' u='r' c='_ZN8Terminal11FramebufferaSERKS0_'/>

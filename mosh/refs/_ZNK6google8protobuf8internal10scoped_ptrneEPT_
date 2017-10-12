@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/stubs/common.h' l='491' type='bool google::protobuf::internal::scoped_ptr::operator!=(C * p) const'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminal.h' l='70' type='void Terminal::Emulator::execute(const Parser::Execute * act)'/>
+<use f='codebrowser/src/terminal/parseraction.cc' l='48' u='c' c='_ZNK6Parser7Execute15act_on_terminalEPN8Terminal8EmulatorE'/>
+<def f='codebrowser/src/terminal/terminal.cc' l='54' ll='57' type='void Terminal::Emulator::execute(const Parser::Execute * act)'/>

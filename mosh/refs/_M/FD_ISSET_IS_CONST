@@ -1,0 +1,3 @@
+<dec f='codebrowser/config.h' l='5'/>
+<doc f='codebrowser/config.h' l='4'>/* Define if FD_ISSET() fd_set argument is const. */</doc>
+<use f='codebrowser/src/util/select.h' l='189' u='c'/>

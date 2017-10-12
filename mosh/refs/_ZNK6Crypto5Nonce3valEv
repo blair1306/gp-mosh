@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='116' type='uint64_t Crypto::Nonce::val() const'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='184' ll='189' type='uint64_t Crypto::Nonce::val() const'/>
+<use f='codebrowser/src/network/network.cc' l='72' u='c' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<use f='codebrowser/src/network/network.cc' l='73' u='c' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>

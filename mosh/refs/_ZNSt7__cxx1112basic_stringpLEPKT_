@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/basic_string.h' l='949' ll='951' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::operator+=(const _CharT * __s)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='944'>/**
+       *  @brief  Append a C string.
+       *  @param __s  The C string to append.
+       *  @return  Reference to this string.
+       */</doc>
+<use f='codebrowser/src/network/network.cc' l='411' u='c' c='_ZN7Network10Connection4sendERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

@@ -1,0 +1,15 @@
+<def f='codebrowser/src/terminal/terminal.h' l='48' ll='84'/>
+<size>392</size>
+<mbr r='Terminal::Emulator::fb' o='0' t='Terminal::Framebuffer'/>
+<mbr r='Terminal::Emulator::dispatch' o='1856' t='Terminal::Dispatcher'/>
+<mbr r='Terminal::Emulator::user' o='3072' t='Terminal::UserInput'/>
+<fun r='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<fun r='_ZN8Terminal8Emulator7executeEPKN6Parser7ExecuteE'/>
+<fun r='_ZN8Terminal8Emulator12CSI_dispatchEPKN6Parser12CSI_DispatchE'/>
+<fun r='_ZN8Terminal8Emulator12Esc_dispatchEPKN6Parser12Esc_DispatchE'/>
+<fun r='_ZN8Terminal8Emulator7OSC_endEPKN6Parser7OSC_EndE'/>
+<fun r='_ZN8Terminal8Emulator6resizeEmm'/>
+<fun r='_ZN8Terminal8EmulatorC1Emm'/>
+<fun r='_ZN8Terminal8Emulator19read_octets_to_hostB5cxx11Ev'/>
+<fun r='_ZNK8Terminal8Emulator6get_fbEv'/>
+<fun r='_ZNK8Terminal8EmulatoreqERKS0_'/>

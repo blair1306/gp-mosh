@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='100' type='bool'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='111' u='w' c='_ZN7Overlay22ConditionalOverlayCellC1Emim'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='115' u='w' c='_ZN7Overlay22ConditionalOverlayCell5resetEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='117' u='r' c='_ZN7Overlay22ConditionalOverlayCell15reset_with_origEv'/>
+<offset>640</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='62' u='r' c='_ZNK7Overlay22ConditionalOverlayCell5applyERN8Terminal11FramebufferEmib'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='97' u='r' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='722' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='723' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='725' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='729' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='733' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='770' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='772' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='773' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='775' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='779' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='795' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>

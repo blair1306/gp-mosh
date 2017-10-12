@@ -1,0 +1,14 @@
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='125'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='126'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='127'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='128'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='129' ll='130'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='131' ll='132'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='133' ll='134'/>
+<size>1</size>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='123'>// is_floating_point is false except for the built-in floating-point types.
+// A cv-qualified type is integral if and only if the underlying type is.</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='93' type='unsigned char [16]'/>
+<use f='codebrowser/src/crypto/crypto.h' l='100' u='r' c='_ZN6Crypto9Base64Key4dataEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='120' u='r' c='_ZN6Crypto9Base64KeyC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='136' u='r' c='_ZN6Crypto9Base64KeyC1Ev'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='136' u='r' c='_ZN6Crypto9Base64KeyC1Ev'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='141' u='r' c='_ZN6Crypto9Base64KeyC1ER4PRNG'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='141' u='r' c='_ZN6Crypto9Base64KeyC1ER4PRNG'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='148' u='r' c='_ZNK6Crypto9Base64Key13printable_keyB5cxx11Ev'/>
+<offset>0</offset>

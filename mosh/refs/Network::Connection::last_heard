@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/network/network.h' l='182' type='uint64_t'/>
+<offset>3200</offset>
+<use f='codebrowser/src/network/network.cc' l='245' u='w' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<use f='codebrowser/src/network/network.cc' l='367' u='w' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>
+<use f='codebrowser/src/network/network.cc' l='420' u='r' c='_ZN7Network10Connection4sendERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/network.cc' l='557' u='w' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

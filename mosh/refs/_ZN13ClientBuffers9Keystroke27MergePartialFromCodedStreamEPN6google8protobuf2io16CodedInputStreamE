@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='226' type='bool ClientBuffers::Keystroke::MergePartialFromCodedStream(::google::protobuf::io::CodedInputStream * input)'/>
+<inh f='include/google/protobuf/message_lite.h' l='166' c='_ZN6google8protobuf11MessageLite27MergePartialFromCodedStreamEPNS0_2io16CodedInputStreamE'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='459' ll='505' type='bool ClientBuffers::Keystroke::MergePartialFromCodedStream(::google::protobuf::io::CodedInputStream * input)'/>

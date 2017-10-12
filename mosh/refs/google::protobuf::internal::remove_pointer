@@ -1,0 +1,6 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='290'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='291'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='292'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='293'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='294' ll='295'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='289'>// Specified by TR1 [4.7.4] Pointer modifications.</doc>

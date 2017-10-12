@@ -1,0 +1,8 @@
+<def f='codebrowser/src/network/transportfragment.h' l='89' ll='104'/>
+<size>120</size>
+<mbr r='Network::Fragmenter::next_instruction_id' o='0' t='uint64_t'/>
+<mbr r='Network::Fragmenter::last_instruction' o='64' t='TransportBuffers::Instruction'/>
+<mbr r='Network::Fragmenter::last_MTU' o='896' t='size_t'/>
+<fun r='_ZN7Network10FragmenterC1Ev'/>
+<fun r='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<fun r='_ZNK7Network10Fragmenter13last_ack_sentEv'/>

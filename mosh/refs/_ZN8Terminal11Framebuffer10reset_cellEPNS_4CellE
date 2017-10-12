@@ -1,0 +1,7 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='453' type='void Terminal::Framebuffer::reset_cell(Terminal::Cell * c)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='274' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='85' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='107' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='114' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='50' u='c' c='_ZL9clearlinePN8Terminal11FramebufferEiii'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='157' u='c' c='_ZL10Esc_DECALNPN8Terminal11FramebufferEPNS_10DispatcherE'/>

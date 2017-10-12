@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='212' type='const uint64_t'/>
+<doc f='codebrowser/src/frontend/terminaloverlay.h' l='212'>/* prediction outstanding this long is glitch */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='551' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='577' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

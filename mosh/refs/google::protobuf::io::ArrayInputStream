@@ -1,0 +1,18 @@
+<inh f='include/google/protobuf/io/zero_copy_stream.h' l='124' c='google::protobuf::io::ZeroCopyInputStream'/>
+<def f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='61' ll='90'/>
+<size>32</size>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='58'>// ===================================================================
+
+// A ZeroCopyInputStream backed by an in-memory array of bytes.</doc>
+<fun r='_ZN6google8protobuf2io16ArrayInputStreamC1EPKvii'/>
+<fun r='_ZN6google8protobuf2io16ArrayInputStreamD1Ev'/>
+<fun r='_ZN6google8protobuf2io16ArrayInputStream4NextEPPKvPi'/>
+<fun r='_ZN6google8protobuf2io16ArrayInputStream6BackUpEi'/>
+<fun r='_ZN6google8protobuf2io16ArrayInputStream4SkipEi'/>
+<fun r='_ZNK6google8protobuf2io16ArrayInputStream9ByteCountEv'/>
+<mbr r='google::protobuf::io::ArrayInputStream::data_' o='64' t='const uint8 *const'/>
+<mbr r='google::protobuf::io::ArrayInputStream::size_' o='128' t='const int'/>
+<mbr r='google::protobuf::io::ArrayInputStream::block_size_' o='160' t='const int'/>
+<mbr r='google::protobuf::io::ArrayInputStream::position_' o='192' t='int'/>
+<mbr r='google::protobuf::io::ArrayInputStream::last_returned_size_' o='224' t='int'/>
+<fun r='_ZN6google8protobuf2io16ArrayInputStreamC1ERKS2_'/>

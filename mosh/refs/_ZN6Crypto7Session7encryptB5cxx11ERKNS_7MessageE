@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='153' type='const string Crypto::Session::encrypt(const Crypto::Message &amp; plaintext)'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='201' ll='249' type='const string Crypto::Session::encrypt(const Crypto::Message &amp; plaintext)'/>
+<use f='codebrowser/src/network/network.cc' l='403' u='c' c='_ZN7Network10Connection4sendERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

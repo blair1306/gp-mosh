@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='208' type='bool google::protobuf::io::CodedInputStream::InternalReadStringInline(string * buffer, int size)'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='206'>// Like the above, with inlined optimizations. This should only be used
+  // by the protobuf implementation.</doc>

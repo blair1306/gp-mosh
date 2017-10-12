@@ -1,0 +1,3 @@
+<def f='codebrowser/src/statesync/user.h' l='61' type='void Network::UserEvent::UserEvent(const Parser::Resize &amp; s_resize)'/>
+<use f='codebrowser/src/statesync/user.h' l='79' u='c' c='_ZN7Network10UserStream9push_backERKN6Parser6ResizeE'/>
+<use f='codebrowser/src/statesync/user.cc' l='120' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

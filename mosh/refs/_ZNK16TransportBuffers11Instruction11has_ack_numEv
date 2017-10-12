@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='122' type='bool TransportBuffers::Instruction::has_ack_num() const'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='278' ll='280' type='bool TransportBuffers::Instruction::has_ack_num() const'/>
+<doc f='codebrowser/src/protobufs/transportinstruction.pb.h' l='121'>// optional uint64 ack_num = 4;</doc>
+<doc f='codebrowser/src/protobufs/transportinstruction.pb.h' l='277'>// optional uint64 ack_num = 4;</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='323' u='c' c='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='375' u='c' c='_ZNK16TransportBuffers11Instruction8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='428' u='c' c='_ZN16TransportBuffers11Instruction9MergeFromERKS0_'/>

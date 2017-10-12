@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/common.h' l='521' type='void google::protobuf::internal::scoped_ptr::scoped_ptr&lt;C&gt;(const scoped_ptr&lt;C&gt; &amp; )'/>
+<doc f='include/google/protobuf/stubs/common.h' l='520'>// Disallow evil constructors</doc>

@@ -1,0 +1,20 @@
+<def f='include/c++/5/bits/stl_vector.h' l='564' ll='566' type='iterator std::vector::end()'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='559'>/**
+       *  Returns a read/write iterator that points one past the last
+       *  element in the %vector.  Iteration is done in ordinary
+       *  element order.
+       */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='341' u='c' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='1005' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='454' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='469' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='395' u='c' c='_ZN7Overlay16PredictionEngine10kill_epochEmRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='485' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='561' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='668' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='881' u='c' c='_ZN7Overlay16PredictionEngine23newline_carriage_returnERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='53' u='c' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='162' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='418' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='566' u='c' c='_ZN8Terminal3Row5resetEt'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='579' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>

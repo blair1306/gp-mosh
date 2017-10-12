@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/repeated_field.h' l='332' type='int google::protobuf::internal::RepeatedPtrFieldBase::ClearedCount() const'/>
+<def f='include/google/protobuf/repeated_field.h' l='1033' ll='1035' type='int google::protobuf::internal::RepeatedPtrFieldBase::ClearedCount() const'/>
+<use f='include/google/protobuf/repeated_field.h' l='1214' u='c' c='_ZNK6google8protobuf16RepeatedPtrField12ClearedCountEv'/>

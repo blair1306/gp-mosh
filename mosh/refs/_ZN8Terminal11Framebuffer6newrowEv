@@ -1,0 +1,5 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='375' ll='380' type='row_pointer Terminal::Framebuffer::newrow()'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='321' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='345' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='384' u='c' c='_ZN8Terminal11Framebuffer5resetEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='410' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='66' type='uint64_t Crypto::unique()'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='65' ll='73' type='uint64_t Crypto::unique()'/>
+<doc f='codebrowser/src/crypto/crypto.h' l='61'>/*
+   * OCB (and other algorithms) require a source of nonce/sequence
+   * numbers that never repeats its output.  Enforce that with this
+   * function.
+   */</doc>
+<use f='codebrowser/src/network/network.h' l='86' u='c' c='_ZN7Network6PacketC1ENS_9DirectionEttRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

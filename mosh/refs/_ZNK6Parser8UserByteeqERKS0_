@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/parseraction.h' l='140' ll='143' type='bool Parser::UserByte::operator==(const Parser::UserByte &amp; other) const'/>
+<use f='codebrowser/src/statesync/user.h' l='67' u='c' c='_ZNK7Network9UserEventeqERKS0_'/>

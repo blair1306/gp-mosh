@@ -1,0 +1,4 @@
+<dec f='codebrowser/config.h' l='61'/>
+<use f='codebrowser/src/crypto/byteorder.h' l='40' u='a'/>
+<doc f='codebrowser/config.h' l='60'>/* Define to 1 if you have the &lt;endian.h&gt; header file. */</doc>
+<use f='codebrowser/src/crypto/ocb.cc' l='86' u='a'/>

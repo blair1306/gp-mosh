@@ -1,0 +1,6 @@
+<dec f='include/unistd.h' l='782' type='int isatty(int __fd)'/>
+<doc f='include/unistd.h' l='780'>/* Return 1 if FD is a valid descriptor associated
+   with a terminal, zero if not.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='432' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='468' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='471' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>

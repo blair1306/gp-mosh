@@ -1,0 +1,26 @@
+<dec f='include/stdio.h' l='386' type='int snprintf(char *__restrict __s, size_t __maxlen, const char *__restrict __format)'/>
+<doc f='include/stdio.h' l='385'>/* Maximum chars of output to write in MAXLEN.  */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='180' u='c' c='_ZN7Overlay18NotificationEngine21set_escape_key_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='504' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='178' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='180' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='183' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='175' u='c' c='_ZL23human_readable_durationiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='177' u='c' c='_ZL23human_readable_durationiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='179' u='c' c='_ZL23human_readable_durationiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/util/dos_assert.h' l='44' u='c' c='_ZL12dos_detectedPKcS0_iS0_'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='162' u='c' c='_ZN8Terminal10Dispatcher3strB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='129' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='237' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='308' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='311' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='331' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='334' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='404' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='527' u='c' c='_ZN8Terminal10FrameState11append_moveEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='534' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='541' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='549' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='555' u='c' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='595' u='c' c='_ZNK8Terminal4Cell14debug_contentsB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='458' u='c' c='_ZL7CSI_DSRPN8Terminal11FramebufferEPNS_10DispatcherE'/>

@@ -1,0 +1,6 @@
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='52' u='a' c='_ZNK16TransportBuffers11Instruction14unknown_fieldsB5cxx11Ev'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='56' u='a' c='_ZN16TransportBuffers11Instruction22mutable_unknown_fieldsB5cxx11Ev'/>
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='176' type='::std::string'/>
+<offset>64</offset>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='465' u='m' c='_ZN16TransportBuffers11Instruction4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='465' u='a' c='_ZN16TransportBuffers11Instruction4SwapEPS0_'/>

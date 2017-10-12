@@ -1,0 +1,24 @@
+<def f='codebrowser/src/crypto/ocb.cc' l='729' ll='746'/>
+<size>896</size>
+<doc f='codebrowser/src/crypto/ocb.cc' l='719'>/*------------------------------------------------------------------------
+/ Each item in the OCB context is stored either &quot;memory correct&quot; or
+/ &quot;register correct&quot;. On big-endian machines, this is identical. On
+/ little-endian machines, one must choose whether the byte-string
+/ is in the correct order when it resides in memory or in registers.
+/ It must be register correct whenever it is to be manipulated
+/ arithmetically, but must be memory correct whenever it interacts
+/ with the plaintext or ciphertext.
+/------------------------------------------------------------------------- */</doc>
+<mbr r='_ae_ctx::offset' o='0' t='block'/>
+<mbr r='_ae_ctx::checksum' o='128' t='block'/>
+<mbr r='_ae_ctx::Lstar' o='256' t='block'/>
+<mbr r='_ae_ctx::Ldollar' o='384' t='block'/>
+<mbr r='_ae_ctx::L' o='512' t='block [16]'/>
+<mbr r='_ae_ctx::ad_checksum' o='2560' t='block'/>
+<mbr r='_ae_ctx::ad_offset' o='2688' t='block'/>
+<mbr r='_ae_ctx::cached_Top' o='2816' t='block'/>
+<mbr r='_ae_ctx::KtopStr' o='2944' t='uint64_t [3]'/>
+<mbr r='_ae_ctx::ad_blocks_processed' o='3136' t='uint32_t'/>
+<mbr r='_ae_ctx::blocks_processed' o='3168' t='uint32_t'/>
+<mbr r='_ae_ctx::decrypt_key' o='3200' t='AES_KEY'/>
+<mbr r='_ae_ctx::encrypt_key' o='5152' t='AES_KEY'/>

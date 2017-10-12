@@ -1,0 +1,4 @@
+_ZSt7tolowerT_RKSt6locale|std::tolower
+_ZSt7toupperT_RKSt6locale|std::toupper
+_ZN7Network6Packet9toMessageEv|Network::Packet::toMessage
+_ZN7Network8Fragment8tostringB5cxx11Ev|Network::Fragment::tostring

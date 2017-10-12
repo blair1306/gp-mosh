@@ -1,0 +1,9 @@
+<def f='codebrowser/src/util/select.h' l='198' ll='206' type='bool Select::signal(int signum)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='830' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<doc f='codebrowser/src/util/select.h' l='197'>/* This method consumes a signal notification. */</doc>
+<use f='codebrowser/src/frontend/stmclient.cc' l='491' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='495' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='499' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='500' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='501' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='502' u='c' c='_ZN9STMClient4mainEv'/>

@@ -1,0 +1,9 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='220' type='static const uint8 * google::protobuf::io::CodedInputStream::ReadLittleEndian32FromArray(const uint8 * buffer, uint32 * value)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='814' ll='827' type='static const uint8 * google::protobuf::io::CodedInputStream::ReadLittleEndian32FromArray(const uint8 * buffer, uint32 * value)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='178' u='c' c='_ZN6google8protobuf8internal14WireFormatLite22ReadPrimitiveFromArrayEPKhPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='193' u='c' c='_ZN6google8protobuf8internal14WireFormatLite22ReadPrimitiveFromArrayEPKhPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='213' u='c' c='_ZN6google8protobuf8internal14WireFormatLite22ReadPrimitiveFromArrayEPKhPT_'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='217'>// These methods read from an externally provided buffer. The caller is
+  // responsible for ensuring that the buffer has sufficient space.
+  // Read a 32-bit little-endian integer.</doc>
+<doc f='include/google/protobuf/io/coded_stream.h' l='813'>// static</doc>

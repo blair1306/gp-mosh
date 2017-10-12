@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='309' type='void Terminal::DrawState::clear_tab(int col)'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='209' ll='212' type='void Terminal::DrawState::clear_tab(int col)'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='261' u='c' c='_ZL7CSI_TBCPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='266' u='c' c='_ZL7CSI_TBCPN8Terminal11FramebufferEPNS_10DispatcherE'/>

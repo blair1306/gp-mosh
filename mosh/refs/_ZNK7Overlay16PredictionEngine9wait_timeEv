@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='290' ll='295' type='int Overlay::PredictionEngine::wait_time() const'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='342' u='c' c='_ZNK7Overlay14OverlayManager9wait_timeEv'/>

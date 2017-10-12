@@ -1,0 +1,3 @@
+_ZSt3hexRSt8ios_base|std::hex
+_ZNK11HostBuffers13ResizeMessage6heightEv|HostBuffers::ResizeMessage::height
+_ZNK13ClientBuffers13ResizeMessage6heightEv|ClientBuffers::ResizeMessage::height

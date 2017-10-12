@@ -1,0 +1,1 @@
+<def f='codebrowser/src/network/transportstate.h' l='45' ll='47' type='void Network::TimestampedState::TimestampedState&lt;State&gt;(uint64_t s_timestamp, uint64_t s_num, const State &amp; s_state)'/>

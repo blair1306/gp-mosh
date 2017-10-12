@@ -1,0 +1,8 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='233' ll='243'/>
+<size>16</size>
+<mbr r='Terminal::SavedCursor::cursor_col' o='0' t='int'/>
+<mbr r='Terminal::SavedCursor::cursor_row' o='32' t='int'/>
+<mbr r='Terminal::SavedCursor::renditions' o='64' t='Terminal::Renditions'/>
+<mbr r='Terminal::SavedCursor::auto_wrap_mode' o='96' t='bool'/>
+<mbr r='Terminal::SavedCursor::origin_mode' o='104' t='bool'/>
+<fun r='_ZN8Terminal11SavedCursorC1Ev'/>

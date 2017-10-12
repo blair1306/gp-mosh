@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/stubs/common.h' l='1056' ll='1060' type='google::protobuf::Closure * google::protobuf::NewCallback(void (*)(Arg1, Arg2) function, Arg1 arg1, Arg2 arg2)'/>

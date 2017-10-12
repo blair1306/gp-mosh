@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/networktransport.h' l='122' type='std::string &amp; Network::Transport::get_send_error()'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='549' u='c' c='_ZN9STMClient4mainEv'/>

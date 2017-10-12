@@ -1,0 +1,11 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='152' type='static uint32 google::protobuf::internal::WireFormatLite::MakeTag(int field_number, google::protobuf::internal::WireFormatLite::WireType type)'/>
+<def f='include/google/protobuf/wire_format_lite.h' l='567' ll='569' type='static uint32 google::protobuf::internal::WireFormatLite::MakeTag(int field_number, google::protobuf::internal::WireFormatLite::WireType type)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='436' u='c' c='_ZN6google8protobuf8internal14WireFormatLite9ReadGroupEiPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='476' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18ReadGroupNoVirtualEiPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='503' u='c' c='_ZN6google8protobuf8internal14WireFormatLite8WriteTagEiNS2_8WireTypeEPNS0_2io17CodedOutputStreamE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='588' u='c' c='_ZN6google8protobuf8internal14WireFormatLite15WriteTagToArrayEiNS2_8WireTypeEPh'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='147'>// Helper functions for encoding and decoding tags.  (Inlined below and in
+  // _inl.h)
+  //
+  // This is different from MakeTag(field-&gt;number(), field-&gt;type()) in the case
+  // of packed repeated fields.</doc>

@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='532' type='void google::protobuf::io::CodedInputStream::BackUpInputToCurrentPosition()'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='531'>// Back up input_ to the current buffer position.</doc>

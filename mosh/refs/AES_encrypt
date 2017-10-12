@@ -1,0 +1,6 @@
+<dec f='include/openssl/aes.h' l='100' type='void AES_encrypt(const unsigned char * in, unsigned char * out, const AES_KEY * key)'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='360' u='c' c='_ZL20AES_ecb_encrypt_blksPDv2_xjP10aes_key_st'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='816' u='c' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='854' u='c' c='_ZL21gen_offset_from_nonceP7_ae_ctxPKv'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1338' u='c' c='ae_decrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1376' u='c' c='ae_decrypt'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='66' type='uint64_t'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='71' u='w' c='_ZN7Overlay18ConditionalOverlayC1Emim'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='80' u='w' c='_ZN7Overlay18ConditionalOverlay6expireEmm'/>
+<offset>256</offset>
+<doc f='codebrowser/src/frontend/terminaloverlay.h' l='66'>/* used to find long-pending predictions */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='551' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='575' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='577' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='251' type='unsigned int'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='288' u='w' c='_ZN7Overlay16PredictionEngine17set_send_intervalEj'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='305' u='w' c='_ZN7Overlay16PredictionEngineC1Ev'/>
+<offset>1088</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='452' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='455' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='461' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='463' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

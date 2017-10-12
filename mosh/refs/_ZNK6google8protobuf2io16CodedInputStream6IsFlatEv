@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='175' type='bool google::protobuf::io::CodedInputStream::IsFlat() const'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1207' ll='1209' type='bool google::protobuf::io::CodedInputStream::IsFlat() const'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='173'>// Return true if this CodedInputStream reads from a flat array instead of
+  // a ZeroCopyInputStream.</doc>

@@ -1,0 +1,2 @@
+<dec f='include/zlib.h' l='1160' type='int compress(Bytef * dest, uLongf * destLen, const Bytef * source, uLong sourceLen)'/>
+<use f='codebrowser/src/network/compressor.cc' l='44' u='c' c='_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

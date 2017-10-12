@@ -1,0 +1,3 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='194' type='bool Terminal::Cell::get_wide() const'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='291' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='133' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>

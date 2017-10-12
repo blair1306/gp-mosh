@@ -1,0 +1,16 @@
+<def f='include/google/protobuf/stubs/common.h' l='446' ll='523'/>
+<fun r='_ZN6google8protobuf8internal10scoped_ptrC1EPT_'/>
+<fun r='_ZN6google8protobuf8internal10scoped_ptrD1Ev'/>
+<fun r='_ZN6google8protobuf8internal10scoped_ptr5resetEPT_'/>
+<fun r='_ZNK6google8protobuf8internal10scoped_ptrdeEv'/>
+<fun r='_ZNK6google8protobuf8internal10scoped_ptrptEv'/>
+<fun r='_ZNK6google8protobuf8internal10scoped_ptr3getEv'/>
+<fun r='_ZNK6google8protobuf8internal10scoped_ptreqEPT_'/>
+<fun r='_ZNK6google8protobuf8internal10scoped_ptrneEPT_'/>
+<fun r='_ZN6google8protobuf8internal10scoped_ptr4swapERNS1_10scoped_ptrIT_EE'/>
+<fun r='_ZN6google8protobuf8internal10scoped_ptr7releaseEv'/>
+<mbr r='google::protobuf::internal::scoped_ptr::ptr_' t='C *'/>
+<fun r='_ZNK6google8protobuf8internal10scoped_ptreqERKNS1_10scoped_ptrIT_EE'/>
+<fun r='_ZNK6google8protobuf8internal10scoped_ptrneERKNS1_10scoped_ptrIT_EE'/>
+<fun r='_ZN6google8protobuf8internal10scoped_ptrC1ERKNS1_10scoped_ptrIT_EE'/>
+<fun r='_ZN6google8protobuf8internal10scoped_ptraSERKNS1_10scoped_ptrIT_EE'/>

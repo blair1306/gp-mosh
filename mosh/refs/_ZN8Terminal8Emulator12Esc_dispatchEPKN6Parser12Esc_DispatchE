@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminal.h' l='72' type='void Terminal::Emulator::Esc_dispatch(const Parser::Esc_Dispatch * act)'/>
+<use f='codebrowser/src/terminal/parseraction.cc' l='73' u='c' c='_ZNK6Parser12Esc_Dispatch15act_on_terminalEPN8Terminal8EmulatorE'/>
+<def f='codebrowser/src/terminal/terminal.cc' l='160' ll='172' type='void Terminal::Emulator::Esc_dispatch(const Parser::Esc_Dispatch * act)'/>

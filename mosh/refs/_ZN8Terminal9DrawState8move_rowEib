@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='298' type='void Terminal::DrawState::move_row(int N, bool relative = false)'/>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='296'>/* bold, etc. */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='158' u='c' c='_ZNK7Overlay21ConditionalCursorMove5applyERN8Terminal11FramebufferEm'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='134' ll='145' type='void Terminal::DrawState::move_row(int N, bool relative = false)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='175' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='182' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='186' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='189' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='108' u='c' c='_ZL14CSI_cursormovePN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='111' u='c' c='_ZL14CSI_cursormovePN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='121' u='c' c='_ZL14CSI_cursormovePN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='283' u='c' c='_ZL12get_DEC_modeiPN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='292' u='c' c='_ZL12get_DEC_modeiPN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='396' u='c' c='_ZL11CSI_DECSTBMPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='526' u='c' c='_ZL7CSI_VPAPN8Terminal11FramebufferEPNS_10DispatcherE'/>

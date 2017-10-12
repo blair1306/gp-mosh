@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='787' ll='790' type='static const string &amp; google::protobuf::internal::StringTypeTraits::Get(int number, const google::protobuf::internal::ExtensionSet &amp; set, ConstType default_value)'/>

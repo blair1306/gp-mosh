@@ -1,0 +1,13 @@
+<dec f='include/google/protobuf/stubs/common.h' l='717'/>
+<use f='include/google/protobuf/repeated_field.h' l='729' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='927' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='212' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='368' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='554' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='780' u='c'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='967' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='417' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='205' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='361' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='547' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='773' u='c'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='328' type='Overlay::TitleEngine'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='336' u='m' c='_ZN7Overlay14OverlayManager16set_title_prefixERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='338' u='w' c='_ZN7Overlay14OverlayManagerC1Ev'/>
+<offset>2112</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='342' u='m' c='_ZN7Overlay14OverlayManager5applyERN8Terminal11FramebufferE'/>

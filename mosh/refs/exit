@@ -1,0 +1,39 @@
+<dec f='include/stdlib.h' l='543' type='void exit(int __status)'/>
+<doc f='include/stdlib.h' l='540'>/* Call all functions registered with `atexit&apos; and `on_exit&apos;,
+   in the reverse of the order in which they were registered,
+   perform stdio cleanup, and terminate program execution with STATUS.  */</doc>
+<use f='codebrowser/src/crypto/crypto.cc' l='262' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='299' u='c' c='_ZN6Crypto20disable_dumping_coreEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='306' u='c' c='_ZN6Crypto20disable_dumping_coreEv'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='120' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='121' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='125' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='137' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='144' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='153' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='164' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='171' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='186' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='191' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='195' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='243' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='268' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='276' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='291' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='356' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='487' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='494' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='499' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='511' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='533' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='540' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='550' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='556' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='562' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='631' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='71' u='c' c='_ZN9STMClient6resumeEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='92' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='98' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='116' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='212' u='c' c='_ZN9STMClient8shutdownEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='349' u='c' c='_ZN9STMClient18process_user_inputEi'/>

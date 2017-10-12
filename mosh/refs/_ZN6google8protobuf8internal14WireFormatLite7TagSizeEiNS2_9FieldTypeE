@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='158' type='static int google::protobuf::internal::WireFormatLite::TagSize(int field_number, WireFormatLite::FieldType type)'/>
+<def f='include/google/protobuf/wire_format_lite.h' l='579' ll='589' type='static int google::protobuf::internal::WireFormatLite::TagSize(int field_number, WireFormatLite::FieldType type)'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='156'>// Compute the byte size of a tag.  For groups, this includes both the start
+  // and end tags.</doc>

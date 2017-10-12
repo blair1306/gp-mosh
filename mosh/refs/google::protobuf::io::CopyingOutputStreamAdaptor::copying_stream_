@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='312' type='google::protobuf::io::CopyingOutputStream *'/>
+<offset>64</offset>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='311'>// The underlying copying stream.</doc>

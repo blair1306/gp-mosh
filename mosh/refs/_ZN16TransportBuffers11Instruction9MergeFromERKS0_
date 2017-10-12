@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='78' type='void TransportBuffers::Instruction::MergeFrom(const TransportBuffers::Instruction &amp; from)'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='78' u='c' c='_ZN16TransportBuffers11InstructionC1ERKS0_'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='413' u='c' c='_ZN16TransportBuffers11Instruction21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='416' ll='442' type='void TransportBuffers::Instruction::MergeFrom(const TransportBuffers::Instruction &amp; from)'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='447' u='c' c='_ZN16TransportBuffers11Instruction8CopyFromERKS0_'/>

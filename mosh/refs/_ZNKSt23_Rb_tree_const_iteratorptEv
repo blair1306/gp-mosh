@@ -1,0 +1,3 @@
+<def f='include/c++/5/bits/stl_tree.h' l='277' ll='279' type='pointer std::_Rb_tree_const_iterator::operator-&gt;() const'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='230' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='233' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>

@@ -1,0 +1,17 @@
+<def f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='263' ll='270'/>
+<size>8</size>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='250'>// ===================================================================
+
+// A generic traditional output stream interface.
+//
+// Lots of traditional output streams (e.g. file descriptors, C stdio
+// streams, and C++ iostreams) expose an interface where every write
+// involves copying bytes from a buffer.  If you want to take such an
+// interface and make a ZeroCopyOutputStream based on it, simply implement
+// CopyingOutputStream and then use CopyingOutputStreamAdaptor.
+//
+// CopyingOutputStream implementations should avoid buffering if possible.
+// CopyingOutputStreamAdaptor does its own buffering and will write data
+// in large blocks.</doc>
+<fun r='_ZN6google8protobuf2io19CopyingOutputStreamD1Ev'/>
+<fun r='_ZN6google8protobuf2io19CopyingOutputStream5WriteEPKvi'/>

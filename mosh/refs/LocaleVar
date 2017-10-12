@@ -1,0 +1,6 @@
+<def f='codebrowser/src/util/locale_utils.h' l='38' ll='45'/>
+<size>64</size>
+<mbr r='LocaleVar::name' o='0' t='const std::string'/>
+<mbr r='LocaleVar::value' o='256' t='const std::string'/>
+<fun r='_ZN9LocaleVarC1EPKcS1_'/>
+<fun r='_ZNK9LocaleVar3strB5cxx11Ev'/>

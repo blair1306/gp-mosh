@@ -1,0 +1,4 @@
+<dec f='include/unistd.h' l='581' type='int execvp(const char * __file, char *const * __argv)'/>
+<doc f='include/unistd.h' l='579'>/* Execute FILE, searching in the `PATH&apos; environment variable if it contains
+   no slashes, with arguments ARGV and environment from `environ&apos;.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='594' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>

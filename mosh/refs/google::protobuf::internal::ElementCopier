@@ -1,0 +1,5 @@
+<def f='include/google/protobuf/repeated_field.h' l='226' ll='228'/>
+<def f='include/google/protobuf/repeated_field.h' l='845' ll='850'/>
+<fun r='_ZN6google8protobuf8internal13ElementCopierclEPT_PKS3_i'/>
+<fun r='_ZN6google8protobuf8internal13ElementCopierclEPT_PKS3_i'/>
+<fun r='_ZN6google8protobuf8internal13ElementCopierIT_Lb1EEclEPS3_PKS3_i'/>

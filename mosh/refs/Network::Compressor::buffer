@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/network/compressor.h' l='43' type='unsigned char [4194304]'/>
+<use f='codebrowser/src/network/compressor.h' l='46' u='w' c='_ZN7Network10CompressorC1Ev'/>
+<use f='codebrowser/src/network/compressor.cc' l='44' u='r' c='_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/compressor.cc' l='47' u='r' c='_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/compressor.cc' l='53' u='r' c='_ZN7Network10Compressor14uncompress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/compressor.cc' l='56' u='r' c='_ZN7Network10Compressor14uncompress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>0</offset>

@@ -1,0 +1,4 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='315' ll='319'/>
+<fun r='_ZN6google8protobuf8internal8internal13ConvertHelper4TestET0_'/>
+<fun r='_ZN6google8protobuf8internal8internal13ConvertHelper4TestEz'/>
+<fun r='_ZN6google8protobuf8internal8internal13ConvertHelper6CreateEv'/>

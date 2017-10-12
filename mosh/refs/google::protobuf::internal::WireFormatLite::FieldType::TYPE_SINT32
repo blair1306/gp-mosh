@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='113' type='17'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='89' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>

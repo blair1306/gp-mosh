@@ -1,0 +1,2 @@
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='106' u='c' c='_ZN8Terminal11FramebufferaSERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='383' u='c' c='_ZN8Terminal11Framebuffer5resetEv'/>

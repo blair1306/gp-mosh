@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='303' type='int Terminal::DrawState::get_combining_char_col() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='194' u='c' c='_ZN8Terminal11Framebuffer18get_combining_cellEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='196' u='c' c='_ZN8Terminal11Framebuffer18get_combining_cellEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='201' u='c' c='_ZN8Terminal11Framebuffer18get_combining_cellEv'/>

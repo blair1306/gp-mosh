@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='329' type='::google::protobuf::int32 ClientBuffers::ResizeMessage::width() const'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='506' ll='509' type='::google::protobuf::int32 ClientBuffers::ResizeMessage::width() const'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='727' u='c' c='_ZNK13ClientBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='748' u='c' c='_ZNK13ClientBuffers13ResizeMessage8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='776' u='c' c='_ZN13ClientBuffers13ResizeMessage9MergeFromERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='120' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

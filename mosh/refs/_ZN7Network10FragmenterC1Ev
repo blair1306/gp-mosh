@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/transportfragment.h' l='97' ll='101' type='void Network::Fragmenter::Fragmenter()'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='56' u='c' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>

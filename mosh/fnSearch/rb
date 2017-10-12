@@ -1,0 +1,7 @@
+_ZN6google8protobuf13RepeatedField6rbeginEv|google::protobuf::RepeatedField::rbegin
+_ZN6google8protobuf16RepeatedPtrField6rbeginEv|google::protobuf::RepeatedPtrField::rbegin
+_ZNSt8_Rb_tree6rbeginEv|std::_Rb_tree::rbegin
+_ZNSt5deque6rbeginEv|std::deque::rbegin
+_ZNSt3map6rbeginEv|std::map::rbegin
+_ZNSt8multimap6rbeginEv|std::multimap::rbegin
+_ZNSt6vector6rbeginEv|std::vector::rbegin

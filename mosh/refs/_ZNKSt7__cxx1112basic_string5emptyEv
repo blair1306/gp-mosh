@@ -1,0 +1,26 @@
+<def f='include/c++/5/bits/basic_string.h' l='815' ll='817' type='bool std::__cxx11::basic_string::empty() const'/>
+<doc f='include/c++/5/bits/basic_string.h' l='811'>/**
+       *  Returns true if the %string is empty.  Equivalent to 
+       *  &lt;code&gt;*this == &quot;&quot;&lt;/code&gt;.
+       */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='117' u='c' c='_ZNK8Terminal4Cell5emptyEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='125' u='c' c='_ZNK8Terminal4Cell8is_blankEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='176' u='c' c='_ZNK8Terminal4Cell14print_graphemeERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='190' u='c' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='139' u='c' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='164' u='c' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='232' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='297' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='320' u='c' c='main'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='550' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='191' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='237' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='240' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='245' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='182' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='include/google/protobuf/stubs/stl_util.h' l='85' u='c' c='_ZN6google8protobuf15string_as_arrayEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='90' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='112' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='583' u='c' c='_ZNK8Terminal4Cell14debug_contentsB5cxx11Ev'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='52' u='c' c='_ZNK9LocaleVar3strB5cxx11Ev'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='101' u='c' c='_Z17set_native_localev'/>

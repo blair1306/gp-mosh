@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/wire_format_lite.h' l='96' ll='116'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='95'>// Lite alternative to FieldDescriptor::Type.  Must be kept in sync.</doc>

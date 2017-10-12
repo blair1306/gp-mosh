@@ -1,0 +1,20 @@
+<def f='include/c++/5/bits/basic_string.h' l='720' ll='722' type='size_type std::__cxx11::basic_string::length() const'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='73' u='c' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='91' u='c' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='95' u='c' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='129' u='c' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='288' u='c' c='_ZNSt7__cxx1112basic_string7reserveEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='289' u='c' c='_ZNSt7__cxx1112basic_string7reserveEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='298' u='c' c='_ZNSt7__cxx1112basic_string7reserveEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='305' u='c' c='_ZNSt7__cxx1112basic_string7reserveEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='318' u='c' c='_ZNSt7__cxx1112basic_string9_M_mutateEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeESA_PKS6_SA_'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='320' u='c' c='_ZNSt7__cxx1112basic_string9_M_mutateEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeESA_PKS6_SA_'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='341' u='c' c='_ZNSt7__cxx1112basic_string8_M_eraseEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeESA_'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='346' u='c' c='_ZNSt7__cxx1112basic_string8_M_eraseEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeESA_'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='113' u='c' c='_ZN6Crypto9Base64KeyC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='include/c++/5/bits/basic_string.h' l='718'>///  Returns the number of characters in the string, not including any
+      ///  null-termination.</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='161' u='c' c='_ZL10get_SSH_IPB5cxx11v'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='819' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='56' u='c' c='_ZN8Terminal10Dispatcher12newparamcharEPKN6Parser5ParamE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='66' u='c' c='_ZN8Terminal10Dispatcher7collectEPKN6Parser7CollectE'/>

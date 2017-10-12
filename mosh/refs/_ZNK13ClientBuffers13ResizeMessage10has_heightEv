@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='333' type='bool ClientBuffers::ResizeMessage::has_height() const'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='517' ll='519' type='bool ClientBuffers::ResizeMessage::has_height() const'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='731' u='c' c='_ZNK13ClientBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='752' u='c' c='_ZNK13ClientBuffers13ResizeMessage8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='778' u='c' c='_ZN13ClientBuffers13ResizeMessage9MergeFromERKS0_'/>
+<doc f='codebrowser/src/protobufs/userinput.pb.h' l='332'>// optional int32 height = 6;</doc>
+<doc f='codebrowser/src/protobufs/userinput.pb.h' l='516'>// optional int32 height = 6;</doc>

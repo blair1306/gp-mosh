@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='99' type='void Terminal::Cell::Cell(color_type background_color)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='110' u='c' c='_ZN7Overlay22ConditionalOverlayCellC1Emim'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='204' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='164' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='41' ll='47' type='void Terminal::Cell::Cell(color_type background_color)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='349' u='c' c='_ZN8Terminal3RowC1Emt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='360' u='c' c='_ZN8Terminal3Row11insert_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='366' u='c' c='_ZN8Terminal3Row11delete_cellEit'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='422' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>

@@ -1,0 +1,4 @@
+<dec f='include/curses.h' l='436' type='bool'/>
+<offset>256</offset>
+<doc f='include/curses.h' l='435'>/* option values set by user */</doc>
+<doc f='include/curses.h' l='436'>/* no time out on function-key entry? */</doc>

@@ -1,0 +1,28 @@
+<inh f='include/google/protobuf/io/zero_copy_stream.h' l='181' c='google::protobuf::io::ZeroCopyOutputStream'/>
+<def f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='279' ll='333'/>
+<size>48</size>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='272'>// A ZeroCopyOutputStream which writes to a CopyingOutputStream.  This is
+// useful for implementing ZeroCopyOutputStreams that write to traditional
+// streams.  Note that this class is not really zero-copy.
+//
+// If you want to write to file descriptors or C++ ostreams, this is
+// already implemented for you:  use FileOutputStream or OstreamOutputStream
+// respectively.</doc>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptorC1EPNS1_19CopyingOutputStreamEi'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptorD1Ev'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptor5FlushEv'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptor20SetOwnsCopyingStreamEb'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptor4NextEPPvPi'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptor6BackUpEi'/>
+<fun r='_ZNK6google8protobuf2io26CopyingOutputStreamAdaptor9ByteCountEv'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptor11WriteBufferEv'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptor22AllocateBufferIfNeededEv'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptor10FreeBufferEv'/>
+<mbr r='google::protobuf::io::CopyingOutputStreamAdaptor::copying_stream_' o='64' t='google::protobuf::io::CopyingOutputStream *'/>
+<mbr r='google::protobuf::io::CopyingOutputStreamAdaptor::owns_copying_stream_' o='128' t='bool'/>
+<mbr r='google::protobuf::io::CopyingOutputStreamAdaptor::failed_' o='136' t='bool'/>
+<mbr r='google::protobuf::io::CopyingOutputStreamAdaptor::position_' o='192' t='int64'/>
+<mbr r='google::protobuf::io::CopyingOutputStreamAdaptor::buffer_' o='256' t='scoped_array&lt;uint8&gt;'/>
+<mbr r='google::protobuf::io::CopyingOutputStreamAdaptor::buffer_size_' o='320' t='const int'/>
+<mbr r='google::protobuf::io::CopyingOutputStreamAdaptor::buffer_used_' o='352' t='int'/>
+<fun r='_ZN6google8protobuf2io26CopyingOutputStreamAdaptorC1ERKS2_'/>

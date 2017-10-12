@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='301' type='static bool google::protobuf::internal::WireFormatLite::ReadBytes(io::CodedInputStream * input_arg, string * value)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='483' u='c' c='_ZN11HostBuffers9HostBytes27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='260' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='273' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='476' u='c' c='_ZN13ClientBuffers9Keystroke27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

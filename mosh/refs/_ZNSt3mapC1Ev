@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_map.h' l='162' ll='166' type='void std::map::map&lt;_Key, _Tp, _Compare, _Alloc&gt;()'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.h' l='77' u='c' c='_ZN8Terminal16DispatchRegistryC1Ev'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.h' l='77' u='c' c='_ZN8Terminal16DispatchRegistryC1Ev'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.h' l='77' u='c' c='_ZN8Terminal16DispatchRegistryC1Ev'/>
+<doc f='include/c++/5/bits/stl_map.h' l='159'>/**
+       *  @brief  Default constructor creates no elements.
+       */</doc>

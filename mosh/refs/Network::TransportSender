@@ -1,0 +1,49 @@
+<def f='codebrowser/src/network/transportsender.h' l='60' ll='165'/>
+<fun r='_ZN7Network15TransportSender29update_assumed_receiver_stateEv'/>
+<fun r='_ZN7Network15TransportSender39attempt_prospective_resend_optimizationERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network15TransportSender18rationalize_statesEv'/>
+<fun r='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN7Network15TransportSender14send_empty_ackEv'/>
+<fun r='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<fun r='_ZN7Network15TransportSender14add_sent_stateEmmRT_'/>
+<mbr r='Network::TransportSender::connection' t='Network::Connection *'/>
+<mbr r='Network::TransportSender::current_state' t='MyState'/>
+<mbr r='Network::TransportSender::sent_states' t='sent_states_type'/>
+<mbr r='Network::TransportSender::assumed_receiver_state' t='typename sent_states_type::iterator'/>
+<mbr r='Network::TransportSender::fragmenter' t='Network::Fragmenter'/>
+<mbr r='Network::TransportSender::next_ack_time' t='uint64_t'/>
+<mbr r='Network::TransportSender::next_send_time' t='uint64_t'/>
+<fun r='_ZN7Network15TransportSender16calculate_timersEv'/>
+<mbr r='Network::TransportSender::verbose' t='unsigned int'/>
+<mbr r='Network::TransportSender::shutdown_in_progress' t='bool'/>
+<mbr r='Network::TransportSender::shutdown_tries' t='int'/>
+<mbr r='Network::TransportSender::shutdown_start' t='uint64_t'/>
+<mbr r='Network::TransportSender::ack_num' t='uint64_t'/>
+<mbr r='Network::TransportSender::pending_data_ack' t='bool'/>
+<mbr r='Network::TransportSender::SEND_MINDELAY' t='unsigned int'/>
+<mbr r='Network::TransportSender::last_heard' t='uint64_t'/>
+<mbr r='Network::TransportSender::prng' t='PRNG'/>
+<fun r='_ZN7Network15TransportSender10make_chaffB5cxx11Ev'/>
+<mbr r='Network::TransportSender::mindelay_clock' t='uint64_t'/>
+<fun r='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<fun r='_ZN7Network15TransportSender4tickEv'/>
+<fun r='_ZN7Network15TransportSender9wait_timeEv'/>
+<fun r='_ZN7Network15TransportSender30process_acknowledgment_throughEm'/>
+<fun r='_ZN7Network15TransportSender11set_ack_numEm'/>
+<fun r='_ZN7Network15TransportSender12set_data_ackEv'/>
+<fun r='_ZN7Network15TransportSender12remote_heardEm'/>
+<fun r='_ZN7Network15TransportSender14start_shutdownEv'/>
+<fun r='_ZN7Network15TransportSender17get_current_stateEv'/>
+<fun r='_ZN7Network15TransportSender17set_current_stateERKT_'/>
+<fun r='_ZN7Network15TransportSender11set_verboseEj'/>
+<fun r='_ZNK7Network15TransportSender24get_shutdown_in_progressEv'/>
+<fun r='_ZNK7Network15TransportSender25get_shutdown_acknowledgedEv'/>
+<fun r='_ZNK7Network15TransportSender38get_counterparty_shutdown_acknowledgedEv'/>
+<fun r='_ZNK7Network15TransportSender30get_sent_state_acked_timestampEv'/>
+<fun r='_ZNK7Network15TransportSender20get_sent_state_ackedEv'/>
+<fun r='_ZNK7Network15TransportSender19get_sent_state_lastEv'/>
+<fun r='_ZNK7Network15TransportSender22shutdown_ack_timed_outEv'/>
+<fun r='_ZN7Network15TransportSender14set_send_delayEi'/>
+<fun r='_ZNK7Network15TransportSender13send_intervalEv'/>
+<fun r='_ZN7Network15TransportSenderC1ERKNS_15TransportSenderIT_EE'/>
+<fun r='_ZN7Network15TransportSenderaSERKNS_15TransportSenderIT_EE'/>

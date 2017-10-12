@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='432' type='void Terminal::Framebuffer::delete_line(int row, int count)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='114' u='c' c='_ZN8Terminal11Framebuffer6scrollEi'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='324' ll='346' type='void Terminal::Framebuffer::delete_line(int row, int count)'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='489' u='c' c='_ZL6CSI_DLPN8Terminal11FramebufferEPNS_10DispatcherE'/>

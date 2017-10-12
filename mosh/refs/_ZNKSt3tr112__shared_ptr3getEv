@@ -1,0 +1,4 @@
+<def f='include/c++/5/tr1/shared_ptr.h' l='676' ll='678' type='_Tp * std::tr1::__shared_ptr::get() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='397' u='c' c='_ZNK8Terminal11Framebuffer7get_rowEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='416' u='c' c='_ZN8Terminal11Framebuffer15get_mutable_rowEi'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='215' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>

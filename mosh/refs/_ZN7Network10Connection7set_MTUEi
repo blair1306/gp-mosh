@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/network.h' l='203' type='void Network::Connection::set_MTU(int family)'/>
+<def f='codebrowser/src/network/network.cc' l='201' ll='213' type='void Network::Connection::set_MTU(int family)'/>
+<use f='codebrowser/src/network/network.cc' l='336' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='392' u='c' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>

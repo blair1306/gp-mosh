@@ -1,0 +1,11 @@
+<dec f='include/string.h' l='394' type='size_t strlen(const char * __s)'/>
+<doc f='include/string.h' l='393'>/* Return the length of S.  */</doc>
+<use f='codebrowser/src/crypto/crypto.cc' l='58' u='c' c='_Z6myatoiPKc'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='161' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='161' u='c' c='_ZL10get_SSH_IPB5cxx11v'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='162' u='c' c='_ZL10get_SSH_IPB5cxx11v'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='163' u='c' c='_ZL10get_SSH_IPB5cxx11v'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='130' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='152' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='128' u='c' c='_ZN8Terminal7DisplayC1Eb'/>
+<use f='codebrowser/src/util/swrite.cc' l='42' u='c' c='_Z6swriteiPKcl'/>

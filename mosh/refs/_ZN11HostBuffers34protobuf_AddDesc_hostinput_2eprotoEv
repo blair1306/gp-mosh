@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='31' type='void HostBuffers::protobuf_AddDesc_hostinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='114' type='void HostBuffers::protobuf_AddDesc_hostinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='184' type='void HostBuffers::protobuf_AddDesc_hostinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='266' type='void HostBuffers::protobuf_AddDesc_hostinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='353' type='void HostBuffers::protobuf_AddDesc_hostinput_2eproto()'/>
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='430' type='void HostBuffers::protobuf_AddDesc_hostinput_2eproto()'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='26' ll='55' type='void HostBuffers::protobuf_AddDesc_hostinput_2eproto()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='60' u='c' c='_ZN11HostBuffers45StaticDescriptorInitializer_hostinput_2eprotoC1Ev'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='107' u='c' c='_ZN11HostBuffers11HostMessage16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='285' u='c' c='_ZN11HostBuffers11Instruction16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='446' u='c' c='_ZN11HostBuffers9HostBytes16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='634' u='c' c='_ZN11HostBuffers13ResizeMessage16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='862' u='c' c='_ZN11HostBuffers7EchoAck16default_instanceEv'/>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='30'>// Internal implementation detail -- do not call these.</doc>

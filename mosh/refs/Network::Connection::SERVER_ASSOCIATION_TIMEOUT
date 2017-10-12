@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/network/network.h' l='139' type='const unsigned int'/>
+<use f='codebrowser/src/network/network.cc' l='420' u='r' c='_ZN7Network10Connection4sendERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='44' type='void ClientBuffers::UserMessage::UserMessage()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='31' u='c' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='63' ll='67' type='void ClientBuffers::UserMessage::UserMessage()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='107' u='c' c='_ZNK13ClientBuffers11UserMessage3NewEv'/>
+<use f='codebrowser/src/statesync/user.cc' l='73' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='110' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

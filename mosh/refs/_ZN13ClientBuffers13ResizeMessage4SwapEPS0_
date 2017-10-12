@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='296' type='void ClientBuffers::ResizeMessage::Swap(ClientBuffers::ResizeMessage * other)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='796' ll='804' type='void ClientBuffers::ResizeMessage::Swap(ClientBuffers::ResizeMessage * other)'/>

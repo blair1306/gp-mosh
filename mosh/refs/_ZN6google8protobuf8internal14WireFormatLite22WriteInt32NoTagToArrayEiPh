@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='387' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteInt32NoTagToArray(int32 value, uint8 * target)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='592' ll='595' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteInt32NoTagToArray(int32 value, uint8 * target)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='660' u='c' c='_ZN6google8protobuf8internal14WireFormatLite17WriteInt32ToArrayEiiPh'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='386'>// Write fields, without tags.</doc>

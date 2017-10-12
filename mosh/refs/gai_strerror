@@ -1,0 +1,6 @@
+<dec f='include/netdb.h' l='671' type='const char * gai_strerror(int __ecode)'/>
+<doc f='include/netdb.h' l='670'>/* Convert error return from getaddrinfo() to a string.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='223' u='c' c='_ZN8AddrInfoC1EPKcS1_PK8addrinfo'/>
+<use f='codebrowser/src/network/network.cc' l='347' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='569' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='591' u='c' c='_ZNK7Network10Connection4portB5cxx11Ev'/>

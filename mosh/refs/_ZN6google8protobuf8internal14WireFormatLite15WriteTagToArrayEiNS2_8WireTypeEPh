@@ -1,0 +1,26 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='384' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteTagToArray(int field_number_arg, google::protobuf::internal::WireFormatLite::WireType type, uint8 * target)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='585' ll='590' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteTagToArray(int field_number, google::protobuf::internal::WireFormatLite::WireType type, uint8 * target)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='659' u='c' c='_ZN6google8protobuf8internal14WireFormatLite17WriteInt32ToArrayEiiPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='665' u='c' c='_ZN6google8protobuf8internal14WireFormatLite17WriteInt64ToArrayEilPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='671' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18WriteUInt32ToArrayEijPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='677' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18WriteUInt64ToArrayEimPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='683' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18WriteSInt32ToArrayEiiPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='689' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18WriteSInt64ToArrayEilPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='695' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19WriteFixed32ToArrayEijPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='701' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19WriteFixed64ToArrayEimPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='707' u='c' c='_ZN6google8protobuf8internal14WireFormatLite20WriteSFixed32ToArrayEiiPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='713' u='c' c='_ZN6google8protobuf8internal14WireFormatLite20WriteSFixed64ToArrayEilPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='719' u='c' c='_ZN6google8protobuf8internal14WireFormatLite17WriteFloatToArrayEifPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='725' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18WriteDoubleToArrayEidPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='731' u='c' c='_ZN6google8protobuf8internal14WireFormatLite16WriteBoolToArrayEibPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='737' u='c' c='_ZN6google8protobuf8internal14WireFormatLite16WriteEnumToArrayEiiPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='748' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18WriteStringToArrayEiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='754' u='c' c='_ZN6google8protobuf8internal14WireFormatLite17WriteBytesToArrayEiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='762' u='c' c='_ZN6google8protobuf8internal14WireFormatLite17WriteGroupToArrayEiRKNS0_11MessageLiteEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='764' u='c' c='_ZN6google8protobuf8internal14WireFormatLite17WriteGroupToArrayEiRKNS0_11MessageLiteEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='769' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19WriteMessageToArrayEiRKNS0_11MessageLiteEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='781' u='c' c='_ZN6google8protobuf8internal14WireFormatLite26WriteGroupNoVirtualToArrayEiRKT_Ph'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='784' u='c' c='_ZN6google8protobuf8internal14WireFormatLite26WriteGroupNoVirtualToArrayEiRKT_Ph'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='790' u='c' c='_ZN6google8protobuf8internal14WireFormatLite28WriteMessageNoVirtualToArrayEiRKT_Ph'/>
+<doc f='include/google/protobuf/wire_format_lite_inl.h' l='583'>// ===================================================================</doc>
+<doc f='include/google/protobuf/wire_format_lite.h' l='383'>// Like above, but use only *ToArray methods of CodedOutputStream.</doc>

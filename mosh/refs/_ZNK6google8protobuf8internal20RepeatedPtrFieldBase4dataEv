@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/repeated_field.h' l='311' type='const typename TypeHandler::Type *const * google::protobuf::internal::RepeatedPtrFieldBase::data() const'/>
+<def f='include/google/protobuf/repeated_field.h' l='961' ll='966' type='const typename TypeHandler::Type *const * google::protobuf::internal::RepeatedPtrFieldBase::data() const'/>

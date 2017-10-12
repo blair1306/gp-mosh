@@ -1,0 +1,2 @@
+<def f='include/c++/5/new' l='57' type='void std::bad_alloc::bad_alloc()'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='82' u='c' c='_ZN6Crypto13AlignedBufferC1EmPKc'/>

@@ -1,0 +1,3 @@
+_ZNK7Network10Connection6Socket2fdEv|Network::Connection::Socket::fd
+_ZNK7Network9Transport3fdsEv|Network::Transport::fds
+_ZNK7Network10Connection3fdsEv|Network::Connection::fds

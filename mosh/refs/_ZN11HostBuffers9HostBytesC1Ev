@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='195' type='void HostBuffers::HostBytes::HostBytes()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='34' u='c' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='404' ll='408' type='void HostBuffers::HostBytes::HostBytes()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='453' u='c' c='_ZNK11HostBuffers9HostBytes3NewEv'/>

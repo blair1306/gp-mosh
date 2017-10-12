@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/network.h' l='218' type='string Network::Connection::get_key() const'/>
+<use f='codebrowser/src/network/networktransport.h' l='98' u='c' c='_ZNK7Network9Transport7get_keyB5cxx11Ev'/>

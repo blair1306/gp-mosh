@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/extension_set.h' l='170' type='static void google::protobuf::internal::ExtensionSet::RegisterEnumExtension(const google::protobuf::MessageLite * containing_type, int number, FieldType type, bool is_repeated, bool is_packed, EnumValidityFunc * is_valid)'/>

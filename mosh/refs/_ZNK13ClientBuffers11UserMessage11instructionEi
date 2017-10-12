@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='97' type='const ::ClientBuffers::Instruction &amp; ClientBuffers::UserMessage::instruction(int index) const'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='381' ll='384' type='const ::ClientBuffers::Instruction &amp; ClientBuffers::UserMessage::instruction(int index) const'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='172' u='c' c='_ZNK13ClientBuffers11UserMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='188' u='c' c='_ZNK13ClientBuffers11UserMessage8ByteSizeEv'/>
+<use f='codebrowser/src/statesync/user.cc' l='82' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='114' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/user.cc' l='115' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/user.cc' l='119' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/user.cc' l='120' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/user.cc' l='121' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

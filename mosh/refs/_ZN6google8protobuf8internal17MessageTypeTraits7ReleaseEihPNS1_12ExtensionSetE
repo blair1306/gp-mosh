@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/extension_set.h' l='956' ll='960' type='static MutableType google::protobuf::internal::MessageTypeTraits::Release(int number, FieldType , google::protobuf::internal::ExtensionSet * set)'/>
+<doc f='include/google/protobuf/extension_set.h' l='956'>/* field_type */</doc>

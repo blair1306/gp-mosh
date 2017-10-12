@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/locale_utils.h' l='50' type='void set_native_locale()'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='190' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='325' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='344' u='c' c='main'/>
+<def f='codebrowser/src/util/locale_utils.cc' l='94' ll='110' type='void set_native_locale()'/>

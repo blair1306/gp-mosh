@@ -1,0 +1,8 @@
+<def f='codebrowser/src/terminal/parser.h' l='72' ll='90'/>
+<size>24</size>
+<mbr r='Parser::UTF8Parser::parser' o='0' t='Parser::Parser'/>
+<mbr r='Parser::UTF8Parser::buf' o='64' t='char [8]'/>
+<mbr r='Parser::UTF8Parser::buf_len' o='128' t='size_t'/>
+<fun r='_ZN6Parser10UTF8ParserC1Ev'/>
+<fun r='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<fun r='_ZN6Parser10UTF8Parser11reset_inputEv'/>

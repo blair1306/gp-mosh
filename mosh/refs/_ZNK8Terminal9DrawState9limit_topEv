@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='319' type='int Terminal::DrawState::limit_top() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='128' u='c' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='128' u='c' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='139' u='c' c='_ZN8Terminal9DrawState8move_rowEib'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='254' ll='257' type='int Terminal::DrawState::limit_top() const'/>

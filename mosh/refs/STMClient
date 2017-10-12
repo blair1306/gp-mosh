@@ -1,0 +1,37 @@
+<def f='codebrowser/src/frontend/stmclient.h' l='46' ll='135'/>
+<size>1104</size>
+<mbr r='STMClient::ip' o='0' t='std::string'/>
+<mbr r='STMClient::port' o='256' t='std::string'/>
+<mbr r='STMClient::key' o='512' t='std::string'/>
+<mbr r='STMClient::escape_key' o='768' t='int'/>
+<mbr r='STMClient::escape_pass_key' o='800' t='int'/>
+<mbr r='STMClient::escape_pass_key2' o='832' t='int'/>
+<mbr r='STMClient::escape_requires_lf' o='864' t='bool'/>
+<mbr r='STMClient::escape_key_help' o='896' t='std::wstring'/>
+<mbr r='STMClient::saved_termios' o='1152' t='struct termios'/>
+<mbr r='STMClient::raw_termios' o='1632' t='struct termios'/>
+<mbr r='STMClient::window_size' o='2112' t='struct winsize'/>
+<mbr r='STMClient::local_framebuffer' o='2176' t='Terminal::Framebuffer'/>
+<mbr r='STMClient::new_state' o='4032' t='Terminal::Framebuffer'/>
+<mbr r='STMClient::overlays' o='5888' t='Overlay::OverlayManager'/>
+<mbr r='STMClient::network' o='8192' t='NetworkPointer'/>
+<mbr r='STMClient::display' o='8320' t='Terminal::Display'/>
+<mbr r='STMClient::connecting_notification' o='8512' t='std::wstring'/>
+<mbr r='STMClient::repaint_requested' o='8768' t='bool'/>
+<mbr r='STMClient::lf_entered' o='8776' t='bool'/>
+<mbr r='STMClient::quit_sequence_started' o='8784' t='bool'/>
+<mbr r='STMClient::clean_shutdown' o='8792' t='bool'/>
+<mbr r='STMClient::verbose' o='8800' t='unsigned int'/>
+<fun r='_ZN9STMClient9main_initEv'/>
+<fun r='_ZN9STMClient21process_network_inputEv'/>
+<fun r='_ZN9STMClient18process_user_inputEi'/>
+<fun r='_ZN9STMClient14process_resizeEv'/>
+<fun r='_ZN9STMClient16output_new_frameEv'/>
+<fun r='_ZNK9STMClient16still_connectingEv'/>
+<fun r='_ZN9STMClient6resumeEv'/>
+<fun r='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<fun r='_ZN9STMClient4initEv'/>
+<fun r='_ZN9STMClient8shutdownEv'/>
+<fun r='_ZN9STMClient4mainEv'/>
+<fun r='_ZN9STMClientC1ERKS_'/>
+<fun r='_ZN9STMClientaSERKS_'/>

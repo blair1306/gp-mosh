@@ -1,0 +1,12 @@
+<dec f='include/google/protobuf/repeated_field.h' l='545' type='void google::protobuf::RepeatedPtrField::ExtractSubrange(int start, int num, Element ** elements)'/>
+<use f='include/google/protobuf/repeated_field.h' l='1139' u='c' c='_ZN6google8protobuf16RepeatedPtrField14DeleteSubrangeEii'/>
+<def f='include/google/protobuf/repeated_field.h' l='1142' ll='1157' type='void google::protobuf::RepeatedPtrField::ExtractSubrange(int start, int num, Element ** elements)'/>
+<doc f='include/google/protobuf/repeated_field.h' l='536'>// Extract elements with indices in the range &quot;[start .. start+num-1]&quot;.
+  // The caller assumes ownership of the extracted elements and is responsible
+  // for deleting them when they are no longer needed.
+  // If &quot;elements&quot; is non-NULL, then pointers to the extracted elements
+  // are stored in &quot;elements[0 .. num-1]&quot; for the convenience of the caller.
+  // If &quot;elements&quot; is NULL, then the caller must use some other mechanism
+  // to perform any further operations (like deletion) on these elements.
+  // Caution: implementation also moves elements with indices [start+num ..].
+  // Calling this routine inside a loop can cause quadratic behavior.</doc>

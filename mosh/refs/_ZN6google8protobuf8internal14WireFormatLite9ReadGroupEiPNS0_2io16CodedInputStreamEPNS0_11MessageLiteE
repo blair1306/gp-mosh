@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='303' type='static bool google::protobuf::internal::WireFormatLite::ReadGroup(int field_number_arg, io::CodedInputStream * input_arg, google::protobuf::MessageLite * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='429' ll='440' type='static bool google::protobuf::internal::WireFormatLite::ReadGroup(int field_number, io::CodedInputStream * input, google::protobuf::MessageLite * value)'/>

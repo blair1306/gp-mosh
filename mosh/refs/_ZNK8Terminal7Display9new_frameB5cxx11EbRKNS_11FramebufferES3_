@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='81' type='std::string Terminal::Display::new_frame(bool initialized, const Terminal::Framebuffer &amp; last, const Terminal::Framebuffer &amp; f) const'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='247' u='c' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='278' u='c' c='_ZN9STMClient16output_new_frameEv'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='89' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<def f='codebrowser/src/terminal/terminaldisplay.cc' l='61' ll='340' type='std::string Terminal::Display::new_frame(bool initialized, const Terminal::Framebuffer &amp; last, const Terminal::Framebuffer &amp; f) const'/>

@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='99' type='Terminal::Cell'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='110' u='w' c='_ZN7Overlay22ConditionalOverlayCellC1Emim'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='122' u='r' c='_ZN7Overlay22ConditionalOverlayCell15reset_with_origEv'/>
+<offset>320</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='58' u='m' c='_ZNK7Overlay22ConditionalOverlayCell5applyERN8Terminal11FramebufferEmib'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='69' u='r' c='_ZNK7Overlay22ConditionalOverlayCell5applyERN8Terminal11FramebufferEmib'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='70' u='r' c='_ZNK7Overlay22ConditionalOverlayCell5applyERN8Terminal11FramebufferEmib'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='101' u='m' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='105' u='r' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='108' u='r' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='563' u='m' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='704' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='705' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='706' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='726' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='726' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='730' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='776' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='776' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='780' u='w' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='789' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='796' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='796' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='798' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='802' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='803' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='886' u='m' c='_ZN7Overlay16PredictionEngine23newline_carriage_returnERKN8Terminal11FramebufferE'/>

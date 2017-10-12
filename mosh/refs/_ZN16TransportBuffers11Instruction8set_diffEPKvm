@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='142' type='void TransportBuffers::Instruction::set_diff(const void * value, size_t size)'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='361' ll='368' type='void TransportBuffers::Instruction::set_diff(const void * value, size_t size)'/>

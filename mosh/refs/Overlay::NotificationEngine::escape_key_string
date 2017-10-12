@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='147' type='string'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='181' u='w' c='_ZN7Overlay18NotificationEngine21set_escape_key_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>128</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='165' u='w' c='_ZN7Overlay18NotificationEngineC1Ev'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='235' u='m' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>

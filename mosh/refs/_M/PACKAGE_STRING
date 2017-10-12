@@ -1,0 +1,5 @@
+<dec f='codebrowser/config.h' l='316'/>
+<doc f='codebrowser/config.h' l='315'>/* Define to the full name and version of this package. */</doc>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='75' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='111' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='453' u='c'/>

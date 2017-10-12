@@ -1,0 +1,5 @@
+<dec f='codebrowser/config.h' l='280'/>
+<doc f='codebrowser/config.h' l='279'>/* Define to 1 if you have the &lt;utmpx.h&gt; header file. */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='61' u='a'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='955' u='a'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='966' u='a'/>

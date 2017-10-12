@@ -1,0 +1,15 @@
+<def f='include/c++/5/bits/stl_vector.h' l='555' ll='557' type='const_iterator std::vector::begin() const'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='550'>/**
+       *  Returns a read-only (constant) iterator that points to the
+       *  first element in the %vector.  Iteration is done in ordinary
+       *  element order.
+       */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='106' u='c' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='352' u='c' c='_ZNK7Overlay21ConditionalOverlayRow5applyERN8Terminal11FramebufferEmb'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='914' u='c' c='_ZNK7Overlay16PredictionEngine6activeEv'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='83' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='94' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='103' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='117' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='576' u='c' c='_ZN8Terminal11Framebuffer19prefix_window_titleERKSt6vectorIwSaIwEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='578' u='c' c='_ZN8Terminal11Framebuffer19prefix_window_titleERKSt6vectorIwSaIwEE'/>

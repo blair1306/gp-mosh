@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='49' type='Terminal::Display'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='63' u='w' c='_ZN8Terminal8CompleteC1Emm'/>
+<offset>3328</offset>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='89' u='m' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>

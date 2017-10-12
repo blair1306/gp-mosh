@@ -1,0 +1,28 @@
+<inh f='include/google/protobuf/io/zero_copy_stream.h' l='124' c='google::protobuf::io::ZeroCopyInputStream'/>
+<def f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='195' ll='248'/>
+<size>56</size>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='188'>// A ZeroCopyInputStream which reads from a CopyingInputStream.  This is
+// useful for implementing ZeroCopyInputStreams that read from traditional
+// streams.  Note that this class is not really zero-copy.
+//
+// If you want to read from file descriptors or C++ istreams, this is
+// already implemented for you:  use FileInputStream or IstreamInputStream
+// respectively.</doc>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptorC1EPNS1_18CopyingInputStreamEi'/>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptorD1Ev'/>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptor20SetOwnsCopyingStreamEb'/>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptor4NextEPPKvPi'/>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptor6BackUpEi'/>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptor4SkipEi'/>
+<fun r='_ZNK6google8protobuf2io25CopyingInputStreamAdaptor9ByteCountEv'/>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptor22AllocateBufferIfNeededEv'/>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptor10FreeBufferEv'/>
+<mbr r='google::protobuf::io::CopyingInputStreamAdaptor::copying_stream_' o='64' t='google::protobuf::io::CopyingInputStream *'/>
+<mbr r='google::protobuf::io::CopyingInputStreamAdaptor::owns_copying_stream_' o='128' t='bool'/>
+<mbr r='google::protobuf::io::CopyingInputStreamAdaptor::failed_' o='136' t='bool'/>
+<mbr r='google::protobuf::io::CopyingInputStreamAdaptor::position_' o='192' t='int64'/>
+<mbr r='google::protobuf::io::CopyingInputStreamAdaptor::buffer_' o='256' t='scoped_array&lt;uint8&gt;'/>
+<mbr r='google::protobuf::io::CopyingInputStreamAdaptor::buffer_size_' o='320' t='const int'/>
+<mbr r='google::protobuf::io::CopyingInputStreamAdaptor::buffer_used_' o='352' t='int'/>
+<mbr r='google::protobuf::io::CopyingInputStreamAdaptor::backup_bytes_' o='384' t='int'/>
+<fun r='_ZN6google8protobuf2io25CopyingInputStreamAdaptorC1ERKS2_'/>

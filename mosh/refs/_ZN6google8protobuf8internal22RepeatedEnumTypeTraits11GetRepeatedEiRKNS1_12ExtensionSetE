@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='898' ll='907' type='static const RepeatedField&lt;Type&gt; &amp; google::protobuf::internal::RepeatedEnumTypeTraits::GetRepeated(int number, const google::protobuf::internal::ExtensionSet &amp; set)'/>

@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='103' type='Atomic32 google::protobuf::internal::NoBarrier_AtomicIncrement(volatile Atomic32 * ptr, Atomic32 increment)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='75' ll='83' type='Atomic32 google::protobuf::internal::NoBarrier_AtomicIncrement(volatile Atomic32 * ptr, Atomic32 increment)'/>
+<doc f='include/google/protobuf/stubs/atomicops.h' l='101'>// Atomically increment *ptr by &quot;increment&quot;.  Returns the new value of
+// *ptr with the increment applied.  This routine implies no memory barriers.</doc>

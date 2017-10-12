@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='89' type='void google::protobuf::io::ArrayInputStream::ArrayInputStream(const google::protobuf::io::ArrayInputStream &amp; )'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='87'>// was called (used for error checking only).</doc>

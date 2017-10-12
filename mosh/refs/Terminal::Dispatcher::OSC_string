@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='89' type='std::vector&lt;wchar_t&gt;'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.h' l='111' u='r' c='_ZNK8Terminal10Dispatcher14get_OSC_stringEv'/>
+<offset>768</offset>
+<doc f='codebrowser/src/terminal/terminaldispatcher.h' l='89'>/* only used to set the window title */</doc>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='49' u='w' c='_ZN8Terminal10DispatcherC1Ev'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='239' u='m' c='_ZN8Terminal10Dispatcher7OSC_putEPKN6Parser7OSC_PutE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='240' u='m' c='_ZN8Terminal10Dispatcher7OSC_putEPKN6Parser7OSC_PutE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='246' u='m' c='_ZN8Terminal10Dispatcher9OSC_startEPKN6Parser9OSC_StartE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='255' u='r' c='_ZNK8Terminal10DispatchereqERKS0_'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='255' u='r' c='_ZNK8Terminal10DispatchereqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='575' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='575' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='576' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='576' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='577' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='577' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='579' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='579' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='582' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='585' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='589' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='589' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='594' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='601' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='602' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='602' u='m' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>

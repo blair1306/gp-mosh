@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='79' type='void STMClient::output_new_frame()'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='205' u='c' c='_ZN9STMClient8shutdownEv'/>
+<def f='codebrowser/src/frontend/stmclient.cc' l='265' ll='286' type='void STMClient::output_new_frame()'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='440' u='c' c='_ZN9STMClient4mainEv'/>

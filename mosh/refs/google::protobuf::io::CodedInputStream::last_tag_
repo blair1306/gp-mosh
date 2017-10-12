@@ -1,0 +1,17 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='484' type='uint32'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='880' u='w' c='_ZN6google8protobuf2io16CodedInputStream7ReadTagEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='882' u='r' c='_ZN6google8protobuf2io16CodedInputStream7ReadTagEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='884' u='w' c='_ZN6google8protobuf2io16CodedInputStream7ReadTagEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='885' u='r' c='_ZN6google8protobuf2io16CodedInputStream7ReadTagEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='900' u='w' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='911' u='w' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='924' u='w' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='925' u='r' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='925' u='r' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='929' u='r' c='_ZN6google8protobuf2io16CodedInputStream10LastTagWasEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='987' u='w' c='_ZN6google8protobuf2io16CodedInputStream11ExpectAtEndEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1171' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPNS1_19ZeroCopyInputStreamE'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1192' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPKhi'/>
+<offset>256</offset>
+<doc f='include/google/protobuf/io/coded_stream.h' l='483'>// LastTagWas() stuff.</doc>
+<doc f='include/google/protobuf/io/coded_stream.h' l='484'>// result of last ReadTag() or ReadTagWithCutoff().</doc>

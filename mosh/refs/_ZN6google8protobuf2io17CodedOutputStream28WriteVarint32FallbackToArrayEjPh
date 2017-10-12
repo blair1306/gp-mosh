@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='772' type='static uint8 * google::protobuf::io::CodedOutputStream::WriteVarint32FallbackToArray(uint32 value, uint8 * target)'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1015' u='c' c='_ZN6google8protobuf2io17CodedOutputStream20WriteVarint32ToArrayEjPh'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1083' u='c' c='_ZN6google8protobuf2io17CodedOutputStream15WriteTagToArrayEjPh'/>

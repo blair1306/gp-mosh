@@ -1,0 +1,15 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='93' type='Atomic32 google::protobuf::internal::NoBarrier_CompareAndSwap(volatile Atomic32 * ptr, Atomic32 old_value, Atomic32 new_value)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='55' ll='64' type='Atomic32 google::protobuf::internal::NoBarrier_CompareAndSwap(volatile Atomic32 * ptr, Atomic32 old_value, Atomic32 new_value)'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='101' u='c' c='_ZN6google8protobuf8internal22Acquire_CompareAndSwapEPViii'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='111' u='c' c='_ZN6google8protobuf8internal22Release_CompareAndSwapEPViii'/>
+<doc f='include/google/protobuf/stubs/atomicops.h' l='83'>// Atomically execute:
+//      result = *ptr;
+//      if (*ptr == old_value)
+//        *ptr = new_value;
+//      return result;
+//
+// I.e., replace &quot;*ptr&quot; with &quot;new_value&quot; if &quot;*ptr&quot; used to be &quot;old_value&quot;.
+// Always return the old value of &quot;*ptr&quot;
+//
+// This routine implies no memory barriers.</doc>
+<doc f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='53'>// 32-bit low-level operations on any platform.</doc>

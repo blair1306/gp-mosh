@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/extension_set.h' l='226' type='int64 google::protobuf::internal::ExtensionSet::GetInt64(int number, int64 default_value) const'/>
+<use f='include/google/protobuf/extension_set.h' l='768' macro='1' u='c'/>

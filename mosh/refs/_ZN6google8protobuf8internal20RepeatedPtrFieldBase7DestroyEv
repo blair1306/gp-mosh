@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/repeated_field.h' l='272' type='void google::protobuf::internal::RepeatedPtrFieldBase::Destroy()'/>
+<def f='include/google/protobuf/repeated_field.h' l='867' ll='872' type='void google::protobuf::internal::RepeatedPtrFieldBase::Destroy()'/>

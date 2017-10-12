@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='105' type='void TransportBuffers::Instruction::set_protocol_version(::google::protobuf::uint32 value)'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='223' ll='227' type='void TransportBuffers::Instruction::set_protocol_version(::google::protobuf::uint32 value)'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='325' u='c' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='420' u='c' c='_ZN16TransportBuffers11Instruction9MergeFromERKS0_'/>

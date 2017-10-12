@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='67' type='void Terminal::Renditions::set_background_color(int num)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='323' u='c' c='_ZN8Terminal9DrawState20set_background_colorEi'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='511' ll='516' type='void Terminal::Renditions::set_background_color(int num)'/>

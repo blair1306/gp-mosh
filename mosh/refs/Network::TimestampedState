@@ -1,0 +1,7 @@
+<def f='codebrowser/src/network/transportstate.h' l='38' ll='52'/>
+<mbr r='Network::TimestampedState::timestamp' t='uint64_t'/>
+<mbr r='Network::TimestampedState::num' t='uint64_t'/>
+<mbr r='Network::TimestampedState::state' t='State'/>
+<fun r='_ZN7Network16TimestampedStateC1EmmRKT_'/>
+<fun r='_ZNK7Network16TimestampedState6num_eqEm'/>
+<fun r='_ZNK7Network16TimestampedState6num_ltEm'/>

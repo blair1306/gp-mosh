@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/transportsender.h' l='86' type='Network::Fragmenter'/>
+<use f='codebrowser/src/network/transportsender.h' l='151' u='m' c='_ZNK7Network15TransportSender38get_counterparty_shutdown_acknowledgedEv'/>
+<doc f='codebrowser/src/network/transportsender.h' l='85'>/* for fragment creation */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='56' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='337' u='m' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>

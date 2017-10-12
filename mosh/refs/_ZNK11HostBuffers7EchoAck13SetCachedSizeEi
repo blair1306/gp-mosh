@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='405' type='void HostBuffers::EchoAck::SetCachedSize(int size) const'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='856' ll='860' type='void HostBuffers::EchoAck::SetCachedSize(int size) const'/>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/terminal/parser.h' l='77' type='size_t'/>
+<use f='codebrowser/src/terminal/parser.h' l='88' u='w' c='_ZN6Parser10UTF8Parser11reset_inputEv'/>
+<offset>128</offset>
+<use f='codebrowser/src/terminal/parser.cc' l='70' u='w' c='_ZN6Parser10UTF8ParserC1Ev'/>
+<use f='codebrowser/src/terminal/parser.cc' l='78' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='81' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='86' u='w' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='93' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='100' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='101' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='107' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='108' u='w' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='114' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='115' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='116' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='117' u='w' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='119' u='w' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='125' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='129' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='130' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='131' u='w' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='131' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>

@@ -1,0 +1,2 @@
+_ZNKSt3tr18weak_ptr4lockEv|std::tr1::weak_ptr::lock
+_ZNSt3tr18weak_ptraSERKNS_8weak_ptrIT_EE|std::tr1::weak_ptr::operator=

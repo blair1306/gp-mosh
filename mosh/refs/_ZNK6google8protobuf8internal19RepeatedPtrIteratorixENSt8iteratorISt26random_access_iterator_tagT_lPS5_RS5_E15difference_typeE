@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/repeated_field.h' l='1328' type='reference google::protobuf::internal::RepeatedPtrIterator::operator[](difference_type d) const'/>
+<doc f='include/google/protobuf/repeated_field.h' l='1327'>// indexable</doc>

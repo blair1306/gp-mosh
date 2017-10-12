@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='115' type='void Terminal::Dispatcher::OSC_dispatch(const Parser::OSC_End * act, Terminal::Framebuffer * fb)'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='157' u='c' c='_ZN8Terminal8Emulator7OSC_endEPKN6Parser7OSC_EndE'/>
+<def f='codebrowser/src/terminal/terminalfunctions.cc' l='572' ll='607' type='void Terminal::Dispatcher::OSC_dispatch(const Parser::OSC_End * act, Terminal::Framebuffer * fb)'/>
+<doc f='codebrowser/src/terminal/terminalfunctions.cc' l='571'>/* xterm uses an Operating System Command to set the window title */</doc>

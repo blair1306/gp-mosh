@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/terminaldispatcher.h' l='110' type='std::string Terminal::Dispatcher::get_dispatch_chars() const'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='163' u='c' c='_ZN8Terminal8Emulator12Esc_dispatchEPKN6Parser12Esc_DispatchE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='106' u='c' c='_ZL14CSI_cursormovePN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='235' u='c' c='_ZL7CSI_CxTPN8Terminal11FramebufferEPNS_10DispatcherE'/>

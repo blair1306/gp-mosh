@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/transportfragment.h' l='50' type='const size_t'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='68' u='r' c='_ZN7Network8Fragment8tostringB5cxx11Ev'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='79' u='r' c='_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='80' u='r' c='_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='159' u='r' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>

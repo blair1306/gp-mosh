@@ -1,0 +1,4 @@
+<dec f='codebrowser/config.h' l='172'/>
+<doc f='codebrowser/config.h' l='171'>/* Define to 1 if you have the &lt;pty.h&gt; header file. */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='69' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='48' u='c'/>

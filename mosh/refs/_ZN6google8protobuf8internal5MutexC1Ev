@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/common.h' l='1102' type='void google::protobuf::internal::Mutex::Mutex()'/>
+<doc f='include/google/protobuf/stubs/common.h' l='1101'>// Create a Mutex that is not held by anybody.</doc>

@@ -1,0 +1,8 @@
+<dec f='include/netdb.h' l='677' type='int getnameinfo(const struct sockaddr *__restrict __sa, socklen_t __salen, char *__restrict __host, socklen_t __hostlen, char *__restrict __serv, socklen_t __servlen, int __flags)'/>
+<doc f='include/netdb.h' l='673'>/* Translate a socket address to a location and service name.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='343' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='565' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='587' u='c' c='_ZNK7Network10Connection4portB5cxx11Ev'/>

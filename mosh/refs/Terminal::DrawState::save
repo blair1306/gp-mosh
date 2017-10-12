@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='264' type='Terminal::SavedCursor'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='331' u='w' c='_ZN8Terminal9DrawState18clear_saved_cursorEv'/>
+<offset>672</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='71' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='281' u='m' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='282' u='m' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='283' u='m' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='284' u='m' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='285' u='m' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='290' u='m' c='_ZN8Terminal9DrawState14restore_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='291' u='m' c='_ZN8Terminal9DrawState14restore_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='292' u='m' c='_ZN8Terminal9DrawState14restore_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='293' u='m' c='_ZN8Terminal9DrawState14restore_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='294' u='m' c='_ZN8Terminal9DrawState14restore_cursorEv'/>

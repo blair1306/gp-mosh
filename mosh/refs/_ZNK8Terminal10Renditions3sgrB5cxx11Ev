@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='69' type='std::string Terminal::Renditions::sgr() const'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='534' u='c' c='_ZN8Terminal10FrameState16update_renditionERKNS_10RenditionsEb'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='518' ll='560' type='std::string Terminal::Renditions::sgr() const'/>

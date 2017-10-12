@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='76' type='bool STMClient::process_user_input(int fd)'/>
+<def f='codebrowser/src/frontend/stmclient.cc' l='301' ll='396' type='bool STMClient::process_user_input(int fd)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='482' u='c' c='_ZN9STMClient4mainEv'/>

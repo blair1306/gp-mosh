@@ -1,0 +1,9 @@
+<inh f='include/c++/5/exception' l='60' c='std::exception'/>
+<def f='codebrowser/src/network/network.h' l='58' ll='70'/>
+<size>80</size>
+<mbr r='Network::NetworkException::function' o='64' t='string'/>
+<mbr r='Network::NetworkException::the_errno' o='320' t='int'/>
+<mbr r='Network::NetworkException::my_what' o='384' t='string'/>
+<fun r='_ZN7Network16NetworkExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<fun r='_ZNK7Network16NetworkException4whatEv'/>
+<fun r='_ZN7Network16NetworkExceptionD1Ev'/>

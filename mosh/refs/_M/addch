@@ -1,0 +1,4 @@
+<dec f='include/curses.h' l='1202'/>
+<doc f='include/curses.h' l='1198'>/*
+ * pseudo functions for standard screen
+ */</doc>

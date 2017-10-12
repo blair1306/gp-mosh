@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='112' type='void Crypto::Nonce::Nonce(const char * s_bytes, size_t len)'/>
+<use f='codebrowser/src/crypto/crypto.h' l='126' u='c' c='_ZN6Crypto7MessageC1EPKcmS2_m'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='191' ll='199' type='void Crypto::Nonce::Nonce(const char * s_bytes, size_t len)'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='268' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>

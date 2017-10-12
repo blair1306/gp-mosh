@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/resource.h' l='51'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='295' u='c'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='304' u='c'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='313' u='c'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='315' u='c'/>

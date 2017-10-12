@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='80' type='Terminal::DispatchRegistry &amp; Terminal::get_global_dispatch_registry()'/>
+<def f='codebrowser/src/terminal/terminaldispatcher.cc' l='168' ll='172' type='Terminal::DispatchRegistry &amp; Terminal::get_global_dispatch_registry()'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='180' u='c' c='_ZL17register_functionN8Terminal13Function_TypeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_8FunctionE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='183' u='c' c='_ZL17register_functionN8Terminal13Function_TypeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_8FunctionE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='186' u='c' c='_ZL17register_functionN8Terminal13Function_TypeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_8FunctionE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='212' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='213' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='214' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<doc f='codebrowser/src/terminal/terminaldispatcher.cc' l='167'>/* construct on first use to avoid static initialization order crash */</doc>

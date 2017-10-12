@@ -1,0 +1,6 @@
+<def f='include/google/protobuf/stubs/common.h' l='505' ll='509' type='C * google::protobuf::internal::scoped_ptr::release()'/>
+<doc f='include/google/protobuf/stubs/common.h' l='500'>// Release a pointer.
+  // The return value is the current pointer held by this object.
+  // If this object holds a NULL pointer, the return value is NULL.
+  // After this operation, this object will hold a NULL pointer,
+  // and will not own the object any more.</doc>

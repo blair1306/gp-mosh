@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/repeated_field.h' l='288' type='void google::protobuf::internal::RepeatedPtrFieldBase::MergeFrom(const google::protobuf::internal::RepeatedPtrFieldBase &amp; other)'/>
+<def f='include/google/protobuf/repeated_field.h' l='926' ll='932' type='void google::protobuf::internal::RepeatedPtrFieldBase::MergeFrom(const google::protobuf::internal::RepeatedPtrFieldBase &amp; other)'/>

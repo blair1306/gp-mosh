@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/transportfragment.h' l='86' type='TransportBuffers::Instruction Network::FragmentAssembly::get_assembly()'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='78' u='c' c='_ZN7Network9Transport4recvEv'/>
+<def f='codebrowser/src/network/transportfragment.cc' l='130' ll='149' type='TransportBuffers::Instruction Network::FragmentAssembly::get_assembly()'/>

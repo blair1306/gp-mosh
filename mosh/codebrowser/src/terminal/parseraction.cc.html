@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>parseraction.cc source code [codebrowser/src/terminal/parseraction.cc] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/terminal/parseraction.cc'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>terminal</a>/<a href='parseraction.cc.html'>parseraction.cc</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Mosh: the mobile shell</i></td></tr>
+<tr><th id="3">3</th><td><i>    Copyright 2012 Keith Winstein</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    This program is free software: you can redistribute it and/or modify</i></td></tr>
+<tr><th id="6">6</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="7">7</th><td><i>    the Free Software Foundation, either version 3 of the License, or</i></td></tr>
+<tr><th id="8">8</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="11">11</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="12">12</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="13">13</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="14">14</th><td><i></i></td></tr>
+<tr><th id="15">15</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="16">16</th><td><i>    along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    In addition, as a special exception, the copyright holders give</i></td></tr>
+<tr><th id="19">19</th><td><i>    permission to link the code of portions of this program with the</i></td></tr>
+<tr><th id="20">20</th><td><i>    OpenSSL library under certain conditions as described in each</i></td></tr>
+<tr><th id="21">21</th><td><i>    individual source file, and distribute linked combinations including</i></td></tr>
+<tr><th id="22">22</th><td><i>    the two.</i></td></tr>
+<tr><th id="23">23</th><td><i></i></td></tr>
+<tr><th id="24">24</th><td><i>    You must obey the GNU General Public License in all respects for all</i></td></tr>
+<tr><th id="25">25</th><td><i>    of the code used other than OpenSSL. If you modify file(s) with this</i></td></tr>
+<tr><th id="26">26</th><td><i>    exception, you may extend this exception to your version of the</i></td></tr>
+<tr><th id="27">27</th><td><i>    file(s), but you are not obligated to do so. If you do not wish to do</i></td></tr>
+<tr><th id="28">28</th><td><i>    so, delete this exception statement from your version. If you delete</i></td></tr>
+<tr><th id="29">29</th><td><i>    this exception statement from all source files in the program, then</i></td></tr>
+<tr><th id="30">30</th><td><i>    also delete it here.</i></td></tr>
+<tr><th id="31">31</th><td><i>*/</i></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../../../include/wctype.h.html">&lt;wctype.h&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="parseraction.h.html">"parseraction.h"</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="terminal.h.html">"terminal.h"</a></u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><b>using</b> <b>namespace</b> <span class="namespace">Parser</span>;</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::Print" title='Parser::Print' data-ref="Parser::Print">Print</a>::<dfn class="virtual decl def" id="_ZNK6Parser5Print15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::Print::act_on_terminal' data-ref="_ZNK6Parser5Print15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col1 decl" id="1emu" title='emu' data-type='Terminal::Emulator *' data-ref="1emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td>  <a class="local col1 ref" href="#1emu" title='emu' data-ref="1emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#_ZN8Terminal8Emulator5printEPKN6Parser5PrintE" title='Terminal::Emulator::print' data-ref="_ZN8Terminal8Emulator5printEPKN6Parser5PrintE">print</a>( <b>this</b> );</td></tr>
+<tr><th id="44">44</th><td>}</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::Execute" title='Parser::Execute' data-ref="Parser::Execute">Execute</a>::<dfn class="virtual decl def" id="_ZNK6Parser7Execute15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::Execute::act_on_terminal' data-ref="_ZNK6Parser7Execute15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col2 decl" id="2emu" title='emu' data-type='Terminal::Emulator *' data-ref="2emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="47">47</th><td>{</td></tr>
+<tr><th id="48">48</th><td>  <a class="local col2 ref" href="#2emu" title='emu' data-ref="2emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#_ZN8Terminal8Emulator7executeEPKN6Parser7ExecuteE" title='Terminal::Emulator::execute' data-ref="_ZN8Terminal8Emulator7executeEPKN6Parser7ExecuteE">execute</a>( <b>this</b> );</td></tr>
+<tr><th id="49">49</th><td>}</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::Clear" title='Parser::Clear' data-ref="Parser::Clear">Clear</a>::<dfn class="virtual decl def" id="_ZNK6Parser5Clear15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::Clear::act_on_terminal' data-ref="_ZNK6Parser5Clear15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col3 decl" id="3emu" title='emu' data-type='Terminal::Emulator *' data-ref="3emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="52">52</th><td>{</td></tr>
+<tr><th id="53">53</th><td>  <a class="local col3 ref" href="#3emu" title='emu' data-ref="3emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#Terminal::Emulator::dispatch" title='Terminal::Emulator::dispatch' data-ref="Terminal::Emulator::dispatch">dispatch</a>.<a class="ref" href="terminaldispatcher.h.html#_ZN8Terminal10Dispatcher5clearEPKN6Parser5ClearE" title='Terminal::Dispatcher::clear' data-ref="_ZN8Terminal10Dispatcher5clearEPKN6Parser5ClearE">clear</a>( <b>this</b> );</td></tr>
+<tr><th id="54">54</th><td>}</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::Param" title='Parser::Param' data-ref="Parser::Param">Param</a>::<dfn class="virtual decl def" id="_ZNK6Parser5Param15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::Param::act_on_terminal' data-ref="_ZNK6Parser5Param15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col4 decl" id="4emu" title='emu' data-type='Terminal::Emulator *' data-ref="4emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="57">57</th><td>{</td></tr>
+<tr><th id="58">58</th><td>  <a class="local col4 ref" href="#4emu" title='emu' data-ref="4emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#Terminal::Emulator::dispatch" title='Terminal::Emulator::dispatch' data-ref="Terminal::Emulator::dispatch">dispatch</a>.<a class="ref" href="terminaldispatcher.h.html#_ZN8Terminal10Dispatcher12newparamcharEPKN6Parser5ParamE" title='Terminal::Dispatcher::newparamchar' data-ref="_ZN8Terminal10Dispatcher12newparamcharEPKN6Parser5ParamE">newparamchar</a>( <b>this</b> );</td></tr>
+<tr><th id="59">59</th><td>}</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::Collect" title='Parser::Collect' data-ref="Parser::Collect">Collect</a>::<dfn class="virtual decl def" id="_ZNK6Parser7Collect15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::Collect::act_on_terminal' data-ref="_ZNK6Parser7Collect15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col5 decl" id="5emu" title='emu' data-type='Terminal::Emulator *' data-ref="5emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="62">62</th><td>{</td></tr>
+<tr><th id="63">63</th><td>  <a class="local col5 ref" href="#5emu" title='emu' data-ref="5emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#Terminal::Emulator::dispatch" title='Terminal::Emulator::dispatch' data-ref="Terminal::Emulator::dispatch">dispatch</a>.<a class="ref" href="terminaldispatcher.h.html#_ZN8Terminal10Dispatcher7collectEPKN6Parser7CollectE" title='Terminal::Dispatcher::collect' data-ref="_ZN8Terminal10Dispatcher7collectEPKN6Parser7CollectE">collect</a>( <b>this</b> );</td></tr>
+<tr><th id="64">64</th><td>}</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::CSI_Dispatch" title='Parser::CSI_Dispatch' data-ref="Parser::CSI_Dispatch">CSI_Dispatch</a>::<dfn class="virtual decl def" id="_ZNK6Parser12CSI_Dispatch15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::CSI_Dispatch::act_on_terminal' data-ref="_ZNK6Parser12CSI_Dispatch15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col6 decl" id="6emu" title='emu' data-type='Terminal::Emulator *' data-ref="6emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="67">67</th><td>{</td></tr>
+<tr><th id="68">68</th><td>  <a class="local col6 ref" href="#6emu" title='emu' data-ref="6emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#_ZN8Terminal8Emulator12CSI_dispatchEPKN6Parser12CSI_DispatchE" title='Terminal::Emulator::CSI_dispatch' data-ref="_ZN8Terminal8Emulator12CSI_dispatchEPKN6Parser12CSI_DispatchE">CSI_dispatch</a>( <b>this</b> );</td></tr>
+<tr><th id="69">69</th><td>}</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::Esc_Dispatch" title='Parser::Esc_Dispatch' data-ref="Parser::Esc_Dispatch">Esc_Dispatch</a>::<dfn class="virtual decl def" id="_ZNK6Parser12Esc_Dispatch15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::Esc_Dispatch::act_on_terminal' data-ref="_ZNK6Parser12Esc_Dispatch15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col7 decl" id="7emu" title='emu' data-type='Terminal::Emulator *' data-ref="7emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="72">72</th><td>{</td></tr>
+<tr><th id="73">73</th><td>  <a class="local col7 ref" href="#7emu" title='emu' data-ref="7emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#_ZN8Terminal8Emulator12Esc_dispatchEPKN6Parser12Esc_DispatchE" title='Terminal::Emulator::Esc_dispatch' data-ref="_ZN8Terminal8Emulator12Esc_dispatchEPKN6Parser12Esc_DispatchE">Esc_dispatch</a>( <b>this</b> );</td></tr>
+<tr><th id="74">74</th><td>}</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::OSC_Put" title='Parser::OSC_Put' data-ref="Parser::OSC_Put">OSC_Put</a>::<dfn class="virtual decl def" id="_ZNK6Parser7OSC_Put15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::OSC_Put::act_on_terminal' data-ref="_ZNK6Parser7OSC_Put15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col8 decl" id="8emu" title='emu' data-type='Terminal::Emulator *' data-ref="8emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="77">77</th><td>{</td></tr>
+<tr><th id="78">78</th><td>  <a class="local col8 ref" href="#8emu" title='emu' data-ref="8emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#Terminal::Emulator::dispatch" title='Terminal::Emulator::dispatch' data-ref="Terminal::Emulator::dispatch">dispatch</a>.<a class="ref" href="terminaldispatcher.h.html#_ZN8Terminal10Dispatcher7OSC_putEPKN6Parser7OSC_PutE" title='Terminal::Dispatcher::OSC_put' data-ref="_ZN8Terminal10Dispatcher7OSC_putEPKN6Parser7OSC_PutE">OSC_put</a>( <b>this</b> );</td></tr>
+<tr><th id="79">79</th><td>}</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::OSC_Start" title='Parser::OSC_Start' data-ref="Parser::OSC_Start">OSC_Start</a>::<dfn class="virtual decl def" id="_ZNK6Parser9OSC_Start15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::OSC_Start::act_on_terminal' data-ref="_ZNK6Parser9OSC_Start15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col9 decl" id="9emu" title='emu' data-type='Terminal::Emulator *' data-ref="9emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="82">82</th><td>{</td></tr>
+<tr><th id="83">83</th><td>  <a class="local col9 ref" href="#9emu" title='emu' data-ref="9emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#Terminal::Emulator::dispatch" title='Terminal::Emulator::dispatch' data-ref="Terminal::Emulator::dispatch">dispatch</a>.<a class="ref" href="terminaldispatcher.h.html#_ZN8Terminal10Dispatcher9OSC_startEPKN6Parser9OSC_StartE" title='Terminal::Dispatcher::OSC_start' data-ref="_ZN8Terminal10Dispatcher9OSC_startEPKN6Parser9OSC_StartE">OSC_start</a>( <b>this</b> );</td></tr>
+<tr><th id="84">84</th><td>}</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::OSC_End" title='Parser::OSC_End' data-ref="Parser::OSC_End">OSC_End</a>::<dfn class="virtual decl def" id="_ZNK6Parser7OSC_End15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::OSC_End::act_on_terminal' data-ref="_ZNK6Parser7OSC_End15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col0 decl" id="10emu" title='emu' data-type='Terminal::Emulator *' data-ref="10emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="87">87</th><td>{</td></tr>
+<tr><th id="88">88</th><td>  <a class="local col0 ref" href="#10emu" title='emu' data-ref="10emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#_ZN8Terminal8Emulator7OSC_endEPKN6Parser7OSC_EndE" title='Terminal::Emulator::OSC_end' data-ref="_ZN8Terminal8Emulator7OSC_endEPKN6Parser7OSC_EndE">OSC_end</a>( <b>this</b> );</td></tr>
+<tr><th id="89">89</th><td>}</td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::UserByte" title='Parser::UserByte' data-ref="Parser::UserByte">UserByte</a>::<dfn class="virtual decl def" id="_ZNK6Parser8UserByte15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::UserByte::act_on_terminal' data-ref="_ZNK6Parser8UserByte15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col1 decl" id="11emu" title='emu' data-type='Terminal::Emulator *' data-ref="11emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="92">92</th><td>{</td></tr>
+<tr><th id="93">93</th><td>  <a class="local col1 ref" href="#11emu" title='emu' data-ref="11emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#Terminal::Emulator::dispatch" title='Terminal::Emulator::dispatch' data-ref="Terminal::Emulator::dispatch">dispatch</a>.<a class="ref" href="terminaldispatcher.h.html#Terminal::Dispatcher::terminal_to_host" title='Terminal::Dispatcher::terminal_to_host' data-ref="Terminal::Dispatcher::terminal_to_host">terminal_to_host</a>.<a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_string6appendERKNS_12basic_stringIT_T0_T1_EE" title='std::__cxx11::basic_string::append' data-ref="_ZNSt7__cxx1112basic_string6appendERKNS_12basic_stringIT_T0_T1_EE">append</a>( <a class="local col1 ref" href="#11emu" title='emu' data-ref="11emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#Terminal::Emulator::user" title='Terminal::Emulator::user' data-ref="Terminal::Emulator::user">user</a>.<a class="ref" href="terminaluserinput.h.html#_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb" title='Terminal::UserInput::input' data-ref="_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb">input</a>( <b>this</b>,</td></tr>
+<tr><th id="94">94</th><td>							  <a class="local col1 ref" href="#11emu" title='emu' data-ref="11emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#Terminal::Emulator::fb" title='Terminal::Emulator::fb' data-ref="Terminal::Emulator::fb">fb</a>.<a class="ref" href="terminalframebuffer.h.html#Terminal::Framebuffer::ds" title='Terminal::Framebuffer::ds' data-ref="Terminal::Framebuffer::ds">ds</a>.<a class="ref" href="terminalframebuffer.h.html#Terminal::DrawState::application_mode_cursor_keys" title='Terminal::DrawState::application_mode_cursor_keys' data-ref="Terminal::DrawState::application_mode_cursor_keys">application_mode_cursor_keys</a> ) );</td></tr>
+<tr><th id="95">95</th><td>}</td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><em>void</em> <a class="type" href="parseraction.h.html#Parser::Resize" title='Parser::Resize' data-ref="Parser::Resize">Resize</a>::<dfn class="virtual decl def" id="_ZNK6Parser6Resize15act_on_terminalEPN8Terminal8EmulatorE" title='Parser::Resize::act_on_terminal' data-ref="_ZNK6Parser6Resize15act_on_terminalEPN8Terminal8EmulatorE">act_on_terminal</dfn>( <span class="namespace">Terminal::</span><a class="type" href="terminal.h.html#Terminal::Emulator" title='Terminal::Emulator' data-ref="Terminal::Emulator">Emulator</a> *<dfn class="local col2 decl" id="12emu" title='emu' data-type='Terminal::Emulator *' data-ref="12emu">emu</dfn> ) <em>const</em></td></tr>
+<tr><th id="98">98</th><td>{</td></tr>
+<tr><th id="99">99</th><td>  <a class="local col2 ref" href="#12emu" title='emu' data-ref="12emu">emu</a>-&gt;<a class="ref" href="terminal.h.html#_ZN8Terminal8Emulator6resizeEmm" title='Terminal::Emulator::resize' data-ref="_ZN8Terminal8Emulator6resizeEmm">resize</a>( <a class="member" href="parseraction.h.html#Parser::Resize::width" title='Parser::Resize::width' data-ref="Parser::Resize::width">width</a>, <a class="member" href="parseraction.h.html#Parser::Resize::height" title='Parser::Resize::height' data-ref="Parser::Resize::height">height</a> );</td></tr>
+<tr><th id="100">100</th><td>}</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>mosh-1.3.2-38-ge9c3bbd</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

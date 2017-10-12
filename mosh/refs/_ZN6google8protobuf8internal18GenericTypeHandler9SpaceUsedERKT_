@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/repeated_field.h' l='368' type='static int google::protobuf::internal::GenericTypeHandler::SpaceUsed(const GenericType &amp; value)'/>

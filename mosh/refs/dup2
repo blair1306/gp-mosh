@@ -1,0 +1,6 @@
+<dec f='include/unistd.h' l='537' type='int dup2(int __fd, int __fd2)'/>
+<doc f='include/unistd.h' l='536'>/* Duplicate FD to FD2, closing FD2 and making it open on the same file.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='490' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='491' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='492' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/network/network.cc' l='650' u='c' c='_ZN7Network10Connection6SocketaSERKS1_'/>

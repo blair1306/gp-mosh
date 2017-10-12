@@ -1,0 +1,4 @@
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='173' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='87' u='c' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='410' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='412' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>

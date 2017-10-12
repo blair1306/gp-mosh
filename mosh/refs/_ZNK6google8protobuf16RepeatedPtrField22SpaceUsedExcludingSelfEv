@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/repeated_field.h' l='523' type='int google::protobuf::RepeatedPtrField::SpaceUsedExcludingSelf() const'/>
+<def f='include/google/protobuf/repeated_field.h' l='1196' ll='1199' type='int google::protobuf::RepeatedPtrField::SpaceUsedExcludingSelf() const'/>
+<doc f='include/google/protobuf/repeated_field.h' l='521'>// Returns (an estimate of) the number of bytes used by the repeated field,
+  // excluding sizeof(*this).</doc>

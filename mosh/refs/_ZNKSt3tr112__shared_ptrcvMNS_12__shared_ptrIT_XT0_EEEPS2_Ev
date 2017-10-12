@@ -1,0 +1,6 @@
+<def f='include/c++/5/tr1/shared_ptr.h' l='685' ll='686' type='__unspecified_bool_type std::tr1::__shared_ptr::operator type-parameter-0-0 *__shared_ptr&lt;_Tp, _Lp&gt;::*() const'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='84' u='c' c='_ZNK9STMClient16still_connectingEv'/>
+<doc f='include/c++/5/tr1/shared_ptr.h' l='685'>// never throws</doc>
+<use f='codebrowser/src/frontend/stmclient.cc' l='220' u='c' c='_ZN9STMClient8shutdownEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='267' u='c' c='_ZN9STMClient16output_new_frameEv'/>
+<use f='codebrowser/src/terminal/parser.cc' l='46' macro='1' u='c'/>

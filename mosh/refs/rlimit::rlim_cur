@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/resource.h' l='142' type='rlim_t'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='302' u='r' c='_ZN6Crypto20disable_dumping_coreEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='303' u='w' c='_ZN6Crypto20disable_dumping_coreEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='314' u='w' c='_ZN6Crypto21reenable_dumping_coreEv'/>
+<offset>0</offset>
+<doc f='include/x86_64-linux-gnu/bits/resource.h' l='141'>/* The current (soft) limit.  */</doc>

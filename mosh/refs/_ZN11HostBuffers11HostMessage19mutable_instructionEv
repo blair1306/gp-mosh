@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='104' type='::google::protobuf::RepeatedPtrField&lt; ::HostBuffers::Instruction&gt; * HostBuffers::HostMessage::mutable_instruction()'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='480' ll='484' type='::google::protobuf::RepeatedPtrField&lt; ::HostBuffers::Instruction&gt; * HostBuffers::HostMessage::mutable_instruction()'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/crypto/ae.h' l='41'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='220' u='c'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='280' u='c'/>
+<doc f='codebrowser/src/crypto/ae.h' l='39'>/* Flags: When data can be processed &quot;incrementally&quot;, these flags are used
+ * to indicate whether the submitted data is the last or not.               */</doc>

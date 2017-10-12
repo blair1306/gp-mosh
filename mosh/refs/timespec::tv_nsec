@@ -1,0 +1,6 @@
+<dec f='include/time.h' l='123' type='__syscall_slong_t'/>
+<offset>64</offset>
+<use f='codebrowser/src/util/select.h' l='146' u='w' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='137' u='w' c='_ZL4spinv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='563' u='w' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/util/timestamp.cc' l='77' u='r' c='_Z16freeze_timestampv'/>

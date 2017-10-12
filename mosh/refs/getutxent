@@ -1,0 +1,6 @@
+<dec f='include/utmpx.h' l='65' type='struct utmpx * getutxent()'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='980' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='include/utmpx.h' l='61'>/* Get the next entry from the user accounting database.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

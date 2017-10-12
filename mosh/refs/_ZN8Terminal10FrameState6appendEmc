@@ -1,0 +1,7 @@
+<def f='codebrowser/src/terminal/terminaldisplay.h' l='53' type='void Terminal::FrameState::append(size_t s, char c)'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='233' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='246' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='407' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='457' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='516' u='c' c='_ZN8Terminal10FrameState11append_moveEii'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='521' u='c' c='_ZN8Terminal10FrameState11append_moveEii'/>

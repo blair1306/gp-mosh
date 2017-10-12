@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='90' type='3'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='203' u='r'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='569' u='r' c='_ZN6google8protobuf8internal14WireFormatLite19WriteGroupNoVirtualEiRKT_PNS0_2io17CodedOutputStreamE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='762' u='r' c='_ZN6google8protobuf8internal14WireFormatLite17WriteGroupToArrayEiRKNS0_11MessageLiteEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='781' u='r' c='_ZN6google8protobuf8internal14WireFormatLite26WriteGroupNoVirtualToArrayEiRKT_Ph'/>

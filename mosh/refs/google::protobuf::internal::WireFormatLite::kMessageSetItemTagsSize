@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='215' type='const int'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='214'>// Byte size of all tags of a MessageSet::Item combined.</doc>

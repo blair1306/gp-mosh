@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='269' type='bool google::protobuf::io::CopyingOutputStream::Write(const void * buffer, int size)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='267'>// Writes &quot;size&quot; bytes from the given buffer to the output.  Returns true
+  // if successful, false on a write error.</doc>

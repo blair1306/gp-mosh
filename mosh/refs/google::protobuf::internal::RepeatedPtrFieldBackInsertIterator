@@ -1,0 +1,9 @@
+<def f='include/google/protobuf/repeated_field.h' l='1508' ll='1536'/>
+<doc f='include/google/protobuf/repeated_field.h' l='1507'>// A back inserter for RepeatedPtrField objects.</doc>
+<fun r='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratorC1EPNS0_16RepeatedPtrFieldIT_EE'/>
+<fun r='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratoraSERKT_'/>
+<fun r='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratoraSEPKT_'/>
+<fun r='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratordeEv'/>
+<fun r='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratorppEv'/>
+<fun r='_ZN6google8protobuf8internal34RepeatedPtrFieldBackInsertIteratorppEi'/>
+<mbr r='google::protobuf::internal::RepeatedPtrFieldBackInsertIterator::field_' t='RepeatedPtrField&lt;T&gt; *'/>

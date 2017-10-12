@@ -1,0 +1,4 @@
+_ZNSt13basic_istream6ignoreEv|std::basic_istream::ignore
+_ZNK6Parser6Action6ignoreEv|Parser::Action::ignore
+_ZNK6Parser6Ignore6ignoreEv|Parser::Ignore::ignore
+_ZN6Parser6Ignore4nameB5cxx11Ev|Parser::Ignore::name

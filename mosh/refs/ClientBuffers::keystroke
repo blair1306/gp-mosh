@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='364' type='::google::protobuf::internal::ExtensionIdentifier&lt; ::ClientBuffers::Instruction, ::google::protobuf::internal::MessageTypeTraits&lt; ::ClientBuffers::Keystroke&gt;, 11, false&gt;'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='810' ll='812' type='::google::protobuf::internal::ExtensionIdentifier&lt; ::ClientBuffers::Instruction, ::google::protobuf::internal::MessageTypeTraits&lt; ::ClientBuffers::Keystroke&gt;, 11, false&gt;'/>
+<use f='codebrowser/src/statesync/user.cc' l='82' u='r' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='83' u='r' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='86' u='r' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='114' u='r' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/user.cc' l='115' u='r' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

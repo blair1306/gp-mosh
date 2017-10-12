@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='84' type='void Terminal::Renditions::clear_attributes()'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='465' u='c' c='_ZN8Terminal10Renditions13set_renditionEt'/>

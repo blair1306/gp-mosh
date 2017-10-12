@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='57' type='4'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='82' u='r' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='124' u='r' c='_ZNK7Overlay21ConditionalCursorMove12get_validityERKN8Terminal11FramebufferEmm'/>

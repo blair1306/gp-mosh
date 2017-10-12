@@ -1,0 +1,2 @@
+<use f='codebrowser/src/crypto/crypto.cc' l='294' u='c' c='_ZN6Crypto20disable_dumping_coreEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='312' u='c' c='_ZN6Crypto21reenable_dumping_coreEv'/>

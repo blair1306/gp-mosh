@@ -1,0 +1,23 @@
+<dec f='include/google/protobuf/message_lite.h' l='238' type='int google::protobuf::MessageLite::GetCachedSize() const'/>
+<ovr f='codebrowser/src/protobufs/transportinstruction.pb.h' l='88' c='_ZNK16TransportBuffers11Instruction13GetCachedSizeEv'/>
+<doc f='include/google/protobuf/message_lite.h' l='227'>// Returns the result of the last call to ByteSize().  An embedded message&apos;s
+  // size is needed both to serialize it (because embedded messages are
+  // length-delimited) and to compute the outer message&apos;s size.  Caching
+  // the size avoids computing it multiple times.
+  //
+  // ByteSize() does not automatically use the cached size when available
+  // because this would require invalidating it every time the message was
+  // modified, which would be too hard and expensive.  (E.g. if a deeply-nested
+  // sub-message is changed, all of its parents&apos; cached sizes would need to be
+  // invalidated, which is too much work for an otherwise inlined setter
+  // method.)</doc>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.h' l='82' c='_ZNK11HostBuffers11HostMessage13GetCachedSizeEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.h' l='162' c='_ZNK11HostBuffers11Instruction13GetCachedSizeEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.h' l='232' c='_ZNK11HostBuffers9HostBytes13GetCachedSizeEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.h' l='314' c='_ZNK11HostBuffers13ResizeMessage13GetCachedSizeEv'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.h' l='401' c='_ZNK11HostBuffers7EchoAck13GetCachedSizeEv'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='771' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19WriteMessageToArrayEiRKNS0_11MessageLiteEPh'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.h' l='81' c='_ZNK13ClientBuffers11UserMessage13GetCachedSizeEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.h' l='161' c='_ZNK13ClientBuffers11Instruction13GetCachedSizeEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.h' l='231' c='_ZNK13ClientBuffers9Keystroke13GetCachedSizeEv'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.h' l='313' c='_ZNK13ClientBuffers13ResizeMessage13GetCachedSizeEv'/>

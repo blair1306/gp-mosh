@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='174' type='void TransportBuffers::Instruction::clear_has_chaff()'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='408' ll='410' type='void TransportBuffers::Instruction::clear_has_chaff()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='415' u='c' c='_ZN16TransportBuffers11Instruction11clear_chaffEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='454' u='c' c='_ZN16TransportBuffers11Instruction13release_chaffB5cxx11Ev'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='471' u='c' c='_ZN16TransportBuffers11Instruction19set_allocated_chaffEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

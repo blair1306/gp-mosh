@@ -1,0 +1,20 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='259' type='bool google::protobuf::io::CodedInputStream::ExpectTag(uint32 expected)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='936' ll='957' type='bool google::protobuf::io::CodedInputStream::ExpectTag(uint32 expected)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='238' u='c' c='_ZN6google8protobuf8internal14WireFormatLite21ReadRepeatedPrimitiveEijPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='146' u='c' c='_ZN11HostBuffers11HostMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='688' u='c' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='252'>// Usually returns true if calling ReadVarint32() now would produce the given
+  // value.  Will always return false if ReadVarint32() would not return the
+  // given value.  If ExpectTag() returns true, it also advances past
+  // the varint.  For best performance, use a compile-time constant as the
+  // parameter.
+  // Always inline because this collapses to a small number of instructions
+  // when given a constant parameter, but GCC doesn&apos;t want to inline by default.</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='192' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='207' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='222' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='237' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='252' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='265' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='139' u='c' c='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='681' u='c' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

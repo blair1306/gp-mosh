@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='68' type='void Terminal::Renditions::set_rendition(color_type num)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='324' u='c' c='_ZN8Terminal9DrawState13add_renditionEt'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='462' ll='502' type='void Terminal::Renditions::set_rendition(color_type num)'/>
+<doc f='codebrowser/src/terminal/terminalframebuffer.cc' l='461'>/* This routine cannot be used to set a color beyond the 16-color set. */</doc>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/parseraction.h' l='159' ll='162' type='bool Parser::Resize::operator==(const Parser::Resize &amp; other) const'/>
+<use f='codebrowser/src/statesync/user.h' l='67' u='c' c='_ZNK7Network9UserEventeqERKS0_'/>

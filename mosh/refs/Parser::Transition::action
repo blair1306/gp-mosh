@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/terminal/parsertransition.h' l='48' type='ActionPointer'/>
+<use f='codebrowser/src/terminal/parsertransition.h' l='52' u='w' c='_ZN6Parser10TransitionC1ERKS0_'/>
+<use f='codebrowser/src/terminal/parsertransition.h' l='52' u='r' c='_ZN6Parser10TransitionC1ERKS0_'/>
+<use f='codebrowser/src/terminal/parsertransition.h' l='56' u='w' c='_ZN6Parser10TransitionaSERKS0_'/>
+<use f='codebrowser/src/terminal/parsertransition.h' l='56' u='r' c='_ZN6Parser10TransitionaSERKS0_'/>
+<use f='codebrowser/src/terminal/parsertransition.h' l='62' u='w' c='_ZN6Parser10TransitionC1ENSt3tr110shared_ptrINS_6ActionEEEPNS_5StateE'/>
+<use f='codebrowser/src/terminal/parsertransition.h' l='69' u='w' c='_ZN6Parser10TransitionC1EPNS_5StateENSt3tr110shared_ptrINS_6ActionEEE'/>
+<offset>0</offset>
+<doc f='codebrowser/src/terminal/parsertransition.h' l='46'>// Transition is only a courier for an Action; it should
+    // never create/delete one on its own.</doc>
+<use f='codebrowser/src/terminal/parser.cc' l='61' u='r' c='_ZN6Parser6Parser5inputEwRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='68' u='m' c='_ZNK6Parser5State5inputEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='69' u='m' c='_ZNK6Parser5State5inputEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='75' u='m' c='_ZNK6Parser5State5inputEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='76' u='m' c='_ZNK6Parser5State5inputEw'/>

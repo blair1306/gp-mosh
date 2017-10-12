@@ -1,0 +1,9 @@
+<def f='codebrowser/src/terminal/parser.h' l='50' ll='68'/>
+<size>8</size>
+<mbr r='Parser::Parser::state' o='0' t='const Parser::State *'/>
+<fun r='_ZN6Parser6ParserC1Ev'/>
+<fun r='_ZN6Parser6ParserC1ERKS0_'/>
+<fun r='_ZN6Parser6ParseraSERKS0_'/>
+<fun r='_ZN6Parser6ParserD1Ev'/>
+<fun r='_ZN6Parser6Parser5inputEwRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<fun r='_ZN6Parser6Parser11reset_inputEv'/>

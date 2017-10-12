@@ -1,0 +1,3 @@
+<dec f='codebrowser/config.h' l='265'/>
+<doc f='codebrowser/config.h' l='264'>/* Define to 1 if you have the &lt;tr1/memory&gt; header file. */</doc>
+<use f='codebrowser/src/util/shared.h' l='42' u='a'/>

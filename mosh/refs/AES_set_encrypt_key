@@ -1,0 +1,2 @@
+<dec f='include/openssl/aes.h' l='90' type='int AES_set_encrypt_key(const unsigned char * userKey, const int bits, AES_KEY * key)'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='804' u='c' c='ae_init'/>

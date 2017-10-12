@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='172' type='void TransportBuffers::Instruction::clear_has_diff()'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='332' ll='334' type='void TransportBuffers::Instruction::clear_has_diff()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='339' u='c' c='_ZN16TransportBuffers11Instruction10clear_diffEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='378' u='c' c='_ZN16TransportBuffers11Instruction12release_diffB5cxx11Ev'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='395' u='c' c='_ZN16TransportBuffers11Instruction18set_allocated_diffEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

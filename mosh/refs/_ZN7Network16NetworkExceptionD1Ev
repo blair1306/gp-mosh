@@ -1,0 +1,2 @@
+<inh f='include/c++/5/exception' l='64' c='_ZNSt9exceptionD1Ev'/>
+<def f='codebrowser/src/network/network.h' l='69' type='void Network::NetworkException::~NetworkException()'/>

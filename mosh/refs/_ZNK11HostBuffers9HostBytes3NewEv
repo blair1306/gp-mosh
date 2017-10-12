@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='219' type='HostBuffers::HostBytes * HostBuffers::HostBytes::New() const'/>
+<inh f='include/google/protobuf/message_lite.h' l='89' c='_ZNK6google8protobuf11MessageLite3NewEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='452' ll='454' type='HostBuffers::HostBytes * HostBuffers::HostBytes::New() const'/>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='217'>// implements Message ----------------------------------------------</doc>

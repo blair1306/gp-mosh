@@ -1,0 +1,17 @@
+<dec f='include/unistd.h' l='213'/>
+<doc f='include/unistd.h' l='212'>/* Standard file descriptors.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='406' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='432' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='490' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='531' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='538' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='69' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='96' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='114' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='210' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='237' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='347' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='401' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='458' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='482' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='482' u='c'/>

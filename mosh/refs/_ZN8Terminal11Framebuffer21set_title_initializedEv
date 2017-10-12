@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='440' type='void Terminal::Framebuffer::set_title_initialized()'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='600' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/transportfragment.h' l='102' type='vector&lt;Network::Fragment&gt; Network::Fragmenter::make_fragments(const TransportBuffers::Instruction &amp; inst, size_t MTU)'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='337' u='c' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<def f='codebrowser/src/network/transportfragment.cc' l='157' ll='199' type='vector&lt;Network::Fragment&gt; Network::Fragmenter::make_fragments(const TransportBuffers::Instruction &amp; inst, size_t MTU)'/>

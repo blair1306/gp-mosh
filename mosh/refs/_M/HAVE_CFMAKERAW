@@ -1,0 +1,4 @@
+<dec f='codebrowser/config.h' l='11'/>
+<doc f='codebrowser/config.h' l='10'>/* Define to 1 if you have the `cfmakeraw&apos; function. */</doc>
+<use f='codebrowser/src/util/pty_compat.h' l='41' u='a'/>
+<use f='codebrowser/src/util/pty_compat.cc' l='35' u='a'/>

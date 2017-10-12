@@ -1,0 +1,12 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='324' ll='344'/>
+<size>288</size>
+<doc f='codebrowser/src/frontend/terminaloverlay.h' l='323'>/* the overlay manager */</doc>
+<mbr r='Overlay::OverlayManager::notifications' o='0' t='Overlay::NotificationEngine'/>
+<mbr r='Overlay::OverlayManager::predictions' o='832' t='Overlay::PredictionEngine'/>
+<mbr r='Overlay::OverlayManager::title' o='2112' t='Overlay::TitleEngine'/>
+<fun r='_ZN7Overlay14OverlayManager5applyERN8Terminal11FramebufferE'/>
+<fun r='_ZN7Overlay14OverlayManager23get_notification_engineEv'/>
+<fun r='_ZN7Overlay14OverlayManager21get_prediction_engineEv'/>
+<fun r='_ZN7Overlay14OverlayManager16set_title_prefixERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<fun r='_ZN7Overlay14OverlayManagerC1Ev'/>
+<fun r='_ZNK7Overlay14OverlayManager9wait_timeEv'/>

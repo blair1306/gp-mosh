@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/stubs/stl_util.h' l='52' ll='59' type='void google::protobuf::STLDeleteContainerPointers(ForwardIterator begin, ForwardIterator end)'/>

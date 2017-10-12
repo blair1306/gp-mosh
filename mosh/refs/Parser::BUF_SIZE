@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/parser.h' l='70' type='const size_t'/>
+<use f='codebrowser/src/terminal/parser.h' l='76'/>
+<use f='codebrowser/src/terminal/parser.cc' l='72' u='r' c='_ZN6Parser10UTF8ParserC1Ev'/>
+<use f='codebrowser/src/terminal/parser.cc' l='78' u='r' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>

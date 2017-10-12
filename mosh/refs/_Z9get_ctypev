@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/locale_utils.h' l='47' type='const LocaleVar get_ctype()'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='328' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='346' u='c' c='main'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='84' u='c' c='_ZN9STMClient4initEv'/>
+<def f='codebrowser/src/util/locale_utils.cc' l='58' ll='69' type='const LocaleVar get_ctype()'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='99' u='c' c='_Z17set_native_localev'/>

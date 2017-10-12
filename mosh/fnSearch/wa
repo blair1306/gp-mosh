@@ -1,0 +1,6 @@
+_ZN7Network9Transport9wait_timeEv|Network::Transport::wait_time
+_ZNK7Overlay14OverlayManager9wait_timeEv|Overlay::OverlayManager::wait_time
+_ZNK7Overlay16PredictionEngine9wait_timeEv|Overlay::PredictionEngine::wait_time
+_ZN7Network15TransportSender9wait_timeEv|Network::TransportSender::wait_time
+_ZNK7Overlay18NotificationEngine9wait_timeEv|Overlay::NotificationEngine::wait_time
+_ZNK8Terminal8Complete9wait_timeEm|Terminal::Complete::wait_time

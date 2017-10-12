@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='151' type='void Crypto::Session::~Session()'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='171' ll='174' type='void Crypto::Session::~Session()'/>

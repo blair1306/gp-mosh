@@ -1,0 +1,20 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='333' type='Overlay::NotificationEngine &amp; Overlay::OverlayManager::get_notification_engine()'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='192' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='202' u='c' c='_ZN9STMClient8shutdownEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='203' u='c' c='_ZN9STMClient8shutdownEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='293' u='c' c='_ZN9STMClient21process_network_inputEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='294' u='c' c='_ZN9STMClient21process_network_inputEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='338' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='372' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='373' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='382' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='486' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='507' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='535' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='539' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='542' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='544' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='551' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='554' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='558' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='572' u='c' c='_ZN9STMClient4mainEv'/>

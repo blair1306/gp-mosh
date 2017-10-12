@@ -1,0 +1,82 @@
+<inh f='include/google/protobuf/message_lite.h' l='77' c='google::protobuf::MessageLite'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='274' ll='358'/>
+<size>56</size>
+<doc f='codebrowser/src/protobufs/userinput.pb.h' l='272'>// -------------------------------------------------------------------</doc>
+<fun r='_ZN13ClientBuffers13ResizeMessageC1Ev'/>
+<fun r='_ZN13ClientBuffers13ResizeMessageD1Ev'/>
+<fun r='_ZN13ClientBuffers13ResizeMessageC1ERKS0_'/>
+<fun r='_ZN13ClientBuffers13ResizeMessageaSERKS0_'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage14unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage22mutable_unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage16default_instanceEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage4SwapEPS0_'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage3NewEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage8CopyFromERKS0_'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage9MergeFromERKS0_'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage5ClearEv'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage13IsInitializedEv'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage8ByteSizeEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage20DiscardUnknownFieldsEv'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage13GetCachedSizeEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage10SharedCtorEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage10SharedDtorEv'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage13SetCachedSizeEi'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage11GetTypeNameB5cxx11Ev'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage9has_widthEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage11clear_widthEv'/>
+<smbr r='ClientBuffers::ResizeMessage::kWidthFieldNumber' t='const int'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage5widthEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage9set_widthEi'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage10has_heightEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage12clear_heightEv'/>
+<smbr r='ClientBuffers::ResizeMessage::kHeightFieldNumber' t='const int'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage6heightEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage10set_heightEi'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage13set_has_widthEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage15clear_has_widthEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage14set_has_heightEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage16clear_has_heightEv'/>
+<mbr r='ClientBuffers::ResizeMessage::_unknown_fields_' o='64' t='::std::string'/>
+<mbr r='ClientBuffers::ResizeMessage::_has_bits_' o='320' t='::google::protobuf::uint32 [1]'/>
+<mbr r='ClientBuffers::ResizeMessage::_cached_size_' o='352' t='int'/>
+<mbr r='ClientBuffers::ResizeMessage::width_' o='384' t='::google::protobuf::int32'/>
+<mbr r='ClientBuffers::ResizeMessage::height_' o='416' t='::google::protobuf::int32'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage21InitAsDefaultInstanceEv'/>
+<smbr r='ClientBuffers::ResizeMessage::default_instance_' t='ClientBuffers::ResizeMessage *'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage9has_widthEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage13set_has_widthEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage15clear_has_widthEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage11clear_widthEv'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage5widthEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage9set_widthEi'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage10has_heightEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage14set_has_heightEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage16clear_has_heightEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage12clear_heightEv'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage6heightEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage10set_heightEi'/>
+<smbr r='ClientBuffers::ResizeMessage::kWidthFieldNumber' t='const int'/>
+<smbr r='ClientBuffers::ResizeMessage::kHeightFieldNumber' t='const int'/>
+<fun r='_ZN13ClientBuffers13ResizeMessageC1Ev'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage21InitAsDefaultInstanceEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessageC1ERKS0_'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage10SharedCtorEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessageD1Ev'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage10SharedDtorEv'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage13SetCachedSizeEi'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage16default_instanceEv'/>
+<smbr r='ClientBuffers::ResizeMessage::default_instance_' t='ClientBuffers::ResizeMessage *'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage3NewEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage5ClearEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage8ByteSizeEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage9MergeFromERKS0_'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage8CopyFromERKS0_'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage13IsInitializedEv'/>
+<fun r='_ZN13ClientBuffers13ResizeMessage4SwapEPS0_'/>
+<fun r='_ZNK13ClientBuffers13ResizeMessage11GetTypeNameB5cxx11Ev'/>

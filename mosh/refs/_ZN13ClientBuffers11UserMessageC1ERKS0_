@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='47' type='void ClientBuffers::UserMessage::UserMessage(const ClientBuffers::UserMessage &amp; from)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='72' ll='77' type='void ClientBuffers::UserMessage::UserMessage(const ClientBuffers::UserMessage &amp; from)'/>

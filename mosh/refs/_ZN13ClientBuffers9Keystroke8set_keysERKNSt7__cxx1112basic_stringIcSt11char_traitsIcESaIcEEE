@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='248' type='void ClientBuffers::Keystroke::set_keys(const ::std::string &amp; value)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='432' ll='439' type='void ClientBuffers::Keystroke::set_keys(const ::std::string &amp; value)'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='550' u='c' c='_ZN13ClientBuffers9Keystroke9MergeFromERKS0_'/>

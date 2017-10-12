@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='104' type='void Terminal::Dispatcher::collect(const Parser::Collect * act)'/>
+<use f='codebrowser/src/terminal/parseraction.cc' l='63' u='c' c='_ZNK6Parser7Collect15act_on_terminalEPN8Terminal8EmulatorE'/>
+<def f='codebrowser/src/terminal/terminaldispatcher.cc' l='63' ll='70' type='void Terminal::Dispatcher::collect(const Parser::Collect * act)'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='207' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>

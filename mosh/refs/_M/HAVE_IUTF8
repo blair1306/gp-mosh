@@ -1,0 +1,5 @@
+<dec f='codebrowser/config.h' l='94'/>
+<doc f='codebrowser/config.h' l='93'>/* Define if IUTF8 is a defined termios mode. */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='460' u='a'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='529' u='a'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='104' u='a'/>

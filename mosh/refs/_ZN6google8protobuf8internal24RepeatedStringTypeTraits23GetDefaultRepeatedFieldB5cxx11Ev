@@ -1,0 +1,2 @@
+<use f='include/google/protobuf/extension_set.h' l='832' u='c' c='_ZN6google8protobuf8internal24RepeatedStringTypeTraits11GetRepeatedB5cxx11EiRKNS1_12ExtensionSetE'/>
+<def f='include/google/protobuf/extension_set.h' l='843' ll='845' type='static const RepeatedFieldType * google::protobuf::internal::RepeatedStringTypeTraits::GetDefaultRepeatedField()'/>

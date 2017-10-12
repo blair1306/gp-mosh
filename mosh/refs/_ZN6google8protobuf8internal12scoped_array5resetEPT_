@@ -1,0 +1,4 @@
+<def f='include/google/protobuf/stubs/common.h' l='554' ll='560' type='void google::protobuf::internal::scoped_array::reset(C * p = __null)'/>
+<doc f='include/google/protobuf/stubs/common.h' l='551'>// Reset.  Deletes the current owned object, if any.
+  // Then takes ownership of a new object, if given.
+  // this-&gt;reset(this-&gt;get()) works.</doc>

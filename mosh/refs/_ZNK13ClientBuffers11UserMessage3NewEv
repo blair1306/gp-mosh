@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='68' type='ClientBuffers::UserMessage * ClientBuffers::UserMessage::New() const'/>
+<inh f='include/google/protobuf/message_lite.h' l='89' c='_ZNK6google8protobuf11MessageLite3NewEv'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='106' ll='108' type='ClientBuffers::UserMessage * ClientBuffers::UserMessage::New() const'/>
+<doc f='codebrowser/src/protobufs/userinput.pb.h' l='66'>// implements Message ----------------------------------------------</doc>

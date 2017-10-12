@@ -1,0 +1,10 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='186'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='202' u='c'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='205' u='c'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='208' u='c'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='211' u='c'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='568' u='c'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='182'>// This macro does the same thing as WireFormatLite::MakeTag(), but the
+// result is usable as a compile-time constant, which makes it usable
+// as a switch case or a template input.  WireFormatLite::MakeTag() is more
+// type-safe, though, so prefer it if possible.</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/network/networktransport.h' l='53' type='Network::Connection'/>
+<use f='codebrowser/src/network/networktransport.h' l='92' u='m' c='_ZNK7Network9Transport15has_remote_addrEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='97' u='m' c='_ZNK7Network9Transport4portB5cxx11Ev'/>
+<use f='codebrowser/src/network/networktransport.h' l='98' u='m' c='_ZNK7Network9Transport7get_keyB5cxx11Ev'/>
+<use f='codebrowser/src/network/networktransport.h' l='107' u='m' c='_ZNK7Network9Transport3fdsEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='119' u='m' c='_ZNK7Network9Transport15get_remote_addrEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='120' u='m' c='_ZNK7Network9Transport19get_remote_addr_lenEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='122' u='m' c='_ZN7Network9Transport14get_send_errorB5cxx11Ev'/>
+<doc f='codebrowser/src/network/networktransport.h' l='52'>/* the underlying, encrypted network connection */</doc>
+<use f='codebrowser/src/network/networktransport-impl.h' l='46' u='w' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='47' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='60' u='w' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_S6_'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='61' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_S6_'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='74' u='m' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='87' u='m' c='_ZN7Network9Transport4recvEv'/>

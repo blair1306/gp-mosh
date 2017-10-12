@@ -1,0 +1,13 @@
+<dec f='include/stdio.h' l='173'/>
+<use f='include/x86_64-linux-gnu/bits/stdio.h' l='81' u='c'/>
+<use f='include/x86_64-linux-gnu/bits/stdio.h' l='107' u='c'/>
+<use f='include/x86_64-linux-gnu/bits/stdio2.h' l='117' u='c'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='120' u='c'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='124' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='190' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='194' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='447' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='466' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='635' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='917' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='352' u='c'/>

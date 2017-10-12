@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='669' type='static uint8 * google::protobuf::io::CodedOutputStream::WriteStringToArray(const string &amp; str, uint8 * target)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1116' ll='1119' type='static uint8 * google::protobuf::io::CodedOutputStream::WriteStringToArray(const string &amp; str, uint8 * target)'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='668'>// Like WriteString()  but writing directly to the target array.</doc>

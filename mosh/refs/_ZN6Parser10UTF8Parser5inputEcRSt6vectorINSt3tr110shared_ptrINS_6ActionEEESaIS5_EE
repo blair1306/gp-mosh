@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/parser.h' l='82' type='void Parser::UTF8Parser::input(char c, Actions &amp; actions)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='665' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='49' u='c' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/terminal/parser.cc' l='76' ll='156' type='void Parser::UTF8Parser::input(char c, Actions &amp; ret)'/>

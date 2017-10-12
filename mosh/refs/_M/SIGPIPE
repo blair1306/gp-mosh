@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/signum.h' l='45'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='443' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='523' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='233' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='502' u='c'/>

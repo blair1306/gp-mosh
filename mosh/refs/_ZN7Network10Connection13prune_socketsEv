@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/network.h' l='199' type='void Network::Connection::prune_sockets()'/>
+<use f='codebrowser/src/network/network.cc' l='126' u='c' c='_ZN7Network10Connection8hop_portEv'/>
+<def f='codebrowser/src/network/network.cc' l='129' ll='150' type='void Network::Connection::prune_sockets()'/>
+<use f='codebrowser/src/network/network.cc' l='451' u='c' c='_ZN7Network10Connection4recvB5cxx11Ev'/>

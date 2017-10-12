@@ -1,0 +1,3 @@
+<use f='include/google/protobuf/stubs/common.h' l='914' u='w' c='_ZN6google8protobuf8internal16FunctionClosure1C1EPFvT_EbS3_'/>
+<use f='include/google/protobuf/stubs/common.h' l='919' c='_ZN6google8protobuf8internal16FunctionClosure13RunEv'/>
+<dec f='include/google/protobuf/stubs/common.h' l='926' type='Arg1'/>

@@ -1,0 +1,7 @@
+<dec f='include/langinfo.h' l='583' type='char * nl_langinfo(nl_item __item)'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='76' u='c' c='_Z14locale_charsetv'/>
+<doc f='include/langinfo.h' l='577'>/* Return the current locale&apos;s value for ITEM.
+   If ITEM is invalid, an empty string is returned.
+
+   The string returned will not change until `setlocale&apos; is called;
+   it is usually in read-only memory and cannot be modified.  */</doc>

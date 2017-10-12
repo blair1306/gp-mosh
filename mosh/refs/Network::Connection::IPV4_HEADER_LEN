@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/network/network.h' l='108' type='const int'/>
+<doc f='codebrowser/src/network/network.h' l='104'>/*
+     * For IPv4, guess the typical (minimum) header length;
+     * fragmentation is not dangerous, just inefficient.
+     */</doc>
+<doc f='codebrowser/src/network/network.h' l='108'>/* base IP header */</doc>
+<use f='codebrowser/src/network/network.cc' l='205' u='r' c='_ZN7Network10Connection7set_MTUEi'/>

@@ -1,0 +1,2 @@
+<dec f='include/term.h' l='724' type='int _nc_set_tty_mode(struct termios * buf)'/>
+<doc f='include/term.h' l='723'>/* internals */</doc>

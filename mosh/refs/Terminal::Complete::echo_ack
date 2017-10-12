@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='58' type='uint64_t'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='64' u='w' c='_ZN8Terminal8CompleteC1Emm'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='71' u='r' c='_ZNK8Terminal8Complete12get_echo_ackEv'/>
+<offset>3904</offset>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='118' u='r' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='119' u='w' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='127' u='r' c='_ZNK8Terminal8CompleteeqERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='127' u='r' c='_ZNK8Terminal8CompleteeqERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='150' u='r' c='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='154' u='w' c='_ZN8Terminal8Complete12set_echo_ackEm'/>

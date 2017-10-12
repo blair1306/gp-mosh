@@ -1,0 +1,14 @@
+<def f='include/c++/5/bits/basic_string.h' l='1162' ll='1168' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::assign(const _CharT * __s)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1153'>/**
+       *  @brief  Set value to contents of a C string.
+       *  @param __s  The C string to use.
+       *  @return  Reference to this string.
+       *
+       *  This function sets the value of this string to the value of @a __s.
+       *  The data is copied, so there is no dependence on @a __s once the
+       *  function returns.
+       */</doc>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='358' u='c' c='_ZN16TransportBuffers11Instruction8set_diffEPKc'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='434' u='c' c='_ZN16TransportBuffers11Instruction9set_chaffEPKc'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='527' u='c' c='_ZN11HostBuffers9HostBytes14set_hoststringEPKc'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='445' u='c' c='_ZN13ClientBuffers9Keystroke8set_keysEPKc'/>

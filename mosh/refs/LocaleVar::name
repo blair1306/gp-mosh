@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/locale_utils.h' l='40' type='const std::string'/>
+<use f='codebrowser/src/util/locale_utils.h' l='42' u='w' c='_ZN9LocaleVarC1EPKcS1_'/>
+<offset>0</offset>
+<use f='codebrowser/src/util/locale_utils.cc' l='52' u='m' c='_ZNK9LocaleVar3strB5cxx11Ev'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='55' u='r' c='_ZNK9LocaleVar3strB5cxx11Ev'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='101' u='m' c='_Z17set_native_localev'/>

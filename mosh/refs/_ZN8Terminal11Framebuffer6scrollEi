@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='390' type='void Terminal::Framebuffer::scroll(int N)'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='111' ll='118' type='void Terminal::Framebuffer::scroll(int N)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='181' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='185' u='c' c='_ZN8Terminal11Framebuffer20move_rows_autoscrollEi'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='612' u='c' c='_ZL6CSI_SDPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='620' u='c' c='_ZL6CSI_SUPN8Terminal11FramebufferEPNS_10DispatcherE'/>

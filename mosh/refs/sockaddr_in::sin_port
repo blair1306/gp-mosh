@@ -1,0 +1,4 @@
+<dec f='include/netinet/in.h' l='242' type='in_port_t'/>
+<offset>16</offset>
+<doc f='include/netinet/in.h' l='242'>/* Port number.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='318' u='w' c='_ZN7Network10Connection8try_bindEPKcii'/>

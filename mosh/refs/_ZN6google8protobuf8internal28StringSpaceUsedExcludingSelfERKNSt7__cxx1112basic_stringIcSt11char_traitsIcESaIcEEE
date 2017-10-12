@@ -1,0 +1,8 @@
+<dec f='include/google/protobuf/generated_message_util.h' l='94' type='int google::protobuf::internal::StringSpaceUsedExcludingSelf(const string &amp; str)'/>
+<use f='include/google/protobuf/repeated_field.h' l='420' u='c' c='_ZN6google8protobuf8internal17StringTypeHandler9SpaceUsedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='include/google/protobuf/generated_message_util.h' l='88'>// Defined in generated_message_reflection.cc -- not actually part of the lite
+// library.
+//
+// TODO(jasonh): The various callers get this declaration from a variety of
+// places: probably in most cases repeated_field.h. Clean these up so they all
+// get the declaration from this file.</doc>

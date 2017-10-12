@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='75' type='TransportBuffers::Instruction * TransportBuffers::Instruction::New() const'/>
+<doc f='codebrowser/src/protobufs/transportinstruction.pb.h' l='73'>// implements Message ----------------------------------------------</doc>
+<inh f='include/google/protobuf/message_lite.h' l='89' c='_ZNK6google8protobuf11MessageLite3NewEv'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='131' ll='133' type='TransportBuffers::Instruction * TransportBuffers::Instruction::New() const'/>

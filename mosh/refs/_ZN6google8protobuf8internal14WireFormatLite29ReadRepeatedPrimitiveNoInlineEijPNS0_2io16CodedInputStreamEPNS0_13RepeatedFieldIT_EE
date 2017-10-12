@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='268' type='static bool google::protobuf::internal::WireFormatLite::ReadRepeatedPrimitiveNoInline(int tag_size, uint32 tag, io::CodedInputStream * input_arg, RepeatedField&lt;CType&gt; * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='318' ll='325' type='static bool google::protobuf::internal::WireFormatLite::ReadRepeatedPrimitiveNoInline(int tag_size, uint32 tag, io::CodedInputStream * input, RepeatedField&lt;CType&gt; * value)'/>

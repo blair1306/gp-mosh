@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>transportfragment.h source code [codebrowser/src/network/transportfragment.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="Network::Fragment,Network::FragmentAssembly,Network::Fragmenter "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/network/transportfragment.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>network</a>/<a href='transportfragment.h.html'>transportfragment.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Mosh: the mobile shell</i></td></tr>
+<tr><th id="3">3</th><td><i>    Copyright 2012 Keith Winstein</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    This program is free software: you can redistribute it and/or modify</i></td></tr>
+<tr><th id="6">6</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="7">7</th><td><i>    the Free Software Foundation, either version 3 of the License, or</i></td></tr>
+<tr><th id="8">8</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="11">11</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="12">12</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="13">13</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="14">14</th><td><i></i></td></tr>
+<tr><th id="15">15</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="16">16</th><td><i>    along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    In addition, as a special exception, the copyright holders give</i></td></tr>
+<tr><th id="19">19</th><td><i>    permission to link the code of portions of this program with the</i></td></tr>
+<tr><th id="20">20</th><td><i>    OpenSSL library under certain conditions as described in each</i></td></tr>
+<tr><th id="21">21</th><td><i>    individual source file, and distribute linked combinations including</i></td></tr>
+<tr><th id="22">22</th><td><i>    the two.</i></td></tr>
+<tr><th id="23">23</th><td><i></i></td></tr>
+<tr><th id="24">24</th><td><i>    You must obey the GNU General Public License in all respects for all</i></td></tr>
+<tr><th id="25">25</th><td><i>    of the code used other than OpenSSL. If you modify file(s) with this</i></td></tr>
+<tr><th id="26">26</th><td><i>    exception, you may extend this exception to your version of the</i></td></tr>
+<tr><th id="27">27</th><td><i>    file(s), but you are not obligated to do so. If you do not wish to do</i></td></tr>
+<tr><th id="28">28</th><td><i>    so, delete this exception statement from your version. If you delete</i></td></tr>
+<tr><th id="29">29</th><td><i>    this exception statement from all source files in the program, then</i></td></tr>
+<tr><th id="30">30</th><td><i>    also delete it here.</i></td></tr>
+<tr><th id="31">31</th><td><i>*/</i></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="33">ifndef</span> <span class="macro" data-ref="_M/TRANSPORT_FRAGMENT_HPP">TRANSPORT_FRAGMENT_HPP</span></u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/TRANSPORT_FRAGMENT_HPP" data-ref="_M/TRANSPORT_FRAGMENT_HPP">TRANSPORT_FRAGMENT_HPP</dfn></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#include &lt;stdint.h&gt;</u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="../../../include/c++/5/vector.html">&lt;vector&gt;</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#include <a href="../../../include/c++/5/string.html">&lt;string&gt;</a></u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><u>#include <a href="../protobufs/transportinstruction.pb.h.html">"transportinstruction.pb.h"</a></u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><b>using</b> <span class="namespace">std::</span>vector;</td></tr>
+<tr><th id="43">43</th><td><b>using</b> <span class="namespace">std::</span>string;</td></tr>
+<tr><th id="44">44</th><td><b>using</b> <b>namespace</b> <span class="namespace">TransportBuffers</span>;</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><b>namespace</b> <span class="namespace">Network</span> {</td></tr>
+<tr><th id="47">47</th><td>  <b>class</b> <dfn class="type def" id="Network::Fragment" title='Network::Fragment' data-ref="Network::Fragment">Fragment</dfn></td></tr>
+<tr><th id="48">48</th><td>  {</td></tr>
+<tr><th id="49">49</th><td>  <b>public</b>:</td></tr>
+<tr><th id="50">50</th><td>    <em>static</em> <em>const</em> <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="Network::Fragment::frag_header_len" title='Network::Fragment::frag_header_len' data-ref="Network::Fragment::frag_header_len">frag_header_len</dfn> = <b>sizeof</b>( <a class="typedef" href="../../../include/stdint.h.html#uint64_t" title='uint64_t' data-type='unsigned long' data-ref="uint64_t">uint64_t</a> ) + <b>sizeof</b>( <a class="typedef" href="../../../include/stdint.h.html#uint16_t" title='uint16_t' data-type='unsigned short' data-ref="uint16_t">uint16_t</a> );</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td>    <a class="typedef" href="../../../include/stdint.h.html#uint64_t" title='uint64_t' data-type='unsigned long' data-ref="uint64_t">uint64_t</a> <dfn class="decl" id="Network::Fragment::id" title='Network::Fragment::id' data-ref="Network::Fragment::id">id</dfn>;</td></tr>
+<tr><th id="53">53</th><td>    <a class="typedef" href="../../../include/stdint.h.html#uint16_t" title='uint16_t' data-type='unsigned short' data-ref="uint16_t">uint16_t</a> <dfn class="decl" id="Network::Fragment::fragment_num" title='Network::Fragment::fragment_num' data-ref="Network::Fragment::fragment_num">fragment_num</dfn>;</td></tr>
+<tr><th id="54">54</th><td>    <em>bool</em> <dfn class="decl" id="Network::Fragment::final" title='Network::Fragment::final' data-ref="Network::Fragment::final">final</dfn>;</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td>    <em>bool</em> <dfn class="decl" id="Network::Fragment::initialized" title='Network::Fragment::initialized' data-ref="Network::Fragment::initialized">initialized</dfn>;</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td>    <a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="decl" id="Network::Fragment::contents" title='Network::Fragment::contents' data-ref="Network::Fragment::contents">contents</dfn>;</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td>    <dfn class="decl def" id="_ZN7Network8FragmentC1Ev" title='Network::Fragment::Fragment' data-ref="_ZN7Network8FragmentC1Ev">Fragment</dfn>()</td></tr>
+<tr><th id="61">61</th><td>      : <a class="member" href="#Network::Fragment::id" title='Network::Fragment::id' data-ref="Network::Fragment::id">id</a>( -<var>1</var> ), <a class="member" href="#Network::Fragment::fragment_num" title='Network::Fragment::fragment_num' data-ref="Network::Fragment::fragment_num">fragment_num</a>( -<var>1</var> ), <a class="member" href="#Network::Fragment::final" title='Network::Fragment::final' data-ref="Network::Fragment::final">final</a>( <b>false</b> ), <a class="member" href="#Network::Fragment::initialized" title='Network::Fragment::initialized' data-ref="Network::Fragment::initialized">initialized</a>( <b>false</b> ), <a class="member" href="#Network::Fragment::contents" title='Network::Fragment::contents' data-ref="Network::Fragment::contents">contents</a><a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1Ev" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1Ev">(</a>)</td></tr>
+<tr><th id="62">62</th><td>    {}</td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td>    <dfn class="decl def" id="_ZN7Network8FragmentC1EmtbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='Network::Fragment::Fragment' data-ref="_ZN7Network8FragmentC1EmtbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">Fragment</dfn>( <a class="typedef" href="../../../include/stdint.h.html#uint64_t" title='uint64_t' data-type='unsigned long' data-ref="uint64_t">uint64_t</a> <dfn class="local col2 decl" id="4152s_id" title='s_id' data-type='uint64_t' data-ref="4152s_id">s_id</dfn>, <a class="typedef" href="../../../include/stdint.h.html#uint16_t" title='uint16_t' data-type='unsigned short' data-ref="uint16_t">uint16_t</a> <dfn class="local col3 decl" id="4153s_fragment_num" title='s_fragment_num' data-type='uint16_t' data-ref="4153s_fragment_num">s_fragment_num</dfn>, <em>bool</em> <dfn class="local col4 decl" id="4154s_final" title='s_final' data-type='bool' data-ref="4154s_final">s_final</dfn>, <em>const</em> <a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> &amp; <dfn class="local col5 decl" id="4155s_contents" title='s_contents' data-type='const string &amp;' data-ref="4155s_contents">s_contents</dfn> )</td></tr>
+<tr><th id="65">65</th><td>      : <a class="member" href="#Network::Fragment::id" title='Network::Fragment::id' data-ref="Network::Fragment::id">id</a>( <a class="local col2 ref" href="#4152s_id" title='s_id' data-ref="4152s_id">s_id</a> ), <a class="member" href="#Network::Fragment::fragment_num" title='Network::Fragment::fragment_num' data-ref="Network::Fragment::fragment_num">fragment_num</a>( <a class="local col3 ref" href="#4153s_fragment_num" title='s_fragment_num' data-ref="4153s_fragment_num">s_fragment_num</a> ), <a class="member" href="#Network::Fragment::final" title='Network::Fragment::final' data-ref="Network::Fragment::final">final</a>( <a class="local col4 ref" href="#4154s_final" title='s_final' data-ref="4154s_final">s_final</a> ), <a class="member" href="#Network::Fragment::initialized" title='Network::Fragment::initialized' data-ref="Network::Fragment::initialized">initialized</a>( <b>true</b> ),</td></tr>
+<tr><th id="66">66</th><td>	<a class="member" href="#Network::Fragment::contents" title='Network::Fragment::contents' data-ref="Network::Fragment::contents">contents</a><a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1ERKNS_12basic_stringIT_T0_T1_EE" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1ERKNS_12basic_stringIT_T0_T1_EE">(</a> <a class="local col5 ref" href="#4155s_contents" title='s_contents' data-ref="4155s_contents">s_contents</a> )</td></tr>
+<tr><th id="67">67</th><td>    {}</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td>    <dfn class="decl" id="_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='Network::Fragment::Fragment' data-ref="_ZN7Network8FragmentC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">Fragment</dfn>( <em>const</em> <a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> &amp;<dfn class="local col6 decl" id="4156x" title='x' data-type='const string &amp;' data-ref="4156x">x</dfn> );</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td>    <a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="decl" id="_ZN7Network8Fragment8tostringB5cxx11Ev" title='Network::Fragment::tostring' data-ref="_ZN7Network8Fragment8tostringB5cxx11Ev">tostring</dfn>( <em>void</em> );</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>    <em>bool</em> <dfn class="decl" id="_ZNK7Network8FragmenteqERKS0_" title='Network::Fragment::operator==' data-ref="_ZNK7Network8FragmenteqERKS0_"><b>operator</b>==</dfn>( <em>const</em> <a class="type" href="#Network::Fragment" title='Network::Fragment' data-ref="Network::Fragment">Fragment</a> &amp;<dfn class="local col7 decl" id="4157x" title='x' data-type='const Network::Fragment &amp;' data-ref="4157x">x</dfn> ) <em>const</em>;</td></tr>
+<tr><th id="74">74</th><td>  };</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>  <b>class</b> <dfn class="type def" id="Network::FragmentAssembly" title='Network::FragmentAssembly' data-ref="Network::FragmentAssembly">FragmentAssembly</dfn></td></tr>
+<tr><th id="77">77</th><td>  {</td></tr>
+<tr><th id="78">78</th><td>  <b>private</b>:</td></tr>
+<tr><th id="79">79</th><td>    <a class="type" href="../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<a class="type" href="#Network::Fragment" title='Network::Fragment' data-ref="Network::Fragment">Fragment</a>&gt; <dfn class="decl" id="Network::FragmentAssembly::fragments" title='Network::FragmentAssembly::fragments' data-ref="Network::FragmentAssembly::fragments">fragments</dfn>;</td></tr>
+<tr><th id="80">80</th><td>    <a class="typedef" href="../../../include/stdint.h.html#uint64_t" title='uint64_t' data-type='unsigned long' data-ref="uint64_t">uint64_t</a> <dfn class="decl" id="Network::FragmentAssembly::current_id" title='Network::FragmentAssembly::current_id' data-ref="Network::FragmentAssembly::current_id">current_id</dfn>;</td></tr>
+<tr><th id="81">81</th><td>    <em>int</em> <dfn class="decl" id="Network::FragmentAssembly::fragments_arrived" title='Network::FragmentAssembly::fragments_arrived' data-ref="Network::FragmentAssembly::fragments_arrived">fragments_arrived</dfn>, <dfn class="decl" id="Network::FragmentAssembly::fragments_total" title='Network::FragmentAssembly::fragments_total' data-ref="Network::FragmentAssembly::fragments_total">fragments_total</dfn>;</td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td>  <b>public</b>:</td></tr>
+<tr><th id="84">84</th><td>    <dfn class="decl def" id="_ZN7Network16FragmentAssemblyC1Ev" title='Network::FragmentAssembly::FragmentAssembly' data-ref="_ZN7Network16FragmentAssemblyC1Ev">FragmentAssembly</dfn>() : <a class="member" href="#Network::FragmentAssembly::fragments" title='Network::FragmentAssembly::fragments' data-ref="Network::FragmentAssembly::fragments">fragments</a><a class="ref" href="../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vectorC1Ev" title='std::vector::vector&lt;_Tp, _Alloc&gt;' data-ref="_ZNSt6vectorC1Ev">(</a>), <a class="member" href="#Network::FragmentAssembly::current_id" title='Network::FragmentAssembly::current_id' data-ref="Network::FragmentAssembly::current_id">current_id</a>( -<var>1</var> ), <a class="member" href="#Network::FragmentAssembly::fragments_arrived" title='Network::FragmentAssembly::fragments_arrived' data-ref="Network::FragmentAssembly::fragments_arrived">fragments_arrived</a>( <var>0</var> ), <a class="member" href="#Network::FragmentAssembly::fragments_total" title='Network::FragmentAssembly::fragments_total' data-ref="Network::FragmentAssembly::fragments_total">fragments_total</a>( -<var>1</var> ) {}</td></tr>
+<tr><th id="85">85</th><td>    <em>bool</em> <dfn class="decl" id="_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE" title='Network::FragmentAssembly::add_fragment' data-ref="_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE">add_fragment</dfn>( <a class="type" href="#Network::Fragment" title='Network::Fragment' data-ref="Network::Fragment">Fragment</a> &amp;<dfn class="local col8 decl" id="4158inst" title='inst' data-type='Network::Fragment &amp;' data-ref="4158inst">inst</dfn> );</td></tr>
+<tr><th id="86">86</th><td>    <a class="type" href="../protobufs/transportinstruction.pb.h.html#TransportBuffers::Instruction" title='TransportBuffers::Instruction' data-ref="TransportBuffers::Instruction">Instruction</a> <dfn class="decl" id="_ZN7Network16FragmentAssembly12get_assemblyEv" title='Network::FragmentAssembly::get_assembly' data-ref="_ZN7Network16FragmentAssembly12get_assemblyEv">get_assembly</dfn>( <em>void</em> );</td></tr>
+<tr><th id="87">87</th><td>  };</td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td>  <b>class</b> <dfn class="type def" id="Network::Fragmenter" title='Network::Fragmenter' data-ref="Network::Fragmenter">Fragmenter</dfn></td></tr>
+<tr><th id="90">90</th><td>  {</td></tr>
+<tr><th id="91">91</th><td>  <b>private</b>:</td></tr>
+<tr><th id="92">92</th><td>    <a class="typedef" href="../../../include/stdint.h.html#uint64_t" title='uint64_t' data-type='unsigned long' data-ref="uint64_t">uint64_t</a> <dfn class="decl" id="Network::Fragmenter::next_instruction_id" title='Network::Fragmenter::next_instruction_id' data-ref="Network::Fragmenter::next_instruction_id">next_instruction_id</dfn>;</td></tr>
+<tr><th id="93">93</th><td>    <a class="type" href="../protobufs/transportinstruction.pb.h.html#TransportBuffers::Instruction" title='TransportBuffers::Instruction' data-ref="TransportBuffers::Instruction">Instruction</a> <dfn class="decl" id="Network::Fragmenter::last_instruction" title='Network::Fragmenter::last_instruction' data-ref="Network::Fragmenter::last_instruction">last_instruction</dfn>;</td></tr>
+<tr><th id="94">94</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="Network::Fragmenter::last_MTU" title='Network::Fragmenter::last_MTU' data-ref="Network::Fragmenter::last_MTU">last_MTU</dfn>;</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td>  <b>public</b>:</td></tr>
+<tr><th id="97">97</th><td>    <dfn class="decl def" id="_ZN7Network10FragmenterC1Ev" title='Network::Fragmenter::Fragmenter' data-ref="_ZN7Network10FragmenterC1Ev">Fragmenter</dfn>() : <a class="member" href="#Network::Fragmenter::next_instruction_id" title='Network::Fragmenter::next_instruction_id' data-ref="Network::Fragmenter::next_instruction_id">next_instruction_id</a>( <var>0</var> ), <a class="member" href="#Network::Fragmenter::last_instruction" title='Network::Fragmenter::last_instruction' data-ref="Network::Fragmenter::last_instruction">last_instruction</a><a class="ref" href="../protobufs/transportinstruction.pb.h.html#_ZN16TransportBuffers11InstructionC1Ev" title='TransportBuffers::Instruction::Instruction' data-ref="_ZN16TransportBuffers11InstructionC1Ev">(</a>), <a class="member" href="#Network::Fragmenter::last_MTU" title='Network::Fragmenter::last_MTU' data-ref="Network::Fragmenter::last_MTU">last_MTU</a>( -<var>1</var> )</td></tr>
+<tr><th id="98">98</th><td>    {</td></tr>
+<tr><th id="99">99</th><td>      <a class="member" href="#Network::Fragmenter::last_instruction" title='Network::Fragmenter::last_instruction' data-ref="Network::Fragmenter::last_instruction">last_instruction</a>.<a class="ref" href="../protobufs/transportinstruction.pb.h.html#_ZN16TransportBuffers11Instruction11set_old_numEm" title='TransportBuffers::Instruction::set_old_num' data-ref="_ZN16TransportBuffers11Instruction11set_old_numEm">set_old_num</a>( -<var>1</var> );</td></tr>
+<tr><th id="100">100</th><td>      <a class="member" href="#Network::Fragmenter::last_instruction" title='Network::Fragmenter::last_instruction' data-ref="Network::Fragmenter::last_instruction">last_instruction</a>.<a class="ref" href="../protobufs/transportinstruction.pb.h.html#_ZN16TransportBuffers11Instruction11set_new_numEm" title='TransportBuffers::Instruction::set_new_num' data-ref="_ZN16TransportBuffers11Instruction11set_new_numEm">set_new_num</a>( -<var>1</var> );</td></tr>
+<tr><th id="101">101</th><td>    }</td></tr>
+<tr><th id="102">102</th><td>    <a class="type" href="../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<a class="type" href="#Network::Fragment" title='Network::Fragment' data-ref="Network::Fragment">Fragment</a>&gt; <dfn class="decl" id="_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm" title='Network::Fragmenter::make_fragments' data-ref="_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm">make_fragments</dfn>( <em>const</em> <a class="type" href="../protobufs/transportinstruction.pb.h.html#TransportBuffers::Instruction" title='TransportBuffers::Instruction' data-ref="TransportBuffers::Instruction">Instruction</a> &amp;<dfn class="local col9 decl" id="4159inst" title='inst' data-type='const TransportBuffers::Instruction &amp;' data-ref="4159inst">inst</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="4160MTU" title='MTU' data-type='size_t' data-ref="4160MTU">MTU</dfn> );</td></tr>
+<tr><th id="103">103</th><td>    <a class="typedef" href="../../../include/stdint.h.html#uint64_t" title='uint64_t' data-type='unsigned long' data-ref="uint64_t">uint64_t</a> <dfn class="decl def" id="_ZNK7Network10Fragmenter13last_ack_sentEv" title='Network::Fragmenter::last_ack_sent' data-ref="_ZNK7Network10Fragmenter13last_ack_sentEv">last_ack_sent</dfn>( <em>void</em> ) <em>const</em> { <b>return</b> <a class="member" href="#Network::Fragmenter::last_instruction" title='Network::Fragmenter::last_instruction' data-ref="Network::Fragmenter::last_instruction">last_instruction</a>.<a class="ref" href="../protobufs/transportinstruction.pb.h.html#_ZNK16TransportBuffers11Instruction7ack_numEv" title='TransportBuffers::Instruction::ack_num' data-ref="_ZNK16TransportBuffers11Instruction7ack_numEv">ack_num</a>(); }</td></tr>
+<tr><th id="104">104</th><td>  };</td></tr>
+<tr><th id="105">105</th><td>  </td></tr>
+<tr><th id="106">106</th><td>}</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><u>#<span data-ppcond="33">endif</span></u></td></tr>
+<tr><th id="109">109</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../frontend/mosh-client.cc.html'>codebrowser/src/frontend/mosh-client.cc</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>mosh-1.3.2-38-ge9c3bbd</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

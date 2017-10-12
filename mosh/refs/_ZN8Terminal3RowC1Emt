@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='215' type='void Terminal::Row::Row(const size_t s_width, const color_type background_color)'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='348' ll='350' type='void Terminal::Row::Row(const size_t s_width, const color_type background_color)'/>

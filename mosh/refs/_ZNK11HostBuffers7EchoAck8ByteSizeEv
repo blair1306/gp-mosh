@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='395' type='int HostBuffers::EchoAck::ByteSize() const'/>
+<inh f='include/google/protobuf/message_lite.h' l='214' c='_ZNK6google8protobuf11MessageLite8ByteSizeEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='941' ll='959' type='int HostBuffers::EchoAck::ByteSize() const'/>

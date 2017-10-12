@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='292' type='bool google::protobuf::io::CopyingOutputStreamAdaptor::Flush()'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='289'>// Writes all pending data to the underlying stream.  Returns false if a
+  // write error occurred on the underlying stream.  (The underlying
+  // stream itself is not necessarily flushed.)</doc>

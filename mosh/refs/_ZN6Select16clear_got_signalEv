@@ -1,0 +1,3 @@
+<use f='codebrowser/src/util/select.h' l='71' u='c' c='_ZN6SelectC1Ev'/>
+<def f='codebrowser/src/util/select.h' l='75' ll='78' type='void Select::clear_got_signal()'/>
+<use f='codebrowser/src/util/select.h' l='122' u='c' c='_ZN6Select6selectEi'/>

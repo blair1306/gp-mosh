@@ -1,0 +1,7 @@
+<def f='include/google/protobuf/extension_set.h' l='117' ll='123'/>
+<ovr f='include/google/protobuf/extension_set.h' l='127' c='google::protobuf::internal::GeneratedExtensionFinder'/>
+<size>8</size>
+<doc f='include/google/protobuf/extension_set.h' l='115'>// Abstract interface for an object which looks up extension definitions.  Used
+// when parsing.</doc>
+<fun r='_ZN6google8protobuf8internal15ExtensionFinderD1Ev'/>
+<fun r='_ZN6google8protobuf8internal15ExtensionFinder4FindEiPNS1_13ExtensionInfoE'/>

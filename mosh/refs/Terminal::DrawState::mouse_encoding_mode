@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='292' type='enum MouseEncodingMode'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='345' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='345' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<offset>928</offset>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='324' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='324' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='325' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='330' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='331' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='334' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='75' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='325' u='w' c='_ZL9CSI_DECSMPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='340' u='w' c='_ZL9CSI_DECRMPN8Terminal11FramebufferEPNS_10DispatcherE'/>

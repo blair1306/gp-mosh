@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='202' type='void google::protobuf::io::CopyingInputStreamAdaptor::CopyingInputStreamAdaptor(google::protobuf::io::CopyingInputStream * copying_stream, int block_size = -1)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='197'>// Creates a stream that reads from the given CopyingInputStream.
+  // If a block_size is given, it specifies the number of bytes that
+  // should be read and returned with each call to Next().  Otherwise,
+  // a reasonable default is used.  The caller retains ownership of
+  // copying_stream unless SetOwnsCopyingStream(true) is called.</doc>

@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/common.h' l='1105' type='void google::protobuf::internal::Mutex::~Mutex()'/>
+<doc f='include/google/protobuf/stubs/common.h' l='1104'>// Destructor</doc>

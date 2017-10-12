@@ -1,0 +1,4 @@
+<def f='include/google/protobuf/stubs/common.h' l='542' type='void google::protobuf::internal::scoped_array::scoped_array&lt;C&gt;(C * p = __null)'/>
+<doc f='include/google/protobuf/stubs/common.h' l='539'>// Constructor.  Defaults to intializing with NULL.
+  // There is no way to create an uninitialized scoped_array.
+  // The input parameter must be allocated with new [].</doc>

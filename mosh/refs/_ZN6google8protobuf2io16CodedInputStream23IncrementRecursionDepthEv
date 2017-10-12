@@ -1,0 +1,8 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='386' type='bool google::protobuf::io::CodedInputStream::IncrementRecursionDepth()'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1138' ll='1141' type='bool google::protobuf::io::CodedInputStream::IncrementRecursionDepth()'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='432' u='c' c='_ZN6google8protobuf8internal14WireFormatLite9ReadGroupEiPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='445' u='c' c='_ZN6google8protobuf8internal14WireFormatLite11ReadMessageEPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='470' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18ReadGroupNoVirtualEiPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='486' u='c' c='_ZN6google8protobuf8internal14WireFormatLite20ReadMessageNoVirtualEPNS0_2io16CodedInputStreamEPT_'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='384'>// Increments the current recursion depth.  Returns true if the depth is
+  // under the limit, false if it has gone over.</doc>

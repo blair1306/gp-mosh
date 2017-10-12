@@ -1,0 +1,7 @@
+<def f='codebrowser/src/network/networktransport.h' l='100' type='MyState &amp; Network::Transport::get_current_state()'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='258' u='c' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='363' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='366' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='367' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='392' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='410' u='c' c='_ZN9STMClient14process_resizeEv'/>

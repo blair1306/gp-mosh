@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/repeated_field.h' l='81' ll='83' type='int google::protobuf::internal::CalculateReserve(Iter begin, Iter end, std::forward_iterator_tag )'/>

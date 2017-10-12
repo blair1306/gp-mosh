@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/repeated_field.h' l='1385' type='bool google::protobuf::internal::RepeatedPtrOverPtrsIterator::operator&lt;=(const iterator &amp; x) const'/>

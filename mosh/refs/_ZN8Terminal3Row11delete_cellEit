@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='218' type='void Terminal::Row::delete_cell(int col, color_type background_color)'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='364' ll='368' type='void Terminal::Row::delete_cell(int col, color_type background_color)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='377' u='c' c='_ZN8Terminal11Framebuffer11delete_cellEii'/>

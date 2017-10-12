@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>compressor.cc source code [codebrowser/src/network/compressor.cc] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/network/compressor.cc'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>network</a>/<a href='compressor.cc.html'>compressor.cc</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Mosh: the mobile shell</i></td></tr>
+<tr><th id="3">3</th><td><i>    Copyright 2012 Keith Winstein</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    This program is free software: you can redistribute it and/or modify</i></td></tr>
+<tr><th id="6">6</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="7">7</th><td><i>    the Free Software Foundation, either version 3 of the License, or</i></td></tr>
+<tr><th id="8">8</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="11">11</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="12">12</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="13">13</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="14">14</th><td><i></i></td></tr>
+<tr><th id="15">15</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="16">16</th><td><i>    along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    In addition, as a special exception, the copyright holders give</i></td></tr>
+<tr><th id="19">19</th><td><i>    permission to link the code of portions of this program with the</i></td></tr>
+<tr><th id="20">20</th><td><i>    OpenSSL library under certain conditions as described in each</i></td></tr>
+<tr><th id="21">21</th><td><i>    individual source file, and distribute linked combinations including</i></td></tr>
+<tr><th id="22">22</th><td><i>    the two.</i></td></tr>
+<tr><th id="23">23</th><td><i></i></td></tr>
+<tr><th id="24">24</th><td><i>    You must obey the GNU General Public License in all respects for all</i></td></tr>
+<tr><th id="25">25</th><td><i>    of the code used other than OpenSSL. If you modify file(s) with this</i></td></tr>
+<tr><th id="26">26</th><td><i>    exception, you may extend this exception to your version of the</i></td></tr>
+<tr><th id="27">27</th><td><i>    file(s), but you are not obligated to do so. If you do not wish to do</i></td></tr>
+<tr><th id="28">28</th><td><i>    so, delete this exception statement from your version. If you delete</i></td></tr>
+<tr><th id="29">29</th><td><i>    this exception statement from all source files in the program, then</i></td></tr>
+<tr><th id="30">30</th><td><i>    also delete it here.</i></td></tr>
+<tr><th id="31">31</th><td><i>*/</i></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../../include/zlib.h.html">&lt;zlib.h&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="compressor.h.html">"compressor.h"</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../util/dos_assert.h.html">"dos_assert.h"</a></u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><b>using</b> <b>namespace</b> <span class="namespace">Network</span>;</td></tr>
+<tr><th id="39">39</th><td><b>using</b> <b>namespace</b> <span class="namespace">std</span>;</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <a class="type" href="compressor.h.html#Network::Compressor" title='Network::Compressor' data-ref="Network::Compressor">Compressor</a>::<dfn class="decl def" id="_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='Network::Compressor::compress_str' data-ref="_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">compress_str</dfn>( <em>const</em> <a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> &amp;<dfn class="local col1 decl" id="151input" title='input' data-type='const string &amp;' data-ref="151input">input</dfn> )</td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td>  <em>long</em> <em>unsigned</em> <em>int</em> <dfn class="local col2 decl" id="152len" title='len' data-type='unsigned long' data-ref="152len">len</dfn> = <a class="member" href="compressor.h.html#Network::Compressor::BUFFER_SIZE" title='Network::Compressor::BUFFER_SIZE' data-ref="Network::Compressor::BUFFER_SIZE">BUFFER_SIZE</a>;</td></tr>
+<tr><th id="44">44</th><td>  <a class="macro" href="../util/dos_assert.h.html#49" title="((0 == compress( buffer, &amp;len, reinterpret_cast&lt;const unsigned char *&gt;( input.data() ), input.size() )) ? (void)0 : dos_detected (&quot;Z_OK == compress( buffer, &amp;len, reinterpret_cast&lt;const unsigned char *&gt;( input.data() ), input.size() )&quot;, &quot;/home/jon/workspace/mosh/src/network/compressor.cc&quot;, 46, __func__ ))" data-ref="_M/dos_assert">dos_assert</a>( <a class="macro" href="../../../include/zlib.h.html#173" title="0" data-ref="_M/Z_OK">Z_OK</a> == <a class="ref" href="../../../include/zlib.h.html#compress" title='compress' data-ref="compress">compress</a>( <a class="member" href="compressor.h.html#Network::Compressor::buffer" title='Network::Compressor::buffer' data-ref="Network::Compressor::buffer">buffer</a>, &amp;<a class="local col2 ref" href="#152len" title='len' data-ref="152len">len</a>,</td></tr>
+<tr><th id="45">45</th><td>				<b>reinterpret_cast</b>&lt;<em>const</em> <em>unsigned</em> <em>char</em> *&gt;( <a class="local col1 ref" href="#151input" title='input' data-ref="151input">input</a>.<a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string4dataEv" title='std::__cxx11::basic_string::data' data-ref="_ZNKSt7__cxx1112basic_string4dataEv">data</a>() ),</td></tr>
+<tr><th id="46">46</th><td>				<a class="local col1 ref" href="#151input" title='input' data-ref="151input">input</a>.<a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string4sizeEv" title='std::__cxx11::basic_string::size' data-ref="_ZNKSt7__cxx1112basic_string4sizeEv">size</a>() ) );</td></tr>
+<tr><th id="47">47</th><td>  <b>return</b> <a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a><a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_N9__gnu_cxx14__alloc_traitsINS5_IT1_E6rebindIS1_E5otherEE9size_typeERKS6_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_N9__gnu_cxx14__alloc_traitsINS5_IT1_E6rebindIS1_E5otherEE9size_typeERKS6_">(</a> <b>reinterpret_cast</b>&lt;<em>char</em> *&gt;( <a class="member" href="compressor.h.html#Network::Compressor::buffer" title='Network::Compressor::buffer' data-ref="Network::Compressor::buffer">buffer</a> ), <a class="local col2 ref" href="#152len" title='len' data-ref="152len">len</a> );</td></tr>
+<tr><th id="48">48</th><td>}</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <a class="type" href="compressor.h.html#Network::Compressor" title='Network::Compressor' data-ref="Network::Compressor">Compressor</a>::<dfn class="decl def" id="_ZN7Network10Compressor14uncompress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='Network::Compressor::uncompress_str' data-ref="_ZN7Network10Compressor14uncompress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">uncompress_str</dfn>( <em>const</em> <a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> &amp;<dfn class="local col3 decl" id="153input" title='input' data-type='const string &amp;' data-ref="153input">input</dfn> )</td></tr>
+<tr><th id="51">51</th><td>{</td></tr>
+<tr><th id="52">52</th><td>  <em>long</em> <em>unsigned</em> <em>int</em> <dfn class="local col4 decl" id="154len" title='len' data-type='unsigned long' data-ref="154len">len</dfn> = <a class="member" href="compressor.h.html#Network::Compressor::BUFFER_SIZE" title='Network::Compressor::BUFFER_SIZE' data-ref="Network::Compressor::BUFFER_SIZE">BUFFER_SIZE</a>;</td></tr>
+<tr><th id="53">53</th><td>  <a class="macro" href="../util/dos_assert.h.html#49" title="((0 == uncompress( buffer, &amp;len, reinterpret_cast&lt;const unsigned char *&gt;( input.data() ), input.size() )) ? (void)0 : dos_detected (&quot;Z_OK == uncompress( buffer, &amp;len, reinterpret_cast&lt;const unsigned char *&gt;( input.data() ), input.size() )&quot;, &quot;/home/jon/workspace/mosh/src/network/compressor.cc&quot;, 55, __func__ ))" data-ref="_M/dos_assert">dos_assert</a>( <a class="macro" href="../../../include/zlib.h.html#173" title="0" data-ref="_M/Z_OK">Z_OK</a> == <a class="ref" href="../../../include/zlib.h.html#uncompress" title='uncompress' data-ref="uncompress">uncompress</a>( <a class="member" href="compressor.h.html#Network::Compressor::buffer" title='Network::Compressor::buffer' data-ref="Network::Compressor::buffer">buffer</a>, &amp;<a class="local col4 ref" href="#154len" title='len' data-ref="154len">len</a>,</td></tr>
+<tr><th id="54">54</th><td>				  <b>reinterpret_cast</b>&lt;<em>const</em> <em>unsigned</em> <em>char</em> *&gt;( <a class="local col3 ref" href="#153input" title='input' data-ref="153input">input</a>.<a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string4dataEv" title='std::__cxx11::basic_string::data' data-ref="_ZNKSt7__cxx1112basic_string4dataEv">data</a>() ),</td></tr>
+<tr><th id="55">55</th><td>				  <a class="local col3 ref" href="#153input" title='input' data-ref="153input">input</a>.<a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string4sizeEv" title='std::__cxx11::basic_string::size' data-ref="_ZNKSt7__cxx1112basic_string4sizeEv">size</a>() ) );</td></tr>
+<tr><th id="56">56</th><td>  <b>return</b> <a class="typedef" href="../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a><a class="ref" href="../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_N9__gnu_cxx14__alloc_traitsINS5_IT1_E6rebindIS1_E5otherEE9size_typeERKS6_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_N9__gnu_cxx14__alloc_traitsINS5_IT1_E6rebindIS1_E5otherEE9size_typeERKS6_">(</a> <b>reinterpret_cast</b>&lt;<em>char</em> *&gt;( <a class="member" href="compressor.h.html#Network::Compressor::buffer" title='Network::Compressor::buffer' data-ref="Network::Compressor::buffer">buffer</a> ), <a class="local col4 ref" href="#154len" title='len' data-ref="154len">len</a> );</td></tr>
+<tr><th id="57">57</th><td>}</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><i>/* construct on first use */</i></td></tr>
+<tr><th id="60">60</th><td><a class="type" href="compressor.h.html#Network::Compressor" title='Network::Compressor' data-ref="Network::Compressor">Compressor</a> &amp; <span class="namespace">Network::</span><dfn class="decl def" id="_ZN7Network14get_compressorEv" title='Network::get_compressor' data-ref="_ZN7Network14get_compressorEv">get_compressor</dfn>( <em>void</em> )</td></tr>
+<tr><th id="61">61</th><td>{</td></tr>
+<tr><th id="62">62</th><td>  <em>static</em> <a class="type" href="compressor.h.html#Network::Compressor" title='Network::Compressor' data-ref="Network::Compressor">Compressor</a> <a class="ref fake" href="compressor.h.html#_ZN7Network10CompressorC1Ev" title='Network::Compressor::Compressor' data-ref="_ZN7Network10CompressorC1Ev"></a><dfn class="local col5 decl" id="155the_compressor" title='the_compressor' data-type='Network::Compressor' data-ref="155the_compressor">the_compressor</dfn>;</td></tr>
+<tr><th id="63">63</th><td>  <b>return</b> <a class="local col5 ref" href="#155the_compressor" title='the_compressor' data-ref="155the_compressor">the_compressor</a>;</td></tr>
+<tr><th id="64">64</th><td>}</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>mosh-1.3.2-38-ge9c3bbd</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

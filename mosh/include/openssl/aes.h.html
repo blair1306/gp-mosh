@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>aes.h source code [include/openssl/aes.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'include/openssl/aes.h'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>include</a>/<a href='./'>openssl</a>/<a href='aes.h.html'>aes.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/* crypto/aes/aes.h */</i></td></tr>
+<tr><th id="2">2</th><td><i>/* ====================================================================</i></td></tr>
+<tr><th id="3">3</th><td><i> * Copyright (c) 1998-2002 The OpenSSL Project.  All rights reserved.</i></td></tr>
+<tr><th id="4">4</th><td><i> *</i></td></tr>
+<tr><th id="5">5</th><td><i> * Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="6">6</th><td><i> * modification, are permitted provided that the following conditions</i></td></tr>
+<tr><th id="7">7</th><td><i> * are met:</i></td></tr>
+<tr><th id="8">8</th><td><i> *</i></td></tr>
+<tr><th id="9">9</th><td><i> * 1. Redistributions of source code must retain the above copyright</i></td></tr>
+<tr><th id="10">10</th><td><i> *    notice, this list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="11">11</th><td><i> *</i></td></tr>
+<tr><th id="12">12</th><td><i> * 2. Redistributions in binary form must reproduce the above copyright</i></td></tr>
+<tr><th id="13">13</th><td><i> *    notice, this list of conditions and the following disclaimer in</i></td></tr>
+<tr><th id="14">14</th><td><i> *    the documentation and/or other materials provided with the</i></td></tr>
+<tr><th id="15">15</th><td><i> *    distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i> *</i></td></tr>
+<tr><th id="17">17</th><td><i> * 3. All advertising materials mentioning features or use of this</i></td></tr>
+<tr><th id="18">18</th><td><i> *    software must display the following acknowledgment:</i></td></tr>
+<tr><th id="19">19</th><td><i> *    "This product includes software developed by the OpenSSL Project</i></td></tr>
+<tr><th id="20">20</th><td><i> *    for use in the OpenSSL Toolkit. (<a href="http://www.openssl.org/">http://www.openssl.org/</a>)"</i></td></tr>
+<tr><th id="21">21</th><td><i> *</i></td></tr>
+<tr><th id="22">22</th><td><i> * 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to</i></td></tr>
+<tr><th id="23">23</th><td><i> *    endorse or promote products derived from this software without</i></td></tr>
+<tr><th id="24">24</th><td><i> *    prior written permission. For written permission, please contact</i></td></tr>
+<tr><th id="25">25</th><td><i> *    openssl-core@openssl.org.</i></td></tr>
+<tr><th id="26">26</th><td><i> *</i></td></tr>
+<tr><th id="27">27</th><td><i> * 5. Products derived from this software may not be called "OpenSSL"</i></td></tr>
+<tr><th id="28">28</th><td><i> *    nor may "OpenSSL" appear in their names without prior written</i></td></tr>
+<tr><th id="29">29</th><td><i> *    permission of the OpenSSL Project.</i></td></tr>
+<tr><th id="30">30</th><td><i> *</i></td></tr>
+<tr><th id="31">31</th><td><i> * 6. Redistributions of any form whatsoever must retain the following</i></td></tr>
+<tr><th id="32">32</th><td><i> *    acknowledgment:</i></td></tr>
+<tr><th id="33">33</th><td><i> *    "This product includes software developed by the OpenSSL Project</i></td></tr>
+<tr><th id="34">34</th><td><i> *    for use in the OpenSSL Toolkit (<a href="http://www.openssl.org/">http://www.openssl.org/</a>)"</i></td></tr>
+<tr><th id="35">35</th><td><i> *</i></td></tr>
+<tr><th id="36">36</th><td><i> * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY</i></td></tr>
+<tr><th id="37">37</th><td><i> * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="38">38</th><td><i> * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR</i></td></tr>
+<tr><th id="39">39</th><td><i> * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR</i></td></tr>
+<tr><th id="40">40</th><td><i> * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,</i></td></tr>
+<tr><th id="41">41</th><td><i> * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT</i></td></tr>
+<tr><th id="42">42</th><td><i> * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;</i></td></tr>
+<tr><th id="43">43</th><td><i> * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)</i></td></tr>
+<tr><th id="44">44</th><td><i> * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,</i></td></tr>
+<tr><th id="45">45</th><td><i> * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i> * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED</i></td></tr>
+<tr><th id="47">47</th><td><i> * OF THE POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i> * ====================================================================</i></td></tr>
+<tr><th id="49">49</th><td><i> *</i></td></tr>
+<tr><th id="50">50</th><td><i> */</i></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><u>#<span data-ppcond="52">ifndef</span> <span class="macro" data-ref="_M/HEADER_AES_H">HEADER_AES_H</span></u></td></tr>
+<tr><th id="53">53</th><td><u># define <dfn class="macro" id="_M/HEADER_AES_H" data-ref="_M/HEADER_AES_H">HEADER_AES_H</dfn></u></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><u># include <a href="../x86_64-linux-gnu/openssl/opensslconf.h.html">&lt;openssl/opensslconf.h&gt;</a></u></td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><u># <span data-ppcond="57">ifdef</span> <span class="macro" data-ref="_M/OPENSSL_NO_AES">OPENSSL_NO_AES</span></u></td></tr>
+<tr><th id="58">58</th><td><u>#  error AES is disabled.</u></td></tr>
+<tr><th id="59">59</th><td><u># <span data-ppcond="57">endif</span></u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><u># include &lt;stddef.h&gt;</u></td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><u># define <dfn class="macro" id="_M/AES_ENCRYPT" data-ref="_M/AES_ENCRYPT">AES_ENCRYPT</dfn>     1</u></td></tr>
+<tr><th id="64">64</th><td><u># define <dfn class="macro" id="_M/AES_DECRYPT" data-ref="_M/AES_DECRYPT">AES_DECRYPT</dfn>     0</u></td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td><i>/*</i></td></tr>
+<tr><th id="67">67</th><td><i> * Because array size can't be a const in C, the following two are macros.</i></td></tr>
+<tr><th id="68">68</th><td><i> * Both sizes are in bytes.</i></td></tr>
+<tr><th id="69">69</th><td><i> */</i></td></tr>
+<tr><th id="70">70</th><td><u># define <dfn class="macro" id="_M/AES_MAXNR" data-ref="_M/AES_MAXNR">AES_MAXNR</dfn> 14</u></td></tr>
+<tr><th id="71">71</th><td><u># define <dfn class="macro" id="_M/AES_BLOCK_SIZE" data-ref="_M/AES_BLOCK_SIZE">AES_BLOCK_SIZE</dfn> 16</u></td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><u>#<span data-ppcond="73">ifdef</span>  <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="74">74</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="75">75</th><td><u>#<span data-ppcond="73">endif</span></u></td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td><i>/* This should be a hidden type, but EVP requires that the size be known */</i></td></tr>
+<tr><th id="78">78</th><td><b>struct</b> <dfn class="type def" id="aes_key_st" title='aes_key_st' data-ref="aes_key_st">aes_key_st</dfn> {</td></tr>
+<tr><th id="79">79</th><td><u># <span data-ppcond="79">ifdef</span> <span class="macro" data-ref="_M/AES_LONG">AES_LONG</span></u></td></tr>
+<tr><th id="80">80</th><td>    <em>unsigned</em> <em>long</em> rd_key[<var>4</var> * (AES_MAXNR + <var>1</var>)];</td></tr>
+<tr><th id="81">81</th><td><u># <span data-ppcond="79">else</span></u></td></tr>
+<tr><th id="82">82</th><td>    <em>unsigned</em> <em>int</em> <dfn class="decl" id="aes_key_st::rd_key" title='aes_key_st::rd_key' data-ref="aes_key_st::rd_key">rd_key</dfn>[<var>4</var> * (<a class="macro" href="#70" title="14" data-ref="_M/AES_MAXNR">AES_MAXNR</a> + <var>1</var>)];</td></tr>
+<tr><th id="83">83</th><td><u># <span data-ppcond="79">endif</span></u></td></tr>
+<tr><th id="84">84</th><td>    <em>int</em> <dfn class="decl" id="aes_key_st::rounds" title='aes_key_st::rounds' data-ref="aes_key_st::rounds">rounds</dfn>;</td></tr>
+<tr><th id="85">85</th><td>};</td></tr>
+<tr><th id="86">86</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#aes_key_st" title='aes_key_st' data-ref="aes_key_st">aes_key_st</a> <dfn class="typedef" id="AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</dfn>;</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="AES_options" title='AES_options' data-ref="AES_options">AES_options</dfn>(<em>void</em>);</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><em>int</em> <dfn class="decl" id="AES_set_encrypt_key" title='AES_set_encrypt_key' data-ref="AES_set_encrypt_key">AES_set_encrypt_key</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col2 decl" id="12userKey" title='userKey' data-type='const unsigned char *' data-ref="12userKey">userKey</dfn>, <em>const</em> <em>int</em> <dfn class="local col3 decl" id="13bits" title='bits' data-type='const int' data-ref="13bits">bits</dfn>,</td></tr>
+<tr><th id="91">91</th><td>                        <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col4 decl" id="14key" title='key' data-type='AES_KEY *' data-ref="14key">key</dfn>);</td></tr>
+<tr><th id="92">92</th><td><em>int</em> <dfn class="decl" id="AES_set_decrypt_key" title='AES_set_decrypt_key' data-ref="AES_set_decrypt_key">AES_set_decrypt_key</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col5 decl" id="15userKey" title='userKey' data-type='const unsigned char *' data-ref="15userKey">userKey</dfn>, <em>const</em> <em>int</em> <dfn class="local col6 decl" id="16bits" title='bits' data-type='const int' data-ref="16bits">bits</dfn>,</td></tr>
+<tr><th id="93">93</th><td>                        <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col7 decl" id="17key" title='key' data-type='AES_KEY *' data-ref="17key">key</dfn>);</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td><em>int</em> <dfn class="decl" id="private_AES_set_encrypt_key" title='private_AES_set_encrypt_key' data-ref="private_AES_set_encrypt_key">private_AES_set_encrypt_key</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col8 decl" id="18userKey" title='userKey' data-type='const unsigned char *' data-ref="18userKey">userKey</dfn>, <em>const</em> <em>int</em> <dfn class="local col9 decl" id="19bits" title='bits' data-type='const int' data-ref="19bits">bits</dfn>,</td></tr>
+<tr><th id="96">96</th><td>                                <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col0 decl" id="20key" title='key' data-type='AES_KEY *' data-ref="20key">key</dfn>);</td></tr>
+<tr><th id="97">97</th><td><em>int</em> <dfn class="decl" id="private_AES_set_decrypt_key" title='private_AES_set_decrypt_key' data-ref="private_AES_set_decrypt_key">private_AES_set_decrypt_key</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col1 decl" id="21userKey" title='userKey' data-type='const unsigned char *' data-ref="21userKey">userKey</dfn>, <em>const</em> <em>int</em> <dfn class="local col2 decl" id="22bits" title='bits' data-type='const int' data-ref="22bits">bits</dfn>,</td></tr>
+<tr><th id="98">98</th><td>                                <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col3 decl" id="23key" title='key' data-type='AES_KEY *' data-ref="23key">key</dfn>);</td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td><em>void</em> <dfn class="decl" id="AES_encrypt" title='AES_encrypt' data-ref="AES_encrypt">AES_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col4 decl" id="24in" title='in' data-type='const unsigned char *' data-ref="24in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col5 decl" id="25out" title='out' data-type='unsigned char *' data-ref="25out">out</dfn>,</td></tr>
+<tr><th id="101">101</th><td>                 <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col6 decl" id="26key" title='key' data-type='const AES_KEY *' data-ref="26key">key</dfn>);</td></tr>
+<tr><th id="102">102</th><td><em>void</em> <dfn class="decl" id="AES_decrypt" title='AES_decrypt' data-ref="AES_decrypt">AES_decrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col7 decl" id="27in" title='in' data-type='const unsigned char *' data-ref="27in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col8 decl" id="28out" title='out' data-type='unsigned char *' data-ref="28out">out</dfn>,</td></tr>
+<tr><th id="103">103</th><td>                 <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col9 decl" id="29key" title='key' data-type='const AES_KEY *' data-ref="29key">key</dfn>);</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><em>void</em> <dfn class="decl" id="AES_ecb_encrypt" title='AES_ecb_encrypt' data-ref="AES_ecb_encrypt">AES_ecb_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col0 decl" id="30in" title='in' data-type='const unsigned char *' data-ref="30in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col1 decl" id="31out" title='out' data-type='unsigned char *' data-ref="31out">out</dfn>,</td></tr>
+<tr><th id="106">106</th><td>                     <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col2 decl" id="32key" title='key' data-type='const AES_KEY *' data-ref="32key">key</dfn>, <em>const</em> <em>int</em> <dfn class="local col3 decl" id="33enc" title='enc' data-type='const int' data-ref="33enc">enc</dfn>);</td></tr>
+<tr><th id="107">107</th><td><em>void</em> <dfn class="decl" id="AES_cbc_encrypt" title='AES_cbc_encrypt' data-ref="AES_cbc_encrypt">AES_cbc_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col4 decl" id="34in" title='in' data-type='const unsigned char *' data-ref="34in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col5 decl" id="35out" title='out' data-type='unsigned char *' data-ref="35out">out</dfn>,</td></tr>
+<tr><th id="108">108</th><td>                     <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col6 decl" id="36length" title='length' data-type='size_t' data-ref="36length">length</dfn>, <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col7 decl" id="37key" title='key' data-type='const AES_KEY *' data-ref="37key">key</dfn>,</td></tr>
+<tr><th id="109">109</th><td>                     <em>unsigned</em> <em>char</em> *<dfn class="local col8 decl" id="38ivec" title='ivec' data-type='unsigned char *' data-ref="38ivec">ivec</dfn>, <em>const</em> <em>int</em> <dfn class="local col9 decl" id="39enc" title='enc' data-type='const int' data-ref="39enc">enc</dfn>);</td></tr>
+<tr><th id="110">110</th><td><em>void</em> <dfn class="decl" id="AES_cfb128_encrypt" title='AES_cfb128_encrypt' data-ref="AES_cfb128_encrypt">AES_cfb128_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col0 decl" id="40in" title='in' data-type='const unsigned char *' data-ref="40in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col1 decl" id="41out" title='out' data-type='unsigned char *' data-ref="41out">out</dfn>,</td></tr>
+<tr><th id="111">111</th><td>                        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="42length" title='length' data-type='size_t' data-ref="42length">length</dfn>, <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col3 decl" id="43key" title='key' data-type='const AES_KEY *' data-ref="43key">key</dfn>,</td></tr>
+<tr><th id="112">112</th><td>                        <em>unsigned</em> <em>char</em> *<dfn class="local col4 decl" id="44ivec" title='ivec' data-type='unsigned char *' data-ref="44ivec">ivec</dfn>, <em>int</em> *<dfn class="local col5 decl" id="45num" title='num' data-type='int *' data-ref="45num">num</dfn>, <em>const</em> <em>int</em> <dfn class="local col6 decl" id="46enc" title='enc' data-type='const int' data-ref="46enc">enc</dfn>);</td></tr>
+<tr><th id="113">113</th><td><em>void</em> <dfn class="decl" id="AES_cfb1_encrypt" title='AES_cfb1_encrypt' data-ref="AES_cfb1_encrypt">AES_cfb1_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col7 decl" id="47in" title='in' data-type='const unsigned char *' data-ref="47in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col8 decl" id="48out" title='out' data-type='unsigned char *' data-ref="48out">out</dfn>,</td></tr>
+<tr><th id="114">114</th><td>                      <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col9 decl" id="49length" title='length' data-type='size_t' data-ref="49length">length</dfn>, <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col0 decl" id="50key" title='key' data-type='const AES_KEY *' data-ref="50key">key</dfn>,</td></tr>
+<tr><th id="115">115</th><td>                      <em>unsigned</em> <em>char</em> *<dfn class="local col1 decl" id="51ivec" title='ivec' data-type='unsigned char *' data-ref="51ivec">ivec</dfn>, <em>int</em> *<dfn class="local col2 decl" id="52num" title='num' data-type='int *' data-ref="52num">num</dfn>, <em>const</em> <em>int</em> <dfn class="local col3 decl" id="53enc" title='enc' data-type='const int' data-ref="53enc">enc</dfn>);</td></tr>
+<tr><th id="116">116</th><td><em>void</em> <dfn class="decl" id="AES_cfb8_encrypt" title='AES_cfb8_encrypt' data-ref="AES_cfb8_encrypt">AES_cfb8_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col4 decl" id="54in" title='in' data-type='const unsigned char *' data-ref="54in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col5 decl" id="55out" title='out' data-type='unsigned char *' data-ref="55out">out</dfn>,</td></tr>
+<tr><th id="117">117</th><td>                      <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col6 decl" id="56length" title='length' data-type='size_t' data-ref="56length">length</dfn>, <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col7 decl" id="57key" title='key' data-type='const AES_KEY *' data-ref="57key">key</dfn>,</td></tr>
+<tr><th id="118">118</th><td>                      <em>unsigned</em> <em>char</em> *<dfn class="local col8 decl" id="58ivec" title='ivec' data-type='unsigned char *' data-ref="58ivec">ivec</dfn>, <em>int</em> *<dfn class="local col9 decl" id="59num" title='num' data-type='int *' data-ref="59num">num</dfn>, <em>const</em> <em>int</em> <dfn class="local col0 decl" id="60enc" title='enc' data-type='const int' data-ref="60enc">enc</dfn>);</td></tr>
+<tr><th id="119">119</th><td><em>void</em> <dfn class="decl" id="AES_ofb128_encrypt" title='AES_ofb128_encrypt' data-ref="AES_ofb128_encrypt">AES_ofb128_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col1 decl" id="61in" title='in' data-type='const unsigned char *' data-ref="61in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col2 decl" id="62out" title='out' data-type='unsigned char *' data-ref="62out">out</dfn>,</td></tr>
+<tr><th id="120">120</th><td>                        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col3 decl" id="63length" title='length' data-type='size_t' data-ref="63length">length</dfn>, <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col4 decl" id="64key" title='key' data-type='const AES_KEY *' data-ref="64key">key</dfn>,</td></tr>
+<tr><th id="121">121</th><td>                        <em>unsigned</em> <em>char</em> *<dfn class="local col5 decl" id="65ivec" title='ivec' data-type='unsigned char *' data-ref="65ivec">ivec</dfn>, <em>int</em> *<dfn class="local col6 decl" id="66num" title='num' data-type='int *' data-ref="66num">num</dfn>);</td></tr>
+<tr><th id="122">122</th><td><em>void</em> <dfn class="decl" id="AES_ctr128_encrypt" title='AES_ctr128_encrypt' data-ref="AES_ctr128_encrypt">AES_ctr128_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col7 decl" id="67in" title='in' data-type='const unsigned char *' data-ref="67in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col8 decl" id="68out" title='out' data-type='unsigned char *' data-ref="68out">out</dfn>,</td></tr>
+<tr><th id="123">123</th><td>                        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col9 decl" id="69length" title='length' data-type='size_t' data-ref="69length">length</dfn>, <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col0 decl" id="70key" title='key' data-type='const AES_KEY *' data-ref="70key">key</dfn>,</td></tr>
+<tr><th id="124">124</th><td>                        <em>unsigned</em> <em>char</em> <dfn class="local col1 decl" id="71ivec" title='ivec' data-type='unsigned char *' data-ref="71ivec">ivec</dfn>[<a class="macro" href="#71" title="16" data-ref="_M/AES_BLOCK_SIZE">AES_BLOCK_SIZE</a>],</td></tr>
+<tr><th id="125">125</th><td>                        <em>unsigned</em> <em>char</em> <dfn class="local col2 decl" id="72ecount_buf" title='ecount_buf' data-type='unsigned char *' data-ref="72ecount_buf">ecount_buf</dfn>[<a class="macro" href="#71" title="16" data-ref="_M/AES_BLOCK_SIZE">AES_BLOCK_SIZE</a>],</td></tr>
+<tr><th id="126">126</th><td>                        <em>unsigned</em> <em>int</em> *<dfn class="local col3 decl" id="73num" title='num' data-type='unsigned int *' data-ref="73num">num</dfn>);</td></tr>
+<tr><th id="127">127</th><td><i>/* NB: the IV is _two_ blocks long */</i></td></tr>
+<tr><th id="128">128</th><td><em>void</em> <dfn class="decl" id="AES_ige_encrypt" title='AES_ige_encrypt' data-ref="AES_ige_encrypt">AES_ige_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col4 decl" id="74in" title='in' data-type='const unsigned char *' data-ref="74in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col5 decl" id="75out" title='out' data-type='unsigned char *' data-ref="75out">out</dfn>,</td></tr>
+<tr><th id="129">129</th><td>                     <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col6 decl" id="76length" title='length' data-type='size_t' data-ref="76length">length</dfn>, <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col7 decl" id="77key" title='key' data-type='const AES_KEY *' data-ref="77key">key</dfn>,</td></tr>
+<tr><th id="130">130</th><td>                     <em>unsigned</em> <em>char</em> *<dfn class="local col8 decl" id="78ivec" title='ivec' data-type='unsigned char *' data-ref="78ivec">ivec</dfn>, <em>const</em> <em>int</em> <dfn class="local col9 decl" id="79enc" title='enc' data-type='const int' data-ref="79enc">enc</dfn>);</td></tr>
+<tr><th id="131">131</th><td><i>/* NB: the IV is _four_ blocks long */</i></td></tr>
+<tr><th id="132">132</th><td><em>void</em> <dfn class="decl" id="AES_bi_ige_encrypt" title='AES_bi_ige_encrypt' data-ref="AES_bi_ige_encrypt">AES_bi_ige_encrypt</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col0 decl" id="80in" title='in' data-type='const unsigned char *' data-ref="80in">in</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col1 decl" id="81out" title='out' data-type='unsigned char *' data-ref="81out">out</dfn>,</td></tr>
+<tr><th id="133">133</th><td>                        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="82length" title='length' data-type='size_t' data-ref="82length">length</dfn>, <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col3 decl" id="83key" title='key' data-type='const AES_KEY *' data-ref="83key">key</dfn>,</td></tr>
+<tr><th id="134">134</th><td>                        <em>const</em> <a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col4 decl" id="84key2" title='key2' data-type='const AES_KEY *' data-ref="84key2">key2</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col5 decl" id="85ivec" title='ivec' data-type='const unsigned char *' data-ref="85ivec">ivec</dfn>,</td></tr>
+<tr><th id="135">135</th><td>                        <em>const</em> <em>int</em> <dfn class="local col6 decl" id="86enc" title='enc' data-type='const int' data-ref="86enc">enc</dfn>);</td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td><em>int</em> <dfn class="decl" id="AES_wrap_key" title='AES_wrap_key' data-ref="AES_wrap_key">AES_wrap_key</dfn>(<a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col7 decl" id="87key" title='key' data-type='AES_KEY *' data-ref="87key">key</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col8 decl" id="88iv" title='iv' data-type='const unsigned char *' data-ref="88iv">iv</dfn>,</td></tr>
+<tr><th id="138">138</th><td>                 <em>unsigned</em> <em>char</em> *<dfn class="local col9 decl" id="89out" title='out' data-type='unsigned char *' data-ref="89out">out</dfn>,</td></tr>
+<tr><th id="139">139</th><td>                 <em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col0 decl" id="90in" title='in' data-type='const unsigned char *' data-ref="90in">in</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col1 decl" id="91inlen" title='inlen' data-type='unsigned int' data-ref="91inlen">inlen</dfn>);</td></tr>
+<tr><th id="140">140</th><td><em>int</em> <dfn class="decl" id="AES_unwrap_key" title='AES_unwrap_key' data-ref="AES_unwrap_key">AES_unwrap_key</dfn>(<a class="typedef" href="#AES_KEY" title='AES_KEY' data-type='struct aes_key_st' data-ref="AES_KEY">AES_KEY</a> *<dfn class="local col2 decl" id="92key" title='key' data-type='AES_KEY *' data-ref="92key">key</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col3 decl" id="93iv" title='iv' data-type='const unsigned char *' data-ref="93iv">iv</dfn>,</td></tr>
+<tr><th id="141">141</th><td>                   <em>unsigned</em> <em>char</em> *<dfn class="local col4 decl" id="94out" title='out' data-type='unsigned char *' data-ref="94out">out</dfn>,</td></tr>
+<tr><th id="142">142</th><td>                   <em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col5 decl" id="95in" title='in' data-type='const unsigned char *' data-ref="95in">in</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col6 decl" id="96inlen" title='inlen' data-type='unsigned int' data-ref="96inlen">inlen</dfn>);</td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td><u>#<span data-ppcond="145">ifdef</span>  <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="146">146</th><td>}</td></tr>
+<tr><th id="147">147</th><td><u>#<span data-ppcond="145">endif</span></u></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td><u>#<span data-ppcond="52">endif</span>                          /* !HEADER_AES_H */</u></td></tr>
+<tr><th id="150">150</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../codebrowser/src/crypto/ocb.cc.html'>codebrowser/src/crypto/ocb.cc</a><br/>Generated on <em>2017-Oct-12</em> from project include<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

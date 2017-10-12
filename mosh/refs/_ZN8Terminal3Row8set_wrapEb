@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='228' type='void Terminal::Row::set_wrap(bool w)'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='77' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='86' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='421' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>

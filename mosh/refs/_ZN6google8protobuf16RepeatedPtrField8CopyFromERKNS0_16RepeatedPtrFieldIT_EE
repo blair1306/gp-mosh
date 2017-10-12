@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/repeated_field.h' l='458' type='void google::protobuf::RepeatedPtrField::CopyFrom(const RepeatedPtrField&lt;Element&gt; &amp; other)'/>
+<use f='include/google/protobuf/repeated_field.h' l='1072' u='c' c='_ZN6google8protobuf16RepeatedPtrFieldC1ERKNS0_16RepeatedPtrFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1097' u='c' c='_ZN6google8protobuf16RepeatedPtrFieldaSERKNS0_16RepeatedPtrFieldIT_EE'/>
+<def f='include/google/protobuf/repeated_field.h' l='1170' ll='1174' type='void google::protobuf::RepeatedPtrField::CopyFrom(const RepeatedPtrField&lt;Element&gt; &amp; other)'/>

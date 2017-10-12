@@ -1,0 +1,6 @@
+<def f='codebrowser/src/network/transportsender.h' l='55' type='const int'/>
+<doc f='codebrowser/src/network/transportsender.h' l='55'>/* ms before delayed ack */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='98' u='r' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='99' u='r' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='117' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='285' u='r' c='_ZN7Network15TransportSender29update_assumed_receiver_stateEv'/>

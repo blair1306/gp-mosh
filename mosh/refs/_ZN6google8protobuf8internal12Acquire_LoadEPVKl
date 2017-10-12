@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='155' type='Atomic64 google::protobuf::internal::Acquire_Load(const volatile Atomic64 * ptr)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='256' ll='262' type='Atomic64 google::protobuf::internal::Acquire_Load(const volatile Atomic64 * ptr)'/>
+<use f='include/google/protobuf/stubs/once.h' l='125' u='c' c='_ZN6google8protobuf14GoogleOnceInitEPlPFvvE'/>
+<use f='include/google/protobuf/stubs/once.h' l='134' u='c' c='_ZN6google8protobuf14GoogleOnceInitEPlPFvPT_ES3_'/>

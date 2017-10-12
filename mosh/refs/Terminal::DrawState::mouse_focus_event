@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='284' type='bool'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='344' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='344' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<offset>896</offset>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='284'>// 1004</doc>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='318' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='318' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='319' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='74' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='300' u='a' c='_ZL12get_DEC_modeiPN8Terminal11FramebufferE'/>

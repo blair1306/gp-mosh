@@ -1,0 +1,5 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='157' ll='158'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='160'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='155'>// is_convertible chokes if the first argument is an array. That&apos;s why
+// we use add_reference here.</doc>

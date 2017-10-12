@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='88' type='1'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='701' u='r' c='_ZN6google8protobuf8internal14WireFormatLite19WriteFixed64ToArrayEimPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='713' u='r' c='_ZN6google8protobuf8internal14WireFormatLite20WriteSFixed64ToArrayEilPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='725' u='r' c='_ZN6google8protobuf8internal14WireFormatLite18WriteDoubleToArrayEidPh'/>

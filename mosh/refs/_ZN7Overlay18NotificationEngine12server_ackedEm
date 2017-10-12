@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='162' type='void Overlay::NotificationEngine::server_acked(uint64_t s_last_acked)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='294' u='c' c='_ZN9STMClient21process_network_inputEv'/>

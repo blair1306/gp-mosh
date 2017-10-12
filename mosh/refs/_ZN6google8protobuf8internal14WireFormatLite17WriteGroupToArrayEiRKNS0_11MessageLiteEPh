@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='437' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteGroupToArray(int field_number_arg, const google::protobuf::MessageLite &amp; value, uint8 * target)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='759' ll='765' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteGroupToArray(int field_number, const google::protobuf::MessageLite &amp; value, uint8 * target)'/>

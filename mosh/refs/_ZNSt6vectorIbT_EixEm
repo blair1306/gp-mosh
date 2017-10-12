@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_bvector.h' l='853' ll='858' type='reference std::vector&lt;bool, type-parameter-0-0&gt;::operator[](size_type __n)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='62' u='c' c='_ZN8Terminal9DrawState17reinitialize_tabsEj'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='206' u='c' c='_ZN8Terminal9DrawState7set_tabEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='211' u='c' c='_ZN8Terminal9DrawState9clear_tabEi'/>

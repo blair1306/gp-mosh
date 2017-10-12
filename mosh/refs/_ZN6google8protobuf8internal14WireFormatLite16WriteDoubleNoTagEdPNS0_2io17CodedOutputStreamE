@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='332' type='static void google::protobuf::internal::WireFormatLite::WriteDoubleNoTag(double value, io::CodedOutputStream * output_arg)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='550' ll='553' type='static void google::protobuf::internal::WireFormatLite::WriteDoubleNoTag(double value, io::CodedOutputStream * output)'/>

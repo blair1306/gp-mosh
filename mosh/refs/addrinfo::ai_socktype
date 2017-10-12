@@ -1,0 +1,5 @@
+<dec f='include/netdb.h' l='571' type='int'/>
+<offset>64</offset>
+<doc f='include/netdb.h' l='571'>/* Socket type.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='297' u='w' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='381' u='w' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>

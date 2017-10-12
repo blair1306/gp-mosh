@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='113' type='uint8 *const'/>
+<offset>64</offset>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='113'>// The byte array.</doc>

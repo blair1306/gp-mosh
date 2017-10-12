@@ -1,0 +1,69 @@
+<inh f='include/google/protobuf/message_lite.h' l='77' c='google::protobuf::MessageLite'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='42' ll='119'/>
+<size>72</size>
+<doc f='codebrowser/src/protobufs/userinput.pb.h' l='40'>// ===================================================================</doc>
+<fun r='_ZN13ClientBuffers11UserMessageC1Ev'/>
+<fun r='_ZN13ClientBuffers11UserMessageD1Ev'/>
+<fun r='_ZN13ClientBuffers11UserMessageC1ERKS0_'/>
+<fun r='_ZN13ClientBuffers11UserMessageaSERKS0_'/>
+<fun r='_ZNK13ClientBuffers11UserMessage14unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN13ClientBuffers11UserMessage22mutable_unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN13ClientBuffers11UserMessage16default_instanceEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage4SwapEPS0_'/>
+<fun r='_ZNK13ClientBuffers11UserMessage3NewEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN13ClientBuffers11UserMessage8CopyFromERKS0_'/>
+<fun r='_ZN13ClientBuffers11UserMessage9MergeFromERKS0_'/>
+<fun r='_ZN13ClientBuffers11UserMessage5ClearEv'/>
+<fun r='_ZNK13ClientBuffers11UserMessage13IsInitializedEv'/>
+<fun r='_ZNK13ClientBuffers11UserMessage8ByteSizeEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK13ClientBuffers11UserMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZN13ClientBuffers11UserMessage20DiscardUnknownFieldsEv'/>
+<fun r='_ZNK13ClientBuffers11UserMessage13GetCachedSizeEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage10SharedCtorEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage10SharedDtorEv'/>
+<fun r='_ZNK13ClientBuffers11UserMessage13SetCachedSizeEi'/>
+<fun r='_ZNK13ClientBuffers11UserMessage11GetTypeNameB5cxx11Ev'/>
+<fun r='_ZNK13ClientBuffers11UserMessage16instruction_sizeEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage17clear_instructionEv'/>
+<smbr r='ClientBuffers::UserMessage::kInstructionFieldNumber' t='const int'/>
+<fun r='_ZNK13ClientBuffers11UserMessage11instructionEi'/>
+<fun r='_ZN13ClientBuffers11UserMessage19mutable_instructionEi'/>
+<fun r='_ZN13ClientBuffers11UserMessage15add_instructionEv'/>
+<fun r='_ZNK13ClientBuffers11UserMessage11instructionEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage19mutable_instructionEv'/>
+<mbr r='ClientBuffers::UserMessage::_unknown_fields_' o='64' t='::std::string'/>
+<mbr r='ClientBuffers::UserMessage::_has_bits_' o='320' t='::google::protobuf::uint32 [1]'/>
+<mbr r='ClientBuffers::UserMessage::_cached_size_' o='352' t='int'/>
+<mbr r='ClientBuffers::UserMessage::instruction_' o='384' t='::google::protobuf::RepeatedPtrField&lt; ::ClientBuffers::Instruction&gt;'/>
+<fun r='_ZN13ClientBuffers11UserMessage21InitAsDefaultInstanceEv'/>
+<smbr r='ClientBuffers::UserMessage::default_instance_' t='ClientBuffers::UserMessage *'/>
+<fun r='_ZNK13ClientBuffers11UserMessage16instruction_sizeEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage17clear_instructionEv'/>
+<fun r='_ZNK13ClientBuffers11UserMessage11instructionEi'/>
+<fun r='_ZN13ClientBuffers11UserMessage19mutable_instructionEi'/>
+<fun r='_ZN13ClientBuffers11UserMessage15add_instructionEv'/>
+<fun r='_ZNK13ClientBuffers11UserMessage11instructionEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage19mutable_instructionEv'/>
+<smbr r='ClientBuffers::UserMessage::kInstructionFieldNumber' t='const int'/>
+<fun r='_ZN13ClientBuffers11UserMessageC1Ev'/>
+<fun r='_ZN13ClientBuffers11UserMessage21InitAsDefaultInstanceEv'/>
+<fun r='_ZN13ClientBuffers11UserMessageC1ERKS0_'/>
+<fun r='_ZN13ClientBuffers11UserMessage10SharedCtorEv'/>
+<fun r='_ZN13ClientBuffers11UserMessageD1Ev'/>
+<fun r='_ZN13ClientBuffers11UserMessage10SharedDtorEv'/>
+<fun r='_ZNK13ClientBuffers11UserMessage13SetCachedSizeEi'/>
+<fun r='_ZN13ClientBuffers11UserMessage16default_instanceEv'/>
+<smbr r='ClientBuffers::UserMessage::default_instance_' t='ClientBuffers::UserMessage *'/>
+<fun r='_ZNK13ClientBuffers11UserMessage3NewEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage5ClearEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK13ClientBuffers11UserMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZNK13ClientBuffers11UserMessage8ByteSizeEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN13ClientBuffers11UserMessage9MergeFromERKS0_'/>
+<fun r='_ZN13ClientBuffers11UserMessage8CopyFromERKS0_'/>
+<fun r='_ZNK13ClientBuffers11UserMessage13IsInitializedEv'/>
+<fun r='_ZN13ClientBuffers11UserMessage4SwapEPS0_'/>
+<fun r='_ZNK13ClientBuffers11UserMessage11GetTypeNameB5cxx11Ev'/>

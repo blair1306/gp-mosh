@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='33' type='void TransportBuffers::protobuf_ShutdownFile_transportinstruction_2eproto()'/>
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='193' type='void TransportBuffers::protobuf_ShutdownFile_transportinstruction_2eproto()'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='18' ll='20' type='void TransportBuffers::protobuf_ShutdownFile_transportinstruction_2eproto()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='36' u='a' c='_ZN16TransportBuffers45protobuf_AddDesc_transportinstruction_2eprotoEv'/>

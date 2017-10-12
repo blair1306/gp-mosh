@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='177' ll='182' type='void Overlay::NotificationEngine::set_escape_key_string(const string &amp; s_name)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='192' u='c' c='_ZN9STMClient4initEv'/>

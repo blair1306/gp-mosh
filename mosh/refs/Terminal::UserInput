@@ -1,0 +1,6 @@
+<def f='codebrowser/src/terminal/terminaluserinput.h' l='40' ll='60'/>
+<size>4</size>
+<mbr r='Terminal::UserInput::state' o='0' t='Terminal::UserInput::UserInputState'/>
+<fun r='_ZN8Terminal9UserInputC1Ev'/>
+<fun r='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<fun r='_ZNK8Terminal9UserInputeqERKS0_'/>

@@ -1,0 +1,31 @@
+<def f='codebrowser/src/util/select.h' l='50' ll='242'/>
+<size>656</size>
+<doc f='codebrowser/src/util/select.h' l='45'>/* Convenience wrapper for pselect(2).
+
+   Any signals blocked by calling sigprocmask() outside this code will still be
+   received during Select::select().  So don&apos;t do that. */</doc>
+<fun r='_ZN6Select12get_instanceEv'/>
+<fun r='_ZN6SelectC1Ev'/>
+<fun r='_ZN6Select16clear_got_signalEv'/>
+<fun r='_ZN6SelectC1ERKS_'/>
+<fun r='_ZN6SelectaSERKS_'/>
+<fun r='_ZN6Select6add_fdEi'/>
+<fun r='_ZN6Select9clear_fdsEv'/>
+<fun r='_ZN6Select10add_signalEi'/>
+<fun r='_ZN6Select6selectEi'/>
+<fun r='_ZNK6Select4readEi'/>
+<fun r='_ZN6Select6signalEi'/>
+<fun r='_ZNK6Select10any_signalEv'/>
+<fun r='_ZN6Select11set_verboseEj'/>
+<smbr r='Select::MAX_SIGNAL_NUMBER' t='const int'/>
+<smbr r='Select::MAX_POLLS' t='const int'/>
+<fun r='_ZN6Select13handle_signalEi'/>
+<mbr r='Select::max_fd' o='0' t='int'/>
+<mbr r='Select::got_signal' o='32' t='int [65]'/>
+<mbr r='Select::all_fds' o='2112' t='fd_set'/>
+<mbr r='Select::read_fds' o='3136' t='fd_set'/>
+<mbr r='Select::empty_sigset' o='4160' t='sigset_t'/>
+<smbr r='Select::dummy_fd_set' t='fd_set'/>
+<smbr r='Select::dummy_sigset' t='sigset_t'/>
+<mbr r='Select::consecutive_polls' o='5184' t='int'/>
+<smbr r='Select::verbose' t='unsigned int'/>

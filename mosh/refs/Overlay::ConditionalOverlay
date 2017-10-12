@@ -1,0 +1,14 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='60' ll='82'/>
+<ovr f='codebrowser/src/frontend/terminaloverlay.h' l='84' c='Overlay::ConditionalCursorMove'/>
+<ovr f='codebrowser/src/frontend/terminaloverlay.h' l='97' c='Overlay::ConditionalOverlayCell'/>
+<size>40</size>
+<mbr r='Overlay::ConditionalOverlay::expiration_frame' o='64' t='uint64_t'/>
+<mbr r='Overlay::ConditionalOverlay::col' o='128' t='int'/>
+<mbr r='Overlay::ConditionalOverlay::active' o='160' t='bool'/>
+<mbr r='Overlay::ConditionalOverlay::tentative_until_epoch' o='192' t='uint64_t'/>
+<mbr r='Overlay::ConditionalOverlay::prediction_time' o='256' t='uint64_t'/>
+<fun r='_ZN7Overlay18ConditionalOverlayC1Emim'/>
+<fun r='_ZN7Overlay18ConditionalOverlayD1Ev'/>
+<fun r='_ZNK7Overlay18ConditionalOverlay9tentativeEm'/>
+<fun r='_ZN7Overlay18ConditionalOverlay5resetEv'/>
+<fun r='_ZN7Overlay18ConditionalOverlay6expireEmm'/>

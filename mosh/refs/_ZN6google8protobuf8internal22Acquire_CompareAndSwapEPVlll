@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='145' type='Atomic64 google::protobuf::internal::Acquire_CompareAndSwap(volatile Atomic64 * ptr, Atomic64 old_value, Atomic64 new_value)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='269' ll='277' type='Atomic64 google::protobuf::internal::Acquire_CompareAndSwap(volatile Atomic64 * ptr, Atomic64 old_value, Atomic64 new_value)'/>

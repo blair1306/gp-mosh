@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/extension_set.h' l='384' type='void google::protobuf::internal::ExtensionSet::SerializeWithCachedSizes(int start_field_number, int end_field_number, io::CodedOutputStream * output) const'/>
+<doc f='include/google/protobuf/extension_set.h' l='380'>// Write all extension fields with field numbers in the range
+  //   [start_field_number, end_field_number)
+  // to the output stream, using the cached sizes computed when ByteSize() was
+  // last called.  Note that the range bounds are inclusive-exclusive.</doc>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='341' u='c' c='_ZNK11HostBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='334' u='c' c='_ZNK13ClientBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>

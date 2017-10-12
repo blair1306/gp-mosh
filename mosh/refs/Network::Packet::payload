@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/network/network.h' l='82' type='string'/>
+<use f='codebrowser/src/network/network.h' l='87' u='w' c='_ZN7Network6PacketC1ENS_9DirectionEttRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>128</offset>
+<use f='codebrowser/src/network/network.cc' l='76' u='w' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<use f='codebrowser/src/network/network.cc' l='84' u='w' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<use f='codebrowser/src/network/network.cc' l='97' u='r' c='_ZN7Network6Packet9toMessageEv'/>
+<use f='codebrowser/src/network/network.cc' l='517' u='r' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='574' u='r' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

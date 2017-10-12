@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/extension_set.h' l='286' type='int32 google::protobuf::internal::ExtensionSet::GetRepeatedInt32(int number, int index) const'/>
+<use f='include/google/protobuf/extension_set.h' l='767' macro='1' u='c'/>

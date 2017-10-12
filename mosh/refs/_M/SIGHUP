@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/signum.h' l='32'/>
+<doc f='include/x86_64-linux-gnu/bits/signum.h' l='31'>/* Signals.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='442' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='522' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='232' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='501' u='c'/>

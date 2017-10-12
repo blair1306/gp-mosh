@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/stubs/common.h' l='934' ll='937' type='void google::protobuf::internal::MethodClosure1::MethodClosure1&lt;Class, Arg1&gt;(Class * object, MethodType method, bool self_deleting, Arg1 arg1)'/>

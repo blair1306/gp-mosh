@@ -1,0 +1,3 @@
+<dec f='include/curses.h' l='444' type='bool'/>
+<offset>320</offset>
+<doc f='include/curses.h' l='444'>/* process function keys into KEY_ symbols? */</doc>

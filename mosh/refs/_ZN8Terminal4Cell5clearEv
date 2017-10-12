@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='120' type='void Terminal::Cell::clear()'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='705' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='802' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='886' u='c' c='_ZN7Overlay16PredictionEngine23newline_carriage_returnERKN8Terminal11FramebufferE'/>

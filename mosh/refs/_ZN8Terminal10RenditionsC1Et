@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='65' type='void Terminal::Renditions::Renditions(color_type s_background)'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='44' u='c' c='_ZL17initial_renditionv'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='484' u='c' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='43' u='c' c='_ZN8Terminal4CellC1Et'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='52' u='c' c='_ZN8Terminal4Cell5resetEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='71' u='c' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='274' u='c' c='_ZN8Terminal11SavedCursorC1Ev'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='456' ll='459' type='void Terminal::Renditions::Renditions(color_type s_background)'/>

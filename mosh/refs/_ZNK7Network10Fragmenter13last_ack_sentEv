@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/transportfragment.h' l='103' type='uint64_t Network::Fragmenter::last_ack_sent() const'/>
+<use f='codebrowser/src/network/transportsender.h' l='151' u='c' c='_ZNK7Network15TransportSender38get_counterparty_shutdown_acknowledgedEv'/>

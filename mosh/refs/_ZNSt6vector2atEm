@@ -1,0 +1,27 @@
+<def f='include/c++/5/bits/stl_vector.h' l='821' ll='826' type='reference std::vector::at(size_type __n)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='405' u='c' c='_ZNK8Terminal11Framebuffer8get_cellEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='411' u='c' c='_ZN8Terminal11Framebuffer15get_mutable_rowEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='424' u='c' c='_ZN8Terminal11Framebuffer16get_mutable_cellEii'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='810'>/**
+       *  @brief  Provides access to the data contained in the %vector.
+       *  @param __n The index of the element for which data should be
+       *  accessed.
+       *  @return  Read/write reference to data.
+       *  @throw  std::out_of_range  If @a __n is an invalid index.
+       *
+       *  This function provides for safer data access.  The parameter
+       *  is first checked that it is in the range of the vector.  The
+       *  function throws out_of_range if the check fails.
+       */</doc>
+<use f='codebrowser/src/network/transportfragment.cc' l='97' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='104' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='106' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='111' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='137' u='c' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='138' u='c' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='183' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='200' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='257' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='257' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='259' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='269' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>

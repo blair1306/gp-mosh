@@ -1,0 +1,10 @@
+<dec f='include/google/protobuf/message_lite.h' l='201' type='string google::protobuf::MessageLite::SerializeAsString() const'/>
+<doc f='include/google/protobuf/message_lite.h' l='195'>// Make a string encoding the message. Is equivalent to calling
+  // SerializeToString() on a string and using that.  Returns the empty
+  // string if SerializeToString() would have returned an error.
+  // Note: If you intend to generate many such strings, you may
+  // reduce heap fragmentation by instead re-using the same string
+  // object with calls to SerializeToString().</doc>
+<use f='codebrowser/src/network/transportfragment.cc' l='178' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='96' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='105' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>

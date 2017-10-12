@@ -1,0 +1,2 @@
+<dec f='include/stdio.h' l='390' type='int vsnprintf(char *__restrict __s, size_t __maxlen, const char *__restrict __format, __va_list_tag * __arg)'/>
+<def f='include/x86_64-linux-gnu/bits/stdio2.h' l='73' ll='79' macro='1' type='int vsnprintf(char *__restrict __s, size_t __n, const char *__restrict __fmt, __va_list_tag * __ap)'/>

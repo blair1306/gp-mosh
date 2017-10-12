@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='54' type='int'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='93' u='w' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<offset>832</offset>
+<use f='codebrowser/src/frontend/stmclient.cc' l='143' u='w' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='145' u='w' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='150' u='w' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='157' u='w' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='162' u='w' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='171' u='w' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='360' u='r' c='_ZN9STMClient18process_user_inputEi'/>

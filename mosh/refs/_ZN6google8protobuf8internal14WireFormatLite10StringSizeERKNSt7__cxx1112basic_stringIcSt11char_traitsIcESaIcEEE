@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='479' type='static int google::protobuf::internal::WireFormatLite::StringSize(const string &amp; value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='821' ll='824' type='static int google::protobuf::internal::WireFormatLite::StringSize(const string &amp; value)'/>

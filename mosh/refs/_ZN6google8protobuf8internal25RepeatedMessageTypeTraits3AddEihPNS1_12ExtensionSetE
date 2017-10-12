@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='981' ll='985' type='static MutableType google::protobuf::internal::RepeatedMessageTypeTraits::Add(int number, FieldType field_type, google::protobuf::internal::ExtensionSet * set)'/>

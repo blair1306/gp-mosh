@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/stl_deque.h' l='1165' ll='1167' type='const_iterator std::deque::begin() const'/>
+<doc f='include/c++/5/bits/stl_deque.h' l='1161'>/**
+       *  Returns a read-only (constant) iterator that points to the first
+       *  element in the %deque.  Iteration is done in ordinary element order.
+       */</doc>
+<use f='codebrowser/src/network/network.cc' l='192' u='c' c='_ZNK7Network10Connection3fdsEv'/>
+<use f='codebrowser/src/statesync/user.cc' l='51' u='c' c='_ZN7Network10UserStream8subtractEPKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='63' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='65' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>

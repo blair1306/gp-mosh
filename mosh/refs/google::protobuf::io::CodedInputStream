@@ -1,0 +1,105 @@
+<def f='include/google/protobuf/io/coded_stream.h' l='156' ll='573'/>
+<size>80</size>
+<doc f='include/google/protobuf/io/coded_stream.h' l='149'>// Class which reads and decodes binary data which is composed of varint-
+// encoded integers and fixed-width pieces.  Wraps a ZeroCopyInputStream.
+// Most users will not need to deal with CodedInputStream.
+//
+// Most methods of CodedInputStream that return a bool return false if an
+// underlying I/O error occurs or if the data is malformed.  Once such a
+// failure occurs, the CodedInputStream is broken and is no longer useful.</doc>
+<fun r='_ZN6google8protobuf2io16CodedInputStreamC1EPNS1_19ZeroCopyInputStreamE'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStreamC1EPKhi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStreamD1Ev'/>
+<fun r='_ZNK6google8protobuf2io16CodedInputStream6IsFlatEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream4SkipEi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream22GetDirectBufferPointerEPPKvPi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream28GetDirectBufferPointerInlineEPPKvPi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream7ReadRawEPvi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream10ReadStringEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream24InternalReadStringInlineEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream18ReadLittleEndian32EPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream18ReadLittleEndian64EPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream27ReadLittleEndian32FromArrayEPKhPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream27ReadLittleEndian64FromArrayEPKhPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream12ReadVarint32EPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream12ReadVarint64EPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream7ReadTagEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream9ExpectTagEj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream18ExpectTagFromArrayEPKhj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream11ExpectAtEndEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream10LastTagWasEj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream21ConsumedEntireMessageEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream9PushLimitEi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream8PopLimitEi'/>
+<fun r='_ZNK6google8protobuf2io16CodedInputStream15BytesUntilLimitEv'/>
+<fun r='_ZNK6google8protobuf2io16CodedInputStream15CurrentPositionEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream18SetTotalBytesLimitEii'/>
+<fun r='_ZNK6google8protobuf2io16CodedInputStream25BytesUntilTotalBytesLimitEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream17SetRecursionLimitEi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream23IncrementRecursionDepthEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream23DecrementRecursionDepthEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream20SetExtensionRegistryEPKNS0_14DescriptorPoolEPNS0_14MessageFactoryE'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream16GetExtensionPoolEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream19GetExtensionFactoryEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStreamC1ERKS2_'/>
+<mbr r='google::protobuf::io::CodedInputStream::input_' o='0' t='google::protobuf::io::ZeroCopyInputStream *'/>
+<mbr r='google::protobuf::io::CodedInputStream::buffer_' o='64' t='const uint8 *'/>
+<mbr r='google::protobuf::io::CodedInputStream::buffer_end_' o='128' t='const uint8 *'/>
+<mbr r='google::protobuf::io::CodedInputStream::total_bytes_read_' o='192' t='int'/>
+<mbr r='google::protobuf::io::CodedInputStream::overflow_bytes_' o='224' t='int'/>
+<mbr r='google::protobuf::io::CodedInputStream::last_tag_' o='256' t='uint32'/>
+<mbr r='google::protobuf::io::CodedInputStream::legitimate_message_end_' o='288' t='bool'/>
+<mbr r='google::protobuf::io::CodedInputStream::aliasing_enabled_' o='296' t='bool'/>
+<mbr r='google::protobuf::io::CodedInputStream::current_limit_' o='320' t='Limit'/>
+<mbr r='google::protobuf::io::CodedInputStream::buffer_size_after_limit_' o='352' t='int'/>
+<mbr r='google::protobuf::io::CodedInputStream::total_bytes_limit_' o='384' t='int'/>
+<mbr r='google::protobuf::io::CodedInputStream::total_bytes_warning_threshold_' o='416' t='int'/>
+<mbr r='google::protobuf::io::CodedInputStream::recursion_depth_' o='448' t='int'/>
+<mbr r='google::protobuf::io::CodedInputStream::recursion_limit_' o='480' t='int'/>
+<mbr r='google::protobuf::io::CodedInputStream::extension_pool_' o='512' t='const google::protobuf::DescriptorPool *'/>
+<mbr r='google::protobuf::io::CodedInputStream::extension_factory_' o='576' t='google::protobuf::MessageFactory *'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream7AdvanceEi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream28BackUpInputToCurrentPositionEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream21RecomputeBufferLimitsEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream25PrintTotalBytesLimitErrorEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream7RefreshEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream20ReadVarint32FallbackEPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream20ReadVarint64FallbackEPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream16ReadVarint32SlowEPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream16ReadVarint64SlowEPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream26ReadLittleEndian32FallbackEPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream26ReadLittleEndian64FallbackEPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream15ReadTagFallbackEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream11ReadTagSlowEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream18ReadStringFallbackEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<fun r='_ZNK6google8protobuf2io16CodedInputStream10BufferSizeEv'/>
+<smbr r='google::protobuf::io::CodedInputStream::kDefaultTotalBytesLimit' t='const int'/>
+<smbr r='google::protobuf::io::CodedInputStream::kDefaultTotalBytesWarningThreshold' t='const int'/>
+<smbr r='google::protobuf::io::CodedInputStream::default_recursion_limit_' t='int'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream12ReadVarint32EPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream12ReadVarint64EPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream27ReadLittleEndian32FromArrayEPKhPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream27ReadLittleEndian64FromArrayEPKhPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream18ReadLittleEndian32EPj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream18ReadLittleEndian64EPm'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream7ReadTagEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream10LastTagWasEj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream21ConsumedEntireMessageEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream9ExpectTagEj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream18ExpectTagFromArrayEPKhj'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream28GetDirectBufferPointerInlineEPPKvPi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream11ExpectAtEndEv'/>
+<fun r='_ZNK6google8protobuf2io16CodedInputStream15CurrentPositionEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream7AdvanceEi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream17SetRecursionLimitEi'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream23IncrementRecursionDepthEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream23DecrementRecursionDepthEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream20SetExtensionRegistryEPKNS0_14DescriptorPoolEPNS0_14MessageFactoryE'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream16GetExtensionPoolEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStream19GetExtensionFactoryEv'/>
+<fun r='_ZNK6google8protobuf2io16CodedInputStream10BufferSizeEv'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStreamC1EPNS1_19ZeroCopyInputStreamE'/>
+<fun r='_ZN6google8protobuf2io16CodedInputStreamC1EPKhi'/>
+<fun r='_ZNK6google8protobuf2io16CodedInputStream6IsFlatEv'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='60' type='struct winsize'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='96' u='w' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<offset>2112</offset>
+<use f='codebrowser/src/frontend/stmclient.cc' l='237' u='a' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='243' u='m' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='243' u='m' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='252' u='m' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='252' u='m' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='258' u='m' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='258' u='m' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='401' u='a' c='_ZN9STMClient14process_resizeEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='407' u='m' c='_ZN9STMClient14process_resizeEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='407' u='m' c='_ZN9STMClient14process_resizeEv'/>

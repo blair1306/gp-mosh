@@ -1,0 +1,25 @@
+<use f='include/google/protobuf/repeated_field.h' l='294' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase8CloseGapEii'/>
+<use f='include/google/protobuf/repeated_field.h' l='297' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase8CloseGapEii'/>
+<dec f='include/google/protobuf/repeated_field.h' l='343' type='int'/>
+<use f='include/google/protobuf/repeated_field.h' l='862' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBaseC1Ev'/>
+<use f='include/google/protobuf/repeated_field.h' l='868' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase7DestroyEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='901' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase3AddEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='904' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase3AddEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='906' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase3AddEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='977' u='r' c='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase22SpaceUsedExcludingSelfEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='985' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase14AddFromClearedEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='999' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12AddAllocatedEPNT_4TypeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1000' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12AddAllocatedEPNT_4TypeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1006' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12AddAllocatedEPNT_4TypeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1009' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12AddAllocatedEPNT_4TypeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1010' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12AddAllocatedEPNT_4TypeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1013' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase12AddAllocatedEPNT_4TypeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1024' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase11ReleaseLastEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1025' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase11ReleaseLastEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1028' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase11ReleaseLastEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1034' u='r' c='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase12ClearedCountEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1040' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase10AddClearedEPNT_4TypeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1041' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase10AddClearedEPNT_4TypeE'/>
+<use f='include/google/protobuf/repeated_field.h' l='1046' u='r' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase14ReleaseClearedEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='1047' u='w' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase14ReleaseClearedEv'/>
+<offset>96</offset>

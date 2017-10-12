@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='90' type='Overlay::Validity Overlay::ConditionalCursorMove::get_validity(const Terminal::Framebuffer &amp; fb, uint64_t early_ack, uint64_t late_ack) const'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='119' ll='142' type='Overlay::Validity Overlay::ConditionalCursorMove::get_validity(const Terminal::Framebuffer &amp; fb, uint64_t early_ack, uint64_t late_ack) const'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='593' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='616' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

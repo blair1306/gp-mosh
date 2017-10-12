@@ -1,0 +1,15 @@
+<def f='include/c++/5/bits/stl_vector.h' l='1210' ll='1212' type='void std::vector::clear()'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='115' u='c' c='_ZN7Overlay22ConditionalOverlayCell5resetEv'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='1204'>/**
+       *  Erases all the elements.  Note that this function only erases the
+       *  elements, and that if the elements themselves are pointers, the
+       *  pointed-to memory is not touched in any way.  Managing the pointer is
+       *  the user&apos;s responsibility.
+       */</doc>
+<use f='codebrowser/src/network/transportfragment.cc' l='95' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='144' u='c' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='58' u='c' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='85' u='c' c='_ZN8Terminal10Dispatcher12parse_paramsEv'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='246' u='c' c='_ZN8Terminal10Dispatcher9OSC_startEPKN6Parser9OSC_StartE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='385' u='c' c='_ZN8Terminal11Framebuffer5resetEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='386' u='c' c='_ZN8Terminal11Framebuffer5resetEv'/>

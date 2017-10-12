@@ -1,0 +1,9 @@
+<def f='include/google/protobuf/extension_set.h' l='709' ll='721'/>
+<size>1</size>
+<smbr r='google::protobuf::internal::RepeatedPrimitiveGenericTypeTraits::default_repeated_field_int32_' t='const RepeatedField&lt;int32&gt; *'/>
+<smbr r='google::protobuf::internal::RepeatedPrimitiveGenericTypeTraits::default_repeated_field_int64_' t='const RepeatedField&lt;int64&gt; *'/>
+<smbr r='google::protobuf::internal::RepeatedPrimitiveGenericTypeTraits::default_repeated_field_uint32_' t='const RepeatedField&lt;uint32&gt; *'/>
+<smbr r='google::protobuf::internal::RepeatedPrimitiveGenericTypeTraits::default_repeated_field_uint64_' t='const RepeatedField&lt;uint64&gt; *'/>
+<smbr r='google::protobuf::internal::RepeatedPrimitiveGenericTypeTraits::default_repeated_field_double_' t='const RepeatedField&lt;double&gt; *'/>
+<smbr r='google::protobuf::internal::RepeatedPrimitiveGenericTypeTraits::default_repeated_field_float_' t='const RepeatedField&lt;float&gt; *'/>
+<smbr r='google::protobuf::internal::RepeatedPrimitiveGenericTypeTraits::default_repeated_field_bool_' t='const RepeatedField&lt;bool&gt; *'/>

@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/sigaction.h' l='35' type='union (anonymous union at /usr/include/x86_64-linux-gnu/bits/sigaction.h:28:5)'/>
+<offset>0</offset>
+<use f='codebrowser/src/util/select.h' l='113' macro='1' u='m'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='439' macro='1' u='m'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='519' macro='1' u='m'/>

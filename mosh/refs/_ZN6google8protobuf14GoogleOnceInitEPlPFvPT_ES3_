@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/stubs/once.h' l='132' ll='138' type='void google::protobuf::GoogleOnceInit(ProtobufOnceType * once, void (*)(Arg *) init_func, Arg * arg)'/>

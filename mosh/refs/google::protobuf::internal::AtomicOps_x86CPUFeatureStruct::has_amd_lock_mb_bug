@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='45' type='bool'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='92' u='r' c='_ZN6google8protobuf8internal23Barrier_AtomicIncrementEPVii'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='102' u='r' c='_ZN6google8protobuf8internal22Acquire_CompareAndSwapEPViii'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='216' u='r' c='_ZN6google8protobuf8internal23Barrier_AtomicIncrementEPVll'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='273' u='r' c='_ZN6google8protobuf8internal22Acquire_CompareAndSwapEPVlll'/>
+<offset>0</offset>
+<doc f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='45'>// Processor has AMD memory-barrier bug; do lfence</doc>

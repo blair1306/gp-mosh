@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_list.h' l='884' ll='886' type='reverse_iterator std::__cxx11::list::rend()'/>
+<doc f='include/c++/5/bits/stl_list.h' l='879'>/**
+       *  Returns a read/write reverse iterator that points to one
+       *  before the first element in the %list.  Iteration is done in
+       *  reverse element order.
+       */</doc>

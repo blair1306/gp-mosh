@@ -1,0 +1,27 @@
+<dec f='include/google/protobuf/repeated_field.h' l='201' type='int'/>
+<use f='include/google/protobuf/repeated_field.h' l='581' u='w' c='_ZN6google8protobuf13RepeatedFieldC1Ev'/>
+<use f='include/google/protobuf/repeated_field.h' l='588' u='w' c='_ZN6google8protobuf13RepeatedFieldC1ERKNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='597' u='w' c='_ZN6google8protobuf13RepeatedFieldC1ET_RKS2_'/>
+<use f='include/google/protobuf/repeated_field.h' l='627' c='_ZNK6google8protobuf13RepeatedField5emptyEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='632' u='r' c='_ZNK6google8protobuf13RepeatedField4sizeEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='643' u='w' c='_ZN6google8protobuf13RepeatedField18AddAlreadyReservedERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='649' u='w' c='_ZN6google8protobuf13RepeatedField18AddAlreadyReservedEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='657' c='_ZN6google8protobuf13RepeatedField6ResizeEiRKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='659' u='w' c='_ZN6google8protobuf13RepeatedField6ResizeEiRKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='685' c='_ZN6google8protobuf13RepeatedField3AddERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='686' u='w' c='_ZN6google8protobuf13RepeatedField3AddERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='691' c='_ZN6google8protobuf13RepeatedField3AddEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='692' u='w' c='_ZN6google8protobuf13RepeatedField3AddEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='697' c='_ZN6google8protobuf13RepeatedField10RemoveLastEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='698' u='w' c='_ZN6google8protobuf13RepeatedField10RemoveLastEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='724' u='w' c='_ZN6google8protobuf13RepeatedField5ClearEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='731' c='_ZN6google8protobuf13RepeatedField9MergeFromERKNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='732' c='_ZN6google8protobuf13RepeatedField9MergeFromERKNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='733' u='w' c='_ZN6google8protobuf13RepeatedField9MergeFromERKNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='759' u='r' c='_ZN6google8protobuf13RepeatedField4SwapEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='763' u='w' c='_ZN6google8protobuf13RepeatedField4SwapEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='790' c='_ZN6google8protobuf13RepeatedField3endEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='795' c='_ZNK6google8protobuf13RepeatedField3endEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='814' u='r' c='_ZN6google8protobuf13RepeatedField7ReserveEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='821' c='_ZN6google8protobuf13RepeatedField8TruncateEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='822' u='w' c='_ZN6google8protobuf13RepeatedField8TruncateEi'/>

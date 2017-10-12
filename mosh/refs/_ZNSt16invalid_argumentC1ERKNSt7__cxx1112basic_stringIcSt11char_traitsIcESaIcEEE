@@ -1,0 +1,3 @@
+<dec f='include/c++/5/stdexcept' l='156' type='void std::invalid_argument::invalid_argument(const string &amp; __arg)'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='69' u='c' c='_ZL7ti_flagPKc'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='78' u='c' c='_ZL6ti_strPKc'/>

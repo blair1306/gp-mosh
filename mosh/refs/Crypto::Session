@@ -1,0 +1,22 @@
+<def f='codebrowser/src/crypto/crypto.h' l='134' ll='161'/>
+<size>128</size>
+<mbr r='Crypto::Session::key' o='0' t='Crypto::Base64Key'/>
+<mbr r='Crypto::Session::ctx_buf' o='128' t='Crypto::AlignedBuffer'/>
+<mbr r='Crypto::Session::ctx' o='320' t='ae_ctx *'/>
+<mbr r='Crypto::Session::blocks_encrypted' o='384' t='uint64_t'/>
+<mbr r='Crypto::Session::plaintext_buffer' o='448' t='Crypto::AlignedBuffer'/>
+<mbr r='Crypto::Session::ciphertext_buffer' o='640' t='Crypto::AlignedBuffer'/>
+<mbr r='Crypto::Session::nonce_buffer' o='832' t='Crypto::AlignedBuffer'/>
+<smbr r='Crypto::Session::RECEIVE_MTU' t='const int'/>
+<smbr r='Crypto::Session::ADDED_BYTES' t='const int'/>
+<fun r='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>
+<fun r='_ZN6Crypto7SessionD1Ev'/>
+<fun r='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<fun r='_ZN6Crypto7Session7decryptEPKcm'/>
+<fun r='_ZN6Crypto7Session7decryptERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN6Crypto7SessionC1ERKS0_'/>
+<fun r='_ZN6Crypto7SessionaSERKS0_'/>
+<fun r='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>
+<fun r='_ZN6Crypto7SessionD1Ev'/>
+<fun r='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<fun r='_ZN6Crypto7Session7decryptEPKcm'/>

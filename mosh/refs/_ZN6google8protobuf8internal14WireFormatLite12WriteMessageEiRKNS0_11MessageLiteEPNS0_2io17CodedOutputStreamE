@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='361' type='static void google::protobuf::internal::WireFormatLite::WriteMessage(int field_number_arg, const google::protobuf::MessageLite &amp; value, io::CodedOutputStream * output_arg)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='178' u='c' c='_ZNK11HostBuffers11HostMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='171' u='c' c='_ZNK13ClientBuffers11UserMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>

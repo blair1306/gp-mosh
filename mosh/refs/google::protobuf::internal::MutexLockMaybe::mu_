@@ -1,0 +1,7 @@
+<use f='include/google/protobuf/stubs/common.h' l='1142' u='w' c='_ZN6google8protobuf8internal14MutexLockMaybeC1EPNS1_5MutexE'/>
+<use f='include/google/protobuf/stubs/common.h' l='1142' u='r' c='_ZN6google8protobuf8internal14MutexLockMaybeC1EPNS1_5MutexE'/>
+<use f='include/google/protobuf/stubs/common.h' l='1142' u='r' c='_ZN6google8protobuf8internal14MutexLockMaybeC1EPNS1_5MutexE'/>
+<use f='include/google/protobuf/stubs/common.h' l='1143' u='r' c='_ZN6google8protobuf8internal14MutexLockMaybeD1Ev'/>
+<use f='include/google/protobuf/stubs/common.h' l='1143' u='r' c='_ZN6google8protobuf8internal14MutexLockMaybeD1Ev'/>
+<dec f='include/google/protobuf/stubs/common.h' l='1145' type='google::protobuf::internal::Mutex *const'/>
+<offset>0</offset>

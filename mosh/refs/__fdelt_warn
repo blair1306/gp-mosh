@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/select2.h' l='25' type='long __fdelt_warn(long __d)'/>
+<use f='codebrowser/src/util/select.h' l='90' macro='1' u='c'/>
+<use f='codebrowser/src/util/select.h' l='173' macro='1' u='c'/>
+<use f='codebrowser/src/util/select.h' l='193' macro='1' u='c'/>
+<use f='codebrowser/src/util/select.h' l='194' macro='1' u='c'/>

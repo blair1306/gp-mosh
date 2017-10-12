@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/compressor.h' l='46' type='void Network::Compressor::Compressor()'/>
+<use f='codebrowser/src/network/compressor.cc' l='62' u='c' c='_ZN7Network14get_compressorEv'/>

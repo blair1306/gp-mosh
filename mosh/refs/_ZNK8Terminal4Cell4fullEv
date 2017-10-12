@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='119' type='bool Terminal::Cell::full() const'/>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='118'>/* 32 seems like a reasonable limit on combining characters */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='296' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='137' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='62' type='static const ClientBuffers::UserMessage &amp; ClientBuffers::UserMessage::default_instance()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='99' ll='102' type='static const ClientBuffers::UserMessage &amp; ClientBuffers::UserMessage::default_instance()'/>

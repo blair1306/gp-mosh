@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='78' type='std::string Terminal::Complete::diff_from(const Terminal::Complete &amp; existing) const'/>
+<def f='codebrowser/src/statesync/completeterminal.cc' l='72' ll='97' type='string Terminal::Complete::diff_from(const Terminal::Complete &amp; existing) const'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='101' u='c' c='_ZNK8Terminal8Complete9init_diffB5cxx11Ev'/>
+<doc f='codebrowser/src/statesync/completeterminal.cc' l='71'>/* interface for Network::Transport */</doc>

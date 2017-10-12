@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/timestamp.h' l='38' type='void freeze_timestamp()'/>
+<use f='codebrowser/src/util/select.h' l='183' u='c' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='139' u='c' c='_ZL4spinv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='565' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/util/timestamp.cc' l='56' u='c' c='_Z16frozen_timestampv'/>
+<def f='codebrowser/src/util/timestamp.cc' l='62' ll='120' type='void freeze_timestamp()'/>

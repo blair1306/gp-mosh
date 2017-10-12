@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='213' type='bool google::protobuf::io::CodedInputStream::ReadLittleEndian32(uint32 * value)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='850' ll='862' type='bool google::protobuf::io::CodedInputStream::ReadLittleEndian32(uint32 * value)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='110' u='c' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='123' u='c' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='141' u='c' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='212'>// Read a 32-bit little-endian integer.</doc>

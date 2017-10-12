@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/parserstate.h' l='101' type='ActionPointer Parser::DCS_Passthrough::enter() const'/>
+<inh f='codebrowser/src/terminal/parserstate.h' l='53' c='_ZNK6Parser5State5enterEv'/>
+<def f='codebrowser/src/terminal/parserstate.cc' l='328' ll='331' type='ActionPointer Parser::DCS_Passthrough::enter() const'/>

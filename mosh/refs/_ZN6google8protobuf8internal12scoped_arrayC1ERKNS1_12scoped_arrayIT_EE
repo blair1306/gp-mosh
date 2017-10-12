@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/common.h' l='608' type='void google::protobuf::internal::scoped_array::scoped_array&lt;C&gt;(const scoped_array&lt;C&gt; &amp; )'/>
+<doc f='include/google/protobuf/stubs/common.h' l='607'>// Disallow evil constructors</doc>

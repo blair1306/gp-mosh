@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/network.h' l='232' type='void Network::Connection::set_last_roundtrip_success(uint64_t s_success)'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='87' u='c' c='_ZN7Network9Transport4recvEv'/>

@@ -1,0 +1,12 @@
+<def f='include/google/protobuf/stubs/common.h' l='1099' ll='1122'/>
+<size>8</size>
+<doc f='include/google/protobuf/stubs/common.h' l='1096'>// A Mutex is a non-reentrant (aka non-recursive) mutex.  At most one thread T
+// may hold a mutex at a given time.  If T attempts to Lock() the same Mutex
+// while holding it, T will deadlock.</doc>
+<fun r='_ZN6google8protobuf8internal5MutexC1Ev'/>
+<fun r='_ZN6google8protobuf8internal5MutexD1Ev'/>
+<fun r='_ZN6google8protobuf8internal5Mutex4LockEv'/>
+<fun r='_ZN6google8protobuf8internal5Mutex6UnlockEv'/>
+<fun r='_ZN6google8protobuf8internal5Mutex10AssertHeldEv'/>
+<mbr r='google::protobuf::internal::Mutex::mInternal' o='0' t='google::protobuf::internal::Mutex::Internal *'/>
+<fun r='_ZN6google8protobuf8internal5MutexC1ERKS2_'/>

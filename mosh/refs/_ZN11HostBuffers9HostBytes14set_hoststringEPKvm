@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='251' type='void HostBuffers::HostBytes::set_hoststring(const void * value, size_t size)'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='530' ll='537' type='void HostBuffers::HostBytes::set_hoststring(const void * value, size_t size)'/>

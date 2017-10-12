@@ -1,0 +1,2 @@
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='46' ll='49' type='TransportBuffers::Instruction &amp; TransportBuffers::Instruction::operator=(const TransportBuffers::Instruction &amp; from)'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='175' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>

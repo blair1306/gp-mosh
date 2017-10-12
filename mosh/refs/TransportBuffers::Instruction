@@ -1,0 +1,150 @@
+<inh f='include/google/protobuf/message_lite.h' l='77' c='google::protobuf::MessageLite'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='39' ll='197'/>
+<size>104</size>
+<doc f='codebrowser/src/protobufs/transportinstruction.pb.h' l='37'>// ===================================================================</doc>
+<fun r='_ZN16TransportBuffers11InstructionC1Ev'/>
+<fun r='_ZN16TransportBuffers11InstructionD1Ev'/>
+<fun r='_ZN16TransportBuffers11InstructionC1ERKS0_'/>
+<fun r='_ZN16TransportBuffers11InstructionaSERKS0_'/>
+<fun r='_ZNK16TransportBuffers11Instruction14unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction22mutable_unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction16default_instanceEv'/>
+<fun r='_ZN16TransportBuffers11Instruction4SwapEPS0_'/>
+<fun r='_ZNK16TransportBuffers11Instruction3NewEv'/>
+<fun r='_ZN16TransportBuffers11Instruction21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN16TransportBuffers11Instruction8CopyFromERKS0_'/>
+<fun r='_ZN16TransportBuffers11Instruction9MergeFromERKS0_'/>
+<fun r='_ZN16TransportBuffers11Instruction5ClearEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction13IsInitializedEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction8ByteSizeEv'/>
+<fun r='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZN16TransportBuffers11Instruction20DiscardUnknownFieldsEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction13GetCachedSizeEv'/>
+<fun r='_ZN16TransportBuffers11Instruction10SharedCtorEv'/>
+<fun r='_ZN16TransportBuffers11Instruction10SharedDtorEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction13SetCachedSizeEi'/>
+<fun r='_ZNK16TransportBuffers11Instruction11GetTypeNameB5cxx11Ev'/>
+<fun r='_ZNK16TransportBuffers11Instruction20has_protocol_versionEv'/>
+<fun r='_ZN16TransportBuffers11Instruction22clear_protocol_versionEv'/>
+<smbr r='TransportBuffers::Instruction::kProtocolVersionFieldNumber' t='const int'/>
+<fun r='_ZNK16TransportBuffers11Instruction16protocol_versionEv'/>
+<fun r='_ZN16TransportBuffers11Instruction20set_protocol_versionEj'/>
+<fun r='_ZNK16TransportBuffers11Instruction11has_old_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction13clear_old_numEv'/>
+<smbr r='TransportBuffers::Instruction::kOldNumFieldNumber' t='const int'/>
+<fun r='_ZNK16TransportBuffers11Instruction7old_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction11set_old_numEm'/>
+<fun r='_ZNK16TransportBuffers11Instruction11has_new_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction13clear_new_numEv'/>
+<smbr r='TransportBuffers::Instruction::kNewNumFieldNumber' t='const int'/>
+<fun r='_ZNK16TransportBuffers11Instruction7new_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction11set_new_numEm'/>
+<fun r='_ZNK16TransportBuffers11Instruction11has_ack_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction13clear_ack_numEv'/>
+<smbr r='TransportBuffers::Instruction::kAckNumFieldNumber' t='const int'/>
+<fun r='_ZNK16TransportBuffers11Instruction7ack_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction11set_ack_numEm'/>
+<fun r='_ZNK16TransportBuffers11Instruction17has_throwaway_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction19clear_throwaway_numEv'/>
+<smbr r='TransportBuffers::Instruction::kThrowawayNumFieldNumber' t='const int'/>
+<fun r='_ZNK16TransportBuffers11Instruction13throwaway_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction17set_throwaway_numEm'/>
+<fun r='_ZNK16TransportBuffers11Instruction8has_diffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction10clear_diffEv'/>
+<smbr r='TransportBuffers::Instruction::kDiffFieldNumber' t='const int'/>
+<fun r='_ZNK16TransportBuffers11Instruction4diffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction8set_diffERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN16TransportBuffers11Instruction8set_diffEPKc'/>
+<fun r='_ZN16TransportBuffers11Instruction8set_diffEPKvm'/>
+<fun r='_ZN16TransportBuffers11Instruction12mutable_diffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction12release_diffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction18set_allocated_diffEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK16TransportBuffers11Instruction9has_chaffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction11clear_chaffEv'/>
+<smbr r='TransportBuffers::Instruction::kChaffFieldNumber' t='const int'/>
+<fun r='_ZNK16TransportBuffers11Instruction5chaffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction9set_chaffERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN16TransportBuffers11Instruction9set_chaffEPKc'/>
+<fun r='_ZN16TransportBuffers11Instruction9set_chaffEPKvm'/>
+<fun r='_ZN16TransportBuffers11Instruction13mutable_chaffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction13release_chaffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction19set_allocated_chaffEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN16TransportBuffers11Instruction24set_has_protocol_versionEv'/>
+<fun r='_ZN16TransportBuffers11Instruction26clear_has_protocol_versionEv'/>
+<fun r='_ZN16TransportBuffers11Instruction15set_has_old_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction17clear_has_old_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction15set_has_new_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction17clear_has_new_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction15set_has_ack_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction17clear_has_ack_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction21set_has_throwaway_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction23clear_has_throwaway_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction12set_has_diffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction14clear_has_diffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction13set_has_chaffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction15clear_has_chaffEv'/>
+<mbr r='TransportBuffers::Instruction::_unknown_fields_' o='64' t='::std::string'/>
+<mbr r='TransportBuffers::Instruction::_has_bits_' o='320' t='::google::protobuf::uint32 [1]'/>
+<mbr r='TransportBuffers::Instruction::_cached_size_' o='352' t='int'/>
+<mbr r='TransportBuffers::Instruction::old_num_' o='384' t='::google::protobuf::uint64'/>
+<mbr r='TransportBuffers::Instruction::new_num_' o='448' t='::google::protobuf::uint64'/>
+<mbr r='TransportBuffers::Instruction::ack_num_' o='512' t='::google::protobuf::uint64'/>
+<mbr r='TransportBuffers::Instruction::throwaway_num_' o='576' t='::google::protobuf::uint64'/>
+<mbr r='TransportBuffers::Instruction::diff_' o='640' t='::std::string *'/>
+<mbr r='TransportBuffers::Instruction::chaff_' o='704' t='::std::string *'/>
+<mbr r='TransportBuffers::Instruction::protocol_version_' o='768' t='::google::protobuf::uint32'/>
+<fun r='_ZN16TransportBuffers11Instruction21InitAsDefaultInstanceEv'/>
+<smbr r='TransportBuffers::Instruction::default_instance_' t='TransportBuffers::Instruction *'/>
+<fun r='_ZNK16TransportBuffers11Instruction20has_protocol_versionEv'/>
+<fun r='_ZN16TransportBuffers11Instruction24set_has_protocol_versionEv'/>
+<fun r='_ZN16TransportBuffers11Instruction26clear_has_protocol_versionEv'/>
+<fun r='_ZN16TransportBuffers11Instruction22clear_protocol_versionEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction16protocol_versionEv'/>
+<fun r='_ZN16TransportBuffers11Instruction20set_protocol_versionEj'/>
+<fun r='_ZNK16TransportBuffers11Instruction11has_old_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction15set_has_old_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction17clear_has_old_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction13clear_old_numEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction7old_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction11set_old_numEm'/>
+<fun r='_ZNK16TransportBuffers11Instruction11has_new_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction15set_has_new_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction17clear_has_new_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction13clear_new_numEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction7new_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction11set_new_numEm'/>
+<fun r='_ZNK16TransportBuffers11Instruction11has_ack_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction15set_has_ack_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction17clear_has_ack_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction13clear_ack_numEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction7ack_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction11set_ack_numEm'/>
+<fun r='_ZNK16TransportBuffers11Instruction17has_throwaway_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction21set_has_throwaway_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction23clear_has_throwaway_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction19clear_throwaway_numEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction13throwaway_numEv'/>
+<fun r='_ZN16TransportBuffers11Instruction17set_throwaway_numEm'/>
+<fun r='_ZNK16TransportBuffers11Instruction8has_diffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction12set_has_diffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction14clear_has_diffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction10clear_diffEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction4diffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction8set_diffERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN16TransportBuffers11Instruction8set_diffEPKc'/>
+<fun r='_ZN16TransportBuffers11Instruction8set_diffEPKvm'/>
+<fun r='_ZN16TransportBuffers11Instruction12mutable_diffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction12release_diffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction18set_allocated_diffEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK16TransportBuffers11Instruction9has_chaffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction13set_has_chaffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction15clear_has_chaffEv'/>
+<fun r='_ZN16TransportBuffers11Instruction11clear_chaffEv'/>
+<fun r='_ZNK16TransportBuffers11Instruction5chaffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction9set_chaffERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN16TransportBuffers11Instruction9set_chaffEPKc'/>
+<fun r='_ZN16TransportBuffers11Instruction9set_chaffEPKvm'/>
+<fun r='_ZN16TransportBuffers11Instruction13mutable_chaffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction13release_chaffB5cxx11Ev'/>
+<fun r='_ZN16TransportBuffers11Instruction19set_allocated_chaffEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

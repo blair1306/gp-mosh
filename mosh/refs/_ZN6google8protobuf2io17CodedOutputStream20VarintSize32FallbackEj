@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='786' type='static int google::protobuf::io::CodedOutputStream::VarintSize32Fallback(uint32 value)'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1091' u='c' c='_ZN6google8protobuf2io17CodedOutputStream12VarintSize32Ej'/>

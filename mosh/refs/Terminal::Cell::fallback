@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='93' type='unsigned int'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='106' u='r' c='_ZNK8Terminal4CelleqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='106' u='r' c='_ZNK8Terminal4CelleqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='184' u='r' c='_ZNK8Terminal4Cell14print_graphemeERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='197' u='r' c='_ZNK8Terminal4Cell12get_fallbackEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='198' u='w' c='_ZN8Terminal4Cell12set_fallbackEb'/>
+<offset>289</offset>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='93'>/* first character is combining character */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='45' u='w' c='_ZN8Terminal4CellC1Et'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='54' u='w' c='_ZN8Terminal4Cell5resetEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='627' u='r' c='_ZNK8Terminal4Cell7compareERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='627' u='r' c='_ZNK8Terminal4Cell7compareERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='630' u='r' c='_ZNK8Terminal4Cell7compareERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='630' u='r' c='_ZNK8Terminal4Cell7compareERKS0_'/>

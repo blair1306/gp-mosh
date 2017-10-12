@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='343' type='void HostBuffers::ResizeMessage::clear_has_width()'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='581' ll='583' type='void HostBuffers::ResizeMessage::clear_has_width()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='586' u='c' c='_ZN11HostBuffers13ResizeMessage11clear_widthEv'/>

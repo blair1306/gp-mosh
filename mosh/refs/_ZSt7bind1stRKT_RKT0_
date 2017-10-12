@@ -1,0 +1,2 @@
+<def f='include/c++/5/backward/binders.h' l='134' ll='139' type='binder1st&lt;_Operation&gt; std::bind1st(const _Operation &amp; __fn, const _Tp &amp; __x)'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='148' u='c' c='_ZN8Terminal8Complete12set_echo_ackEm'/>

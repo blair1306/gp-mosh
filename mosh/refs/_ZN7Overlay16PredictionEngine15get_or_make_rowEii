@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='231' type='Overlay::ConditionalOverlayRow &amp; Overlay::PredictionEngine::get_or_make_row(int row_num, int num_cols)'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='624' ll='642' type='Overlay::ConditionalOverlayRow &amp; Overlay::PredictionEngine::get_or_make_row(int row_num, int num_cols)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='690' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='748' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='879' u='c' c='_ZN7Overlay16PredictionEngine23newline_carriage_returnERKN8Terminal11FramebufferE'/>

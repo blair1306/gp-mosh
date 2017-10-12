@@ -1,0 +1,13 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='203' ll='231'/>
+<size>32</size>
+<mbr r='Terminal::Row::cells' o='0' t='cells_type'/>
+<mbr r='Terminal::Row::gen' o='192' t='uint64_t'/>
+<fun r='_ZN8Terminal3RowC1Ev'/>
+<fun r='_ZN8Terminal3RowC1Emt'/>
+<fun r='_ZN8Terminal3Row11insert_cellEit'/>
+<fun r='_ZN8Terminal3Row11delete_cellEit'/>
+<fun r='_ZN8Terminal3Row5resetEt'/>
+<fun r='_ZNK8Terminal3RoweqERKS0_'/>
+<fun r='_ZNK8Terminal3Row8get_wrapEv'/>
+<fun r='_ZN8Terminal3Row8set_wrapEb'/>
+<fun r='_ZNK8Terminal3Row7get_genEv'/>

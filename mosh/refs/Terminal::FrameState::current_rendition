@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='45' type='Terminal::Renditions'/>
+<offset>320</offset>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='144' u='w' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='148' u='w' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='402' u='m' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='453' u='m' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='484' u='w' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='532' u='m' c='_ZN8Terminal10FrameState16update_renditionERKNS_10RenditionsEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='535' u='w' c='_ZN8Terminal10FrameState16update_renditionERKNS_10RenditionsEb'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/statesync/user.h' l='57' type='Parser::UserByte'/>
+<use f='codebrowser/src/statesync/user.h' l='60' u='w' c='_ZN7Network9UserEventC1ERKN6Parser8UserByteE'/>
+<use f='codebrowser/src/statesync/user.h' l='61' u='w' c='_ZN7Network9UserEventC1ERKN6Parser6ResizeE'/>
+<use f='codebrowser/src/statesync/user.h' l='67' u='m' c='_ZNK7Network9UserEventeqERKS0_'/>
+<use f='codebrowser/src/statesync/user.h' l='67' u='r' c='_ZNK7Network9UserEventeqERKS0_'/>
+<offset>64</offset>
+<use f='codebrowser/src/statesync/user.cc' l='79' u='m' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='130' u='a' c='_ZNK7Network10UserStream10get_actionEj'/>

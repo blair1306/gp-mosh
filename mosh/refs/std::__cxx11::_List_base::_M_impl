@@ -1,0 +1,14 @@
+<dec f='include/c++/5/bits/stl_list.h' l='356' type='std::__cxx11::_List_base::_List_impl'/>
+<use f='include/c++/5/bits/stl_list.h' l='359' u='r' c='_ZNKSt7__cxx1110_List_base11_M_get_sizeEv'/>
+<use f='include/c++/5/bits/stl_list.h' l='361' u='w' c='_ZNSt7__cxx1110_List_base11_M_set_sizeEm'/>
+<use f='include/c++/5/bits/stl_list.h' l='363' u='w' c='_ZNSt7__cxx1110_List_base11_M_inc_sizeEm'/>
+<use f='include/c++/5/bits/stl_list.h' l='365' u='w' c='_ZNSt7__cxx1110_List_base11_M_dec_sizeEm'/>
+<use f='include/c++/5/bits/stl_list.h' l='373' u='r' c='_ZNKSt7__cxx1110_List_base13_M_node_countEv'/>
+<use f='include/c++/5/bits/stl_list.h' l='392' u='c' c='_ZNSt7__cxx1110_List_base11_M_get_nodeEv'/>
+<use f='include/c++/5/bits/stl_list.h' l='396' u='c' c='_ZNSt7__cxx1110_List_base11_M_put_nodeEPSt10_List_nodeIT_E'/>
+<use f='include/c++/5/bits/stl_list.h' l='403' u='a' c='_ZNSt7__cxx1110_List_base21_M_get_Node_allocatorEv'/>
+<use f='include/c++/5/bits/stl_list.h' l='407' u='a' c='_ZNKSt7__cxx1110_List_base21_M_get_Node_allocatorEv'/>
+<use f='include/c++/5/bits/stl_list.h' l='418' u='w' c='_ZNSt7__cxx1110_List_baseC1Ev'/>
+<use f='include/c++/5/bits/stl_list.h' l='422' u='w' c='_ZNSt7__cxx1110_List_baseC1ERKNT0_6rebindISt10_List_nodeIT_EE5otherE'/>
+<use f='include/c++/5/bits/list.tcc' l='69' u='r' c='_ZNSt7__cxx1110_List_base8_M_clearEv'/>
+<use f='include/c++/5/bits/list.tcc' l='70' u='a' c='_ZNSt7__cxx1110_List_base8_M_clearEv'/>

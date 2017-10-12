@@ -1,0 +1,14 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='475' type='const uint8 *'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='794' u='r' c='_ZN6google8protobuf2io16CodedInputStream12ReadVarint32EPj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='804' u='r' c='_ZN6google8protobuf2io16CodedInputStream12ReadVarint64EPm'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='879' u='r' c='_ZN6google8protobuf2io16CodedInputStream7ReadTagEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='894' u='r' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='908' u='r' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='938' u='r' c='_ZN6google8protobuf2io16CodedInputStream9ExpectTagEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='977' u='r' c='_ZN6google8protobuf2io16CodedInputStream28GetDirectBufferPointerInlineEPPKvPi'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='984' u='r' c='_ZN6google8protobuf2io16CodedInputStream11ExpectAtEndEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1162' u='r' c='_ZNK6google8protobuf2io16CodedInputStream10BufferSizeEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1168' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPNS1_19ZeroCopyInputStreamE'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1189' u='w' c='_ZN6google8protobuf2io16CodedInputStreamC1EPKhi'/>
+<offset>128</offset>
+<doc f='include/google/protobuf/io/coded_stream.h' l='475'>// pointer to the end of the buffer.</doc>

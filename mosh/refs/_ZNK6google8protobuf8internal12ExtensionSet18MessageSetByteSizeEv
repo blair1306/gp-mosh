@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/extension_set.h' l='405' type='int google::protobuf::internal::ExtensionSet::MessageSetByteSize() const'/>
+<doc f='include/google/protobuf/extension_set.h' l='404'>// Like ByteSize() but uses MessageSet format.</doc>

@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/message_lite.h' l='137' type='bool google::protobuf::MessageLite::ParseFromString(const string &amp; data)'/>
+<doc f='include/google/protobuf/message_lite.h' l='136'>// Parse a protocol buffer contained in a string.</doc>
+<use f='codebrowser/src/network/transportfragment.cc' l='142' u='c' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='107' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/user.cc' l='111' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

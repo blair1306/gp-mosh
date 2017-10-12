@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_vector.h' l='850' ll='852' type='reference std::vector::front()'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='846'>/**
+       *  Returns a read/write reference to the data at the first
+       *  element of the %vector.
+       */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='1000' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

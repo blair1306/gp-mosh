@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/network/network.h' l='96' type='struct sockaddr'/>
+<offset>0</offset>
+<use f='codebrowser/src/network/network.cc' l='124' u='m' c='_ZN7Network10Connection8hop_portEv'/>
+<use f='codebrowser/src/network/network.cc' l='303' u='a' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='314' u='m' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='316' u='m' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='327' u='m' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='335' u='a' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='336' u='m' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='343' u='a' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='386' u='a' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>
+<use f='codebrowser/src/network/network.cc' l='390' u='m' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>
+<use f='codebrowser/src/network/network.cc' l='392' u='m' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>
+<use f='codebrowser/src/network/network.cc' l='406' u='a' c='_ZN7Network10Connection4sendERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/network.cc' l='565' u='a' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='582' u='a' c='_ZNK7Network10Connection4portB5cxx11Ev'/>
+<use f='codebrowser/src/network/network.cc' l='587' u='a' c='_ZNK7Network10Connection4portB5cxx11Ev'/>

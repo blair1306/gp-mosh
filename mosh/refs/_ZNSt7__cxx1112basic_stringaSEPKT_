@@ -1,0 +1,10 @@
+<def f='include/c++/5/bits/basic_string.h' l='557' ll='559' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::operator=(const _CharT * __s)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='553'>/**
+       *  @brief  Copy contents of @a s into this string.
+       *  @param  __s  Source null-terminated string.
+       */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='181' u='c' c='_ZN7Overlay18NotificationEngine21set_escape_key_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='189' u='c' c='_ZN7Overlay18NotificationEngine17set_network_errorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='298' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='321' u='c' c='main'/>
+<use f='codebrowser/src/network/network.cc' l='410' u='c' c='_ZN7Network10Connection4sendERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

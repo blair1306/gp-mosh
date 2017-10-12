@@ -1,0 +1,6 @@
+<def f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='340' ll='348' type='char * google::protobuf::io::mutable_string_data(string * s)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='335'>// ===================================================================
+
+// Return a pointer to mutable characters underlying the given string.  The
+// return value is valid until the next time the string is resized.  We
+// trust the caller to treat the return value as an array of length s-&gt;size().</doc>

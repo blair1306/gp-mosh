@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='343' type='void ClientBuffers::ResizeMessage::set_has_height()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='520' ll='522' type='void ClientBuffers::ResizeMessage::set_has_height()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='535' u='c' c='_ZN13ClientBuffers13ResizeMessage10set_heightEi'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='692' u='c' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

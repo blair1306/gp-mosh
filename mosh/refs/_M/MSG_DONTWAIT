@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='195'/>
+<use f='codebrowser/src/network/network.cc' l='55' u='a'/>
+<use f='codebrowser/src/network/network.cc' l='405' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='484' u='c'/>

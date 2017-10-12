@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='703' type='static uint8 * google::protobuf::io::CodedOutputStream::WriteVarint64ToArray(uint64 value, uint8 * target)'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1030' u='c' c='_ZN6google8protobuf2io17CodedOutputStream32WriteVarint32SignExtendedToArrayEiPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='598' u='c' c='_ZN6google8protobuf8internal14WireFormatLite22WriteInt64NoTagToArrayElPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='607' u='c' c='_ZN6google8protobuf8internal14WireFormatLite23WriteUInt64NoTagToArrayEmPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='616' u='c' c='_ZN6google8protobuf8internal14WireFormatLite23WriteSInt64NoTagToArrayElPh'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='702'>// Like WriteVarint64()  but writing directly to the target array.</doc>

@@ -1,0 +1,13 @@
+<dec f='include/google/protobuf/stubs/common.h' l='758'/>
+<use f='include/google/protobuf/repeated_field.h' l='654' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='664' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='671' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='678' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='704' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='705' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='885' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='894' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='1134' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='1135' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='1145' u='c'/>
+<use f='include/google/protobuf/repeated_field.h' l='1146' u='c'/>

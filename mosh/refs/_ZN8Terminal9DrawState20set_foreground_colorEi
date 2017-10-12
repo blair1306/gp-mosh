@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='322' type='void Terminal::DrawState::set_foreground_color(int x)'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='422' u='c' c='_ZL7CSI_SGRPN8Terminal11FramebufferEPNS_10DispatcherE'/>

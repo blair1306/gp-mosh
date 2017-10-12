@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='76' type='bool google::protobuf::io::ArrayInputStream::Skip(int count)'/>

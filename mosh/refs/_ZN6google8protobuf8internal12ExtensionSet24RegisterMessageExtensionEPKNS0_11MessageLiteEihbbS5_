@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/extension_set.h' l='174' type='static void google::protobuf::internal::ExtensionSet::RegisterMessageExtension(const google::protobuf::MessageLite * containing_type, int number, FieldType type, bool is_repeated, bool is_packed, const google::protobuf::MessageLite * prototype)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='37' u='c' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='41' u='c' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='45' u='c' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='35' u='c' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='39' u='c' c='_ZN13ClientBuffers34protobuf_AddDesc_userinput_2eprotoEv'/>

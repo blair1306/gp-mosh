@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportsender.h' l='64' type='void Network::TransportSender::update_assumed_receiver_state()'/>
+<doc f='codebrowser/src/network/transportsender.h' l='63'>/* helper methods for tick() */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='93' u='c' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<def f='codebrowser/src/network/transportsender-impl.h' l='270' ll='293' type='void Network::TransportSender::update_assumed_receiver_state()'/>

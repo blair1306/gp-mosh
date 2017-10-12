@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='107' type='std::string Terminal::Dispatcher::str()'/>
+<def f='codebrowser/src/terminal/terminaldispatcher.cc' l='159' ll='165' type='std::string Terminal::Dispatcher::str()'/>

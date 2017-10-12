@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='120' type='Atomic32 google::protobuf::internal::Release_CompareAndSwap(volatile Atomic32 * ptr, Atomic32 old_value, Atomic32 new_value)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='108' ll='112' type='Atomic32 google::protobuf::internal::Release_CompareAndSwap(volatile Atomic32 * ptr, Atomic32 old_value, Atomic32 new_value)'/>

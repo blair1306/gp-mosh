@@ -1,0 +1,6 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='313' ll='321'/>
+<size>24</size>
+<mbr r='Overlay::TitleEngine::prefix' o='0' t='Terminal::Framebuffer::title_type'/>
+<fun r='_ZNK7Overlay11TitleEngine5applyERN8Terminal11FramebufferE'/>
+<fun r='_ZN7Overlay11TitleEngineC1Ev'/>
+<fun r='_ZN7Overlay11TitleEngine10set_prefixERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>

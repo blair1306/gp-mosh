@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminal.h' l='73' type='void Terminal::Emulator::OSC_end(const Parser::OSC_End * act)'/>
+<use f='codebrowser/src/terminal/parseraction.cc' l='88' u='c' c='_ZNK6Parser7OSC_End15act_on_terminalEPN8Terminal8EmulatorE'/>
+<def f='codebrowser/src/terminal/terminal.cc' l='155' ll='158' type='void Terminal::Emulator::OSC_end(const Parser::OSC_End * act)'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/networktransport.h' l='81' type='void Network::Transport::recv()'/>
+<doc f='codebrowser/src/network/networktransport.h' l='80'>/* Blocks waiting for a packet. */</doc>
+<def f='codebrowser/src/network/networktransport-impl.h' l='71' ll='168' type='void Network::Transport::recv()'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='712' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='290' u='c' c='_ZN9STMClient21process_network_inputEv'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='392' type='void HostBuffers::EchoAck::Clear()'/>
+<inh f='include/google/protobuf/message_lite.h' l='96' c='_ZN6google8protobuf11MessageLite5ClearEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='872' ll='876' type='void HostBuffers::EchoAck::Clear()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='978' u='c' c='_ZN11HostBuffers7EchoAck8CopyFromERKS0_'/>

@@ -1,0 +1,6 @@
+<dec f='include/netinet/in.h' l='43'/>
+<use f='codebrowser/src/network/network.cc' l='162' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='169' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='176' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='177' u='c'/>
+<use f='codebrowser/src/network/network.cc' l='499' u='c'/>

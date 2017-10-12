@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/network/networktransport.h' l='56' type='TransportSender&lt;MyState&gt;'/>
+<use f='codebrowser/src/network/networktransport.h' l='75' u='c' c='_ZN7Network9Transport4tickEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='78' u='c' c='_ZN7Network9Transport9wait_timeEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='88' u='c' c='_ZN7Network9Transport14start_shutdownEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='89' u='c' c='_ZNK7Network9Transport20shutdown_in_progressEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='90' u='c' c='_ZNK7Network9Transport21shutdown_acknowledgedEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='91' u='c' c='_ZNK7Network9Transport22shutdown_ack_timed_outEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='95' u='c' c='_ZNK7Network9Transport30counterparty_shutdown_ack_sentEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='100' u='c' c='_ZN7Network9Transport17get_current_stateEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='101' u='c' c='_ZN7Network9Transport17set_current_stateERKT_'/>
+<use f='codebrowser/src/network/networktransport.h' l='109' u='c' c='_ZN7Network9Transport11set_verboseEj'/>
+<use f='codebrowser/src/network/networktransport.h' l='111' u='c' c='_ZN7Network9Transport14set_send_delayEi'/>
+<use f='codebrowser/src/network/networktransport.h' l='113' u='c' c='_ZNK7Network9Transport30get_sent_state_acked_timestampEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='114' u='c' c='_ZNK7Network9Transport20get_sent_state_ackedEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='115' u='c' c='_ZNK7Network9Transport19get_sent_state_lastEv'/>
+<use f='codebrowser/src/network/networktransport.h' l='117' u='c' c='_ZNK7Network9Transport13send_intervalEv'/>
+<doc f='codebrowser/src/network/networktransport.h' l='55'>/* sender side */</doc>
+<use f='codebrowser/src/network/networktransport-impl.h' l='47' u='w' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='61' u='w' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_S6_'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='84' u='c' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='87' u='c' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='161' u='c' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='163' u='c' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='165' u='c' c='_ZN7Network9Transport4recvEv'/>

@@ -1,0 +1,8 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='104' type='void google::protobuf::io::ArrayOutputStream::ArrayOutputStream(void * data, int size, int block_size = -1)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='97'>// Create an OutputStream that writes to the bytes pointed to by &quot;data&quot;.
+  // &quot;data&quot; remains the property of the caller but must remain valid until
+  // the stream is destroyed.  If a block_size is given, calls to Next()
+  // will return data blocks no larger than the given size.  Otherwise, the
+  // first call to Next() returns the entire array.  block_size is mainly
+  // useful for testing; in production you would probably never want to set
+  // it.</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/config.h' l='32'/>
+<doc f='codebrowser/config.h' l='31'>/* Define to 1 if &lt;curses.h&gt; is present */</doc>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='66' u='a'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='54' u='a'/>

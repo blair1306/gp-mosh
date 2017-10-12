@@ -1,0 +1,15 @@
+<def f='include/google/protobuf/io/zero_copy_stream.h' l='181' ll='242'/>
+<ovr f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='95' c='google::protobuf::io::ArrayOutputStream'/>
+<ovr f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='127' c='google::protobuf::io::StringOutputStream'/>
+<ovr f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='279' c='google::protobuf::io::CopyingOutputStreamAdaptor'/>
+<size>8</size>
+<doc f='include/google/protobuf/io/zero_copy_stream.h' l='179'>// Abstract interface similar to an output stream but designed to minimize
+// copying.</doc>
+<fun r='_ZN6google8protobuf2io20ZeroCopyOutputStreamC1Ev'/>
+<fun r='_ZN6google8protobuf2io20ZeroCopyOutputStreamD1Ev'/>
+<fun r='_ZN6google8protobuf2io20ZeroCopyOutputStream4NextEPPvPi'/>
+<fun r='_ZN6google8protobuf2io20ZeroCopyOutputStream6BackUpEi'/>
+<fun r='_ZNK6google8protobuf2io20ZeroCopyOutputStream9ByteCountEv'/>
+<fun r='_ZN6google8protobuf2io20ZeroCopyOutputStream15WriteAliasedRawEPKvi'/>
+<fun r='_ZNK6google8protobuf2io20ZeroCopyOutputStream14AllowsAliasingEv'/>
+<fun r='_ZN6google8protobuf2io20ZeroCopyOutputStreamC1ERKS2_'/>

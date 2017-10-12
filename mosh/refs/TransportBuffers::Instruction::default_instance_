@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='196' type='TransportBuffers::Instruction *'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='19' u='r' c='_ZN16TransportBuffers50protobuf_ShutdownFile_transportinstruction_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='34' u='w' c='_ZN16TransportBuffers45protobuf_AddDesc_transportinstruction_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='35' u='r' c='_ZN16TransportBuffers45protobuf_AddDesc_transportinstruction_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='110' u='r' c='_ZN16TransportBuffers11Instruction10SharedDtorEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='124' u='r' c='_ZN16TransportBuffers11Instruction16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='126' u='r' c='_ZN16TransportBuffers11Instruction16default_instanceEv'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='129' type='TransportBuffers::Instruction *'/>

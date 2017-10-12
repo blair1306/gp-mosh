@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportsender.h' l='118' type='void Network::TransportSender::tick()'/>
+<doc f='codebrowser/src/network/transportsender.h' l='117'>/* Send data or an ack if necessary */</doc>
+<def f='codebrowser/src/network/transportsender-impl.h' l='153' ll='204' type='void Network::TransportSender::tick()'/>
+<doc f='codebrowser/src/network/transportsender-impl.h' l='152'>/* Send data or an empty ack if necessary */</doc>

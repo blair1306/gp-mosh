@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='45' type='long myatoi(const char * str)'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='50' ll='63' type='long myatoi(const char * str)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='239' u='c' c='main'/>

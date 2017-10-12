@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='262' type='Terminal::Renditions'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='322' u='m' c='_ZN8Terminal9DrawState20set_foreground_colorEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='323' u='m' c='_ZN8Terminal9DrawState20set_background_colorEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='324' u='m' c='_ZN8Terminal9DrawState13add_renditionEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='325' u='a' c='_ZNK8Terminal9DrawState14get_renditionsEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='326' u='a' c='_ZN8Terminal9DrawState14get_renditionsEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='327' u='m' c='_ZNK8Terminal9DrawState24get_background_renditionEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='342' u='m' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='342' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<offset>640</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='71' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='283' u='r' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='292' u='w' c='_ZN8Terminal9DrawState14restore_cursorEv'/>

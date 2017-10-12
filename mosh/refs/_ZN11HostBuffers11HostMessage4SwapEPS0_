@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='65' type='void HostBuffers::HostMessage::Swap(HostBuffers::HostMessage * other)'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='229' ll='236' type='void HostBuffers::HostMessage::Swap(HostBuffers::HostMessage * other)'/>

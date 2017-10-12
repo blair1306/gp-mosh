@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_vector.h' l='866' ll='868' type='reference std::vector::back()'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='228' u='c' c='_ZN8Terminal3Row8set_wrapEb'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='862'>/**
+       *  Returns a read/write reference to the data at the last
+       *  element of the %vector.
+       */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='694' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>

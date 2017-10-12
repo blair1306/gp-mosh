@@ -1,0 +1,5 @@
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='204' ll='206' type='const ::std::string &amp; ClientBuffers::Keystroke::unknown_fields() const'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='516' u='c' c='_ZNK13ClientBuffers9Keystroke24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='517' u='c' c='_ZNK13ClientBuffers9Keystroke24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='533' u='c' c='_ZNK13ClientBuffers9Keystroke8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='553' u='c' c='_ZN13ClientBuffers9Keystroke9MergeFromERKS0_'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='41' type='void TransportBuffers::Instruction::Instruction()'/>
+<use f='codebrowser/src/network/transportfragment.h' l='97' u='c' c='_ZN7Network10FragmenterC1Ev'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='323' u='c' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='141' u='c' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='34' u='c' c='_ZN16TransportBuffers45protobuf_AddDesc_transportinstruction_2eprotoEv'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='66' ll='70' type='void TransportBuffers::Instruction::Instruction()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='132' u='c' c='_ZNK16TransportBuffers11Instruction3NewEv'/>

@@ -1,0 +1,16 @@
+_ZSt10scientificRSt8ios_base|std::scientific
+_ZNK6google8protobuf8internal12scoped_array3getEv|google::protobuf::internal::scoped_array::get
+_ZNK6google8protobuf8internal12scoped_arrayneEPT_|google::protobuf::internal::scoped_array::operator!=
+_ZNK6google8protobuf8internal12scoped_arrayeqEPT_|google::protobuf::internal::scoped_array::operator==
+_ZNK6google8protobuf8internal12scoped_arrayixEl|google::protobuf::internal::scoped_array::operator[]
+_ZN6google8protobuf8internal12scoped_array7releaseEv|google::protobuf::internal::scoped_array::release
+_ZN6google8protobuf8internal12scoped_array5resetEPT_|google::protobuf::internal::scoped_array::reset
+_ZN6google8protobuf8internal12scoped_array4swapERNS1_12scoped_arrayIT_EE|google::protobuf::internal::scoped_array::swap
+_ZNK6google8protobuf8internal10scoped_ptr3getEv|google::protobuf::internal::scoped_ptr::get
+_ZNK6google8protobuf8internal10scoped_ptrneEPT_|google::protobuf::internal::scoped_ptr::operator!=
+_ZNK6google8protobuf8internal10scoped_ptrdeEv|google::protobuf::internal::scoped_ptr::operator*
+_ZNK6google8protobuf8internal10scoped_ptreqEPT_|google::protobuf::internal::scoped_ptr::operator==
+_ZN6google8protobuf8internal10scoped_ptr7releaseEv|google::protobuf::internal::scoped_ptr::release
+_ZN6google8protobuf8internal10scoped_ptr5resetEPT_|google::protobuf::internal::scoped_ptr::reset
+_ZN6google8protobuf8internal10scoped_ptr4swapERNS1_10scoped_ptrIT_EE|google::protobuf::internal::scoped_ptr::swap
+_ZN8Terminal11Framebuffer6scrollEi|Terminal::Framebuffer::scroll

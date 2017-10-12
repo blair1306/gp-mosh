@@ -1,0 +1,5 @@
+<dec f='include/netdb.h' l='574' type='struct sockaddr *'/>
+<offset>192</offset>
+<doc f='include/netdb.h' l='574'>/* Socket address for socket.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='303' u='r' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='386' u='r' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>

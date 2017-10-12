@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='154' type='const Crypto::Message Crypto::Session::decrypt(const char * str, size_t len)'/>
+<use f='codebrowser/src/crypto/crypto.h' l='156' u='c' c='_ZN6Crypto7Session7decryptERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='251' ll='287' type='const Crypto::Message Crypto::Session::decrypt(const char * str, size_t len)'/>
+<use f='codebrowser/src/network/network.cc' l='512' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/shared.h' l='68' ll='72' type='shared_ptr&lt;Tp&gt; shared::make_shared(const A1 &amp; a1, const A2 &amp; a2)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='379' u='c' c='_ZN8Terminal11Framebuffer6newrowEv'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='172' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='218' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='87' u='c' c='_ZN8Terminal11FramebufferC1Eii'/>

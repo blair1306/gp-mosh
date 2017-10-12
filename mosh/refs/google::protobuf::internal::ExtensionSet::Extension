@@ -1,0 +1,19 @@
+<def f='include/google/protobuf/extension_set.h' l='446' ll='524'/>
+<size>24</size>
+<mbr r='google::protobuf::internal::ExtensionSet::Extension::type' o='64' t='FieldType'/>
+<mbr r='google::protobuf::internal::ExtensionSet::Extension::is_repeated' o='72' t='bool'/>
+<mbr r='google::protobuf::internal::ExtensionSet::Extension::is_cleared' o='80' t='bool'/>
+<mbr r='google::protobuf::internal::ExtensionSet::Extension::is_lazy' o='84' t='bool'/>
+<mbr r='google::protobuf::internal::ExtensionSet::Extension::is_packed' o='88' t='bool'/>
+<mbr r='google::protobuf::internal::ExtensionSet::Extension::cached_size' o='96' t='int'/>
+<mbr r='google::protobuf::internal::ExtensionSet::Extension::descriptor' o='128' t='const google::protobuf::FieldDescriptor *'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9Extension29SerializeFieldWithCachedSizesEiPNS0_2io17CodedOutputStreamE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9Extension36SerializeFieldWithCachedSizesToArrayEiPh'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9Extension38SerializeMessageSetItemWithCachedSizesEiPNS0_2io17CodedOutputStreamE'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9Extension45SerializeMessageSetItemWithCachedSizesToArrayEiPh'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9Extension8ByteSizeEi'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9Extension22MessageSetItemByteSizeEi'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9Extension5ClearEv'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9Extension7GetSizeEv'/>
+<fun r='_ZN6google8protobuf8internal12ExtensionSet9Extension4FreeEv'/>
+<fun r='_ZNK6google8protobuf8internal12ExtensionSet9Extension22SpaceUsedExcludingSelfEv'/>

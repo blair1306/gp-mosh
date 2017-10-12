@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='99' type='::ClientBuffers::Instruction * ClientBuffers::UserMessage::add_instruction()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='389' ll='392' type='::ClientBuffers::Instruction * ClientBuffers::UserMessage::add_instruction()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='135' u='c' c='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/statesync/user.cc' l='85' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='92' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>

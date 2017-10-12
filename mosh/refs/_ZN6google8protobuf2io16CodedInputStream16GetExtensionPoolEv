@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='464' type='const google::protobuf::DescriptorPool * google::protobuf::io::CodedInputStream::GetExtensionPool()'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1153' ll='1155' type='const google::protobuf::DescriptorPool * google::protobuf::io::CodedInputStream::GetExtensionPool()'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='462'>// Get the DescriptorPool set via SetExtensionRegistry(), or NULL if no pool
+  // has been provided.</doc>

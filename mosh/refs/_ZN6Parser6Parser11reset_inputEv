@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/parser.h' l='63' ll='66' type='void Parser::Parser::reset_input()'/>
+<use f='codebrowser/src/terminal/parser.h' l='86' u='c' c='_ZN6Parser10UTF8Parser11reset_inputEv'/>

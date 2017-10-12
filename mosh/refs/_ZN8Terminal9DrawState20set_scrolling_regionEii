@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='314' type='void Terminal::DrawState::set_scrolling_region(int top, int bottom)'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='232' ll='252' type='void Terminal::DrawState::set_scrolling_region(int top, int bottom)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='396' u='c' c='_ZN8Terminal11Framebuffer10soft_resetEv'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='395' u='c' c='_ZL11CSI_DECSTBMPN8Terminal11FramebufferEPNS_10DispatcherE'/>

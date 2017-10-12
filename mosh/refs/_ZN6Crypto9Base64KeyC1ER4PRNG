@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='97' type='void Crypto::Base64Key::Base64Key(PRNG &amp; prng)'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='139' ll='142' type='void Crypto::Base64Key::Base64Key(PRNG &amp; prng)'/>

@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='429' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteEnumToArray(int field_number_arg, int value, uint8 * target)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='734' ll='739' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteEnumToArray(int field_number, int value, uint8 * target)'/>

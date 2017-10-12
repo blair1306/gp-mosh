@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='389' type='void google::protobuf::io::CodedInputStream::DecrementRecursionDepth()'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1143' ll='1145' type='void google::protobuf::io::CodedInputStream::DecrementRecursionDepth()'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='434' u='c' c='_ZN6google8protobuf8internal14WireFormatLite9ReadGroupEiPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='452' u='c' c='_ZN6google8protobuf8internal14WireFormatLite11ReadMessageEPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='474' u='c' c='_ZN6google8protobuf8internal14WireFormatLite18ReadGroupNoVirtualEiPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='495' u='c' c='_ZN6google8protobuf8internal14WireFormatLite20ReadMessageNoVirtualEPNS0_2io16CodedInputStreamEPT_'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='388'>// Decrements the recursion depth.</doc>

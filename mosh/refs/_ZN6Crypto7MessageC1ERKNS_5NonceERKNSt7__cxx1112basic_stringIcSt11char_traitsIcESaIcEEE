@@ -1,0 +1,3 @@
+<def f='codebrowser/src/crypto/crypto.h' l='129' ll='131' type='void Crypto::Message::Message(const Crypto::Nonce &amp; s_nonce, const string &amp; s_text)'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='284' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>
+<use f='codebrowser/src/network/network.cc' l='97' u='c' c='_ZN7Network6Packet9toMessageEv'/>

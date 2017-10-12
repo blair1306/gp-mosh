@@ -1,0 +1,4 @@
+<dec f='codebrowser/config.h' l='58'/>
+<doc f='codebrowser/config.h' l='56'>/* Define to 1 if you have the declaration of `__builtin_ctz&apos;, and to 0 if you
+   don&apos;t. */</doc>
+<use f='codebrowser/src/crypto/ocb.cc' l='142' u='c'/>

@@ -1,0 +1,4 @@
+<use f='codebrowser/src/util/select.h' l='141' u='c' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='135' u='c' c='_ZL4spinv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='561' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/util/timestamp.cc' l='69' u='c' c='_Z16freeze_timestampv'/>

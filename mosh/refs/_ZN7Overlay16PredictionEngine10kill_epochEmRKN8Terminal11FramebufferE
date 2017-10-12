@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='247' type='void Overlay::PredictionEngine::kill_epoch(uint64_t epoch, const Terminal::Framebuffer &amp; fb)'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='381' ll='404' type='void Overlay::PredictionEngine::kill_epoch(uint64_t epoch, const Terminal::Framebuffer &amp; fb)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='503' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

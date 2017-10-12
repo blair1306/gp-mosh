@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='221' type='static float google::protobuf::internal::WireFormatLite::DecodeFloat(uint32 value)'/>
+<def f='include/google/protobuf/wire_format_lite.h' l='597' ll='601' type='static float google::protobuf::internal::WireFormatLite::DecodeFloat(uint32 value)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='142' u='c' c='_ZN6google8protobuf8internal14WireFormatLite13ReadPrimitiveEPNS0_2io16CodedInputStreamEPT_'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='214' u='c' c='_ZN6google8protobuf8internal14WireFormatLite22ReadPrimitiveFromArrayEPKhPT_'/>

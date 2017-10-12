@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='110' type='::google::protobuf::uint32 [1]'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='81' u='r' c='_ZN13ClientBuffers11UserMessage10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='81' u='r' c='_ZN13ClientBuffers11UserMessage10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='112' u='r' c='_ZN13ClientBuffers11UserMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='112' u='r' c='_ZN13ClientBuffers11UserMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='225' u='a' c='_ZN13ClientBuffers11UserMessage4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='225' u='a' c='_ZN13ClientBuffers11UserMessage4SwapEPS0_'/>
+<offset>320</offset>

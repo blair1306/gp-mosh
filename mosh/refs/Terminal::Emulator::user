@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminal.h' l='66' type='Terminal::UserInput'/>
+<offset>3072</offset>
+<use f='codebrowser/src/terminal/parseraction.cc' l='93' u='m' c='_ZNK6Parser8UserByte15act_on_terminalEPN8Terminal8EmulatorE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='44' u='w' c='_ZN8Terminal8EmulatorC1Emm'/>

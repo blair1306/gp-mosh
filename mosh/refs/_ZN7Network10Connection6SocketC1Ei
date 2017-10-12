@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/network.h' l='156' type='void Network::Connection::Socket::Socket(int family)'/>
+<use f='codebrowser/src/network/network.cc' l='124' u='c' c='_ZN7Network10Connection8hop_portEv'/>
+<def f='codebrowser/src/network/network.cc' l='152' ll='181' type='void Network::Connection::Socket::Socket(int family)'/>
+<use f='codebrowser/src/network/network.cc' l='314' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='390' u='c' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>

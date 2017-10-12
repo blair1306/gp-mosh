@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/util/swrite.h' l='36' type='int swrite(int fd, const char * str, ssize_t len = -1)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='789' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='819' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='75' u='c' c='_ZN9STMClient6resumeEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='120' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='208' u='c' c='_ZN9STMClient8shutdownEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='248' u='c' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='281' u='c' c='_ZN9STMClient16output_new_frameEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='345' u='c' c='_ZN9STMClient18process_user_inputEi'/>
+<def f='codebrowser/src/util/swrite.cc' l='39' ll='54' type='int swrite(int fd, const char * str, ssize_t len = -1)'/>

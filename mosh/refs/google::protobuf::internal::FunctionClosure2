@@ -1,0 +1,9 @@
+<inh f='include/google/protobuf/stubs/common.h' l='853' c='google::protobuf::Closure'/>
+<def f='include/google/protobuf/stubs/common.h' l='954' ll='975'/>
+<fun r='_ZN6google8protobuf8internal16FunctionClosure2C1EPFvT_T0_EbS3_S4_'/>
+<fun r='_ZN6google8protobuf8internal16FunctionClosure2D1Ev'/>
+<fun r='_ZN6google8protobuf8internal16FunctionClosure23RunEv'/>
+<mbr r='google::protobuf::internal::FunctionClosure2::function_' t='FunctionType'/>
+<mbr r='google::protobuf::internal::FunctionClosure2::self_deleting_' t='bool'/>
+<mbr r='google::protobuf::internal::FunctionClosure2::arg1_' t='Arg1'/>
+<mbr r='google::protobuf::internal::FunctionClosure2::arg2_' t='Arg2'/>

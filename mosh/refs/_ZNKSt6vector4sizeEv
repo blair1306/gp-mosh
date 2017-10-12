@@ -1,0 +1,31 @@
+<def f='include/c++/5/bits/stl_vector.h' l='653' ll='655' type='size_type std::vector::size() const'/>
+<use f='include/c++/5/bits/stl_vector.h' l='715' u='c' c='_ZNSt6vector6resizeEmT_'/>
+<use f='include/c++/5/bits/stl_vector.h' l='716' u='c' c='_ZNSt6vector6resizeEmT_'/>
+<use f='include/c++/5/bits/stl_vector.h' l='717' u='c' c='_ZNSt6vector6resizeEmT_'/>
+<use f='include/c++/5/bits/stl_vector.h' l='1424' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/5/bits/stl_vector.h' l='1427' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/5/bits/stl_vector.h' l='1427' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/5/bits/stl_vector.h' l='1428' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/5/bits/vector.tcc' l='72' u='c' c='_ZNSt6vector7reserveEm'/>
+<use f='include/c++/5/bits/vector.tcc' l='204' u='c' c='_ZNSt6vectoraSERKSt6vectorIT_T0_E'/>
+<use f='include/c++/5/bits/vector.tcc' l='211' u='c' c='_ZNSt6vectoraSERKSt6vectorIT_T0_E'/>
+<use f='include/c++/5/bits/vector.tcc' l='213' u='c' c='_ZNSt6vectoraSERKSt6vectorIT_T0_E'/>
+<use f='include/c++/5/bits/vector.tcc' l='233' u='c' c='_ZNSt6vector14_M_fill_assignEmRKT_'/>
+<use f='include/c++/5/bits/vector.tcc' l='238' u='c' c='_ZNSt6vector14_M_fill_assignEmRKT_'/>
+<use f='include/c++/5/bits/vector.tcc' l='283' u='c' c='_ZNSt6vector13_M_assign_auxET_S0_St20forward_iterator_tag'/>
+<use f='include/c++/5/bits/vector.tcc' l='288' u='c' c='_ZNSt6vector13_M_assign_auxET_S0_St20forward_iterator_tag'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='652'>/**  Returns the number of elements in the %vector.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='693' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='998' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='1011' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='103' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='108' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='118' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='141' u='c' c='_ZN8Terminal10Dispatcher8getparamEmi'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='156' u='c' c='_ZN8Terminal10Dispatcher11param_countEv'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='239' u='c' c='_ZN8Terminal10Dispatcher7OSC_putEPKN6Parser7OSC_PutE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='168' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='575' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='582' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='589' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='601' u='c' c='_ZN8Terminal10Dispatcher12OSC_dispatchEPKN6Parser7OSC_EndEPNS_11FramebufferE'/>

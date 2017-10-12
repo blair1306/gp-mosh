@@ -1,0 +1,5 @@
+_ZNKSt7modulusclERKT_S2_|std::modulus::operator()
+_ZN6google8protobuf13RepeatedField9MoveArrayEPT_S3_i|google::protobuf::RepeatedField::MoveArray
+_ZN8Terminal9DrawState8move_colEibb|Terminal::DrawState::move_col
+_ZN8Terminal9DrawState8move_rowEib|Terminal::DrawState::move_row
+_ZN8Terminal11Framebuffer20move_rows_autoscrollEi|Terminal::Framebuffer::move_rows_autoscroll

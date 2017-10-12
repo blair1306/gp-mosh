@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/stubs/common.h' l='494' ll='498' type='void google::protobuf::internal::scoped_ptr::swap(scoped_ptr&lt;C&gt; &amp; p2)'/>
+<doc f='include/google/protobuf/stubs/common.h' l='493'>// Swap two scoped pointers.</doc>

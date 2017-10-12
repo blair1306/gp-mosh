@@ -1,0 +1,12 @@
+<def f='include/c++/5/bits/basic_string.h' l='1040' ll='1042' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::append(size_type __n, _CharT __c)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1032'>/**
+       *  @brief  Append multiple characters.
+       *  @param __n  The number of characters to append.
+       *  @param __c  The character to use.
+       *  @return  Reference to this string.
+       *
+       *  Appends __n copies of __c to this string.
+       */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='177' u='c' c='_ZNK8Terminal4Cell14print_graphemeERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='52' u='c' c='_ZN8Terminal10FrameState6appendEc'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='53' u='c' c='_ZN8Terminal10FrameState6appendEmc'/>

@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/common.h' l='141' type='std::string google::protobuf::internal::VersionString(int version)'/>
+<doc f='include/google/protobuf/stubs/common.h' l='140'>// Converts a numeric version number to a string.</doc>

@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/extension_set.h' l='225' type='int32 google::protobuf::internal::ExtensionSet::GetInt32(int number, int32 default_value) const'/>
+<use f='include/google/protobuf/extension_set.h' l='767' macro='1' u='c'/>
+<doc f='include/google/protobuf/extension_set.h' l='223'>// singular fields -------------------------------------------------</doc>

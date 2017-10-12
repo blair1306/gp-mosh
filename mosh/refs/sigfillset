@@ -1,0 +1,5 @@
+<dec f='include/signal.h' l='216' type='int sigfillset(sigset_t * __set)'/>
+<doc f='include/signal.h' l='215'>/* Set all signals in SET.  */</doc>
+<use f='codebrowser/src/util/select.h' l='114' u='c' c='_ZN6Select10add_signalEi'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='441' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='521' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>

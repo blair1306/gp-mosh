@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='417' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteFixed64ToArray(int field_number_arg, uint64 value, uint8 * target)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='698' ll='703' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteFixed64ToArray(int field_number, uint64 value, uint8 * target)'/>

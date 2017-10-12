@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminal.h' l='69' type='void Terminal::Emulator::print(const Parser::Print * act)'/>
+<doc f='codebrowser/src/terminal/terminal.h' l='68'>/* action methods */</doc>
+<use f='codebrowser/src/terminal/parseraction.cc' l='43' u='c' c='_ZNK6Parser5Print15act_on_terminalEPN8Terminal8EmulatorE'/>
+<def f='codebrowser/src/terminal/terminal.cc' l='59' ll='148' type='void Terminal::Emulator::print(const Parser::Print * act)'/>

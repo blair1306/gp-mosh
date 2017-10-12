@@ -1,0 +1,5 @@
+<def f='include/google/protobuf/stubs/common.h' l='673' ll='676'/>
+<size>1</size>
+<doc f='include/google/protobuf/stubs/common.h' l='671'>// Used to make the entire &quot;LOG(BLAH) &lt;&lt; etc.&quot; expression have a void return
+// type and print a newline after each message.</doc>
+<fun r='_ZN6google8protobuf8internal11LogFinisheraSERNS1_10LogMessageE'/>

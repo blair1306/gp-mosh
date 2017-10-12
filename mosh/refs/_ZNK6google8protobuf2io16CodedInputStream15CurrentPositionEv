@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='331' type='int google::protobuf::io::CodedInputStream::CurrentPosition() const'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='995' ll='997' type='int google::protobuf::io::CodedInputStream::CurrentPosition() const'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='330'>// Returns current position relative to the beginning of the input stream.</doc>

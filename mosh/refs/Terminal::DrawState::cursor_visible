@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='271' type='bool'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='341' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='341' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<offset>832</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='200' u='w' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='281' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='282' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='485' u='r' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='73' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='394' u='w' c='_ZN8Terminal11Framebuffer10soft_resetEv'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='298' u='a' c='_ZL12get_DEC_modeiPN8Terminal11FramebufferE'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='258' type='void ClientBuffers::Keystroke::clear_has_keys()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='419' ll='421' type='void ClientBuffers::Keystroke::clear_has_keys()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='426' u='c' c='_ZN13ClientBuffers9Keystroke10clear_keysEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='465' u='c' c='_ZN13ClientBuffers9Keystroke12release_keysB5cxx11Ev'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='482' u='c' c='_ZN13ClientBuffers9Keystroke18set_allocated_keysEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/extension_set.h' l='1017' type='const RepeatedFieldType *'/>
+<use f='include/google/protobuf/extension_set.h' l='1024' u='r' c='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits23GetDefaultRepeatedFieldEv'/>

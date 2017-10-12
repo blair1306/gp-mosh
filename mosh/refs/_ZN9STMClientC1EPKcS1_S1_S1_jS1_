@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/stmclient.h' l='90' ll='126' type='void STMClient::STMClient(const char * s_ip, const char * s_port, const char * s_key, const char * predict_mode, unsigned int s_verbose, const char * predict_overwrite)'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='194' u='c' c='main'/>

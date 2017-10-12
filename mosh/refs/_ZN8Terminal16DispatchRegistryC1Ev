@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminaldispatcher.h' l='77' type='void Terminal::DispatchRegistry::DispatchRegistry()'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='170' u='c' c='_ZN8Terminal28get_global_dispatch_registryEv'/>

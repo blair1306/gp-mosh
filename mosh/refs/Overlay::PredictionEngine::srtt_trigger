@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='241' type='bool'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='302' u='w' c='_ZN7Overlay16PredictionEngineC1Ev'/>
+<offset>968</offset>
+<doc f='codebrowser/src/frontend/terminaloverlay.h' l='241'>/* show predictions because of slow round trip time */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='361' u='r' c='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='453' u='w' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='454' u='r' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='457' u='w' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

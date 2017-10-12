@@ -1,0 +1,9 @@
+<inh f='include/c++/5/exception' l='68' c='_ZNKSt9exception4whatEv'/>
+<def f='codebrowser/src/network/network.h' l='68' type='const char * Network::NetworkException::what() const'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='207' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='364' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='619' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='889' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='558' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/network/network.cc' l='276' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<use f='codebrowser/src/network/network.cc' l='285' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>

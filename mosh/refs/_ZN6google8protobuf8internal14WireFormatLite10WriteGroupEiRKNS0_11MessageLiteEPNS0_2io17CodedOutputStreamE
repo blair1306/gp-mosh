@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='359' type='static void google::protobuf::internal::WireFormatLite::WriteGroup(int field_number_arg, const google::protobuf::MessageLite &amp; value, io::CodedOutputStream * output_arg)'/>

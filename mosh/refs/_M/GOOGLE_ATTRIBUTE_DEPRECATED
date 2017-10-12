@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/common.h' l='224'/>
+<doc f='include/google/protobuf/stubs/common.h' l='223'>// If the method/variable/type is used anywhere, produce a warning.</doc>

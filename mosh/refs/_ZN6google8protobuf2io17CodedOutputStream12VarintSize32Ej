@@ -1,0 +1,10 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='722' type='static int google::protobuf::io::CodedOutputStream::VarintSize32(uint32 value)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1087' ll='1093' type='static int google::protobuf::io::CodedOutputStream::VarintSize32(uint32 value)'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1099' u='c' c='_ZN6google8protobuf2io17CodedOutputStream24VarintSize32SignExtendedEi'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='581' u='c' c='_ZN6google8protobuf8internal14WireFormatLite7TagSizeEiNS2_9FieldTypeE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='806' u='c' c='_ZN6google8protobuf8internal14WireFormatLite10UInt32SizeEj'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='812' u='c' c='_ZN6google8protobuf8internal14WireFormatLite10SInt32SizeEi'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='822' u='c' c='_ZN6google8protobuf8internal14WireFormatLite10StringSizeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='826' u='c' c='_ZN6google8protobuf8internal14WireFormatLite9BytesSizeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='853' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19LengthDelimitedSizeEi'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='721'>// Returns the number of bytes needed to encode the given value as a varint.</doc>

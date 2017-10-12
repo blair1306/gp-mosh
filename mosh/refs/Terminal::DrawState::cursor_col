@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='252' type='int'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='301' u='r' c='_ZNK8Terminal9DrawState14get_cursor_colEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='340' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='340' u='r' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<offset>64</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='68' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='122' u='r' c='_ZN8Terminal9DrawState12new_graphemeEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='130' u='r' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='130' u='w' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='131' u='r' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='131' u='w' c='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='154' u='w' c='_ZN8Terminal9DrawState8move_colEibb'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='156' u='w' c='_ZN8Terminal9DrawState8move_colEibb'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='160' u='r' c='_ZN8Terminal9DrawState8move_colEibb'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='206' u='r' c='_ZN8Terminal9DrawState7set_tabEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='217' u='r' c='_ZNK8Terminal9DrawState12get_next_tabEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='224' u='r' c='_ZNK8Terminal9DrawState12get_next_tabEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='281' u='r' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='290' u='w' c='_ZN8Terminal9DrawState14restore_cursorEv'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='98' type='const ::HostBuffers::Instruction &amp; HostBuffers::HostMessage::instruction(int index) const'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='463' ll='466' type='const ::HostBuffers::Instruction &amp; HostBuffers::HostMessage::instruction(int index) const'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='179' u='c' c='_ZNK11HostBuffers11HostMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='195' u='c' c='_ZNK11HostBuffers11HostMessage8ByteSizeEv'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='110' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='111' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='113' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='114' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='115' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='116' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='117' u='c' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

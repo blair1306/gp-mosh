@@ -1,0 +1,3 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='154' type='bool Overlay::NotificationEngine::reply_late(uint64_t ts) const'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='155' u='c' c='_ZNK7Overlay18NotificationEngine12need_countupEm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='228' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>

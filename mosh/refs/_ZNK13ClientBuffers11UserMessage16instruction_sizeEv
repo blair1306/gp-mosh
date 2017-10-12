@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='94' type='int ClientBuffers::UserMessage::instruction_size() const'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='375' ll='377' type='int ClientBuffers::UserMessage::instruction_size() const'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='170' u='c' c='_ZNK13ClientBuffers11UserMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='184' u='c' c='_ZNK13ClientBuffers11UserMessage8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='185' u='c' c='_ZNK13ClientBuffers11UserMessage8ByteSizeEv'/>
+<doc f='codebrowser/src/protobufs/userinput.pb.h' l='89'>// nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .ClientBuffers.Instruction instruction = 1;</doc>
+<doc f='codebrowser/src/protobufs/userinput.pb.h' l='370'>// ===================================================================
+
+// UserMessage
+
+// repeated .ClientBuffers.Instruction instruction = 1;</doc>
+<use f='codebrowser/src/statesync/user.cc' l='81' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='82' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='83' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='113' u='c' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

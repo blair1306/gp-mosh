@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='331' type='void Terminal::DrawState::clear_saved_cursor()'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='398' u='c' c='_ZN8Terminal11Framebuffer10soft_resetEv'/>

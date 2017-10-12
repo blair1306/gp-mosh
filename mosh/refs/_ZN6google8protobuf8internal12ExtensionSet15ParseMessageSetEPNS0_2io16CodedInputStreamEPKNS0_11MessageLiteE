@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/extension_set.h' l='374' type='bool google::protobuf::internal::ExtensionSet::ParseMessageSet(io::CodedInputStream * input, const google::protobuf::MessageLite * containing_type)'/>
+<doc f='include/google/protobuf/extension_set.h' l='372'>// Specific versions for lite or full messages (constructs the appropriate
+  // FieldSkipper automatically).</doc>

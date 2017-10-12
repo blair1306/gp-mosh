@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='193' type='void Terminal::Cell::set_renditions(const Terminal::Renditions &amp; r)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='269' u='c' c='_ZN8Terminal11Framebuffer24apply_renditions_to_cellEPNS_4CellE'/>

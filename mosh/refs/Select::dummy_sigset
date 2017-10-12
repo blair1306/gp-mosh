@@ -1,0 +1,3 @@
+<use f='codebrowser/src/util/select.h' l='65' u='r' c='_ZN6SelectC1Ev'/>
+<dec f='codebrowser/src/util/select.h' l='239' type='sigset_t'/>
+<def f='codebrowser/src/util/select.cc' l='37' type='sigset_t'/>

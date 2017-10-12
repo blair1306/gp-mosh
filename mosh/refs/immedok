@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='642' type='void immedok(WINDOW * , bool )'/>
+<doc f='include/curses.h' l='642'>/* implemented */</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='42' type='std::string'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='52' u='m' c='_ZN8Terminal10FrameState6appendEc'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='53' u='m' c='_ZN8Terminal10FrameState6appendEmc'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='54' u='a' c='_ZN8Terminal10FrameState6appendEw'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='55' u='m' c='_ZN8Terminal10FrameState6appendEPKc'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='56' u='m' c='_ZN8Terminal10FrameState13append_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='58' u='a' c='_ZN8Terminal10FrameState11append_cellERKNS_4CellE'/>
+<offset>0</offset>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='339' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='484' u='w' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='489' u='m' c='_ZN8Terminal10FrameStateC1ERKNS_11FramebufferE'/>

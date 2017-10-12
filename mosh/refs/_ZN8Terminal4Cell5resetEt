@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='101' type='void Terminal::Cell::reset(color_type background_color)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='453' u='c' c='_ZN8Terminal11Framebuffer10reset_cellEPNS_4CellE'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='49' ll='56' type='void Terminal::Cell::reset(color_type background_color)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='568' u='c' c='_ZN8Terminal3Row5resetEt'/>

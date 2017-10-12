@@ -1,0 +1,14 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='54' ll='85'/>
+<size>4</size>
+<mbr r='Terminal::Renditions::foreground_color' o='0' t='unsigned int'/>
+<mbr r='Terminal::Renditions::background_color' o='12' t='unsigned int'/>
+<mbr r='Terminal::Renditions::attributes' o='24' t='unsigned int'/>
+<fun r='_ZN8Terminal10RenditionsC1Et'/>
+<fun r='_ZN8Terminal10Renditions20set_foreground_colorEi'/>
+<fun r='_ZN8Terminal10Renditions20set_background_colorEi'/>
+<fun r='_ZN8Terminal10Renditions13set_renditionEt'/>
+<fun r='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<fun r='_ZNK8Terminal10RenditionseqERKS0_'/>
+<fun r='_ZN8Terminal10Renditions13set_attributeENS0_14attribute_typeEb'/>
+<fun r='_ZNK8Terminal10Renditions13get_attributeENS0_14attribute_typeE'/>
+<fun r='_ZN8Terminal10Renditions16clear_attributesEv'/>

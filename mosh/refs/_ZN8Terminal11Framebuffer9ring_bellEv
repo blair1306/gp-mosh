@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='456' type='void Terminal::Framebuffer::ring_bell()'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='404' u='c' c='_ZL8Ctrl_BELPN8Terminal11FramebufferEPNS_10DispatcherE'/>

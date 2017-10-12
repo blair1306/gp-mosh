@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='253' type='void ClientBuffers::Keystroke::set_allocated_keys(::std::string * keys)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='474' ll='486' type='void ClientBuffers::Keystroke::set_allocated_keys(::std::string * keys)'/>

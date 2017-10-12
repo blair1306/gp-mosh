@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/extension_set.h' l='251' type='void google::protobuf::internal::ExtensionSet::SetString(int number, FieldType type, const string &amp; value, const google::protobuf::FieldDescriptor * descriptor)'/>
+<def f='include/google/protobuf/extension_set.h' l='595' ll='599' type='void google::protobuf::internal::ExtensionSet::SetString(int number, FieldType type, const string &amp; value, const google::protobuf::FieldDescriptor * descriptor)'/>
+<use f='include/google/protobuf/extension_set.h' l='793' u='c' c='_ZN6google8protobuf8internal16StringTypeTraits3SetEihRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS1_12ExtensionSetE'/>
+<doc f='include/google/protobuf/extension_set.h' l='594'>// These are just for convenience...</doc>

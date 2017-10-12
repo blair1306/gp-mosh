@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/basic_string.h' l='1077' ll='1085' type='void std::__cxx11::basic_string::push_back(_CharT __c)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1073'>/**
+       *  @brief  Append a single character.
+       *  @param __c  Character to append.
+       */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='148' u='c' c='_ZN8Terminal4Cell13append_to_strERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEw'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='163' u='c' c='_ZN8Terminal4Cell6appendEw'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='58' u='c' c='_ZN8Terminal10Dispatcher12newparamcharEPKN6Parser5ParamE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='68' u='c' c='_ZN8Terminal10Dispatcher7collectEPKN6Parser7CollectE'/>

@@ -1,0 +1,13 @@
+<def f='include/c++/5/bits/basic_string.h' l='940' ll='942' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::operator+=(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __str)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='935'>/**
+       *  @brief  Append a string to this string.
+       *  @param __str  The string to append.
+       *  @return  Reference to this string.
+       */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='747' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='811' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='1007' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='62' u='c' c='_ZN7Network8Fragment8tostringB5cxx11Ev'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='66' u='c' c='_ZN7Network8Fragment8tostringB5cxx11Ev'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='70' u='c' c='_ZN7Network8Fragment8tostringB5cxx11Ev'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='138' u='c' c='_ZN7Network16FragmentAssembly12get_assemblyEv'/>

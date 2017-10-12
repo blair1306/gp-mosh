@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='310' type='static bool google::protobuf::internal::WireFormatLite::ReadGroupNoVirtual(int field_number_arg, io::CodedInputStream * input_arg, MessageType * value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='467' ll='480' type='static bool google::protobuf::internal::WireFormatLite::ReadGroupNoVirtual(int field_number, io::CodedInputStream * input, MessageType_WorkAroundCppLookupDefect * value)'/>

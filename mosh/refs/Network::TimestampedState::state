@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportstate.h' l='43' type='State'/>
+<use f='codebrowser/src/network/transportstate.h' l='46' u='w' c='_ZN7Network16TimestampedStateC1EmmRKT_'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='272' u='m' c='_ZN9STMClient16output_new_frameEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='298' u='m' c='_ZN9STMClient21process_network_inputEv'/>

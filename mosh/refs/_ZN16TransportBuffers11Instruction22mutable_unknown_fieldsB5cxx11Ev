@@ -1,0 +1,4 @@
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='55' ll='57' type='::std::string * TransportBuffers::Instruction::mutable_unknown_fields()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='165' u='c' c='_ZN16TransportBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='173' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='441' u='c' c='_ZN16TransportBuffers11Instruction9MergeFromERKS0_'/>

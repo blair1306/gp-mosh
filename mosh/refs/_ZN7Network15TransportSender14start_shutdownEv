@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/transportsender.h' l='136' type='void Network::TransportSender::start_shutdown()'/>
+<doc f='codebrowser/src/network/transportsender.h' l='135'>/* Starts shutdown sequence */</doc>

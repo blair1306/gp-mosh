@@ -1,0 +1,4 @@
+_ZNSt17_Temporary_buffer5beginEv|std::_Temporary_buffer::begin
+_ZNSt17_Temporary_buffer3endEv|std::_Temporary_buffer::end
+_ZNKSt17_Temporary_buffer14requested_sizeEv|std::_Temporary_buffer::requested_size
+_ZNKSt17_Temporary_buffer4sizeEv|std::_Temporary_buffer::size

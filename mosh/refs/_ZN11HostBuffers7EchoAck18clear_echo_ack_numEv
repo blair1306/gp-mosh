@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='415' type='void HostBuffers::EchoAck::clear_echo_ack_num()'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='636' ll='639' type='void HostBuffers::EchoAck::clear_echo_ack_num()'/>

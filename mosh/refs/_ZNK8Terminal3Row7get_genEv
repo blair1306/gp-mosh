@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='230' type='uint64_t Terminal::Row::get_gen() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='349' u='c' c='_ZN8Terminal3RowC1Emt'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='352' ll='356' type='uint64_t Terminal::Row::get_gen() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='564' u='c' c='_ZN8Terminal3Row5resetEt'/>

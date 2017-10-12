@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='341' type='void ClientBuffers::ResizeMessage::set_has_width()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='496' ll='498' type='void ClientBuffers::ResizeMessage::set_has_width()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='511' u='c' c='_ZN13ClientBuffers13ResizeMessage9set_widthEi'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='677' u='c' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

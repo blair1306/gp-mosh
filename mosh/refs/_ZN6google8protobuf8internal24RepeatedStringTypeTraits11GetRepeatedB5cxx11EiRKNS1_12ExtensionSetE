@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='829' ll='833' type='static const RepeatedPtrField&lt;string&gt; &amp; google::protobuf::internal::RepeatedStringTypeTraits::GetRepeated(int number, const google::protobuf::internal::ExtensionSet &amp; set)'/>

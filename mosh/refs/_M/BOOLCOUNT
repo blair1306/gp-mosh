@@ -1,0 +1,4 @@
+<dec f='include/term.h' l='641'/>
+<doc f='include/term.h' l='638'>/*
+ * Predefined terminfo array sizes
+ */</doc>

@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='893' ll='897' type='static void google::protobuf::internal::RepeatedEnumTypeTraits::Add(int number, FieldType field_type, bool is_packed, ConstType value, google::protobuf::internal::ExtensionSet * set)'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='102' type='vector&lt;Terminal::Cell&gt;'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='112' u='w' c='_ZN7Overlay22ConditionalOverlayCellC1Emim'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='115' u='m' c='_ZN7Overlay22ConditionalOverlayCell5resetEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='122' u='m' c='_ZN7Overlay22ConditionalOverlayCell15reset_with_origEv'/>
+<offset>704</offset>
+<doc f='codebrowser/src/frontend/terminaloverlay.h' l='102'>/* we don&apos;t give credit for correct predictions
+				       that match the original contents */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='106' u='m' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='107' u='m' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='111' u='m' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='703' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='715' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='764' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='804' u='m' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>

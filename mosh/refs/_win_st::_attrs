@@ -1,0 +1,4 @@
+<dec f='include/curses.h' l='432' type='attr_t'/>
+<offset>128</offset>
+<doc f='include/curses.h' l='431'>/* attribute tracking */</doc>
+<doc f='include/curses.h' l='432'>/* current attribute for non-space character */</doc>

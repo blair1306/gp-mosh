@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/crypto/ae.h' l='35'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='166' u='c'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='173' u='c'/>
+<doc f='codebrowser/src/crypto/ae.h' l='32'>/* Return status codes: Negative return values indicate an error occurred.
+ * For full explanations of error values, consult the implementation&apos;s
+ * documentation.                                                          */</doc>
+<use f='codebrowser/src/crypto/ocb.cc' l='785' u='c'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='834' u='c'/>

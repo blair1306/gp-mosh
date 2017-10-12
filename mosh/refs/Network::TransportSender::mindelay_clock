@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/network/transportsender.h' l='111' type='uint64_t'/>
+<doc f='codebrowser/src/network/transportsender.h' l='111'>/* time of first pending change to current state */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='68' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='103' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='104' u='w' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='107' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='112' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='113' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='193' u='w' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='197' u='w' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='202' u='w' c='_ZN7Network15TransportSender4tickEv'/>

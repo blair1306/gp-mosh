@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='62' type='uint64_t'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='69' u='w' c='_ZN7Overlay18ConditionalOverlayC1Emim'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='77' u='w' c='_ZN7Overlay18ConditionalOverlay5resetEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='80' u='w' c='_ZN7Overlay18ConditionalOverlay6expireEmm'/>
+<offset>64</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='93' u='r' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='133' u='r' c='_ZNK7Overlay21ConditionalCursorMove12get_validityERKN8Terminal11FramebufferEmm'/>

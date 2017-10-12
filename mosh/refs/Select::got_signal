@@ -1,0 +1,10 @@
+<use f='codebrowser/src/util/select.h' l='77' u='r' c='_ZN6Select16clear_got_signalEv'/>
+<use f='codebrowser/src/util/select.h' l='77' u='r' c='_ZN6Select16clear_got_signalEv'/>
+<use f='codebrowser/src/util/select.h' l='203' u='r' c='_ZN6Select6signalEi'/>
+<use f='codebrowser/src/util/select.h' l='204' u='w' c='_ZN6Select6signalEi'/>
+<use f='codebrowser/src/util/select.h' l='213' u='r' c='_ZNK6Select10any_signalEv'/>
+<dec f='codebrowser/src/util/select.h' l='232' type='int [65]'/>
+<offset>32</offset>
+<doc f='codebrowser/src/util/select.h' l='230'>/* We assume writes to these ints are atomic, though we also try to mask out
+     concurrent signal handlers. */</doc>
+<use f='codebrowser/src/util/select.cc' l='47' u='w' c='_ZN6Select13handle_signalEi'/>

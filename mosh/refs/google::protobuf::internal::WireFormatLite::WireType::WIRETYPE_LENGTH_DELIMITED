@@ -1,0 +1,7 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='89' type='2'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='212' u='r'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='577' u='r' c='_ZN6google8protobuf8internal14WireFormatLite21WriteMessageNoVirtualEiRKT_PNS0_2io17CodedOutputStreamE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='748' u='r' c='_ZN6google8protobuf8internal14WireFormatLite18WriteStringToArrayEiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='754' u='r' c='_ZN6google8protobuf8internal14WireFormatLite17WriteBytesToArrayEiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='769' u='r' c='_ZN6google8protobuf8internal14WireFormatLite19WriteMessageToArrayEiRKNS0_11MessageLiteEPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='790' u='r' c='_ZN6google8protobuf8internal14WireFormatLite28WriteMessageNoVirtualToArrayEiRKT_Ph'/>

@@ -1,0 +1,6 @@
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='55' u='a' c='_ZNK13ClientBuffers11UserMessage14unknown_fieldsB5cxx11Ev'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='59' u='a' c='_ZN13ClientBuffers11UserMessage22mutable_unknown_fieldsB5cxx11Ev'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='108' type='::std::string'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='226' u='m' c='_ZN13ClientBuffers11UserMessage4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='226' u='a' c='_ZN13ClientBuffers11UserMessage4SwapEPS0_'/>
+<offset>64</offset>

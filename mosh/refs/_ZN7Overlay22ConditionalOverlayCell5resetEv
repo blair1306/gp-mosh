@@ -1,0 +1,6 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='115' type='void Overlay::ConditionalOverlayCell::reset()'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='118' u='c' c='_ZN7Overlay22ConditionalOverlayCell15reset_with_origEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='398' u='c' c='_ZN7Overlay16PredictionEngine10kill_epochEmRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='501' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='525' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='569' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>

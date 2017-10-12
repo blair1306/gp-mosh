@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/termios.h' l='76'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='536' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='105' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='108' u='c'/>

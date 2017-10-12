@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/statesync/user.h' l='73' type='deque&lt;Network::UserEvent&gt;'/>
+<use f='codebrowser/src/statesync/user.h' l='76' u='w' c='_ZN7Network10UserStreamC1Ev'/>
+<use f='codebrowser/src/statesync/user.h' l='78' u='m' c='_ZN7Network10UserStream9push_backERKN6Parser8UserByteE'/>
+<use f='codebrowser/src/statesync/user.h' l='79' u='m' c='_ZN7Network10UserStream9push_backERKN6Parser6ResizeE'/>
+<use f='codebrowser/src/statesync/user.h' l='81' u='m' c='_ZNK7Network10UserStream5emptyEv'/>
+<use f='codebrowser/src/statesync/user.h' l='82' u='m' c='_ZNK7Network10UserStream4sizeEv'/>
+<use f='codebrowser/src/statesync/user.h' l='90' u='r' c='_ZNK7Network10UserStreameqERKS0_'/>
+<use f='codebrowser/src/statesync/user.h' l='90' u='r' c='_ZNK7Network10UserStreameqERKS0_'/>
+<offset>0</offset>
+<use f='codebrowser/src/statesync/user.cc' l='48' u='m' c='_ZN7Network10UserStream8subtractEPKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='51' u='m' c='_ZN7Network10UserStream8subtractEPKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='52' u='m' c='_ZN7Network10UserStream8subtractEPKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='55' u='m' c='_ZN7Network10UserStream8subtractEPKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='56' u='m' c='_ZN7Network10UserStream8subtractEPKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='57' u='m' c='_ZN7Network10UserStream8subtractEPKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='63' u='m' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='65' u='m' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='66' u='m' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='68' u='m' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='75' u='m' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='117' u='m' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/user.cc' l='120' u='m' c='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/user.cc' l='128' u='m' c='_ZNK7Network10UserStream10get_actionEj'/>
+<use f='codebrowser/src/statesync/user.cc' l='130' u='m' c='_ZNK7Network10UserStream10get_actionEj'/>
+<use f='codebrowser/src/statesync/user.cc' l='132' u='m' c='_ZNK7Network10UserStream10get_actionEj'/>

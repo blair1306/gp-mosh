@@ -1,0 +1,12 @@
+<def f='include/c++/5/bits/stl_vector.h' l='302' ll='306' type='void std::vector::vector&lt;_Tp, _Alloc&gt;(size_type __n, const value_type &amp; __value = value_type(), const allocator_type &amp; __a = allocator_type())'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='294'>/**
+       *  @brief  Creates a %vector with copies of an exemplar element.
+       *  @param  __n  The number of elements to initially create.
+       *  @param  __value  An element to copy.
+       *  @param  __a  An allocator.
+       *
+       *  This constructor fills the %vector with @a __n copies of @a __value.
+       */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='87' u='c' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='349' u='c' c='_ZN8Terminal3RowC1Emt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='384' u='c' c='_ZN8Terminal11Framebuffer5resetEv'/>

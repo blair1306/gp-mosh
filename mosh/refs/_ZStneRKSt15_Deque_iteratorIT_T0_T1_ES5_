@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_deque.h' l='277' ll='280' type='bool std::operator!=(const _Deque_iterator&lt;_Tp, _Ref, _Ptr&gt; &amp; __x, const _Deque_iterator&lt;_Tp, _Ref, _Ptr&gt; &amp; __y)'/>
+<use f='codebrowser/src/network/network.cc' l='193' u='c' c='_ZNK7Network10Connection3fdsEv'/>
+<use f='codebrowser/src/statesync/user.cc' l='52' u='c' c='_ZN7Network10UserStream8subtractEPKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='66' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='68' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='75' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>

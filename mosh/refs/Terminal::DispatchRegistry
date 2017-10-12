@@ -1,0 +1,6 @@
+<def f='codebrowser/src/terminal/terminaldispatcher.h' l='71' ll='78'/>
+<size>144</size>
+<mbr r='Terminal::DispatchRegistry::escape' o='0' t='dispatch_map_t'/>
+<mbr r='Terminal::DispatchRegistry::CSI' o='384' t='dispatch_map_t'/>
+<mbr r='Terminal::DispatchRegistry::control' o='768' t='dispatch_map_t'/>
+<fun r='_ZN8Terminal16DispatchRegistryC1Ev'/>

@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/extension_set.h' l='706' type='void google::protobuf::internal::InitializeDefaultRepeatedFields()'/>
+<dec f='include/google/protobuf/extension_set.h' l='712' type='void google::protobuf::internal::InitializeDefaultRepeatedFields()'/>
+<dec f='include/google/protobuf/extension_set.h' l='848' type='void google::protobuf::internal::InitializeDefaultRepeatedFields()'/>
+<dec f='include/google/protobuf/extension_set.h' l='1015' type='void google::protobuf::internal::InitializeDefaultRepeatedFields()'/>
+<doc f='include/google/protobuf/extension_set.h' l='705'>// Declared here so that this can be friended below.</doc>

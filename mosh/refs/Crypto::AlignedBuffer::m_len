@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='71' type='size_t'/>
+<use f='codebrowser/src/crypto/crypto.h' l='83' u='r' c='_ZNK6Crypto13AlignedBuffer3lenEv'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='76' u='w' c='_ZN6Crypto13AlignedBufferC1EmPKc'/>
+<offset>0</offset>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='117' type='bool Terminal::Dispatcher::operator==(const Terminal::Dispatcher &amp; x) const'/>
+<def f='codebrowser/src/terminal/terminaldispatcher.cc' l='249' ll='257' type='bool Terminal::Dispatcher::operator==(const Terminal::Dispatcher &amp; x) const'/>

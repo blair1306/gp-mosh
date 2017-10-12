@@ -1,0 +1,26 @@
+<dec f='include/c++/5/bits/stl_pair.h' l='102' type='_T2'/>
+<use f='include/c++/5/bits/stl_pair.h' l='109' u='w' c='_ZNSt4pairC1Ev'/>
+<use f='include/c++/5/bits/stl_pair.h' l='113' u='w' c='_ZNSt4pairC1ERKT_RKT0_'/>
+<use f='include/c++/5/bits/stl_pair.h' l='119' u='w' c='_ZNSt4pairC1ERKSt4pairIT_T0_E'/>
+<doc f='include/c++/5/bits/stl_pair.h' l='102'>/// @c second is a copy of the second object</doc>
+<use f='include/c++/5/bits/stl_tree.h' l='1865' u='r' c='_ZNSt8_Rb_tree16_M_insert_uniqueERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1868' c='_ZNSt8_Rb_tree16_M_insert_uniqueERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1892' c='_ZNSt8_Rb_tree15_M_insert_equalERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1975' u='r' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1976' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='2057' u='r' c='_ZNSt8_Rb_tree16_M_insert_equal_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='2058' c='_ZNSt8_Rb_tree16_M_insert_equal_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='135' u='r' c='_ZN11HostBuffers11HostMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='313' u='r' c='_ZN11HostBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='478' u='r' c='_ZN11HostBuffers9HostBytes27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='676' u='r' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='890' u='r' c='_ZN11HostBuffers7EchoAck27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='180' u='r' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='128' u='r' c='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='306' u='r' c='_ZN13ClientBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='471' u='r' c='_ZN13ClientBuffers9Keystroke27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='669' u='r' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='143' u='r' c='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='173' u='r' c='_ZNK8Terminal8Complete9wait_timeEm'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='230' u='m' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='233' u='m' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>

@@ -1,0 +1,13 @@
+<def f='codebrowser/src/crypto/crypto.h' l='69' ll='89'/>
+<size>24</size>
+<doc f='codebrowser/src/crypto/crypto.h' l='68'>/* 16-byte-aligned buffer, with length. */</doc>
+<mbr r='Crypto::AlignedBuffer::m_len' o='0' t='size_t'/>
+<mbr r='Crypto::AlignedBuffer::m_allocated' o='64' t='void *'/>
+<mbr r='Crypto::AlignedBuffer::m_data' o='128' t='char *'/>
+<fun r='_ZN6Crypto13AlignedBufferC1EmPKc'/>
+<fun r='_ZN6Crypto13AlignedBufferD1Ev'/>
+<fun r='_ZNK6Crypto13AlignedBuffer4dataEv'/>
+<fun r='_ZNK6Crypto13AlignedBuffer3lenEv'/>
+<fun r='_ZN6Crypto13AlignedBufferC1ERKS0_'/>
+<fun r='_ZN6Crypto13AlignedBufferaSERKS0_'/>
+<fun r='_ZN6Crypto13AlignedBufferC1EmPKc'/>

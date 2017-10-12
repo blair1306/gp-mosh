@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='216'/>
+<doc f='include/curses.h' l='215'>/* use the C++ compiler&apos;s bool type */</doc>

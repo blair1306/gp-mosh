@@ -1,0 +1,1 @@
+<def f='include/x86_64-linux-gnu/bits/wchar2.h' l='357' ll='361' macro='1' type='int vwprintf(const wchar_t *__restrict __fmt, __va_list_tag * __ap)'/>

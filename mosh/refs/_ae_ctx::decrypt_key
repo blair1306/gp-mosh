@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/crypto/ocb.cc' l='741' type='AES_KEY'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='808' u='a' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1273' u='a' c='ae_decrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1347' u='a' c='ae_decrypt'/>
+<offset>3200</offset>

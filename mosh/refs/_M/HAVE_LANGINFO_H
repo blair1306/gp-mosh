@@ -1,0 +1,3 @@
+<dec f='codebrowser/config.h' l='97'/>
+<doc f='codebrowser/config.h' l='96'>/* Define to 1 if you have the &lt;langinfo.h&gt; header file. */</doc>
+<use f='codebrowser/src/util/locale_utils.cc' l='42' u='c'/>

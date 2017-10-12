@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='129' type='void google::protobuf::internal::Acquire_Store(volatile Atomic32 * ptr, Atomic32 value)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='126' ll='129' type='void google::protobuf::internal::Acquire_Store(volatile Atomic32 * ptr, Atomic32 value)'/>

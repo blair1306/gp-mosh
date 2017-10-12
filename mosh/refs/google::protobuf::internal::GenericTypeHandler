@@ -1,0 +1,10 @@
+<def f='include/google/protobuf/repeated_field.h' l='359' ll='370'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler3NewEv'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler6DeleteEPT_'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler5ClearEPT_'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler5MergeERKT_PS3_'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler9SpaceUsedERKT_'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler16default_instanceEv'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler5MergeERKT_PS3_'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler16default_instanceEv'/>
+<fun r='_ZN6google8protobuf8internal18GenericTypeHandler16default_instanceEv'/>

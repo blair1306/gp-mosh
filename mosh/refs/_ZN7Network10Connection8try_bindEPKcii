@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/network.h' l='147' type='bool Network::Connection::try_bind(const char * addr, int port_low, int port_high)'/>
+<use f='codebrowser/src/network/network.cc' l='272' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<use f='codebrowser/src/network/network.cc' l='282' u='c' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<def f='codebrowser/src/network/network.cc' l='292' ll='352' type='bool Network::Connection::try_bind(const char * addr, int port_low, int port_high)'/>

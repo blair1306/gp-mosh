@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='81' type='bool Terminal::Complete::operator==(const Terminal::Complete &amp; x) const'/>
+<def f='codebrowser/src/statesync/completeterminal.cc' l='124' ll='128' type='bool Terminal::Complete::operator==(const Terminal::Complete &amp; x) const'/>

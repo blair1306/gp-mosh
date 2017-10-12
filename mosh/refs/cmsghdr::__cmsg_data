@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='256' type='unsigned char []'/>
+<offset>128</offset>
+<doc f='include/x86_64-linux-gnu/bits/socket.h' l='256'>/* Ancillary data.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='506' macro='1' u='r'/>

@@ -1,0 +1,10 @@
+<def f='include/c++/5/bits/basic_string.h' l='626' ll='628' type='iterator std::__cxx11::basic_string::end()'/>
+<doc f='include/c++/5/bits/basic_string.h' l='622'>/**
+       *  Returns a read/write iterator that points one past the last
+       *  character in the %string.
+       */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='171' u='c' c='_ZN8Terminal4Cell6appendEw'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='188' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='190' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='261' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='188' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>

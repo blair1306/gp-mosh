@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/repeated_field.h' l='1300' type='bool google::protobuf::internal::RepeatedPtrIterator::operator&lt;(const iterator &amp; x) const'/>
+<doc f='include/google/protobuf/repeated_field.h' l='1299'>// less_than_comparable</doc>

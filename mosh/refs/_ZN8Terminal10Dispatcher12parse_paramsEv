@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='91' type='void Terminal::Dispatcher::parse_params()'/>
+<def f='codebrowser/src/terminal/terminaldispatcher.cc' l='79' ll='132' type='void Terminal::Dispatcher::parse_params()'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='138' u='c' c='_ZN8Terminal10Dispatcher8getparamEmi'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='153' u='c' c='_ZN8Terminal10Dispatcher11param_countEv'/>

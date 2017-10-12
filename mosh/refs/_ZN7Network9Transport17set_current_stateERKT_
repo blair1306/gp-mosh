@@ -1,0 +1,4 @@
+<def f='codebrowser/src/network/networktransport.h' l='101' type='void Network::Transport::set_current_state(const MyState &amp; x)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='757' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='814' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='877' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>

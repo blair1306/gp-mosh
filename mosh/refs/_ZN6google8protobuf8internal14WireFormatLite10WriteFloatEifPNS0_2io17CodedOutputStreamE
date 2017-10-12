@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='347' type='static void google::protobuf::internal::WireFormatLite::WriteFloat(int field_number_arg, float value, io::CodedOutputStream * output_arg)'/>

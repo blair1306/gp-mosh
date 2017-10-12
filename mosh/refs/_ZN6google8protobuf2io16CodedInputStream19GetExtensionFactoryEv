@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='468' type='google::protobuf::MessageFactory * google::protobuf::io::CodedInputStream::GetExtensionFactory()'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1157' ll='1159' type='google::protobuf::MessageFactory * google::protobuf::io::CodedInputStream::GetExtensionFactory()'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='466'>// Get the MessageFactory set via SetExtensionRegistry(), or NULL if no
+  // factory has been provided.</doc>

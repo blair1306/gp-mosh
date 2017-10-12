@@ -1,0 +1,15 @@
+<def f='include/c++/5/bits/basic_string.h' l='4819' ll='4826' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::operator+(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __lhs, const _CharT * __rhs)'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='117' u='c' c='_ZN6Crypto9Base64KeyC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/network.h' l='67' u='c' c='_ZN7Network16NetworkExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<use f='codebrowser/src/network/network.h' l='67' u='c' c='_ZN7Network16NetworkExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='1007' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='191' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/network/network.cc' l='223' u='c' c='_ZN8AddrInfoC1EPKcS1_PK8addrinfo'/>
+<use f='codebrowser/src/network/network.cc' l='223' u='c' c='_ZN8AddrInfoC1EPKcS1_PK8addrinfo'/>
+<use f='codebrowser/src/network/network.cc' l='223' u='c' c='_ZN8AddrInfoC1EPKcS1_PK8addrinfo'/>
+<use f='codebrowser/src/network/network.cc' l='347' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='569' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='591' u='c' c='_ZNK7Network10Connection4portB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='69' u='c' c='_ZL7ti_flagPKc'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='78' u='c' c='_ZL6ti_strPKc'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='55' u='c' c='_ZNK9LocaleVar3strB5cxx11Ev'/>

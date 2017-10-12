@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/io/zero_copy_stream.h' l='227' type='int64 google::protobuf::io::ZeroCopyOutputStream::ByteCount() const'/>
+<doc f='include/google/protobuf/io/zero_copy_stream.h' l='226'>// Returns the total number of bytes written since this object was created.</doc>

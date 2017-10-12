@@ -1,0 +1,10 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='87' type='0'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='209' u='r'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='659' u='r' c='_ZN6google8protobuf8internal14WireFormatLite17WriteInt32ToArrayEiiPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='665' u='r' c='_ZN6google8protobuf8internal14WireFormatLite17WriteInt64ToArrayEilPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='671' u='r' c='_ZN6google8protobuf8internal14WireFormatLite18WriteUInt32ToArrayEijPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='677' u='r' c='_ZN6google8protobuf8internal14WireFormatLite18WriteUInt64ToArrayEimPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='683' u='r' c='_ZN6google8protobuf8internal14WireFormatLite18WriteSInt32ToArrayEiiPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='689' u='r' c='_ZN6google8protobuf8internal14WireFormatLite18WriteSInt64ToArrayEilPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='731' u='r' c='_ZN6google8protobuf8internal14WireFormatLite16WriteBoolToArrayEibPh'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='737' u='r' c='_ZN6google8protobuf8internal14WireFormatLite16WriteEnumToArrayEiiPh'/>

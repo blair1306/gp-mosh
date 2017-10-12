@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='394' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteFixed64NoTagToArray(uint64 value, uint8 * target)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='623' ll='626' type='static uint8 * google::protobuf::internal::WireFormatLite::WriteFixed64NoTagToArray(uint64 value, uint8 * target)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='702' u='c' c='_ZN6google8protobuf8internal14WireFormatLite19WriteFixed64ToArrayEimPh'/>

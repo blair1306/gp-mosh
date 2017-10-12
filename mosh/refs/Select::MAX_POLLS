@@ -1,0 +1,7 @@
+<use f='codebrowser/src/util/select.h' l='128' u='r' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/util/select.h' l='129' u='r' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/util/select.h' l='130' u='r' c='_ZN6Select6selectEi'/>
+<use f='codebrowser/src/util/select.h' l='134' u='r' c='_ZN6Select6selectEi'/>
+<dec f='codebrowser/src/util/select.h' l='224' type='const int'/>
+<doc f='codebrowser/src/util/select.h' l='222'>/* Number of 0-timeout selects after which we begin to think
+   * something&apos;s wrong. */</doc>

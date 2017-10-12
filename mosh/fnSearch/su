@@ -1,0 +1,3 @@
+_ZNSt15basic_streambuf7sungetcEv|std::basic_streambuf::sungetc
+_ZNK8Terminal8Complete8subtractEPKS0_|Terminal::Complete::subtract
+_ZN7Network10UserStream8subtractEPKS0_|Network::UserStream::subtract

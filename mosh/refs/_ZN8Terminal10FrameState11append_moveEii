@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='60' type='void Terminal::FrameState::append_move(int y, int x)'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='276' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='500' u='c' c='_ZN8Terminal10FrameState18append_silent_moveEii'/>
+<def f='codebrowser/src/terminal/terminaldisplay.cc' l='503' ll='529' type='void Terminal::FrameState::append_move(int y, int x)'/>

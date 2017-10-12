@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/extension_set.h' l='402' type='int google::protobuf::internal::ExtensionSet::ByteSize() const'/>
+<doc f='include/google/protobuf/extension_set.h' l='401'>// Returns the total serialized size of all the extensions.</doc>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='352' u='c' c='_ZNK11HostBuffers11Instruction8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='345' u='c' c='_ZNK13ClientBuffers11Instruction8ByteSizeEv'/>

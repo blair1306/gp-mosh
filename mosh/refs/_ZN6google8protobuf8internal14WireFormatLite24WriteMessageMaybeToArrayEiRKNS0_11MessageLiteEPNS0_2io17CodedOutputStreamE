@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='367' type='static void google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(int field_number_arg, const google::protobuf::MessageLite &amp; value, io::CodedOutputStream * output_arg)'/>

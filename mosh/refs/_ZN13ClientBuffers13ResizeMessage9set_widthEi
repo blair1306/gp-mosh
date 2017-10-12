@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='330' type='void ClientBuffers::ResizeMessage::set_width(::google::protobuf::int32 value)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='510' ll='514' type='void ClientBuffers::ResizeMessage::set_width(::google::protobuf::int32 value)'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='776' u='c' c='_ZN13ClientBuffers13ResizeMessage9MergeFromERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='93' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>

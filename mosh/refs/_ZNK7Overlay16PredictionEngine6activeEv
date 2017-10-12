@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='267' type='bool Overlay::PredictionEngine::active() const'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='292' u='c' c='_ZNK7Overlay16PredictionEngine9wait_timeEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='456' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='905' ll='924' type='bool Overlay::PredictionEngine::active() const'/>

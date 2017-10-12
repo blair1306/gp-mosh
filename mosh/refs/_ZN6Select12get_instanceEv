@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/select.h' l='52' ll='56' type='static Select &amp; Select::get_instance()'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='646' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='228' u='c' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='436' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/util/select.cc' l='46' u='c' c='_ZN6Select13handle_signalEi'/>

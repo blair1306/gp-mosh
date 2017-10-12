@@ -1,0 +1,2 @@
+<inh f='codebrowser/src/terminal/parseraction.h' l='56' c='_ZNK6Parser6Action6ignoreEv'/>
+<def f='codebrowser/src/terminal/parseraction.h' l='68' type='bool Parser::Ignore::ignore() const'/>

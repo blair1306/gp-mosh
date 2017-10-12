@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='182' type='::google::protobuf::uint32 [1]'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='266' u='r' c='_ZN11HostBuffers11Instruction10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='266' u='r' c='_ZN11HostBuffers11Instruction10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='297' u='r' c='_ZN11HostBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='297' u='r' c='_ZN11HostBuffers11Instruction5ClearEv'/>
+<offset>704</offset>

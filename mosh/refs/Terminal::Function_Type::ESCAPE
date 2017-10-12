@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='57' type='0'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='170' u='r' c='_ZN8Terminal8Emulator12Esc_dispatchEPKN6Parser12Esc_DispatchE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='179' c='_ZL17register_functionN8Terminal13Function_TypeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_8FunctionE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='202' u='r' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='212' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='163' u='r'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='444' u='r'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='445' u='r'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='561' u='r'/>

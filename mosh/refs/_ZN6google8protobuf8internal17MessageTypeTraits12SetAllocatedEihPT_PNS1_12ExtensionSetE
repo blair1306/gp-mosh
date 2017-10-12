@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='952' ll='955' type='static void google::protobuf::internal::MessageTypeTraits::SetAllocated(int number, FieldType field_type, MutableType message, google::protobuf::internal::ExtensionSet * set)'/>

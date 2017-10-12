@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/network.h' l='210' type='void Network::Connection::Connection(const char * key_str, const char * ip, const char * port)'/>
+<doc f='codebrowser/src/network/network.h' l='210'>/* client */</doc>
+<use f='codebrowser/src/network/networktransport-impl.h' l='60' u='c' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_S6_'/>
+<def f='codebrowser/src/network/network.cc' l='354' ll='393' type='void Network::Connection::Connection(const char * key_str, const char * ip, const char * port)'/>
+<doc f='codebrowser/src/network/network.cc' l='354'>/* client */</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/network/transportsender.h' l='83' type='typename sent_states_type::iterator'/>
+<doc f='codebrowser/src/network/transportsender.h' l='82'>/* somewhere in the middle: the assumed state of the receiver */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='55' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='109' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='171' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='177' u='r' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='264' u='w' c='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='265' u='w' c='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='277' u='w' c='_ZN7Network15TransportSender29update_assumed_receiver_stateEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='286' u='w' c='_ZN7Network15TransportSender29update_assumed_receiver_stateEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='326' u='r' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='399' c='_ZN7Network15TransportSender39attempt_prospective_resend_optimizationERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='412' u='w' c='_ZN7Network15TransportSender39attempt_prospective_resend_optimizationERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

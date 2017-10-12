@@ -1,0 +1,8 @@
+<def f='codebrowser/src/network/networktransport.h' l='105' type='const TimestampedState&lt;RemoteState&gt; &amp; Network::Transport::get_latest_remote_state() const'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='680' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='707' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='272' u='c' c='_ZN9STMClient16output_new_frameEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='293' u='c' c='_ZN9STMClient21process_network_inputEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='298' u='c' c='_ZN9STMClient21process_network_inputEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='532' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='533' u='c' c='_ZN9STMClient4mainEv'/>

@@ -1,0 +1,58 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='245' ll='347'/>
+<size>128</size>
+<mbr r='Terminal::DrawState::width' o='0' t='int'/>
+<mbr r='Terminal::DrawState::height' o='32' t='int'/>
+<fun r='_ZN8Terminal9DrawState12new_graphemeEv'/>
+<fun r='_ZN8Terminal9DrawState21snap_cursor_to_borderEv'/>
+<mbr r='Terminal::DrawState::cursor_col' o='64' t='int'/>
+<mbr r='Terminal::DrawState::cursor_row' o='96' t='int'/>
+<mbr r='Terminal::DrawState::combining_char_col' o='128' t='int'/>
+<mbr r='Terminal::DrawState::combining_char_row' o='160' t='int'/>
+<mbr r='Terminal::DrawState::default_tabs' o='192' t='bool'/>
+<mbr r='Terminal::DrawState::tabs' o='256' t='std::vector&lt;bool&gt;'/>
+<fun r='_ZN8Terminal9DrawState17reinitialize_tabsEj'/>
+<mbr r='Terminal::DrawState::scrolling_region_top_row' o='576' t='int'/>
+<mbr r='Terminal::DrawState::scrolling_region_bottom_row' o='608' t='int'/>
+<mbr r='Terminal::DrawState::renditions' o='640' t='Terminal::Renditions'/>
+<mbr r='Terminal::DrawState::save' o='672' t='Terminal::SavedCursor'/>
+<mbr r='Terminal::DrawState::next_print_will_wrap' o='800' t='bool'/>
+<mbr r='Terminal::DrawState::origin_mode' o='808' t='bool'/>
+<mbr r='Terminal::DrawState::auto_wrap_mode' o='816' t='bool'/>
+<mbr r='Terminal::DrawState::insert_mode' o='824' t='bool'/>
+<mbr r='Terminal::DrawState::cursor_visible' o='832' t='bool'/>
+<mbr r='Terminal::DrawState::reverse_video' o='840' t='bool'/>
+<mbr r='Terminal::DrawState::bracketed_paste' o='848' t='bool'/>
+<mbr r='Terminal::DrawState::mouse_reporting_mode' o='864' t='enum MouseReportingMode'/>
+<mbr r='Terminal::DrawState::mouse_focus_event' o='896' t='bool'/>
+<mbr r='Terminal::DrawState::mouse_alternate_scroll' o='904' t='bool'/>
+<mbr r='Terminal::DrawState::mouse_encoding_mode' o='928' t='enum MouseEncodingMode'/>
+<mbr r='Terminal::DrawState::application_mode_cursor_keys' o='960' t='bool'/>
+<fun r='_ZN8Terminal9DrawState8move_rowEib'/>
+<fun r='_ZN8Terminal9DrawState8move_colEibb'/>
+<fun r='_ZNK8Terminal9DrawState14get_cursor_colEv'/>
+<fun r='_ZNK8Terminal9DrawState14get_cursor_rowEv'/>
+<fun r='_ZNK8Terminal9DrawState22get_combining_char_colEv'/>
+<fun r='_ZNK8Terminal9DrawState22get_combining_char_rowEv'/>
+<fun r='_ZNK8Terminal9DrawState9get_widthEv'/>
+<fun r='_ZNK8Terminal9DrawState10get_heightEv'/>
+<fun r='_ZN8Terminal9DrawState7set_tabEv'/>
+<fun r='_ZN8Terminal9DrawState9clear_tabEi'/>
+<fun r='_ZN8Terminal9DrawState18clear_default_tabsEv'/>
+<fun r='_ZNK8Terminal9DrawState12get_next_tabEi'/>
+<fun r='_ZN8Terminal9DrawState20set_scrolling_regionEii'/>
+<fun r='_ZNK8Terminal9DrawState28get_scrolling_region_top_rowEv'/>
+<fun r='_ZNK8Terminal9DrawState31get_scrolling_region_bottom_rowEv'/>
+<fun r='_ZNK8Terminal9DrawState9limit_topEv'/>
+<fun r='_ZNK8Terminal9DrawState12limit_bottomEv'/>
+<fun r='_ZN8Terminal9DrawState20set_foreground_colorEi'/>
+<fun r='_ZN8Terminal9DrawState20set_background_colorEi'/>
+<fun r='_ZN8Terminal9DrawState13add_renditionEt'/>
+<fun r='_ZNK8Terminal9DrawState14get_renditionsEv'/>
+<fun r='_ZN8Terminal9DrawState14get_renditionsEv'/>
+<fun r='_ZNK8Terminal9DrawState24get_background_renditionEv'/>
+<fun r='_ZN8Terminal9DrawState11save_cursorEv'/>
+<fun r='_ZN8Terminal9DrawState14restore_cursorEv'/>
+<fun r='_ZN8Terminal9DrawState18clear_saved_cursorEv'/>
+<fun r='_ZN8Terminal9DrawState6resizeEii'/>
+<fun r='_ZN8Terminal9DrawStateC1Eii'/>
+<fun r='_ZNK8Terminal9DrawStateeqERKS0_'/>

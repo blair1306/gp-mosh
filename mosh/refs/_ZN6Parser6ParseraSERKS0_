@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/terminal/parser.h' l='58' type='Parser::Parser &amp; Parser::Parser::operator=(const Parser::Parser &amp; )'/>
+<def f='codebrowser/src/terminal/parser.cc' l='162' ll='166' type='Parser::Parser &amp; Parser::Parser::operator=(const Parser::Parser &amp; other)'/>

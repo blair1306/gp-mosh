@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/network.h' l='97' type='struct sockaddr_in'/>
+<offset>0</offset>
+<use f='codebrowser/src/network/network.cc' l='318' u='m' c='_ZN7Network10Connection8try_bindEPKcii'/>

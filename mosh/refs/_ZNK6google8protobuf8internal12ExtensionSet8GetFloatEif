@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/extension_set.h' l='229' type='float google::protobuf::internal::ExtensionSet::GetFloat(int number, float default_value) const'/>
+<use f='include/google/protobuf/extension_set.h' l='771' macro='1' u='c'/>

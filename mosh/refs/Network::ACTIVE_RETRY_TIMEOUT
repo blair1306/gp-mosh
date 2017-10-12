@@ -1,0 +1,5 @@
+<def f='codebrowser/src/network/transportsender.h' l='57' type='const int'/>
+<doc f='codebrowser/src/network/transportsender.h' l='57'>/* attempt to resend at frame rate */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='110' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='116' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='379' u='r' c='_ZNK7Network15TransportSender22shutdown_ack_timed_outEv'/>

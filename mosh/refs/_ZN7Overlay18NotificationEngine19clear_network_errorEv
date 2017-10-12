@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='194' ll='199' type='void Overlay::NotificationEngine::clear_network_error()'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='554' u='c' c='_ZN9STMClient4mainEv'/>

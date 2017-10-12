@@ -1,0 +1,7 @@
+<def f='codebrowser/src/crypto/prng.h' l='61' ll='70' type='void PRNG::fill(void * dest, size_t size)'/>
+<use f='codebrowser/src/crypto/prng.h' l='74' u='c' c='_ZN4PRNG5uint8Ev'/>
+<use f='codebrowser/src/crypto/prng.h' l='80' u='c' c='_ZN4PRNG6uint32Ev'/>
+<use f='codebrowser/src/crypto/prng.h' l='86' u='c' c='_ZN4PRNG6uint64Ev'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='136' u='c' c='_ZN6Crypto9Base64KeyC1Ev'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='141' u='c' c='_ZN6Crypto9Base64KeyC1ER4PRNG'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='316' u='c' c='_ZN7Network15TransportSender10make_chaffB5cxx11Ev'/>

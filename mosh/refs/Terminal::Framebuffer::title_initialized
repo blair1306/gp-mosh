@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='373' type='bool'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='440' u='w' c='_ZN8Terminal11Framebuffer21set_title_initializedEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='441' u='r' c='_ZNK8Terminal11Framebuffer20is_title_initializedEv'/>
+<offset>800</offset>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='373'>/* true if the window title has been set via an OSC */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='81' u='w' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='93' u='w' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='93' u='r' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='105' u='w' c='_ZN8Terminal11FramebufferaSERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='105' u='r' c='_ZN8Terminal11FramebufferaSERKS0_'/>

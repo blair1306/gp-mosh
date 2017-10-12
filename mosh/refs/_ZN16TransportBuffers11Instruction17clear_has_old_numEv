@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='164' type='void TransportBuffers::Instruction::clear_has_old_num()'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='236' ll='238' type='void TransportBuffers::Instruction::clear_has_old_num()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='241' u='c' c='_ZN16TransportBuffers11Instruction13clear_old_numEv'/>

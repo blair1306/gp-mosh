@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/stubs/once.h' l='124' ll='129' type='void google::protobuf::GoogleOnceInit(ProtobufOnceType * once, void (*)() init_func)'/>
+<use f='include/google/protobuf/generated_message_util.h' l='84' u='c' c='_ZN6google8protobuf8internal14GetEmptyStringB5cxx11Ev'/>

@@ -1,0 +1,19 @@
+<def f='include/c++/5/bits/stl_vector.h' l='712' ll='719' type='void std::vector::resize(size_type __new_size, value_type __x = value_type())'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='701'>/**
+       *  @brief  Resizes the %vector to the specified number of elements.
+       *  @param  __new_size  Number of elements the %vector should contain.
+       *  @param  __x  Data with which new elements should be populated.
+       *
+       *  This function will %resize the %vector to the specified
+       *  number of elements.  If the number is smaller than the
+       *  %vector&apos;s current size the %vector is truncated, otherwise
+       *  the %vector is extended and new elements are populated with
+       *  given data.
+       */</doc>
+<use f='codebrowser/src/network/transportfragment.cc' l='96' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='109' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='119' u='c' c='_ZN7Network16FragmentAssembly12add_fragmentERNS_8FragmentE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='164' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='173' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='412' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='422' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>

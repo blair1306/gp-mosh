@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='330' type='int'/>
+<offset>352</offset>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='327'>// Number of valid bytes currently in the buffer (i.e. the size last
+  // returned by Next()).  When BackUp() is called, we just reduce this.
+  // 0 &lt;= buffer_used_ &lt;= buffer_size_.</doc>

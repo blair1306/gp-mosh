@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>dos_assert.h source code [codebrowser/src/util/dos_assert.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/util/dos_assert.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>util</a>/<a href='dos_assert.h.html'>dos_assert.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Mosh: the mobile shell</i></td></tr>
+<tr><th id="3">3</th><td><i>    Copyright 2012 Keith Winstein</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    This program is free software: you can redistribute it and/or modify</i></td></tr>
+<tr><th id="6">6</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="7">7</th><td><i>    the Free Software Foundation, either version 3 of the License, or</i></td></tr>
+<tr><th id="8">8</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="11">11</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="12">12</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="13">13</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="14">14</th><td><i></i></td></tr>
+<tr><th id="15">15</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="16">16</th><td><i>    along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    In addition, as a special exception, the copyright holders give</i></td></tr>
+<tr><th id="19">19</th><td><i>    permission to link the code of portions of this program with the</i></td></tr>
+<tr><th id="20">20</th><td><i>    OpenSSL library under certain conditions as described in each</i></td></tr>
+<tr><th id="21">21</th><td><i>    individual source file, and distribute linked combinations including</i></td></tr>
+<tr><th id="22">22</th><td><i>    the two.</i></td></tr>
+<tr><th id="23">23</th><td><i></i></td></tr>
+<tr><th id="24">24</th><td><i>    You must obey the GNU General Public License in all respects for all</i></td></tr>
+<tr><th id="25">25</th><td><i>    of the code used other than OpenSSL. If you modify file(s) with this</i></td></tr>
+<tr><th id="26">26</th><td><i>    exception, you may extend this exception to your version of the</i></td></tr>
+<tr><th id="27">27</th><td><i>    file(s), but you are not obligated to do so. If you do not wish to do</i></td></tr>
+<tr><th id="28">28</th><td><i>    so, delete this exception statement from your version. If you delete</i></td></tr>
+<tr><th id="29">29</th><td><i>    this exception statement from all source files in the program, then</i></td></tr>
+<tr><th id="30">30</th><td><i>    also delete it here.</i></td></tr>
+<tr><th id="31">31</th><td><i>*/</i></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="33">ifndef</span> <span class="macro" data-ref="_M/DOS_ASSERT_HPP">DOS_ASSERT_HPP</span></u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/DOS_ASSERT_HPP" data-ref="_M/DOS_ASSERT_HPP">DOS_ASSERT_HPP</dfn></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="../../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><u>#include <a href="../crypto/crypto.h.html">"crypto.h"</a></u></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><em>static</em> <em>void</em> <dfn class="decl def" id="_ZL12dos_detectedPKcS0_iS0_" title='dos_detected' data-ref="_ZL12dos_detectedPKcS0_iS0_">dos_detected</dfn>( <em>const</em> <em>char</em> *<dfn class="local col6 decl" id="146expression" title='expression' data-type='const char *' data-ref="146expression">expression</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="147file" title='file' data-type='const char *' data-ref="147file">file</dfn>, <em>int</em> <dfn class="local col8 decl" id="148line" title='line' data-type='int' data-ref="148line">line</dfn>, <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="149function" title='function' data-type='const char *' data-ref="149function">function</dfn> )</td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td>  <em>char</em> <dfn class="local col0 decl" id="150buffer" title='buffer' data-type='char [2048]' data-ref="150buffer">buffer</dfn>[ <var>2048</var> ];</td></tr>
+<tr><th id="44">44</th><td>  <a class="ref" href="../../../include/stdio.h.html#snprintf" title='snprintf' data-ref="snprintf">snprintf</a>( <a class="local col0 ref" href="#150buffer" title='buffer' data-ref="150buffer">buffer</a>, <var>2048</var>, <q>"Illegal counterparty input (possible denial of service) in function %s at %s:%d, failed test: %s\n"</q>,</td></tr>
+<tr><th id="45">45</th><td>	    <a class="local col9 ref" href="#149function" title='function' data-ref="149function">function</a>, <a class="local col7 ref" href="#147file" title='file' data-ref="147file">file</a>, <a class="local col8 ref" href="#148line" title='line' data-ref="148line">line</a>, <a class="local col6 ref" href="#146expression" title='expression' data-ref="146expression">expression</a> );</td></tr>
+<tr><th id="46">46</th><td>  <b>throw</b> <span class="namespace">Crypto::</span><a class="type" href="../crypto/crypto.h.html#Crypto::CryptoException" title='Crypto::CryptoException' data-ref="Crypto::CryptoException">CryptoException</a><a class="ref" href="../crypto/crypto.h.html#_ZN6Crypto15CryptoExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb" title='Crypto::CryptoException::CryptoException' data-ref="_ZN6Crypto15CryptoExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb">(</a> <a class="ref fake" href="../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><a class="local col0 ref" href="#150buffer" title='buffer' data-ref="150buffer">buffer</a> );</td></tr>
+<tr><th id="47">47</th><td>}</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/dos_assert" data-ref="_M/dos_assert">dos_assert</dfn>(expr)						\</u></td></tr>
+<tr><th id="50">50</th><td><u>  ((expr)								\</u></td></tr>
+<tr><th id="51">51</th><td><u>   ? (void)0								\</u></td></tr>
+<tr><th id="52">52</th><td><u>   : dos_detected (#expr, __FILE__, __LINE__, __func__ ))</u></td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><u>#<span data-ppcond="33">endif</span></u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../network/compressor.cc.html'>codebrowser/src/network/compressor.cc</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>mosh-1.3.2-38-ge9c3bbd</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

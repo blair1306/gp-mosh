@@ -1,0 +1,5 @@
+<dec f='codebrowser/config.h' l='39'/>
+<use f='codebrowser/src/crypto/byteorder.h' l='38' u='c'/>
+<use f='codebrowser/src/crypto/byteorder.h' l='47' u='c'/>
+<doc f='codebrowser/config.h' l='37'>/* Define to 1 if you have the declaration of `be64toh&apos;, and to 0 if you
+   don&apos;t. */</doc>

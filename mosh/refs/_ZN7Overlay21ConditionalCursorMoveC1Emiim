@@ -1,0 +1,4 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='92' ll='94' type='void Overlay::ConditionalCursorMove::ConditionalCursorMove(uint64_t s_exp, int s_row, int s_col, uint64_t s_tentative)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='385' u='c' c='_ZN7Overlay16PredictionEngine10kill_epochEmRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='420' u='c' c='_ZN7Overlay16PredictionEngine11init_cursorERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='427' u='c' c='_ZN7Overlay16PredictionEngine11init_cursorERKN8Terminal11FramebufferE'/>

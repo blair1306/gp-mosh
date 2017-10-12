@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/stubs/common.h' l='1115' type='void google::protobuf::internal::Mutex::AssertHeld()'/>
+<doc f='include/google/protobuf/stubs/common.h' l='1113'>// Crash if this Mutex is not held exclusively by this thread.
+  // May fail to crash when it should; will never crash when it should not.</doc>

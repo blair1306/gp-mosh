@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/networktransport.h' l='84' type='string Network::Transport::get_remote_diff()'/>
+<doc f='codebrowser/src/network/networktransport.h' l='83'>/* Find diff between last receiver state and current remote state, then rationalize states. */</doc>
+<def f='codebrowser/src/network/networktransport-impl.h' l='187' ll='205' type='string Network::Transport::get_remote_diff()'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='720' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>

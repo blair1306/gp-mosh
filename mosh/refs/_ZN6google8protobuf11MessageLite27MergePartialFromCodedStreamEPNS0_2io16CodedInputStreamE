@@ -1,0 +1,18 @@
+<dec f='include/google/protobuf/message_lite.h' l='166' type='bool google::protobuf::MessageLite::MergePartialFromCodedStream(io::CodedInputStream * input)'/>
+<doc f='include/google/protobuf/message_lite.h' l='161'>// Like MergeFromCodedStream(), but succeeds even if required fields are
+  // missing in the input.
+  //
+  // MergeFromCodedStream() is just implemented as MergePartialFromCodedStream()
+  // followed by IsInitialized().</doc>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='433' u='c' c='_ZN6google8protobuf8internal14WireFormatLite9ReadGroupEiPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='447' u='c' c='_ZN6google8protobuf8internal14WireFormatLite11ReadMessageEPNS0_2io16CodedInputStreamEPNS0_11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='123' c='_ZN11HostBuffers11HostMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='301' c='_ZN11HostBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='466' c='_ZN11HostBuffers9HostBytes27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='664' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='878' c='_ZN11HostBuffers7EchoAck27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='168' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='116' c='_ZN13ClientBuffers11UserMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='294' c='_ZN13ClientBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='459' c='_ZN13ClientBuffers9Keystroke27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='657' c='_ZN13ClientBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

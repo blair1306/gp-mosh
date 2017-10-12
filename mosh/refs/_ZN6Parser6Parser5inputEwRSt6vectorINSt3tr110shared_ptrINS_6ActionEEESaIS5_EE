@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/parser.h' l='61' type='void Parser::Parser::input(wchar_t ch, Actions &amp; actions)'/>
+<def f='codebrowser/src/terminal/parser.cc' l='53' ll='67' type='void Parser::Parser::input(wchar_t ch, Actions &amp; ret)'/>
+<use f='codebrowser/src/terminal/parser.cc' l='82' u='c' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>
+<use f='codebrowser/src/terminal/parser.cc' l='152' u='c' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>

@@ -1,0 +1,8 @@
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='88' u='r' c='_ZNK16TransportBuffers11Instruction13GetCachedSizeEv'/>
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='179' type='int'/>
+<offset>352</offset>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='84' u='w' c='_ZN16TransportBuffers11Instruction10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='117' u='w' c='_ZNK16TransportBuffers11Instruction13SetCachedSizeEi'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='406' u='w' c='_ZNK16TransportBuffers11Instruction8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='466' u='a' c='_ZN16TransportBuffers11Instruction4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='466' u='a' c='_ZN16TransportBuffers11Instruction4SwapEPS0_'/>

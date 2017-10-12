@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/generated_message_util.h' l='75' type='ProtobufOnceType'/>
+<use f='include/google/protobuf/generated_message_util.h' l='84' u='a' c='_ZN6google8protobuf8internal14GetEmptyStringB5cxx11Ev'/>

@@ -1,0 +1,25 @@
+<def f='codebrowser/src/terminal/parseraction.h' l='46' ll='60'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='65' c='Parser::Ignore'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='70' c='Parser::Print'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='75' c='Parser::Execute'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='80' c='Parser::Clear'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='85' c='Parser::Collect'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='90' c='Parser::Param'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='95' c='Parser::Esc_Dispatch'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='100' c='Parser::CSI_Dispatch'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='105' c='Parser::Hook'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='108' c='Parser::Put'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='111' c='Parser::Unhook'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='114' c='Parser::OSC_Start'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='119' c='Parser::OSC_Put'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='124' c='Parser::OSC_End'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='130' c='Parser::UserByte'/>
+<ovr f='codebrowser/src/terminal/parseraction.h' l='146' c='Parser::Resize'/>
+<size>16</size>
+<mbr r='Parser::Action::ch' o='64' t='wchar_t'/>
+<mbr r='Parser::Action::char_present' o='96' t='bool'/>
+<fun r='_ZN6Parser6Action4nameB5cxx11Ev'/>
+<fun r='_ZNK6Parser6Action15act_on_terminalEPN8Terminal8EmulatorE'/>
+<fun r='_ZNK6Parser6Action6ignoreEv'/>
+<fun r='_ZN6Parser6ActionC1Ev'/>
+<fun r='_ZN6Parser6ActionD1Ev'/>

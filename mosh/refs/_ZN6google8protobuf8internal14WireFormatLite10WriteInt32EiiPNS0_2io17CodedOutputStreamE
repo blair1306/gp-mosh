@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='337' type='static void google::protobuf::internal::WireFormatLite::WriteInt32(int field_number_arg, int32 value, io::CodedOutputStream * output_arg)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='734' u='c' c='_ZNK11HostBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='739' u='c' c='_ZNK11HostBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='336'>// Write fields, including tags.</doc>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='727' u='c' c='_ZNK13ClientBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='732' u='c' c='_ZNK13ClientBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>

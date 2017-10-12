@@ -1,0 +1,11 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='462' type='static int google::protobuf::internal::WireFormatLite::Int32Size(int32 value)'/>
+<def f='include/google/protobuf/wire_format_lite_inl.h' l='799' ll='801' type='static int google::protobuf::internal::WireFormatLite::Int32Size(int32 value)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='754' u='c' c='_ZNK11HostBuffers13ResizeMessage8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='761' u='c' c='_ZNK11HostBuffers13ResizeMessage8ByteSizeEv'/>
+<doc f='include/google/protobuf/wire_format_lite_inl.h' l='797'>// ===================================================================</doc>
+<doc f='include/google/protobuf/wire_format_lite.h' l='458'>// Compute the byte size of a field.  The XxSize() functions do NOT include
+  // the tag, so you must also call TagSize().  (This is because, for repeated
+  // fields, you should only call TagSize() once and multiply it by the element
+  // count, but you may have to call XxSize() for each individual element.)</doc>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='747' u='c' c='_ZNK13ClientBuffers13ResizeMessage8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='754' u='c' c='_ZNK13ClientBuffers13ResizeMessage8ByteSizeEv'/>

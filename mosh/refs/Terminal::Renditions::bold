@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='56' type='0'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='275' u='r' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='494' u='r' c='_ZN8Terminal10Renditions13set_renditionEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='523' u='r' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>

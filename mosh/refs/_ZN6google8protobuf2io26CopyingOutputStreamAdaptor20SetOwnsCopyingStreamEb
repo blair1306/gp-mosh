@@ -1,0 +1,3 @@
+<def f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='296' type='void google::protobuf::io::CopyingOutputStreamAdaptor::SetOwnsCopyingStream(bool value)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='294'>// Call SetOwnsCopyingStream(true) to tell the CopyingOutputStreamAdaptor to
+  // delete the underlying CopyingOutputStream when it is destroyed.</doc>

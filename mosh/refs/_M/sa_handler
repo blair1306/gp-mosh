@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/sigaction.h' l='36'/>
+<use f='codebrowser/src/util/select.h' l='113' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='439' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='519' u='c'/>

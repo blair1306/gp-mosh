@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='144' type='void ClientBuffers::Instruction::Swap(ClientBuffers::Instruction * other)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='378' ll='384' type='void ClientBuffers::Instruction::Swap(ClientBuffers::Instruction * other)'/>

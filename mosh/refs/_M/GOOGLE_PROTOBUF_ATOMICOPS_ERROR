@@ -1,0 +1,3 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='164'/>
+<use f='include/google/protobuf/stubs/atomicops.h' l='223' u='w'/>
+<doc f='include/google/protobuf/stubs/atomicops.h' l='163'>// Include our platform specific implementation.</doc>

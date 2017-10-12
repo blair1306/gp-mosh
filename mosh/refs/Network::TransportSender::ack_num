@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/network/transportsender.h' l='100' type='uint64_t'/>
+<doc f='codebrowser/src/network/transportsender.h' l='99'>/* information about receiver state */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='63' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='123' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='328' u='r' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='391' u='w' c='_ZN7Network15TransportSender11set_ack_numEm'/>

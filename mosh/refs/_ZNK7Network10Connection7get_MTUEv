@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/network.h' l='215' type='int Network::Connection::get_MTU() const'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='337' u='c' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>

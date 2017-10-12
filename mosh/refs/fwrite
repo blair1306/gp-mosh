@@ -1,0 +1,6 @@
+<dec f='include/stdio.h' l='715' type='size_t fwrite(const void *__restrict __ptr, size_t __size, size_t __n, FILE *__restrict __s)'/>
+<doc f='include/stdio.h' l='711'>/* Write chunks of generic data to STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='917' u='c' c='_ZL10print_motdPKc'/>

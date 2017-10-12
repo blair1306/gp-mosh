@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='62' type='Terminal::Framebuffer'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='97' u='w' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<offset>2176</offset>
+<use f='codebrowser/src/frontend/stmclient.cc' l='243' u='w' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='247' u='r' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='247' u='r' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='279' u='r' c='_ZN9STMClient16output_new_frameEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='285' u='w' c='_ZN9STMClient16output_new_frameEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='332' u='r' c='_ZN9STMClient18process_user_inputEi'/>

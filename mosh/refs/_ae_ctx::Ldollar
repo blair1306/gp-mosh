@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/crypto/ocb.cc' l='733' type='block'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='820' u='w' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1130' u='r' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1374' u='r' c='ae_decrypt'/>
+<offset>384</offset>
+<doc f='codebrowser/src/crypto/ocb.cc' l='733'>/* Memory correct               */</doc>

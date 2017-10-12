@@ -1,0 +1,5 @@
+<def f='codebrowser/src/crypto/crypto.h' l='83' type='size_t Crypto::AlignedBuffer::len() const'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='206' u='c' c='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='207' u='c' c='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='265' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='266' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>

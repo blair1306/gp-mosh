@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/transportsender.h' l='101' type='bool'/>
+<use f='codebrowser/src/network/transportsender.h' l='130' u='w' c='_ZN7Network15TransportSender12set_data_ackEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='64' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='98' u='r' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='355' u='w' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>

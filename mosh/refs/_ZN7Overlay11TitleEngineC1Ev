@@ -1,0 +1,2 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='319' type='void Overlay::TitleEngine::TitleEngine()'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='338' u='c' c='_ZN7Overlay14OverlayManagerC1Ev'/>

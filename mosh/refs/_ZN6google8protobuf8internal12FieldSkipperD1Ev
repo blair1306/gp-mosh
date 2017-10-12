@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/wire_format_lite.h' l='527' type='void google::protobuf::internal::FieldSkipper::~FieldSkipper()'/>
+<ovr f='include/google/protobuf/wire_format_lite.h' l='548' c='_ZN6google8protobuf8internal29CodedOutputStreamFieldSkipperD1Ev'/>

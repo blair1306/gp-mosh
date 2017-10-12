@@ -1,0 +1,1 @@
+<def f='include/x86_64-linux-gnu/bits/wchar2.h' l='577' ll='592' macro='1' type='size_t wcsnrtombs(char *__restrict __dst, const wchar_t **__restrict __src, size_t __nwc, size_t __len, mbstate_t *__restrict __ps)'/>

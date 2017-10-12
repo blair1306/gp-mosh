@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/frontend/stmclient.h' l='50' type='std::string'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='92' u='w' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<offset>512</offset>
+<use f='codebrowser/src/frontend/stmclient.cc' l='253' u='m' c='_ZN9STMClient9main_initEv'/>

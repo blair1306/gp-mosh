@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/parser.h' l='55' type='void Parser::Parser::Parser()'/>
+<use f='codebrowser/src/terminal/parser.cc' l='70' u='c' c='_ZN6Parser10UTF8ParserC1Ev'/>

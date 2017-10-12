@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/networktransport.h' l='115' type='uint64_t Network::Transport::get_sent_state_last() const'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='320' u='c' c='_ZN9STMClient18process_user_inputEi'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='95' type='void ClientBuffers::UserMessage::clear_instruction()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='378' ll='380' type='void ClientBuffers::UserMessage::clear_instruction()'/>

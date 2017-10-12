@@ -1,0 +1,8 @@
+<def f='include/google/protobuf/extension_set.h' l='967' ll='1006'/>
+<fun r='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits3GetEiRKNS1_12ExtensionSetEi'/>
+<fun r='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits7MutableEiiPNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits3AddEihPNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits11GetRepeatedEiRKNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits15MutableRepeatedEihbPNS1_12ExtensionSetE'/>
+<fun r='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits23GetDefaultRepeatedFieldEv'/>
+<fun r='_ZN6google8protobuf8internal25RepeatedMessageTypeTraits23GetDefaultRepeatedFieldEv'/>

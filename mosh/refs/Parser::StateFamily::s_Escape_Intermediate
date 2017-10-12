@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/terminal/parserstatefamily.h' l='45' type='Parser::Escape_Intermediate'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='62' u='w' c='_ZN6Parser11StateFamilyC1Ev'/>
+<use f='codebrowser/src/terminal/parserstatefamily.h' l='70' u='m' c='_ZN6Parser11StateFamilyC1Ev'/>
+<offset>256</offset>
+<use f='codebrowser/src/terminal/parserstate.cc' l='118' u='a' c='_ZNK6Parser6Escape16input_state_ruleEw'/>

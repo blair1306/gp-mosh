@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='211' type='bool google::protobuf::io::CopyingInputStreamAdaptor::Next(const void ** data, int * size)'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='210'>// implements ZeroCopyInputStream ----------------------------------</doc>

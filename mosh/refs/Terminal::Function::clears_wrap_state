@@ -1,0 +1,5 @@
+<use f='codebrowser/src/terminal/terminaldispatcher.h' l='61' u='w' c='_ZN8Terminal8FunctionC1Ev'/>
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='66' type='bool'/>
+<offset>64</offset>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='194' u='w' c='_ZN8Terminal8FunctionC1ENS_13Function_TypeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFvPNS_11FramebufferEPNS_10DispatcherEEb'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='230' u='r' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>

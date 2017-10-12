@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/crypto/ocb.cc' l='732' type='block'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='817' u='a' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='818' u='r' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='956' u='r' c='_ZL10process_adP7_ae_ctxPKvii'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1126' u='r' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1337' u='r' c='ae_decrypt'/>
+<offset>256</offset>
+<doc f='codebrowser/src/crypto/ocb.cc' l='732'>/* Memory correct               */</doc>

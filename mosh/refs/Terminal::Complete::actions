@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='54' type='Parser::Actions'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='64' u='w' c='_ZN8Terminal8CompleteC1Emm'/>
+<offset>3520</offset>
+<doc f='codebrowser/src/statesync/completeterminal.h' l='51'>// Only used locally by act(), but kept here as a performance optimization,
+    // to avoid construction/destruction.  It must always be empty
+    // outside calls to act() to keep horrible things from happening.</doc>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='49' u='a' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='52' u='m' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='53' u='m' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='58' u='m' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

@@ -1,0 +1,10 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='143' type='const int'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='145' u='r'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='188' u='r'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='188' u='r'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='188' u='r'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='188' u='r'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='188' u='r' c='_ZN6google8protobuf8internal14WireFormatLite7MakeTagEiNS2_8WireTypeE'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='576' u='r' c='_ZN6google8protobuf8internal14WireFormatLite17GetTagFieldNumberEj'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='582' u='r' c='_ZN6google8protobuf8internal14WireFormatLite7TagSizeEiNS2_9FieldTypeE'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='142'>// Number of bits in a tag which identify the wire type.</doc>

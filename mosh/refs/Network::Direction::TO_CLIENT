@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/network.h' l='74' type='1'/>
+<use f='codebrowser/src/network/network.cc' l='73' u='r' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<use f='codebrowser/src/network/network.cc' l='90' u='r' c='_ZN7Network6Packet9toMessageEv'/>
+<use f='codebrowser/src/network/network.cc' l='241' u='r' c='_ZN7Network10ConnectionC1EPKcS2_'/>
+<use f='codebrowser/src/network/network.cc' l='514' u='r' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

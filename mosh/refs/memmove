@@ -1,0 +1,5 @@
+<dec f='include/string.h' l='46' type='void * memmove(void * __dest, const void * __src, size_t __n)'/>
+<def f='include/x86_64-linux-gnu/bits/string3.h' l='56' ll='60' macro='1' type='void * memmove(void * __dest, const void * __src, size_t __len)'/>
+<doc f='include/string.h' l='44'>/* Copy N bytes of SRC to DEST, guaranteeing
+   correct behavior for overlapping strings.  */</doc>
+<use f='codebrowser/src/terminal/parser.cc' l='130' u='c' c='_ZN6Parser10UTF8Parser5inputEcRSt6vectorINSt3tr110shared_ptrINS_6ActionEEESaIS5_EE'/>

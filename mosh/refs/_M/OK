@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='348'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='90' u='c'/>

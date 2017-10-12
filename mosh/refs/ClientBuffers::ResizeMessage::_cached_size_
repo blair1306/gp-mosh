@@ -1,0 +1,8 @@
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='313' u='r' c='_ZNK13ClientBuffers13ResizeMessage13GetCachedSizeEv'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='349' type='int'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='605' u='w' c='_ZN13ClientBuffers13ResizeMessage10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='623' u='w' c='_ZNK13ClientBuffers13ResizeMessage13SetCachedSizeEi'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='762' u='w' c='_ZNK13ClientBuffers13ResizeMessage8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='802' u='a' c='_ZN13ClientBuffers13ResizeMessage4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='802' u='a' c='_ZN13ClientBuffers13ResizeMessage4SwapEPS0_'/>
+<offset>352</offset>

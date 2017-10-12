@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/stubs/common.h' l='652' type='google::protobuf::internal::LogMessage &amp; google::protobuf::internal::LogMessage::operator&lt;&lt;(const std::string &amp; value)'/>

@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/repeated_field.h' l='143' type='int google::protobuf::RepeatedField::Capacity() const'/>
+<def f='include/google/protobuf/repeated_field.h' l='635' ll='638' type='int google::protobuf::RepeatedField::Capacity() const'/>
+<use f='include/google/protobuf/repeated_field.h' l='642' u='c' c='_ZN6google8protobuf13RepeatedField18AddAlreadyReservedERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='648' u='c' c='_ZN6google8protobuf13RepeatedField18AddAlreadyReservedEv'/>

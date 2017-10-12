@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='48' type='Terminal::Emulator'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='63' u='w' c='_ZN8Terminal8CompleteC1Emm'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='69' u='m' c='_ZNK8Terminal8Complete6get_fbEv'/>
+<offset>192</offset>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='56' u='a' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='61' u='m' c='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='67' u='a' c='_ZN8Terminal8Complete3actB5cxx11ERKN6Parser6ActionE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='68' u='m' c='_ZN8Terminal8Complete3actB5cxx11ERKN6Parser6ActionE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='83' u='m' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='84' u='m' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='86' u='m' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='87' u='m' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='89' u='m' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='127' u='m' c='_ZNK8Terminal8CompleteeqERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='127' u='r' c='_ZNK8Terminal8CompleteeqERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='183' u='m' c='_ZNK8Terminal8Complete7compareERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='184' u='m' c='_ZNK8Terminal8Complete7compareERKS0_'/>

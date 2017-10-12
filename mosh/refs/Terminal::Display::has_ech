@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='66' type='bool'/>
+<offset>0</offset>
+<doc f='codebrowser/src/terminal/terminaldisplay.h' l='66'>/* erase character is part of vt200 but not supported by tmux
+		     (or by &quot;screen&quot; terminfo entry, which is what tmux advertises) */</doc>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='403' u='r' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='84' u='w' c='_ZN8Terminal7DisplayC1Eb'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='108' u='w' c='_ZN8Terminal7DisplayC1Eb'/>

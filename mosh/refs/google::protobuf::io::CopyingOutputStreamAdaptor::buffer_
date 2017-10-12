@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='324' type='scoped_array&lt;uint8&gt;'/>
+<offset>256</offset>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='322'>// Data is written from this buffer.  It may be NULL if no buffer is
+  // currently in use.  Otherwise, it points to an array of size buffer_size_.</doc>

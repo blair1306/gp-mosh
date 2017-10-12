@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/networktransport.h' l='63' type='uint64_t'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='49' u='w' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='63' u='w' c='_ZN7Network9TransportC1ERT_RT0_PKcS6_S6_'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='123' c='_ZN7Network9Transport4recvEv'/>
+<use f='codebrowser/src/network/networktransport-impl.h' l='130' u='w' c='_ZN7Network9Transport4recvEv'/>

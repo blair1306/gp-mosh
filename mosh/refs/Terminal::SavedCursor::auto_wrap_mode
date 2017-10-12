@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='238' type='bool'/>
+<offset>96</offset>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='237'>/* not implemented: character set shift state */</doc>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='275' u='w' c='_ZN8Terminal11SavedCursorC1Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='284' u='w' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='293' u='r' c='_ZN8Terminal9DrawState14restore_cursorEv'/>

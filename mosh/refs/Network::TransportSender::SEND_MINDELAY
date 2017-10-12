@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/network/transportsender.h' l='103' type='unsigned int'/>
+<use f='codebrowser/src/network/transportsender.h' l='158' u='w' c='_ZN7Network15TransportSender14set_send_delayEi'/>
+<doc f='codebrowser/src/network/transportsender.h' l='103'>/* ms to collect all input */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='65' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='107' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='113' c='_ZN7Network15TransportSender16calculate_timersEv'/>

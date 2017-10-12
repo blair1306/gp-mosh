@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminal.h' l='77' type='void Terminal::Emulator::Emulator(size_t s_width, size_t s_height)'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='63' u='c' c='_ZN8Terminal8CompleteC1Emm'/>
+<def f='codebrowser/src/terminal/terminal.cc' l='43' ll='45' type='void Terminal::Emulator::Emulator(size_t s_width, size_t s_height)'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='130' ll='134' type='bool Terminal::Cell::contents_match(const Terminal::Cell &amp; other) const'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='105' u='c' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='108' u='c' c='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='618' u='c' c='_ZNK8Terminal4Cell7compareERKS0_'/>

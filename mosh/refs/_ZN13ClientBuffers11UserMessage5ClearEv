@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='72' type='void ClientBuffers::UserMessage::Clear()'/>
+<inh f='include/google/protobuf/message_lite.h' l='96' c='_ZN6google8protobuf11MessageLite5ClearEv'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='110' ll='114' type='void ClientBuffers::UserMessage::Clear()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='212' u='c' c='_ZN13ClientBuffers11UserMessage8CopyFromERKS0_'/>

@@ -1,0 +1,11 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='117' type='Atomic32 google::protobuf::internal::Acquire_CompareAndSwap(volatile Atomic32 * ptr, Atomic32 old_value, Atomic32 new_value)'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='98' ll='106' type='Atomic32 google::protobuf::internal::Acquire_CompareAndSwap(volatile Atomic32 * ptr, Atomic32 old_value, Atomic32 new_value)'/>
+<doc f='include/google/protobuf/stubs/atomicops.h' l='108'>// These following lower-level operations are typically useful only to people
+// implementing higher-level synchronization operations like spinlocks,
+// mutexes, and condition-variables.  They combine CompareAndSwap(), a load, or
+// a store with appropriate memory-ordering instructions.  &quot;Acquire&quot; operations
+// ensure that no later memory access can be reordered ahead of the operation.
+// &quot;Release&quot; operations ensure that no previous memory access can be reordered
+// after the operation.  &quot;Barrier&quot; operations have both &quot;Acquire&quot; and &quot;Release&quot;
+// semantics.   A MemoryBarrier() has &quot;Barrier&quot; semantics, but does no memory
+// access.</doc>

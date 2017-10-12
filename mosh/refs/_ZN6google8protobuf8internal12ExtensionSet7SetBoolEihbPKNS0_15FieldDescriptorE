@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/extension_set.h' l='249' type='void google::protobuf::internal::ExtensionSet::SetBool(int number, FieldType type, bool value, const google::protobuf::FieldDescriptor * descriptor)'/>
+<use f='include/google/protobuf/extension_set.h' l='773' macro='1' u='c'/>

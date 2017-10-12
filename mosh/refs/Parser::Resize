@@ -1,0 +1,10 @@
+<inh f='codebrowser/src/terminal/parseraction.h' l='46' c='Parser::Action'/>
+<def f='codebrowser/src/terminal/parseraction.h' l='146' ll='163'/>
+<size>32</size>
+<mbr r='Parser::Resize::width' o='128' t='size_t'/>
+<mbr r='Parser::Resize::height' o='192' t='size_t'/>
+<fun r='_ZN6Parser6Resize4nameB5cxx11Ev'/>
+<fun r='_ZNK6Parser6Resize15act_on_terminalEPN8Terminal8EmulatorE'/>
+<fun r='_ZN6Parser6ResizeC1Emm'/>
+<fun r='_ZNK6Parser6ResizeeqERKS0_'/>
+<fun r='_ZNK6Parser6Resize15act_on_terminalEPN8Terminal8EmulatorE'/>

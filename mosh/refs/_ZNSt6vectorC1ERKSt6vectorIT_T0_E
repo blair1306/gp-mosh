@@ -1,0 +1,18 @@
+<def f='include/c++/5/bits/stl_vector.h' l='318' ll='325' type='void std::vector::vector&lt;_Tp, _Alloc&gt;(const vector&lt;_Tp, _Alloc&gt; &amp; __x)'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.h' l='111' u='c' c='_ZNK8Terminal10Dispatcher14get_OSC_stringEv'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='309'>/**
+       *  @brief  %Vector copy constructor.
+       *  @param  __x  A %vector of identical element and allocator types.
+       *
+       *  The newly-created %vector uses a copy of the allocation
+       *  object used by @a __x.  All the elements of @a __x are copied,
+       *  but any extra memory in
+       *  @a __x (for fast expansion) will not be copied.
+       */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='692' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='452' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='159' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='91' u='c' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='91' u='c' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='91' u='c' c='_ZN8Terminal11FramebufferC1ERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='92' u='c' c='_ZN8Terminal11FramebufferC1ERKS0_'/>

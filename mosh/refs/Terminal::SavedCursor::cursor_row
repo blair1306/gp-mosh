@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='235' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='273' u='w' c='_ZN8Terminal11SavedCursorC1Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='282' u='w' c='_ZN8Terminal9DrawState11save_cursorEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='291' u='r' c='_ZN8Terminal9DrawState14restore_cursorEv'/>

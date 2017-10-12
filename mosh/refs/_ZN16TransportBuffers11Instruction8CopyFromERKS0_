@@ -1,0 +1,3 @@
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='47' u='c' c='_ZN16TransportBuffers11InstructionaSERKS0_'/>
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='77' type='void TransportBuffers::Instruction::CopyFrom(const TransportBuffers::Instruction &amp; from)'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='444' ll='448' type='void TransportBuffers::Instruction::CopyFrom(const TransportBuffers::Instruction &amp; from)'/>

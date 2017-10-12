@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/termios.h' l='30' type='tcflag_t'/>
+<offset>0</offset>
+<doc f='include/x86_64-linux-gnu/bits/termios.h' l='30'>/* input mode flags */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='536' u='w' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='105' u='r' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='108' u='w' c='_ZN9STMClient4initEv'/>

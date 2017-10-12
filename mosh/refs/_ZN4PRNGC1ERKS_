@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/crypto/prng.h' l='55' type='void PRNG::PRNG(const PRNG &amp; )'/>
+<doc f='codebrowser/src/crypto/prng.h' l='54'>/* unimplemented to satisfy -Weffc++ */</doc>

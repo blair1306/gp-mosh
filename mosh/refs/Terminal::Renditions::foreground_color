@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='59' type='unsigned int'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='74' u='r' c='_ZNK8Terminal10RenditionseqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='74' u='r' c='_ZNK8Terminal10RenditionseqERKS0_'/>
+<offset>0</offset>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='58'>// all together, a 32 bit word now...</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='205' u='w' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='276' u='w' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='457' u='w' c='_ZN8Terminal10RenditionsC1Et'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='466' u='w' c='_ZN8Terminal10Renditions13set_renditionEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='471' u='w' c='_ZN8Terminal10Renditions13set_renditionEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='479' u='w' c='_ZN8Terminal10Renditions13set_renditionEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='485' u='w' c='_ZN8Terminal10Renditions13set_renditionEt'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='507' u='w' c='_ZN8Terminal10Renditions20set_foreground_colorEi'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='530' u='r' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='531' u='r' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='534' u='r' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='547' u='r' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='549' u='r' c='_ZNK8Terminal10Renditions3sgrB5cxx11Ev'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/terminal/terminaldisplay.h' l='71' type='bool'/>
+<offset>16</offset>
+<doc f='codebrowser/src/terminal/terminaldisplay.h' l='71'>/* supports window title and icon name */</doc>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='74' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='84' u='w' c='_ZN8Terminal7DisplayC1Eb'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='121' u='w' c='_ZN8Terminal7DisplayC1Eb'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='129' u='w' c='_ZN8Terminal7DisplayC1Eb'/>

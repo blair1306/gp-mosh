@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/transportsender.h' l='92' type='void Network::TransportSender::calculate_timers()'/>
+<def f='codebrowser/src/network/transportsender-impl.h' l='87' ll='126' type='void Network::TransportSender::calculate_timers()'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='132' u='c' c='_ZN7Network15TransportSender9wait_timeEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='156' u='c' c='_ZN7Network15TransportSender4tickEv'/>
+<doc f='codebrowser/src/network/transportsender-impl.h' l='86'>/* Housekeeping routine to calculate next send and ack times */</doc>

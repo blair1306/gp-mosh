@@ -1,0 +1,4 @@
+<dec f='include/netinet/in.h' l='229' type='const struct in6_addr'/>
+<doc f='include/netinet/in.h' l='229'>/* :: */</doc>
+<use f='codebrowser/src/network/network.cc' l='328' u='a' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='328' u='r' c='_ZN7Network10Connection8try_bindEPKcii'/>

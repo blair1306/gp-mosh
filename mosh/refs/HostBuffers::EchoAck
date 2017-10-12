@@ -1,0 +1,67 @@
+<inh f='include/google/protobuf/message_lite.h' l='77' c='google::protobuf::MessageLite'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='362' ll='436'/>
+<size>56</size>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='360'>// -------------------------------------------------------------------</doc>
+<fun r='_ZN11HostBuffers7EchoAckC1Ev'/>
+<fun r='_ZN11HostBuffers7EchoAckD1Ev'/>
+<fun r='_ZN11HostBuffers7EchoAckC1ERKS0_'/>
+<fun r='_ZN11HostBuffers7EchoAckaSERKS0_'/>
+<fun r='_ZNK11HostBuffers7EchoAck14unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers7EchoAck22mutable_unknown_fieldsB5cxx11Ev'/>
+<fun r='_ZN11HostBuffers7EchoAck16default_instanceEv'/>
+<fun r='_ZN11HostBuffers7EchoAck4SwapEPS0_'/>
+<fun r='_ZNK11HostBuffers7EchoAck3NewEv'/>
+<fun r='_ZN11HostBuffers7EchoAck21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN11HostBuffers7EchoAck8CopyFromERKS0_'/>
+<fun r='_ZN11HostBuffers7EchoAck9MergeFromERKS0_'/>
+<fun r='_ZN11HostBuffers7EchoAck5ClearEv'/>
+<fun r='_ZNK11HostBuffers7EchoAck13IsInitializedEv'/>
+<fun r='_ZNK11HostBuffers7EchoAck8ByteSizeEv'/>
+<fun r='_ZN11HostBuffers7EchoAck27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK11HostBuffers7EchoAck24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZN11HostBuffers7EchoAck20DiscardUnknownFieldsEv'/>
+<fun r='_ZNK11HostBuffers7EchoAck13GetCachedSizeEv'/>
+<fun r='_ZN11HostBuffers7EchoAck10SharedCtorEv'/>
+<fun r='_ZN11HostBuffers7EchoAck10SharedDtorEv'/>
+<fun r='_ZNK11HostBuffers7EchoAck13SetCachedSizeEi'/>
+<fun r='_ZNK11HostBuffers7EchoAck11GetTypeNameB5cxx11Ev'/>
+<fun r='_ZNK11HostBuffers7EchoAck16has_echo_ack_numEv'/>
+<fun r='_ZN11HostBuffers7EchoAck18clear_echo_ack_numEv'/>
+<smbr r='HostBuffers::EchoAck::kEchoAckNumFieldNumber' t='const int'/>
+<fun r='_ZNK11HostBuffers7EchoAck12echo_ack_numEv'/>
+<fun r='_ZN11HostBuffers7EchoAck16set_echo_ack_numEm'/>
+<fun r='_ZN11HostBuffers7EchoAck20set_has_echo_ack_numEv'/>
+<fun r='_ZN11HostBuffers7EchoAck22clear_has_echo_ack_numEv'/>
+<mbr r='HostBuffers::EchoAck::_unknown_fields_' o='64' t='::std::string'/>
+<mbr r='HostBuffers::EchoAck::_has_bits_' o='320' t='::google::protobuf::uint32 [1]'/>
+<mbr r='HostBuffers::EchoAck::_cached_size_' o='352' t='int'/>
+<mbr r='HostBuffers::EchoAck::echo_ack_num_' o='384' t='::google::protobuf::uint64'/>
+<fun r='_ZN11HostBuffers7EchoAck21InitAsDefaultInstanceEv'/>
+<smbr r='HostBuffers::EchoAck::default_instance_' t='HostBuffers::EchoAck *'/>
+<fun r='_ZNK11HostBuffers7EchoAck16has_echo_ack_numEv'/>
+<fun r='_ZN11HostBuffers7EchoAck20set_has_echo_ack_numEv'/>
+<fun r='_ZN11HostBuffers7EchoAck22clear_has_echo_ack_numEv'/>
+<fun r='_ZN11HostBuffers7EchoAck18clear_echo_ack_numEv'/>
+<fun r='_ZNK11HostBuffers7EchoAck12echo_ack_numEv'/>
+<fun r='_ZN11HostBuffers7EchoAck16set_echo_ack_numEm'/>
+<smbr r='HostBuffers::EchoAck::kEchoAckNumFieldNumber' t='const int'/>
+<fun r='_ZN11HostBuffers7EchoAckC1Ev'/>
+<fun r='_ZN11HostBuffers7EchoAck21InitAsDefaultInstanceEv'/>
+<fun r='_ZN11HostBuffers7EchoAckC1ERKS0_'/>
+<fun r='_ZN11HostBuffers7EchoAck10SharedCtorEv'/>
+<fun r='_ZN11HostBuffers7EchoAckD1Ev'/>
+<fun r='_ZN11HostBuffers7EchoAck10SharedDtorEv'/>
+<fun r='_ZNK11HostBuffers7EchoAck13SetCachedSizeEi'/>
+<fun r='_ZN11HostBuffers7EchoAck16default_instanceEv'/>
+<smbr r='HostBuffers::EchoAck::default_instance_' t='HostBuffers::EchoAck *'/>
+<fun r='_ZNK11HostBuffers7EchoAck3NewEv'/>
+<fun r='_ZN11HostBuffers7EchoAck5ClearEv'/>
+<fun r='_ZN11HostBuffers7EchoAck27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<fun r='_ZNK11HostBuffers7EchoAck24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<fun r='_ZNK11HostBuffers7EchoAck8ByteSizeEv'/>
+<fun r='_ZN11HostBuffers7EchoAck21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<fun r='_ZN11HostBuffers7EchoAck9MergeFromERKS0_'/>
+<fun r='_ZN11HostBuffers7EchoAck8CopyFromERKS0_'/>
+<fun r='_ZNK11HostBuffers7EchoAck13IsInitializedEv'/>
+<fun r='_ZN11HostBuffers7EchoAck4SwapEPS0_'/>
+<fun r='_ZNK11HostBuffers7EchoAck11GetTypeNameB5cxx11Ev'/>

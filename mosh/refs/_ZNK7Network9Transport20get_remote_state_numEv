@@ -1,0 +1,8 @@
+<def f='codebrowser/src/network/networktransport.h' l='103' type='uint64_t Network::Transport::get_remote_state_num() const'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='84' u='c' c='_ZNK9STMClient16still_connectingEv'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='651' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='670' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='715' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='716' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='880' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='541' u='c' c='_ZN9STMClient4mainEv'/>

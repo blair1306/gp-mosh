@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_vector.h' l='742' ll='744' type='bool std::vector::empty() const'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='738'>/**
+       *  Returns true if the %vector is empty.  (Thus begin() would
+       *  equal end().)
+       */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='996' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

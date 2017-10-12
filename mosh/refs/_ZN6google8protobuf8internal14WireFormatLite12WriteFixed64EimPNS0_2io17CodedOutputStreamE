@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='344' type='static void google::protobuf::internal::WireFormatLite::WriteFixed64(int field_number_arg, uint64 value, io::CodedOutputStream * output_arg)'/>

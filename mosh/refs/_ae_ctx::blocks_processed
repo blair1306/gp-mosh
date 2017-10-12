@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/crypto/ocb.cc' l='740' type='uint32_t'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1010' u='w' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1025' u='r' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1075' u='w' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1232' u='w' c='ae_decrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1247' u='r' c='ae_decrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='1296' u='w' c='ae_decrypt'/>
+<offset>3168</offset>

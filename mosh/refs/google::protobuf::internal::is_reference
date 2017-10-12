@@ -1,0 +1,5 @@
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='195'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='196'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='194'>// is_reference is false except for reference types.</doc>

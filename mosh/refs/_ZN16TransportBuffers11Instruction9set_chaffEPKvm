@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='154' type='void TransportBuffers::Instruction::set_chaff(const void * value, size_t size)'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='437' ll='444' type='void TransportBuffers::Instruction::set_chaff(const void * value, size_t size)'/>

@@ -1,0 +1,14 @@
+<inh f='include/google/protobuf/io/zero_copy_stream.h' l='181' c='google::protobuf::io::ZeroCopyOutputStream'/>
+<def f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='127' ll='150'/>
+<size>16</size>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='124'>// ===================================================================
+
+// A ZeroCopyOutputStream which appends bytes to a string.</doc>
+<fun r='_ZN6google8protobuf2io18StringOutputStreamC1EPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN6google8protobuf2io18StringOutputStreamD1Ev'/>
+<fun r='_ZN6google8protobuf2io18StringOutputStream4NextEPPvPi'/>
+<fun r='_ZN6google8protobuf2io18StringOutputStream6BackUpEi'/>
+<fun r='_ZNK6google8protobuf2io18StringOutputStream9ByteCountEv'/>
+<smbr r='google::protobuf::io::StringOutputStream::kMinimumSize' t='const int'/>
+<mbr r='google::protobuf::io::StringOutputStream::target_' o='64' t='string *'/>
+<fun r='_ZN6google8protobuf2io18StringOutputStreamC1ERKS2_'/>

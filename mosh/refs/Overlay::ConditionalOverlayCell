@@ -1,0 +1,11 @@
+<inh f='codebrowser/src/frontend/terminaloverlay.h' l='60' c='Overlay::ConditionalOverlay'/>
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='97' ll='125'/>
+<size>112</size>
+<mbr r='Overlay::ConditionalOverlayCell::replacement' o='320' t='Terminal::Cell'/>
+<mbr r='Overlay::ConditionalOverlayCell::unknown' o='640' t='bool'/>
+<mbr r='Overlay::ConditionalOverlayCell::original_contents' o='704' t='vector&lt;Terminal::Cell&gt;'/>
+<fun r='_ZNK7Overlay22ConditionalOverlayCell5applyERN8Terminal11FramebufferEmib'/>
+<fun r='_ZNK7Overlay22ConditionalOverlayCell12get_validityERKN8Terminal11FramebufferEimm'/>
+<fun r='_ZN7Overlay22ConditionalOverlayCellC1Emim'/>
+<fun r='_ZN7Overlay22ConditionalOverlayCell5resetEv'/>
+<fun r='_ZN7Overlay22ConditionalOverlayCell15reset_with_origEv'/>

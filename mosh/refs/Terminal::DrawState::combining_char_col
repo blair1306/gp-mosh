@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='253' type='int'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='303' u='r' c='_ZNK8Terminal9DrawState22get_combining_char_colEv'/>
+<offset>128</offset>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='69' u='w' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='122' u='w' c='_ZN8Terminal9DrawState12new_graphemeEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='450' u='r' c='_ZN8Terminal9DrawState6resizeEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='452' u='w' c='_ZN8Terminal9DrawState6resizeEii'/>

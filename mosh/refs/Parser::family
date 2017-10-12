@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/parser.h' l='48' type='const Parser::StateFamily'/>
+<use f='codebrowser/src/terminal/parser.h' l='55' u='m' c='_ZN6Parser6ParserC1Ev'/>
+<use f='codebrowser/src/terminal/parser.h' l='65' u='m' c='_ZN6Parser6Parser11reset_inputEv'/>
+<def f='codebrowser/src/terminal/parser.cc' l='41' type='const Parser::StateFamily'/>

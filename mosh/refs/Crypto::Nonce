@@ -1,0 +1,12 @@
+<def f='codebrowser/src/crypto/crypto.h' l='103' ll='117'/>
+<size>12</size>
+<smbr r='Crypto::Nonce::NONCE_LEN' t='const int'/>
+<mbr r='Crypto::Nonce::bytes' o='0' t='char [12]'/>
+<fun r='_ZN6Crypto5NonceC1Em'/>
+<fun r='_ZN6Crypto5NonceC1EPKcm'/>
+<fun r='_ZNK6Crypto5Nonce6cc_strB5cxx11Ev'/>
+<fun r='_ZNK6Crypto5Nonce4dataEv'/>
+<fun r='_ZNK6Crypto5Nonce3valEv'/>
+<fun r='_ZN6Crypto5NonceC1Em'/>
+<fun r='_ZNK6Crypto5Nonce3valEv'/>
+<fun r='_ZN6Crypto5NonceC1EPKcm'/>

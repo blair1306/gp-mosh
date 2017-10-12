@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/stl_list.h' l='237' ll='239' type='pointer std::_List_const_iterator::operator-&gt;() const'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='336' u='c' c='main'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='371' u='c' c='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='377' u='c' c='_ZNK7Overlay16PredictionEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='914' u='c' c='_ZNK7Overlay16PredictionEngine6activeEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='915' u='c' c='_ZNK7Overlay16PredictionEngine6activeEv'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='143' u='c' c='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='144' u='c' c='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='173' u='c' c='_ZNK8Terminal8Complete9wait_timeEm'/>

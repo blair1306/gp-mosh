@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='80' type='void Terminal::Complete::apply_string(const std::string &amp; diff)'/>
+<def f='codebrowser/src/statesync/completeterminal.cc' l='104' ll='122' type='void Terminal::Complete::apply_string(const string &amp; diff)'/>

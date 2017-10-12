@@ -1,0 +1,1 @@
+<dec f='codebrowser/src/util/pty_compat.h' l='49' type='void my_cfmakeraw(struct termios * termios_p)'/>

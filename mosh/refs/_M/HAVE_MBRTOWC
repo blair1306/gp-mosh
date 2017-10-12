@@ -1,0 +1,2 @@
+<dec f='codebrowser/config.h' l='112'/>
+<doc f='codebrowser/config.h' l='111'>/* Define to 1 if mbrtowc and mbstate_t are properly declared. */</doc>

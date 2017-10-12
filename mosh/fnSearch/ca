@@ -1,0 +1,7 @@
+_ZNK6google8protobuf13RepeatedField8CapacityEv|google::protobuf::RepeatedField::Capacity
+_ZNK6google8protobuf16RepeatedPtrField8CapacityEv|google::protobuf::RepeatedPtrField::Capacity
+_ZN6google8protobuf8internal16CalculateReserveET_S2_St20forward_iterator_tag|google::protobuf::internal::CalculateReserve
+_ZNK6google8protobuf8internal20RepeatedPtrFieldBase8CapacityEv|google::protobuf::internal::RepeatedPtrFieldBase::Capacity
+_ZN6google8protobuf8internal20RepeatedPtrFieldBase4castEPv|google::protobuf::internal::RepeatedPtrFieldBase::cast
+_ZNKSt6vector8capacityEv|std::vector::capacity
+_ZN7Network15TransportSender16calculate_timersEv|Network::TransportSender::calculate_timers

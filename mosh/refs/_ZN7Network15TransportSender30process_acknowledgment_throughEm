@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/transportsender.h' l='124' type='void Network::TransportSender::process_acknowledgment_through(uint64_t ack_num)'/>
+<doc f='codebrowser/src/network/transportsender.h' l='123'>/* Executed upon receipt of ack */</doc>
+<def f='codebrowser/src/network/transportsender-impl.h' l='358' ll='370' type='void Network::TransportSender::process_acknowledgment_through(uint64_t ack_num)'/>

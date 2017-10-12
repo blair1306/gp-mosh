@@ -1,0 +1,4 @@
+<dec f='codebrowser/config.h' l='79'/>
+<doc f='codebrowser/config.h' l='78'>/* Define to 1 if you have the `gettimeofday&apos; function. */</doc>
+<use f='codebrowser/src/util/timestamp.cc' l='46' u='c'/>
+<use f='codebrowser/src/util/timestamp.cc' l='104' u='c'/>

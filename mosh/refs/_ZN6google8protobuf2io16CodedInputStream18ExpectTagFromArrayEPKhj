@@ -1,0 +1,10 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='268' type='static const uint8 * google::protobuf::io::CodedInputStream::ExpectTagFromArray(const uint8 * buffer, uint32 expected)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='959' ll='972' type='static const uint8 * google::protobuf::io::CodedInputStream::ExpectTagFromArray(const uint8 * buffer, uint32 expected)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='279' u='c' c='_ZN6google8protobuf8internal14WireFormatLite30ReadRepeatedFixedSizePrimitiveEijPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='261'>// Like above, except this reads from the specified buffer. The caller is
+  // responsible for ensuring that the buffer is large enough to read a varint
+  // of the expected size. For best performance, use a compile-time constant as
+  // the expected tag parameter.
+  //
+  // Returns a pointer beyond the expected tag if it was found, or NULL if it
+  // was not.</doc>

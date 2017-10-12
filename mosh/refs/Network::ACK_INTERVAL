@@ -1,0 +1,6 @@
+<def f='codebrowser/src/network/transportsender.h' l='54' type='const int'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='191' u='r' c='_ZN7Overlay18NotificationEngine17set_network_errorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/src/network/transportsender.h' l='54'>/* ms between empty acks */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='224' u='r' c='_ZN7Network15TransportSender14send_empty_ackEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='266' u='r' c='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='328' u='r' c='_ZNK7Overlay18NotificationEngine9wait_timeEv'/>

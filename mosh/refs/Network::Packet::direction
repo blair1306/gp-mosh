@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/network/network.h' l='80' type='Network::Direction'/>
+<use f='codebrowser/src/network/network.h' l='86' u='w' c='_ZN7Network6PacketC1ENS_9DirectionEttRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>64</offset>
+<use f='codebrowser/src/network/network.cc' l='73' u='w' c='_ZN7Network6PacketC1ERKN6Crypto7MessageE'/>
+<use f='codebrowser/src/network/network.cc' l='90' u='r' c='_ZN7Network6Packet9toMessageEv'/>
+<use f='codebrowser/src/network/network.cc' l='514' u='r' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

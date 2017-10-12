@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/repeated_field.h' l='409' type='static void google::protobuf::internal::StringTypeHandlerBase::Delete(string * value)'/>

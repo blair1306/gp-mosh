@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/network/network.h' l='160' type='Network::Connection::Socket &amp; Network::Connection::Socket::operator=(const Network::Connection::Socket &amp; other)'/>
+<def f='codebrowser/src/network/network.cc' l='648' ll='655' type='Connection::Socket &amp; Network::Connection::Socket::operator=(const Network::Connection::Socket &amp; other)'/>

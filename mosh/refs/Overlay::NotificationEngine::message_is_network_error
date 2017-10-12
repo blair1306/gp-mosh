@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='149' type='bool'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='173' u='w' c='_ZN7Overlay18NotificationEngine23set_notification_stringERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEEbb'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='190' u='w' c='_ZN7Overlay18NotificationEngine17set_network_errorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='196' u='r' c='_ZN7Overlay18NotificationEngine19clear_network_errorEv'/>
+<offset>640</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='167' u='w' c='_ZN7Overlay18NotificationEngineC1Ev'/>

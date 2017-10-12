@@ -1,0 +1,2 @@
+<inh f='include/google/protobuf/stubs/common.h' l='858' c='_ZN6google8protobuf7Closure3RunEv'/>
+<def f='include/google/protobuf/stubs/common.h' l='894' ll='898' type='void google::protobuf::internal::MethodClosure0::Run()'/>

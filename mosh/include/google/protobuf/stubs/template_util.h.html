@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>template_util.h source code [include/google/protobuf/stubs/template_util.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="google::protobuf::internal::and_,google::protobuf::internal::big_,google::protobuf::internal::identity_,google::protobuf::internal::if_,google::protobuf::internal::integral_constant,google::protobuf::internal::or_,google::protobuf::internal::type_equals_ "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'include/google/protobuf/stubs/template_util.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>include</a>/<a href='../..'>google</a>/<a href='..'>protobuf</a>/<a href='./'>stubs</a>/<a href='template_util.h.html'>template_util.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// Copyright 2005 Google Inc.</i></td></tr>
+<tr><th id="2">2</th><td><i>// All rights reserved.</i></td></tr>
+<tr><th id="3">3</th><td><i>//</i></td></tr>
+<tr><th id="4">4</th><td><i>// Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="5">5</th><td><i>// modification, are permitted provided that the following conditions are</i></td></tr>
+<tr><th id="6">6</th><td><i>// met:</i></td></tr>
+<tr><th id="7">7</th><td><i>//</i></td></tr>
+<tr><th id="8">8</th><td><i>//     * Redistributions of source code must retain the above copyright</i></td></tr>
+<tr><th id="9">9</th><td><i>// notice, this list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="10">10</th><td><i>//     * Redistributions in binary form must reproduce the above</i></td></tr>
+<tr><th id="11">11</th><td><i>// copyright notice, this list of conditions and the following disclaimer</i></td></tr>
+<tr><th id="12">12</th><td><i>// in the documentation and/or other materials provided with the</i></td></tr>
+<tr><th id="13">13</th><td><i>// distribution.</i></td></tr>
+<tr><th id="14">14</th><td><i>//     * Neither the name of Google Inc. nor the names of its</i></td></tr>
+<tr><th id="15">15</th><td><i>// contributors may be used to endorse or promote products derived from</i></td></tr>
+<tr><th id="16">16</th><td><i>// this software without specific prior written permission.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS</i></td></tr>
+<tr><th id="19">19</th><td><i>// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT</i></td></tr>
+<tr><th id="20">20</th><td><i>// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR</i></td></tr>
+<tr><th id="21">21</th><td><i>// A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT</i></td></tr>
+<tr><th id="22">22</th><td><i>// OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,</i></td></tr>
+<tr><th id="23">23</th><td><i>// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT</i></td></tr>
+<tr><th id="24">24</th><td><i>// LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,</i></td></tr>
+<tr><th id="25">25</th><td><i>// DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY</i></td></tr>
+<tr><th id="26">26</th><td><i>// THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT</i></td></tr>
+<tr><th id="27">27</th><td><i>// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE</i></td></tr>
+<tr><th id="28">28</th><td><i>// OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="29">29</th><td><i></i></td></tr>
+<tr><th id="30">30</th><td><i>// ----</i></td></tr>
+<tr><th id="31">31</th><td><i>// Author: lar@google.com (Laramie Leavitt)</i></td></tr>
+<tr><th id="32">32</th><td><i>//</i></td></tr>
+<tr><th id="33">33</th><td><i>// Template metaprogramming utility functions.</i></td></tr>
+<tr><th id="34">34</th><td><i>//</i></td></tr>
+<tr><th id="35">35</th><td><i>// This code is compiled directly on many platforms, including client</i></td></tr>
+<tr><th id="36">36</th><td><i>// platforms like Windows, Mac, and embedded systems.  Before making</i></td></tr>
+<tr><th id="37">37</th><td><i>// any changes here, make sure that you're not breaking any platforms.</i></td></tr>
+<tr><th id="38">38</th><td><i>//</i></td></tr>
+<tr><th id="39">39</th><td><i>//</i></td></tr>
+<tr><th id="40">40</th><td><i>// The names choosen here reflect those used in tr1 and the boost::mpl</i></td></tr>
+<tr><th id="41">41</th><td><i>// library, there are similar operations used in the Loki library as</i></td></tr>
+<tr><th id="42">42</th><td><i>// well.  I prefer the boost names for 2 reasons:</i></td></tr>
+<tr><th id="43">43</th><td><i>// 1.  I think that portions of the Boost libraries are more likely to</i></td></tr>
+<tr><th id="44">44</th><td><i>// be included in the c++ standard.</i></td></tr>
+<tr><th id="45">45</th><td><i>// 2.  It is not impossible that some of the boost libraries will be</i></td></tr>
+<tr><th id="46">46</th><td><i>// included in our own build in the future.</i></td></tr>
+<tr><th id="47">47</th><td><i>// Both of these outcomes means that we may be able to directly replace</i></td></tr>
+<tr><th id="48">48</th><td><i>// some of these with boost equivalents.</i></td></tr>
+<tr><th id="49">49</th><td><i>//</i></td></tr>
+<tr><th id="50">50</th><td><u>#<span data-ppcond="50">ifndef</span> <span class="macro" data-ref="_M/GOOGLE_PROTOBUF_TEMPLATE_UTIL_H_">GOOGLE_PROTOBUF_TEMPLATE_UTIL_H_</span></u></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/GOOGLE_PROTOBUF_TEMPLATE_UTIL_H_" data-ref="_M/GOOGLE_PROTOBUF_TEMPLATE_UTIL_H_">GOOGLE_PROTOBUF_TEMPLATE_UTIL_H_</dfn></u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><b>namespace</b> <span class="namespace">google</span> {</td></tr>
+<tr><th id="54">54</th><td><b>namespace</b> <span class="namespace">protobuf</span> {</td></tr>
+<tr><th id="55">55</th><td><b>namespace</b> <span class="namespace">internal</span> {</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><i>// Types small_ and big_ are guaranteed such that sizeof(small_) &lt;</i></td></tr>
+<tr><th id="58">58</th><td><i>// sizeof(big_)</i></td></tr>
+<tr><th id="59">59</th><td><b>typedef</b> <em>char</em> <dfn class="typedef" id="google::protobuf::internal::small_" title='google::protobuf::internal::small_' data-type='char' data-ref="google::protobuf::internal::small_">small_</dfn>;</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::big_" title='google::protobuf::internal::big_' data-ref="google::protobuf::internal::big_">big_</dfn> {</td></tr>
+<tr><th id="62">62</th><td>  <em>char</em> <dfn class="decl" id="google::protobuf::internal::big_::dummy" title='google::protobuf::internal::big_::dummy' data-ref="google::protobuf::internal::big_::dummy">dummy</dfn>[<var>2</var>];</td></tr>
+<tr><th id="63">63</th><td>};</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><i>// Identity metafunction.</i></td></tr>
+<tr><th id="66">66</th><td><b>template</b> &lt;<b>class</b> T&gt;</td></tr>
+<tr><th id="67">67</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::identity_" title='google::protobuf::internal::identity_' data-ref="google::protobuf::internal::identity_">identity_</dfn> {</td></tr>
+<tr><th id="68">68</th><td>  <b>typedef</b> T <dfn class="typedef" id="google::protobuf::internal::identity_::type" title='google::protobuf::internal::identity_::type' data-type='T' data-ref="google::protobuf::internal::identity_::type">type</dfn>;</td></tr>
+<tr><th id="69">69</th><td>};</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><i>// integral_constant, defined in tr1, is a wrapper for an integer</i></td></tr>
+<tr><th id="72">72</th><td><i>// value. We don't really need this generality; we could get away</i></td></tr>
+<tr><th id="73">73</th><td><i>// with hardcoding the integer type to bool. We use the fully</i></td></tr>
+<tr><th id="74">74</th><td><i>// general integer_constant for compatibility with tr1.</i></td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td><b>template</b>&lt;<b>class</b> T, T v&gt;</td></tr>
+<tr><th id="77">77</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::integral_constant" title='google::protobuf::internal::integral_constant' data-ref="google::protobuf::internal::integral_constant">integral_constant</dfn> {</td></tr>
+<tr><th id="78">78</th><td>  <em>static</em> <em>const</em> T <dfn class="decl" id="google::protobuf::internal::integral_constant::value" title='google::protobuf::internal::integral_constant::value' data-ref="google::protobuf::internal::integral_constant::value">value</dfn> = <a class="tu ref" href="#google::protobuf::internal::integral_constant::v" title='google::protobuf::internal::integral_constant::v' data-ref="google::protobuf::internal::integral_constant::v">v</a>;</td></tr>
+<tr><th id="79">79</th><td>  <b>typedef</b> T <dfn class="typedef" id="google::protobuf::internal::integral_constant::value_type" title='google::protobuf::internal::integral_constant::value_type' data-type='T' data-ref="google::protobuf::internal::integral_constant::value_type">value_type</dfn>;</td></tr>
+<tr><th id="80">80</th><td>  <b>typedef</b> <a class="type" href="#google::protobuf::internal::integral_constant" title='google::protobuf::internal::integral_constant' data-ref="google::protobuf::internal::integral_constant">integral_constant</a>&lt;T, <a class="tu ref" href="#google::protobuf::internal::integral_constant::v" title='google::protobuf::internal::integral_constant::v' data-ref="google::protobuf::internal::integral_constant::v">v</a>&gt; <dfn class="typedef" id="google::protobuf::internal::integral_constant::type" title='google::protobuf::internal::integral_constant::type' data-type='integral_constant&lt;T, v&gt;' data-ref="google::protobuf::internal::integral_constant::type">type</dfn>;</td></tr>
+<tr><th id="81">81</th><td>};</td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><b>template</b> &lt;<b>class</b> T, T v&gt; <em>const</em> T <a class="type" href="#google::protobuf::internal::integral_constant" title='google::protobuf::internal::integral_constant' data-ref="google::protobuf::internal::integral_constant">integral_constant</a>&lt;T, <a class="tu ref" href="#v" title='v' data-ref="v">v</a>&gt;::<dfn class="decl def" id="google::protobuf::internal::integral_constant::value" title='google::protobuf::internal::integral_constant::value' data-ref="google::protobuf::internal::integral_constant::value">value</dfn>;</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><i>// Abbreviations: true_type and false_type are structs that represent boolean</i></td></tr>
+<tr><th id="87">87</th><td><i>// true and false values. Also define the boost::mpl versions of those names,</i></td></tr>
+<tr><th id="88">88</th><td><i>// true_ and false_.</i></td></tr>
+<tr><th id="89">89</th><td><b>typedef</b> <a class="type" href="#google::protobuf::internal::integral_constant" title='google::protobuf::internal::integral_constant' data-ref="google::protobuf::internal::integral_constant">integral_constant</a>&lt;<em>bool</em>, <b>true</b>&gt;  <dfn class="typedef" id="google::protobuf::internal::true_type" title='google::protobuf::internal::true_type' data-type='integral_constant&lt;bool, true&gt;' data-ref="google::protobuf::internal::true_type">true_type</dfn>;</td></tr>
+<tr><th id="90">90</th><td><b>typedef</b> <a class="type" href="#google::protobuf::internal::integral_constant" title='google::protobuf::internal::integral_constant' data-ref="google::protobuf::internal::integral_constant">integral_constant</a>&lt;<em>bool</em>, <b>false</b>&gt; <dfn class="typedef" id="google::protobuf::internal::false_type" title='google::protobuf::internal::false_type' data-type='integral_constant&lt;bool, false&gt;' data-ref="google::protobuf::internal::false_type">false_type</dfn>;</td></tr>
+<tr><th id="91">91</th><td><b>typedef</b> <a class="typedef" href="#google::protobuf::internal::true_type" title='google::protobuf::internal::true_type' data-type='integral_constant&lt;bool, true&gt;' data-ref="google::protobuf::internal::true_type">true_type</a>  <dfn class="typedef" id="google::protobuf::internal::true_" title='google::protobuf::internal::true_' data-type='true_type' data-ref="google::protobuf::internal::true_">true_</dfn>;</td></tr>
+<tr><th id="92">92</th><td><b>typedef</b> <a class="typedef" href="#google::protobuf::internal::false_type" title='google::protobuf::internal::false_type' data-type='integral_constant&lt;bool, false&gt;' data-ref="google::protobuf::internal::false_type">false_type</a> <dfn class="typedef" id="google::protobuf::internal::false_" title='google::protobuf::internal::false_' data-type='false_type' data-ref="google::protobuf::internal::false_">false_</dfn>;</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><i>// if_ is a templatized conditional statement.</i></td></tr>
+<tr><th id="95">95</th><td><i>// if_&lt;cond, A, B&gt; is a compile time evaluation of cond.</i></td></tr>
+<tr><th id="96">96</th><td><i>// if_&lt;&gt;::type contains A if cond is true, B otherwise.</i></td></tr>
+<tr><th id="97">97</th><td><b>template</b>&lt;<em>bool</em> cond, <b>typename</b> A, <b>typename</b> B&gt;</td></tr>
+<tr><th id="98">98</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::if_" title='google::protobuf::internal::if_' data-ref="google::protobuf::internal::if_">if_</dfn>{</td></tr>
+<tr><th id="99">99</th><td>  <b>typedef</b> A <dfn class="typedef" id="google::protobuf::internal::if_::type" title='google::protobuf::internal::if_::type' data-type='A' data-ref="google::protobuf::internal::if_::type">type</dfn>;</td></tr>
+<tr><th id="100">100</th><td>};</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td><b>template</b>&lt;<b>typename</b> A, <b>typename</b> B&gt;</td></tr>
+<tr><th id="103">103</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::if_" title='google::protobuf::internal::if_' data-ref="google::protobuf::internal::if_">if_</dfn>&lt;<b>false</b>, A, B&gt; {</td></tr>
+<tr><th id="104">104</th><td>  <b>typedef</b> B <dfn class="typedef" id="google::protobuf::internal::if_{false,type-parameter-0-0,type-parameter-0-1}::type" title='google::protobuf::internal::if_&lt;false, type-parameter-0-0, type-parameter-0-1&gt;::type' data-type='B' data-ref="google::protobuf::internal::if_{false,type-parameter-0-0,type-parameter-0-1}::type">type</dfn>;</td></tr>
+<tr><th id="105">105</th><td>};</td></tr>
+<tr><th id="106">106</th><td></td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><i>// type_equals_ is a template type comparator, similar to Loki IsSameType.</i></td></tr>
+<tr><th id="109">109</th><td><i>// type_equals_&lt;A, B&gt;::value is true iff "A" is the same type as "B".</i></td></tr>
+<tr><th id="110">110</th><td><i>//</i></td></tr>
+<tr><th id="111">111</th><td><i>// New code should prefer base::is_same, defined in base/type_traits.h.</i></td></tr>
+<tr><th id="112">112</th><td><i>// It is functionally identical, but is_same is the standard spelling.</i></td></tr>
+<tr><th id="113">113</th><td><b>template</b>&lt;<b>typename</b> A, <b>typename</b> B&gt;</td></tr>
+<tr><th id="114">114</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::type_equals_" title='google::protobuf::internal::type_equals_' data-ref="google::protobuf::internal::type_equals_">type_equals_</dfn> : <b>public</b> <a class="typedef" href="#google::protobuf::internal::false_" title='google::protobuf::internal::false_' data-type='false_type' data-ref="google::protobuf::internal::false_">false_</a> {</td></tr>
+<tr><th id="115">115</th><td>};</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td><b>template</b>&lt;<b>typename</b> A&gt;</td></tr>
+<tr><th id="118">118</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::type_equals_" title='google::protobuf::internal::type_equals_' data-ref="google::protobuf::internal::type_equals_">type_equals_</dfn>&lt;A, A&gt; : <b>public</b> <a class="typedef" href="#google::protobuf::internal::true_" title='google::protobuf::internal::true_' data-type='true_type' data-ref="google::protobuf::internal::true_">true_</a> {</td></tr>
+<tr><th id="119">119</th><td>};</td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><i>// and_ is a template &amp;&amp; operator.</i></td></tr>
+<tr><th id="122">122</th><td><i>// and_&lt;A, B&gt;::value evaluates "A::value &amp;&amp; B::value".</i></td></tr>
+<tr><th id="123">123</th><td><b>template</b>&lt;<b>typename</b> A, <b>typename</b> B&gt;</td></tr>
+<tr><th id="124">124</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::and_" title='google::protobuf::internal::and_' data-ref="google::protobuf::internal::and_">and_</dfn> : <b>public</b> <a class="type" href="#google::protobuf::internal::integral_constant" title='google::protobuf::internal::integral_constant' data-ref="google::protobuf::internal::integral_constant">integral_constant</a>&lt;<em>bool</em>, (A::value &amp;&amp; B::value)&gt; {</td></tr>
+<tr><th id="125">125</th><td>};</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td><i>// or_ is a template || operator.</i></td></tr>
+<tr><th id="128">128</th><td><i>// or_&lt;A, B&gt;::value evaluates "A::value || B::value".</i></td></tr>
+<tr><th id="129">129</th><td><b>template</b>&lt;<b>typename</b> A, <b>typename</b> B&gt;</td></tr>
+<tr><th id="130">130</th><td><b>struct</b> <dfn class="type def" id="google::protobuf::internal::or_" title='google::protobuf::internal::or_' data-ref="google::protobuf::internal::or_">or_</dfn> : <b>public</b> <a class="type" href="#google::protobuf::internal::integral_constant" title='google::protobuf::internal::integral_constant' data-ref="google::protobuf::internal::integral_constant">integral_constant</a>&lt;<em>bool</em>, (A::value || B::value)&gt; {</td></tr>
+<tr><th id="131">131</th><td>};</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td></td></tr>
+<tr><th id="134">134</th><td>}  <i>// namespace internal</i></td></tr>
+<tr><th id="135">135</th><td>}  <i>// namespace protobuf</i></td></tr>
+<tr><th id="136">136</th><td>}  <i>// namespace google</i></td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><u>#<span data-ppcond="50">endif</span>  // GOOGLE_PROTOBUF_TEMPLATE_UTIL_H_</u></td></tr>
+<tr><th id="139">139</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../codebrowser/src/frontend/mosh-client.cc.html'>codebrowser/src/frontend/mosh-client.cc</a><br/>Generated on <em>2017-Oct-12</em> from project include<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

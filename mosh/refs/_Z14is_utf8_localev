@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/locale_utils.h' l='49' type='bool is_utf8_locale()'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='326' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='345' u='c' c='main'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='83' u='c' c='_ZN9STMClient4initEv'/>
+<def f='codebrowser/src/util/locale_utils.cc' l='85' ll='92' type='bool is_utf8_locale()'/>

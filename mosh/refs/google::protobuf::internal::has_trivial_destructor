@@ -1,0 +1,9 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='262'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='263' ll='266'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='267' ll='268'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='269' ll='270'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='257'>// We can&apos;t get has_trivial_destructor right without compiler help, so
+// fail conservatively. We will assume it&apos;s false except for: (1) types
+// for which is_pod is true. (2) std::pair of types with trivial
+// destructors. (3) array of a type with a trivial destructor.
+// (4) const versions thereof.</doc>

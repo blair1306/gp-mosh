@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='320' type='void Overlay::TitleEngine::set_prefix(const wstring &amp; s)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='336' u='c' c='_ZN7Overlay14OverlayManager16set_title_prefixERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='345' ll='348' type='void Overlay::TitleEngine::set_prefix(const wstring &amp; s)'/>

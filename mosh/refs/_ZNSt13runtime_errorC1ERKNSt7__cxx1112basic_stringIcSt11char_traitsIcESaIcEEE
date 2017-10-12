@@ -1,0 +1,6 @@
+<dec f='include/c++/5/stdexcept' l='199' type='void std::runtime_error::runtime_error(const string &amp; __arg)'/>
+<doc f='include/c++/5/stdexcept' l='197'>/** Takes a character string describing the error.  */</doc>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='93' u='c' c='_ZN8Terminal7DisplayC1Eb'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='96' u='c' c='_ZN8Terminal7DisplayC1Eb'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='99' u='c' c='_ZN8Terminal7DisplayC1Eb'/>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='102' u='c' c='_ZN8Terminal7DisplayC1Eb'/>

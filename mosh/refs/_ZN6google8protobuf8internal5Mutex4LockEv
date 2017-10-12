@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/stubs/common.h' l='1108' type='void google::protobuf::internal::Mutex::Lock()'/>
+<use f='include/google/protobuf/stubs/common.h' l='1127' u='c' c='_ZN6google8protobuf8internal9MutexLockC1EPNS1_5MutexE'/>
+<use f='include/google/protobuf/stubs/common.h' l='1142' u='c' c='_ZN6google8protobuf8internal14MutexLockMaybeC1EPNS1_5MutexE'/>
+<doc f='include/google/protobuf/stubs/common.h' l='1107'>// Block if necessary until this Mutex is free, then acquire it exclusively.</doc>

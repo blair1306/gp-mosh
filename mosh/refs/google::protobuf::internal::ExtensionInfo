@@ -1,0 +1,9 @@
+<def f='include/google/protobuf/extension_set.h' l='89' ll='113'/>
+<size>32</size>
+<doc f='include/google/protobuf/extension_set.h' l='88'>// Information about a registered extension.</doc>
+<fun r='_ZN6google8protobuf8internal13ExtensionInfoC1Ev'/>
+<fun r='_ZN6google8protobuf8internal13ExtensionInfoC1Ehbb'/>
+<mbr r='google::protobuf::internal::ExtensionInfo::type' o='0' t='FieldType'/>
+<mbr r='google::protobuf::internal::ExtensionInfo::is_repeated' o='8' t='bool'/>
+<mbr r='google::protobuf::internal::ExtensionInfo::is_packed' o='16' t='bool'/>
+<mbr r='google::protobuf::internal::ExtensionInfo::descriptor' o='192' t='const google::protobuf::FieldDescriptor *'/>

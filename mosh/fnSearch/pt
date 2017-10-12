@@ -1,0 +1,3 @@
+ptsname_r|ptsname_r
+pthread_equal|pthread_equal
+_ZSt7ptr_funPFT0_T_E|std::ptr_fun

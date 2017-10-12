@@ -1,0 +1,5 @@
+_ZN4PRNG6uint32Ev|PRNG::uint32
+_ZN4PRNG6uint64Ev|PRNG::uint64
+_ZN4PRNG5uint8Ev|PRNG::uint8
+_ZN6google8protobuf8internal14WireFormatLite10UInt32SizeEj|google::protobuf::internal::WireFormatLite::UInt32Size
+_ZN6google8protobuf8internal14WireFormatLite10UInt64SizeEm|google::protobuf::internal::WireFormatLite::UInt64Size

@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/message_lite.h' l='104' type='string google::protobuf::MessageLite::InitializationErrorString() const'/>
+<doc f='include/google/protobuf/message_lite.h' l='101'>// This is not implemented for Lite messages -- it just returns &quot;(cannot
+  // determine missing fields for lite message)&quot;.  However, it is implemented
+  // for full messages.  See message.h.</doc>

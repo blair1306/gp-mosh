@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>select.h source code [codebrowser/src/util/select.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="Select "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/util/select.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>util</a>/<a href='select.h.html'>select.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Mosh: the mobile shell</i></td></tr>
+<tr><th id="3">3</th><td><i>    Copyright 2012 Keith Winstein</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    This program is free software: you can redistribute it and/or modify</i></td></tr>
+<tr><th id="6">6</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="7">7</th><td><i>    the Free Software Foundation, either version 3 of the License, or</i></td></tr>
+<tr><th id="8">8</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="11">11</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="12">12</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="13">13</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="14">14</th><td><i></i></td></tr>
+<tr><th id="15">15</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="16">16</th><td><i>    along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    In addition, as a special exception, the copyright holders give</i></td></tr>
+<tr><th id="19">19</th><td><i>    permission to link the code of portions of this program with the</i></td></tr>
+<tr><th id="20">20</th><td><i>    OpenSSL library under certain conditions as described in each</i></td></tr>
+<tr><th id="21">21</th><td><i>    individual source file, and distribute linked combinations including</i></td></tr>
+<tr><th id="22">22</th><td><i>    the two.</i></td></tr>
+<tr><th id="23">23</th><td><i></i></td></tr>
+<tr><th id="24">24</th><td><i>    You must obey the GNU General Public License in all respects for all</i></td></tr>
+<tr><th id="25">25</th><td><i>    of the code used other than OpenSSL. If you modify file(s) with this</i></td></tr>
+<tr><th id="26">26</th><td><i>    exception, you may extend this exception to your version of the</i></td></tr>
+<tr><th id="27">27</th><td><i>    file(s), but you are not obligated to do so. If you do not wish to do</i></td></tr>
+<tr><th id="28">28</th><td><i>    so, delete this exception statement from your version. If you delete</i></td></tr>
+<tr><th id="29">29</th><td><i>    this exception statement from all source files in the program, then</i></td></tr>
+<tr><th id="30">30</th><td><i>    also delete it here.</i></td></tr>
+<tr><th id="31">31</th><td><i>*/</i></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="33">ifndef</span> <span class="macro" data-ref="_M/SELECT_HPP">SELECT_HPP</span></u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/SELECT_HPP" data-ref="_M/SELECT_HPP">SELECT_HPP</dfn></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="../../../include/errno.h.html">&lt;errno.h&gt;</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#include <a href="../../../include/signal.h.html">&lt;signal.h&gt;</a></u></td></tr>
+<tr><th id="39">39</th><td><u>#include <a href="../../../include/x86_64-linux-gnu/sys/select.h.html">&lt;sys/select.h&gt;</a></u></td></tr>
+<tr><th id="40">40</th><td><u>#include <a href="../../../include/assert.h.html">&lt;assert.h&gt;</a></u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u>#include <a href="fatal_assert.h.html">"fatal_assert.h"</a></u></td></tr>
+<tr><th id="43">43</th><td><u>#include <a href="timestamp.h.html">"timestamp.h"</a></u></td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><i>/* Convenience wrapper for pselect(2).</i></td></tr>
+<tr><th id="46">46</th><td><i></i></td></tr>
+<tr><th id="47">47</th><td><i>   Any signals blocked by calling sigprocmask() outside this code will still be</i></td></tr>
+<tr><th id="48">48</th><td><i>   received during Select::select().  So don't do that. */</i></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><b>class</b> <dfn class="type def" id="Select" title='Select' data-ref="Select">Select</dfn> {</td></tr>
+<tr><th id="51">51</th><td><b>public</b>:</td></tr>
+<tr><th id="52">52</th><td>  <em>static</em> <a class="type" href="#Select" title='Select' data-ref="Select">Select</a> &amp;<dfn class="decl def" id="_ZN6Select12get_instanceEv" title='Select::get_instance' data-ref="_ZN6Select12get_instanceEv">get_instance</dfn>( <em>void</em> ) {</td></tr>
+<tr><th id="53">53</th><td>    <i>/* COFU may or may not be thread-safe, depending on compiler */</i></td></tr>
+<tr><th id="54">54</th><td>    <em>static</em> <a class="type" href="#Select" title='Select' data-ref="Select">Select</a> <a class="ref fake" href="#_ZN6SelectC1Ev" title='Select::Select' data-ref="_ZN6SelectC1Ev"></a><dfn class="local col8 decl" id="588instance" title='instance' data-type='Select' data-ref="588instance">instance</dfn>;</td></tr>
+<tr><th id="55">55</th><td>    <b>return</b> <a class="local col8 ref" href="#588instance" title='instance' data-ref="588instance">instance</a>;</td></tr>
+<tr><th id="56">56</th><td>  }</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><b>private</b>:</td></tr>
+<tr><th id="59">59</th><td>  <dfn class="decl def" id="_ZN6SelectC1Ev" title='Select::Select' data-ref="_ZN6SelectC1Ev">Select</dfn>()</td></tr>
+<tr><th id="60">60</th><td>    : <a class="member" href="#Select::max_fd" title='Select::max_fd' data-ref="Select::max_fd">max_fd</a>( -<var>1</var> )</td></tr>
+<tr><th id="61">61</th><td>    <i>/* These initializations are not used; they are just</i></td></tr>
+<tr><th id="62">62</th><td><i>       here to appease -Weffc++. */</i></td></tr>
+<tr><th id="63">63</th><td>    , <a class="member" href="#Select::all_fds" title='Select::all_fds' data-ref="Select::all_fds">all_fds</a><a class="ref" href="../../../include/x86_64-linux-gnu/sys/select.h.html#64" title='(anonymous struct)::' data-ref="_ZN6fd_setC1ERKS_">(</a> <a class="member" href="#Select::dummy_fd_set" title='Select::dummy_fd_set' data-ref="Select::dummy_fd_set">dummy_fd_set</a> )</td></tr>
+<tr><th id="64">64</th><td>    , <a class="member" href="#Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</a><a class="ref" href="../../../include/x86_64-linux-gnu/sys/select.h.html#64" title='(anonymous struct)::' data-ref="_ZN6fd_setC1ERKS_">(</a> <a class="member" href="#Select::dummy_fd_set" title='Select::dummy_fd_set' data-ref="Select::dummy_fd_set">dummy_fd_set</a> )</td></tr>
+<tr><th id="65">65</th><td>    , <a class="member" href="#Select::empty_sigset" title='Select::empty_sigset' data-ref="Select::empty_sigset">empty_sigset</a><a class="ref" href="../../../include/x86_64-linux-gnu/bits/sigset.h.html#27" title='(anonymous struct)::' data-ref="_ZN10__sigset_tC1ERKS_">(</a> <a class="member" href="#Select::dummy_sigset" title='Select::dummy_sigset' data-ref="Select::dummy_sigset">dummy_sigset</a> )</td></tr>
+<tr><th id="66">66</th><td>    , <a class="member" href="#Select::consecutive_polls" title='Select::consecutive_polls' data-ref="Select::consecutive_polls">consecutive_polls</a>( <var>0</var> )</td></tr>
+<tr><th id="67">67</th><td>  {</td></tr>
+<tr><th id="68">68</th><td>    <a class="macro" href="../../../include/x86_64-linux-gnu/sys/select.h.html#93" title="do { int __d0, __d1; __asm__ __volatile__ (&quot;cld; rep; &quot; &quot;stosq&quot; : &quot;=c&quot; (__d0), &quot;=D&quot; (__d1) : &quot;a&quot; (0), &quot;0&quot; (sizeof (fd_set) / sizeof (__fd_mask)), &quot;1&quot; (&amp;((&amp;all_fds)-&gt;fds_bits)[0]) : &quot;memory&quot;); } while (0)" data-ref="_M/FD_ZERO">FD_ZERO</a>( &amp;<a class="member" href="#Select::all_fds" title='Select::all_fds' data-ref="Select::all_fds">all_fds</a> );</td></tr>
+<tr><th id="69">69</th><td>    <a class="macro" href="../../../include/x86_64-linux-gnu/sys/select.h.html#93" title="do { int __d0, __d1; __asm__ __volatile__ (&quot;cld; rep; &quot; &quot;stosq&quot; : &quot;=c&quot; (__d0), &quot;=D&quot; (__d1) : &quot;a&quot; (0), &quot;0&quot; (sizeof (fd_set) / sizeof (__fd_mask)), &quot;1&quot; (&amp;((&amp;read_fds)-&gt;fds_bits)[0]) : &quot;memory&quot;); } while (0)" data-ref="_M/FD_ZERO">FD_ZERO</a>( &amp;<a class="member" href="#Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</a> );</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td>    <a class="member" href="#_ZN6Select16clear_got_signalEv" title='Select::clear_got_signal' data-ref="_ZN6Select16clear_got_signalEv">clear_got_signal</a>();</td></tr>
+<tr><th id="72">72</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((0 == sigemptyset( &amp;empty_sigset )) ? (void)0 : fatal_error (&quot;0 == sigemptyset( &amp;empty_sigset )&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 72, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <var>0</var> == <a class="ref" href="../../../include/signal.h.html#sigemptyset" title='sigemptyset' data-ref="sigemptyset">sigemptyset</a>( &amp;<a class="member" href="#Select::empty_sigset" title='Select::empty_sigset' data-ref="Select::empty_sigset">empty_sigset</a> ) );</td></tr>
+<tr><th id="73">73</th><td>  }</td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td>  <em>void</em> <dfn class="decl def" id="_ZN6Select16clear_got_signalEv" title='Select::clear_got_signal' data-ref="_ZN6Select16clear_got_signalEv">clear_got_signal</dfn>( <em>void</em> )</td></tr>
+<tr><th id="76">76</th><td>  {</td></tr>
+<tr><th id="77">77</th><td>    <a class="ref" href="../../../include/string.h.html#memset" title='memset' data-ref="memset">memset</a>( <a class="member" href="#Select::got_signal" title='Select::got_signal' data-ref="Select::got_signal">got_signal</a>, <var>0</var>, <b>sizeof</b>( <a class="member" href="#Select::got_signal" title='Select::got_signal' data-ref="Select::got_signal">got_signal</a> ) );</td></tr>
+<tr><th id="78">78</th><td>  }</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td>  <i>/* not implemented */</i></td></tr>
+<tr><th id="81">81</th><td>  <dfn class="decl" id="_ZN6SelectC1ERKS_" title='Select::Select' data-ref="_ZN6SelectC1ERKS_">Select</dfn>( <em>const</em> <a class="type" href="#Select" title='Select' data-ref="Select">Select</a> &amp; );</td></tr>
+<tr><th id="82">82</th><td>  <a class="type" href="#Select" title='Select' data-ref="Select">Select</a> &amp;<dfn class="decl" id="_ZN6SelectaSERKS_" title='Select::operator=' data-ref="_ZN6SelectaSERKS_"><b>operator</b>=</dfn>( <em>const</em> <a class="type" href="#Select" title='Select' data-ref="Select">Select</a> &amp; );</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><b>public</b>:</td></tr>
+<tr><th id="85">85</th><td>  <em>void</em> <dfn class="decl def" id="_ZN6Select6add_fdEi" title='Select::add_fd' data-ref="_ZN6Select6add_fdEi">add_fd</dfn>( <em>int</em> <dfn class="local col9 decl" id="589fd" title='fd' data-type='int' data-ref="589fd">fd</dfn> )</td></tr>
+<tr><th id="86">86</th><td>  {</td></tr>
+<tr><th id="87">87</th><td>    <b>if</b> ( <a class="local col9 ref" href="#589fd" title='fd' data-ref="589fd">fd</a> &gt; <a class="member" href="#Select::max_fd" title='Select::max_fd' data-ref="Select::max_fd">max_fd</a> ) {</td></tr>
+<tr><th id="88">88</th><td>      <a class="member" href="#Select::max_fd" title='Select::max_fd' data-ref="Select::max_fd">max_fd</a> = <a class="local col9 ref" href="#589fd" title='fd' data-ref="589fd">fd</a>;</td></tr>
+<tr><th id="89">89</th><td>    }</td></tr>
+<tr><th id="90">90</th><td>    <a class="macro" href="../../../include/x86_64-linux-gnu/sys/select.h.html#90" title="((void) (((&amp;all_fds)-&gt;fds_bits)[__extension__ ({ long int __d = (fd); (__builtin_constant_p (__d) ? (0 &lt;= __d &amp;&amp; __d &lt; 1024 ? (__d / (8 * (int) sizeof (__fd_mask))) : __fdelt_warn (__d)) : __fdelt_chk (__d)); })] |= ((__fd_mask) (1UL &lt;&lt; ((fd) % (8 * (int) sizeof (__fd_mask)))))))" data-ref="_M/FD_SET">FD_SET</a>( <a class="local col9 ref" href="#589fd" title='fd' data-ref="589fd">fd</a>, &amp;<a class="member" href="#Select::all_fds" title='Select::all_fds' data-ref="Select::all_fds">all_fds</a> );</td></tr>
+<tr><th id="91">91</th><td>  }</td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td>  <em>void</em> <dfn class="decl def" id="_ZN6Select9clear_fdsEv" title='Select::clear_fds' data-ref="_ZN6Select9clear_fdsEv">clear_fds</dfn>( <em>void</em> )</td></tr>
+<tr><th id="94">94</th><td>  {</td></tr>
+<tr><th id="95">95</th><td>    <a class="macro" href="../../../include/x86_64-linux-gnu/sys/select.h.html#93" title="do { int __d0, __d1; __asm__ __volatile__ (&quot;cld; rep; &quot; &quot;stosq&quot; : &quot;=c&quot; (__d0), &quot;=D&quot; (__d1) : &quot;a&quot; (0), &quot;0&quot; (sizeof (fd_set) / sizeof (__fd_mask)), &quot;1&quot; (&amp;((&amp;all_fds)-&gt;fds_bits)[0]) : &quot;memory&quot;); } while (0)" data-ref="_M/FD_ZERO">FD_ZERO</a>( &amp;<a class="member" href="#Select::all_fds" title='Select::all_fds' data-ref="Select::all_fds">all_fds</a> );</td></tr>
+<tr><th id="96">96</th><td>  }</td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td>  <em>static</em> <em>void</em> <dfn class="decl def" id="_ZN6Select10add_signalEi" title='Select::add_signal' data-ref="_ZN6Select10add_signalEi">add_signal</dfn>( <em>int</em> <dfn class="local col0 decl" id="590signum" title='signum' data-type='int' data-ref="590signum">signum</dfn> )</td></tr>
+<tr><th id="99">99</th><td>  {</td></tr>
+<tr><th id="100">100</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((signum &gt;= 0) ? (void)0 : fatal_error (&quot;signum &gt;= 0&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 100, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <a class="local col0 ref" href="#590signum" title='signum' data-ref="590signum">signum</a> &gt;= <var>0</var> );</td></tr>
+<tr><th id="101">101</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((signum &lt;= MAX_SIGNAL_NUMBER) ? (void)0 : fatal_error (&quot;signum &lt;= MAX_SIGNAL_NUMBER&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 101, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <a class="local col0 ref" href="#590signum" title='signum' data-ref="590signum">signum</a> &lt;= <a class="member" href="#Select::MAX_SIGNAL_NUMBER" title='Select::MAX_SIGNAL_NUMBER' data-ref="Select::MAX_SIGNAL_NUMBER">MAX_SIGNAL_NUMBER</a> );</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td>    <i>/* Block the signal so we don't get it outside of pselect(). */</i></td></tr>
+<tr><th id="104">104</th><td>    <a class="typedef" href="../../../include/x86_64-linux-gnu/sys/select.h.html#sigset_t" title='sigset_t' data-type='__sigset_t' data-ref="sigset_t">sigset_t</a> <a class="ref fake" href="../../../include/x86_64-linux-gnu/bits/sigset.h.html#27" title='(anonymous struct)::' data-ref="_ZN10__sigset_tC1Ev"></a><dfn class="local col1 decl" id="591to_block" title='to_block' data-type='sigset_t' data-ref="591to_block">to_block</dfn>;</td></tr>
+<tr><th id="105">105</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((0 == sigemptyset( &amp;to_block )) ? (void)0 : fatal_error (&quot;0 == sigemptyset( &amp;to_block )&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 105, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <var>0</var> == <a class="ref" href="../../../include/signal.h.html#sigemptyset" title='sigemptyset' data-ref="sigemptyset">sigemptyset</a>( &amp;<a class="local col1 ref" href="#591to_block" title='to_block' data-ref="591to_block">to_block</a> ) );</td></tr>
+<tr><th id="106">106</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((0 == sigaddset( &amp;to_block, signum )) ? (void)0 : fatal_error (&quot;0 == sigaddset( &amp;to_block, signum )&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 106, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <var>0</var> == <a class="ref" href="../../../include/signal.h.html#sigaddset" title='sigaddset' data-ref="sigaddset">sigaddset</a>( &amp;<a class="local col1 ref" href="#591to_block" title='to_block' data-ref="591to_block">to_block</a>, <a class="local col0 ref" href="#590signum" title='signum' data-ref="590signum">signum</a> ) );</td></tr>
+<tr><th id="107">107</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((0 == sigprocmask( 0, &amp;to_block, __null )) ? (void)0 : fatal_error (&quot;0 == sigprocmask( SIG_BLOCK, &amp;to_block, NULL )&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 107, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <var>0</var> == <a class="ref" href="../../../include/signal.h.html#sigprocmask" title='sigprocmask' data-ref="sigprocmask">sigprocmask</a>( <a class="macro" href="../../../include/x86_64-linux-gnu/bits/sigaction.h.html#76" title="0" data-ref="_M/SIG_BLOCK">SIG_BLOCK</a>, &amp;<a class="local col1 ref" href="#591to_block" title='to_block' data-ref="591to_block">to_block</a>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span> ) );</td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td>    <i>/* Register a handler, which will only be called when pselect()</i></td></tr>
+<tr><th id="110">110</th><td><i>       is interrupted by a (possibly queued) signal. */</i></td></tr>
+<tr><th id="111">111</th><td>    <b>struct</b> <a class="type" href="../../../include/x86_64-linux-gnu/bits/sigaction.h.html#sigaction" title='sigaction' data-ref="sigaction">sigaction</a> <a class="ref fake" href="../../../include/x86_64-linux-gnu/bits/sigaction.h.html#24" title='sigaction::sigaction' data-ref="_ZN9sigactionC1Ev"></a><dfn class="local col2 decl" id="592sa" title='sa' data-type='struct sigaction' data-ref="592sa">sa</dfn>;</td></tr>
+<tr><th id="112">112</th><td>    <a class="local col2 ref" href="#592sa" title='sa' data-ref="592sa">sa</a>.<a class="ref" href="../../../include/x86_64-linux-gnu/bits/sigaction.h.html#sigaction::sa_flags" title='sigaction::sa_flags' data-ref="sigaction::sa_flags">sa_flags</a> = <var>0</var>;</td></tr>
+<tr><th id="113">113</th><td>    <a class="local col2 ref" href="#592sa" title='sa' data-ref="592sa">sa</a>.<a class="macro" href="../../../include/x86_64-linux-gnu/bits/sigaction.h.html#36" title="__sigaction_handler.sa_handler" data-ref="_M/sa_handler">sa_handler</a> = &amp;<a class="member" href="#_ZN6Select13handle_signalEi" title='Select::handle_signal' data-ref="_ZN6Select13handle_signalEi">handle_signal</a>;</td></tr>
+<tr><th id="114">114</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((0 == sigfillset( &amp;sa.sa_mask )) ? (void)0 : fatal_error (&quot;0 == sigfillset( &amp;sa.sa_mask )&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 114, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <var>0</var> == <a class="ref" href="../../../include/signal.h.html#sigfillset" title='sigfillset' data-ref="sigfillset">sigfillset</a>( &amp;<a class="local col2 ref" href="#592sa" title='sa' data-ref="592sa">sa</a>.<a class="ref" href="../../../include/x86_64-linux-gnu/bits/sigaction.h.html#sigaction::sa_mask" title='sigaction::sa_mask' data-ref="sigaction::sa_mask">sa_mask</a> ) );</td></tr>
+<tr><th id="115">115</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((0 == sigaction( signum, &amp;sa, __null )) ? (void)0 : fatal_error (&quot;0 == sigaction( signum, &amp;sa, NULL )&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 115, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <var>0</var> == <a class="ref" href="../../../include/signal.h.html#sigaction" title='sigaction' data-ref="sigaction">sigaction</a>( <a class="local col0 ref" href="#590signum" title='signum' data-ref="590signum">signum</a>, &amp;<a class="local col2 ref" href="#592sa" title='sa' data-ref="592sa">sa</a>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span> ) );</td></tr>
+<tr><th id="116">116</th><td>  }</td></tr>
+<tr><th id="117">117</th><td></td></tr>
+<tr><th id="118">118</th><td>  <i>/* timeout unit: milliseconds; negative timeout means wait forever */</i></td></tr>
+<tr><th id="119">119</th><td>  <em>int</em> <dfn class="decl def" id="_ZN6Select6selectEi" title='Select::select' data-ref="_ZN6Select6selectEi">select</dfn>( <em>int</em> <dfn class="local col3 decl" id="593timeout" title='timeout' data-type='int' data-ref="593timeout">timeout</dfn> )</td></tr>
+<tr><th id="120">120</th><td>  {</td></tr>
+<tr><th id="121">121</th><td>    <a class="ref" href="../../../include/string.h.html#memcpy" title='memcpy' data-ref="memcpy">memcpy</a>( &amp;<a class="member" href="#Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</a>,  &amp;<a class="member" href="#Select::all_fds" title='Select::all_fds' data-ref="Select::all_fds">all_fds</a>, <b>sizeof</b>( <a class="member" href="#Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</a>  ) );</td></tr>
+<tr><th id="122">122</th><td>    <a class="member" href="#_ZN6Select16clear_got_signalEv" title='Select::clear_got_signal' data-ref="_ZN6Select16clear_got_signalEv">clear_got_signal</a>();</td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td>    <i>/* Rate-limit and warn about polls. */</i></td></tr>
+<tr><th id="125">125</th><td>    <b>if</b> ( <a class="member" href="#Select::verbose" title='Select::verbose' data-ref="Select::verbose">verbose</a> &gt; <var>1</var> &amp;&amp; <a class="local col3 ref" href="#593timeout" title='timeout' data-ref="593timeout">timeout</a> == <var>0</var> ) {</td></tr>
+<tr><th id="126">126</th><td>      <a class="ref" href="../../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>( <a class="macro" href="../../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>, <q>"%s: got poll (timeout 0)\n"</q>, <b>__func__</b> );</td></tr>
+<tr><th id="127">127</th><td>    }</td></tr>
+<tr><th id="128">128</th><td>    <b>if</b> ( <a class="local col3 ref" href="#593timeout" title='timeout' data-ref="593timeout">timeout</a> == <var>0</var> &amp;&amp; ++<a class="member" href="#Select::consecutive_polls" title='Select::consecutive_polls' data-ref="Select::consecutive_polls">consecutive_polls</a> &gt;= <a class="member" href="#Select::MAX_POLLS" title='Select::MAX_POLLS' data-ref="Select::MAX_POLLS">MAX_POLLS</a> ) {</td></tr>
+<tr><th id="129">129</th><td>      <b>if</b> ( <a class="member" href="#Select::verbose" title='Select::verbose' data-ref="Select::verbose">verbose</a> &gt; <var>1</var> &amp;&amp; <a class="member" href="#Select::consecutive_polls" title='Select::consecutive_polls' data-ref="Select::consecutive_polls">consecutive_polls</a> == <a class="member" href="#Select::MAX_POLLS" title='Select::MAX_POLLS' data-ref="Select::MAX_POLLS">MAX_POLLS</a> ) {</td></tr>
+<tr><th id="130">130</th><td>	<a class="ref" href="../../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>( <a class="macro" href="../../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>, <q>"%s: got %d polls, rate limiting.\n"</q>, <b>__func__</b>, <a class="member" href="#Select::MAX_POLLS" title='Select::MAX_POLLS' data-ref="Select::MAX_POLLS">MAX_POLLS</a> );</td></tr>
+<tr><th id="131">131</th><td>      }</td></tr>
+<tr><th id="132">132</th><td>      <a class="local col3 ref" href="#593timeout" title='timeout' data-ref="593timeout">timeout</a> = <var>1</var>;</td></tr>
+<tr><th id="133">133</th><td>    } <b>else</b> <b>if</b> ( <a class="local col3 ref" href="#593timeout" title='timeout' data-ref="593timeout">timeout</a> != <var>0</var> &amp;&amp; <a class="member" href="#Select::consecutive_polls" title='Select::consecutive_polls' data-ref="Select::consecutive_polls">consecutive_polls</a> ) {</td></tr>
+<tr><th id="134">134</th><td>      <b>if</b> ( <a class="member" href="#Select::verbose" title='Select::verbose' data-ref="Select::verbose">verbose</a> &gt; <var>1</var> &amp;&amp; <a class="member" href="#Select::consecutive_polls" title='Select::consecutive_polls' data-ref="Select::consecutive_polls">consecutive_polls</a> &gt;= <a class="member" href="#Select::MAX_POLLS" title='Select::MAX_POLLS' data-ref="Select::MAX_POLLS">MAX_POLLS</a> ) {</td></tr>
+<tr><th id="135">135</th><td>	<a class="ref" href="../../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>( <a class="macro" href="../../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>, <q>"%s: got %d consecutive polls\n"</q>, <b>__func__</b>, <a class="member" href="#Select::consecutive_polls" title='Select::consecutive_polls' data-ref="Select::consecutive_polls">consecutive_polls</a> );</td></tr>
+<tr><th id="136">136</th><td>      }</td></tr>
+<tr><th id="137">137</th><td>      <a class="member" href="#Select::consecutive_polls" title='Select::consecutive_polls' data-ref="Select::consecutive_polls">consecutive_polls</a> = <var>0</var>;</td></tr>
+<tr><th id="138">138</th><td>    }</td></tr>
+<tr><th id="139">139</th><td></td></tr>
+<tr><th id="140">140</th><td><u>#<span data-ppcond="140">ifdef</span> <a class="macro" href="../../config.h.html#169" data-ref="_M/HAVE_PSELECT">HAVE_PSELECT</a></u></td></tr>
+<tr><th id="141">141</th><td>    <b>struct</b> <a class="type" href="../../../include/time.h.html#timespec" title='timespec' data-ref="timespec">timespec</a> <a class="ref fake" href="../../../include/time.h.html#120" title='timespec::timespec' data-ref="_ZN8timespecC1Ev"></a><dfn class="local col4 decl" id="594ts" title='ts' data-type='struct timespec' data-ref="594ts">ts</dfn>;</td></tr>
+<tr><th id="142">142</th><td>    <b>struct</b> <a class="type" href="../../../include/time.h.html#timespec" title='timespec' data-ref="timespec">timespec</a> *<dfn class="local col5 decl" id="595tsp" title='tsp' data-type='struct timespec *' data-ref="595tsp">tsp</dfn> = <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td>    <b>if</b> ( <a class="local col3 ref" href="#593timeout" title='timeout' data-ref="593timeout">timeout</a> &gt;= <var>0</var> ) {</td></tr>
+<tr><th id="145">145</th><td>      <a class="local col4 ref" href="#594ts" title='ts' data-ref="594ts">ts</a>.<a class="ref" href="../../../include/time.h.html#timespec::tv_sec" title='timespec::tv_sec' data-ref="timespec::tv_sec">tv_sec</a>  = <a class="local col3 ref" href="#593timeout" title='timeout' data-ref="593timeout">timeout</a> / <var>1000</var>;</td></tr>
+<tr><th id="146">146</th><td>      <a class="local col4 ref" href="#594ts" title='ts' data-ref="594ts">ts</a>.<a class="ref" href="../../../include/time.h.html#timespec::tv_nsec" title='timespec::tv_nsec' data-ref="timespec::tv_nsec">tv_nsec</a> = <var>1000000</var> * (<em>long</em>( <a class="local col3 ref" href="#593timeout" title='timeout' data-ref="593timeout">timeout</a> ) % <var>1000</var>);</td></tr>
+<tr><th id="147">147</th><td>      <a class="local col5 ref" href="#595tsp" title='tsp' data-ref="595tsp">tsp</a> = &amp;<a class="local col4 ref" href="#594ts" title='ts' data-ref="594ts">ts</a>;</td></tr>
+<tr><th id="148">148</th><td>    }</td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td>    <em>int</em> <dfn class="local col6 decl" id="596ret" title='ret' data-type='int' data-ref="596ret">ret</dfn> = ::<a class="ref" href="../../../include/x86_64-linux-gnu/sys/select.h.html#pselect" title='pselect' data-ref="pselect">pselect</a>( <a class="member" href="#Select::max_fd" title='Select::max_fd' data-ref="Select::max_fd">max_fd</a> + <var>1</var>, &amp;<a class="member" href="#Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</a>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>, <a class="local col5 ref" href="#595tsp" title='tsp' data-ref="595tsp">tsp</a>, &amp;<a class="member" href="#Select::empty_sigset" title='Select::empty_sigset' data-ref="Select::empty_sigset">empty_sigset</a> );</td></tr>
+<tr><th id="151">151</th><td><u>#<span data-ppcond="140">else</span></u></td></tr>
+<tr><th id="152">152</th><td>    <b>struct</b> timeval tv;</td></tr>
+<tr><th id="153">153</th><td>    <b>struct</b> timeval *tvp = NULL;</td></tr>
+<tr><th id="154">154</th><td>    sigset_t old_sigset;</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td>    <b>if</b> ( timeout &gt;= <var>0</var> ) {</td></tr>
+<tr><th id="157">157</th><td>      tv.tv_sec  = timeout / <var>1000</var>;</td></tr>
+<tr><th id="158">158</th><td>      tv.tv_usec = <var>1000</var> * (<em>long</em>( timeout ) % <var>1000</var>);</td></tr>
+<tr><th id="159">159</th><td>      tvp = &amp;tv;</td></tr>
+<tr><th id="160">160</th><td>    }</td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td>    <em>int</em> ret = sigprocmask( SIG_SETMASK, &amp;empty_sigset, &amp;old_sigset );</td></tr>
+<tr><th id="163">163</th><td>    <b>if</b> ( ret != -<var>1</var> ) {</td></tr>
+<tr><th id="164">164</th><td>      ret = ::select( max_fd + <var>1</var>, &amp;read_fds, NULL, NULL, tvp );</td></tr>
+<tr><th id="165">165</th><td>      sigprocmask( SIG_SETMASK, &amp;old_sigset, NULL );</td></tr>
+<tr><th id="166">166</th><td>    }</td></tr>
+<tr><th id="167">167</th><td><u>#<span data-ppcond="140">endif</span></u></td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td>    <b>if</b> ( <a class="local col6 ref" href="#596ret" title='ret' data-ref="596ret">ret</a> == <var>0</var> || ( <a class="local col6 ref" href="#596ret" title='ret' data-ref="596ret">ret</a> == -<var>1</var> &amp;&amp; <a class="macro" href="../../../include/x86_64-linux-gnu/bits/errno.h.html#54" title="(*__errno_location ())" data-ref="_M/errno">errno</a> == <a class="macro" href="../../../include/asm-generic/errno-base.h.html#7" title="4" data-ref="_M/EINTR">EINTR</a> ) ) {</td></tr>
+<tr><th id="170">170</th><td>      <i>/* Look for and report Cygwin select() bug. */</i></td></tr>
+<tr><th id="171">171</th><td>      <b>if</b> ( <a class="local col6 ref" href="#596ret" title='ret' data-ref="596ret">ret</a> == <var>0</var> ) {</td></tr>
+<tr><th id="172">172</th><td>	<b>for</b> ( <em>int</em> <dfn class="local col7 decl" id="597fd" title='fd' data-type='int' data-ref="597fd">fd</dfn> = <var>0</var>; <a class="local col7 ref" href="#597fd" title='fd' data-ref="597fd">fd</a> &lt;= <a class="member" href="#Select::max_fd" title='Select::max_fd' data-ref="Select::max_fd">max_fd</a>; <a class="local col7 ref" href="#597fd" title='fd' data-ref="597fd">fd</a>++ ) {</td></tr>
+<tr><th id="173">173</th><td>	  <b>if</b> ( <a class="macro" href="../../../include/x86_64-linux-gnu/sys/select.h.html#92" title="((((&amp;read_fds)-&gt;fds_bits)[__extension__ ({ long int __d = (fd); (__builtin_constant_p (__d) ? (0 &lt;= __d &amp;&amp; __d &lt; 1024 ? (__d / (8 * (int) sizeof (__fd_mask))) : __fdelt_warn (__d)) : __fdelt_chk (__d)); })] &amp; ((__fd_mask) (1UL &lt;&lt; ((fd) % (8 * (int) sizeof (__fd_mask)))))) != 0)" data-ref="_M/FD_ISSET">FD_ISSET</a>( <a class="local col7 ref" href="#597fd" title='fd' data-ref="597fd">fd</a>, &amp;<a class="member" href="#Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</a> ) ) {</td></tr>
+<tr><th id="174">174</th><td>	    <a class="ref" href="../../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>( <a class="macro" href="../../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>, <q>"select(): nfds = 0 but read fd %d is set\n"</q>, <a class="local col7 ref" href="#597fd" title='fd' data-ref="597fd">fd</a> );</td></tr>
+<tr><th id="175">175</th><td>	  }</td></tr>
+<tr><th id="176">176</th><td>	}</td></tr>
+<tr><th id="177">177</th><td>      }</td></tr>
+<tr><th id="178">178</th><td>      <i>/* The user should process events as usual. */</i></td></tr>
+<tr><th id="179">179</th><td>      <a class="macro" href="../../../include/x86_64-linux-gnu/sys/select.h.html#93" title="do { int __d0, __d1; __asm__ __volatile__ (&quot;cld; rep; &quot; &quot;stosq&quot; : &quot;=c&quot; (__d0), &quot;=D&quot; (__d1) : &quot;a&quot; (0), &quot;0&quot; (sizeof (fd_set) / sizeof (__fd_mask)), &quot;1&quot; (&amp;((&amp;read_fds)-&gt;fds_bits)[0]) : &quot;memory&quot;); } while (0)" data-ref="_M/FD_ZERO">FD_ZERO</a>( &amp;<a class="member" href="#Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</a> );</td></tr>
+<tr><th id="180">180</th><td>      <a class="local col6 ref" href="#596ret" title='ret' data-ref="596ret">ret</a> = <var>0</var>;</td></tr>
+<tr><th id="181">181</th><td>    }</td></tr>
+<tr><th id="182">182</th><td></td></tr>
+<tr><th id="183">183</th><td>    <a class="ref" href="timestamp.h.html#_Z16freeze_timestampv" title='freeze_timestamp' data-ref="_Z16freeze_timestampv">freeze_timestamp</a>();</td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td>    <b>return</b> <a class="local col6 ref" href="#596ret" title='ret' data-ref="596ret">ret</a>;</td></tr>
+<tr><th id="186">186</th><td>  }</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td>  <em>bool</em> <dfn class="decl def" id="_ZNK6Select4readEi" title='Select::read' data-ref="_ZNK6Select4readEi">read</dfn>( <em>int</em> <dfn class="local col8 decl" id="598fd" title='fd' data-type='int' data-ref="598fd">fd</dfn> )</td></tr>
+<tr><th id="189">189</th><td><u>#<span data-ppcond="189">if</span> <a class="macro" href="../../config.h.html#5" title="1" data-ref="_M/FD_ISSET_IS_CONST">FD_ISSET_IS_CONST</a></u></td></tr>
+<tr><th id="190">190</th><td>    <em>const</em></td></tr>
+<tr><th id="191">191</th><td><u>#<span data-ppcond="189">endif</span></u></td></tr>
+<tr><th id="192">192</th><td>  {</td></tr>
+<tr><th id="193">193</th><td>    <a class="macro" href="../../../include/assert.h.html#88" title="((((((&amp;all_fds)-&gt;fds_bits)[__extension__ ({ long int __d = (fd); (__builtin_constant_p (__d) ? (0 &lt;= __d &amp;&amp; __d &lt; 1024 ? (__d / (8 * (int) sizeof (__fd_mask))) : __fdelt_warn (__d)) : __fdelt_chk (__d)); })] &amp; ((__fd_mask) (1UL &lt;&lt; ((fd) % (8 * (int) sizeof (__fd_mask)))))) != 0)) ? static_cast&lt;void&gt; (0) : __assert_fail (&quot;FD_ISSET( fd, &amp;all_fds )&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 193, __PRETTY_FUNCTION__))" data-ref="_M/assert">assert</a>( <a class="macro" href="../../../include/x86_64-linux-gnu/sys/select.h.html#92" title="((((&amp;all_fds)-&gt;fds_bits)[__extension__ ({ long int __d = (fd); (__builtin_constant_p (__d) ? (0 &lt;= __d &amp;&amp; __d &lt; 1024 ? (__d / (8 * (int) sizeof (__fd_mask))) : __fdelt_warn (__d)) : __fdelt_chk (__d)); })] &amp; ((__fd_mask) (1UL &lt;&lt; ((fd) % (8 * (int) sizeof (__fd_mask)))))) != 0)" data-ref="_M/FD_ISSET">FD_ISSET</a>( <a class="local col8 ref" href="#598fd" title='fd' data-ref="598fd">fd</a>, &amp;<a class="member" href="#Select::all_fds" title='Select::all_fds' data-ref="Select::all_fds">all_fds</a> ) );</td></tr>
+<tr><th id="194">194</th><td>    <b>return</b> <a class="macro" href="../../../include/x86_64-linux-gnu/sys/select.h.html#92" title="((((&amp;read_fds)-&gt;fds_bits)[__extension__ ({ long int __d = (fd); (__builtin_constant_p (__d) ? (0 &lt;= __d &amp;&amp; __d &lt; 1024 ? (__d / (8 * (int) sizeof (__fd_mask))) : __fdelt_warn (__d)) : __fdelt_chk (__d)); })] &amp; ((__fd_mask) (1UL &lt;&lt; ((fd) % (8 * (int) sizeof (__fd_mask)))))) != 0)" data-ref="_M/FD_ISSET">FD_ISSET</a>( <a class="local col8 ref" href="#598fd" title='fd' data-ref="598fd">fd</a>, &amp;<a class="member" href="#Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</a> );</td></tr>
+<tr><th id="195">195</th><td>  }</td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td>  <i>/* This method consumes a signal notification. */</i></td></tr>
+<tr><th id="198">198</th><td>  <em>bool</em> <dfn class="decl def" id="_ZN6Select6signalEi" title='Select::signal' data-ref="_ZN6Select6signalEi">signal</dfn>( <em>int</em> <dfn class="local col9 decl" id="599signum" title='signum' data-type='int' data-ref="599signum">signum</dfn> )</td></tr>
+<tr><th id="199">199</th><td>  {</td></tr>
+<tr><th id="200">200</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((signum &gt;= 0) ? (void)0 : fatal_error (&quot;signum &gt;= 0&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 200, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <a class="local col9 ref" href="#599signum" title='signum' data-ref="599signum">signum</a> &gt;= <var>0</var> );</td></tr>
+<tr><th id="201">201</th><td>    <a class="macro" href="fatal_assert.h.html#46" title="((signum &lt;= MAX_SIGNAL_NUMBER) ? (void)0 : fatal_error (&quot;signum &lt;= MAX_SIGNAL_NUMBER&quot;, &quot;/home/jon/workspace/mosh/src/util/select.h&quot;, 201, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <a class="local col9 ref" href="#599signum" title='signum' data-ref="599signum">signum</a> &lt;= <a class="member" href="#Select::MAX_SIGNAL_NUMBER" title='Select::MAX_SIGNAL_NUMBER' data-ref="Select::MAX_SIGNAL_NUMBER">MAX_SIGNAL_NUMBER</a> );</td></tr>
+<tr><th id="202">202</th><td>    <i>/* XXX This requires a guard against concurrent signals. */</i></td></tr>
+<tr><th id="203">203</th><td>    <em>bool</em> <dfn class="local col0 decl" id="600rv" title='rv' data-type='bool' data-ref="600rv">rv</dfn> = <a class="member" href="#Select::got_signal" title='Select::got_signal' data-ref="Select::got_signal">got_signal</a>[ <a class="local col9 ref" href="#599signum" title='signum' data-ref="599signum">signum</a> ];</td></tr>
+<tr><th id="204">204</th><td>    <a class="member" href="#Select::got_signal" title='Select::got_signal' data-ref="Select::got_signal">got_signal</a>[ <a class="local col9 ref" href="#599signum" title='signum' data-ref="599signum">signum</a> ] = <var>0</var>;</td></tr>
+<tr><th id="205">205</th><td>    <b>return</b> <a class="local col0 ref" href="#600rv" title='rv' data-ref="600rv">rv</a>;</td></tr>
+<tr><th id="206">206</th><td>  }</td></tr>
+<tr><th id="207">207</th><td></td></tr>
+<tr><th id="208">208</th><td>  <i>/* This method does not consume signal notifications. */</i></td></tr>
+<tr><th id="209">209</th><td>  <em>bool</em> <dfn class="decl def" id="_ZNK6Select10any_signalEv" title='Select::any_signal' data-ref="_ZNK6Select10any_signalEv">any_signal</dfn>( <em>void</em> ) <em>const</em></td></tr>
+<tr><th id="210">210</th><td>  {</td></tr>
+<tr><th id="211">211</th><td>    <em>bool</em> <dfn class="local col1 decl" id="601rv" title='rv' data-type='bool' data-ref="601rv">rv</dfn> = <b>false</b>;</td></tr>
+<tr><th id="212">212</th><td>    <b>for</b> (<em>int</em> <dfn class="local col2 decl" id="602i" title='i' data-type='int' data-ref="602i">i</dfn> = <var>0</var>; <a class="local col2 ref" href="#602i" title='i' data-ref="602i">i</a> &lt; <a class="member" href="#Select::MAX_SIGNAL_NUMBER" title='Select::MAX_SIGNAL_NUMBER' data-ref="Select::MAX_SIGNAL_NUMBER">MAX_SIGNAL_NUMBER</a>; <a class="local col2 ref" href="#602i" title='i' data-ref="602i">i</a>++) {</td></tr>
+<tr><th id="213">213</th><td>      <a class="local col1 ref" href="#601rv" title='rv' data-ref="601rv">rv</a> |= <a class="member" href="#Select::got_signal" title='Select::got_signal' data-ref="Select::got_signal">got_signal</a>[ <a class="local col2 ref" href="#602i" title='i' data-ref="602i">i</a> ];</td></tr>
+<tr><th id="214">214</th><td>    }</td></tr>
+<tr><th id="215">215</th><td>    <b>return</b> <a class="local col1 ref" href="#601rv" title='rv' data-ref="601rv">rv</a>;</td></tr>
+<tr><th id="216">216</th><td>  }</td></tr>
+<tr><th id="217">217</th><td></td></tr>
+<tr><th id="218">218</th><td>  <em>static</em> <em>void</em> <dfn class="decl def" id="_ZN6Select11set_verboseEj" title='Select::set_verbose' data-ref="_ZN6Select11set_verboseEj">set_verbose</dfn>( <em>unsigned</em> <em>int</em> <dfn class="local col3 decl" id="603s_verbose" title='s_verbose' data-type='unsigned int' data-ref="603s_verbose">s_verbose</dfn> ) { <a class="member" href="#Select::verbose" title='Select::verbose' data-ref="Select::verbose">verbose</a> = <a class="local col3 ref" href="#603s_verbose" title='s_verbose' data-ref="603s_verbose">s_verbose</a>; }</td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td><b>private</b>:</td></tr>
+<tr><th id="221">221</th><td>  <em>static</em> <em>const</em> <em>int</em> <dfn class="decl" id="Select::MAX_SIGNAL_NUMBER" title='Select::MAX_SIGNAL_NUMBER' data-ref="Select::MAX_SIGNAL_NUMBER">MAX_SIGNAL_NUMBER</dfn> = <var>64</var>;</td></tr>
+<tr><th id="222">222</th><td>  <i>/* Number of 0-timeout selects after which we begin to think</i></td></tr>
+<tr><th id="223">223</th><td><i>   * something's wrong. */</i></td></tr>
+<tr><th id="224">224</th><td>  <em>static</em> <em>const</em> <em>int</em> <dfn class="decl" id="Select::MAX_POLLS" title='Select::MAX_POLLS' data-ref="Select::MAX_POLLS">MAX_POLLS</dfn> = <var>10</var>;</td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td>  <em>static</em> <em>void</em> <dfn class="decl" id="_ZN6Select13handle_signalEi" title='Select::handle_signal' data-ref="_ZN6Select13handle_signalEi">handle_signal</dfn>( <em>int</em> <dfn class="local col4 decl" id="604signum" title='signum' data-type='int' data-ref="604signum">signum</dfn> );</td></tr>
+<tr><th id="227">227</th><td></td></tr>
+<tr><th id="228">228</th><td>  <em>int</em> <dfn class="decl" id="Select::max_fd" title='Select::max_fd' data-ref="Select::max_fd">max_fd</dfn>;</td></tr>
+<tr><th id="229">229</th><td></td></tr>
+<tr><th id="230">230</th><td>  <i>/* We assume writes to these ints are atomic, though we also try to mask out</i></td></tr>
+<tr><th id="231">231</th><td><i>     concurrent signal handlers. */</i></td></tr>
+<tr><th id="232">232</th><td>  <em>int</em> <dfn class="decl" id="Select::got_signal" title='Select::got_signal' data-ref="Select::got_signal">got_signal</dfn>[ <a class="ref" href="#Select::MAX_SIGNAL_NUMBER" title='Select::MAX_SIGNAL_NUMBER' data-ref="Select::MAX_SIGNAL_NUMBER">MAX_SIGNAL_NUMBER</a> + <var>1</var> ];</td></tr>
+<tr><th id="233">233</th><td></td></tr>
+<tr><th id="234">234</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/sys/select.h.html#fd_set" title='fd_set' data-type='struct fd_set' data-ref="fd_set">fd_set</a> <dfn class="decl" id="Select::all_fds" title='Select::all_fds' data-ref="Select::all_fds">all_fds</dfn>, <dfn class="decl" id="Select::read_fds" title='Select::read_fds' data-ref="Select::read_fds">read_fds</dfn>;</td></tr>
+<tr><th id="235">235</th><td></td></tr>
+<tr><th id="236">236</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/sys/select.h.html#sigset_t" title='sigset_t' data-type='__sigset_t' data-ref="sigset_t">sigset_t</a> <dfn class="decl" id="Select::empty_sigset" title='Select::empty_sigset' data-ref="Select::empty_sigset">empty_sigset</dfn>;</td></tr>
+<tr><th id="237">237</th><td></td></tr>
+<tr><th id="238">238</th><td>  <em>static</em> <a class="typedef" href="../../../include/x86_64-linux-gnu/sys/select.h.html#fd_set" title='fd_set' data-type='struct fd_set' data-ref="fd_set">fd_set</a> <dfn class="decl" id="Select::dummy_fd_set" title='Select::dummy_fd_set' data-ref="Select::dummy_fd_set">dummy_fd_set</dfn>;</td></tr>
+<tr><th id="239">239</th><td>  <em>static</em> <a class="typedef" href="../../../include/x86_64-linux-gnu/sys/select.h.html#sigset_t" title='sigset_t' data-type='__sigset_t' data-ref="sigset_t">sigset_t</a> <dfn class="decl" id="Select::dummy_sigset" title='Select::dummy_sigset' data-ref="Select::dummy_sigset">dummy_sigset</dfn>;</td></tr>
+<tr><th id="240">240</th><td>  <em>int</em> <dfn class="decl" id="Select::consecutive_polls" title='Select::consecutive_polls' data-ref="Select::consecutive_polls">consecutive_polls</dfn>;</td></tr>
+<tr><th id="241">241</th><td>  <em>static</em> <em>unsigned</em> <em>int</em> <dfn class="decl" id="Select::verbose" title='Select::verbose' data-ref="Select::verbose">verbose</dfn>;</td></tr>
+<tr><th id="242">242</th><td>};</td></tr>
+<tr><th id="243">243</th><td></td></tr>
+<tr><th id="244">244</th><td><u>#<span data-ppcond="33">endif</span></u></td></tr>
+<tr><th id="245">245</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../frontend/mosh-server.cc.html'>codebrowser/src/frontend/mosh-server.cc</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>mosh-1.3.2-38-ge9c3bbd</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

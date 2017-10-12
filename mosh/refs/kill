@@ -1,0 +1,2 @@
+<dec f='include/signal.h' l='127' type='int kill(__pid_t __pid, int __sig)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='357' u='c' c='_ZN9STMClient18process_user_inputEi'/>

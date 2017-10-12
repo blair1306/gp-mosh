@@ -1,0 +1,28 @@
+<def f='include/c++/5/bits/basic_string.h' l='444' ll='447' type='void std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;(const _CharT * __s, size_type __n, const _Alloc &amp; __a = _Alloc())'/>
+<use f='codebrowser/src/crypto/crypto.h' l='114' u='c' c='_ZNK6Crypto5Nonce6cc_strB5cxx11Ev'/>
+<use f='codebrowser/src/crypto/crypto.h' l='127' u='c' c='_ZN6Crypto7MessageC1EPKcmS2_m'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='152' u='c' c='_ZNK6Crypto9Base64Key13printable_keyB5cxx11Ev'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='246' u='c' c='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='284' u='c' c='_ZN6Crypto7Session7decryptEPKcm'/>
+<doc f='include/c++/5/bits/basic_string.h' l='435'>/**
+       *  @brief  Construct string initialized by a character %array.
+       *  @param  __s  Source character %array.
+       *  @param  __n  Number of characters to copy.
+       *  @param  __a  Allocator to use (default is default allocator).
+       *
+       *  NB: @a __s must have at least @a __n characters, &amp;apos;\\0&amp;apos;
+       *  has no special meaning.
+       */</doc>
+<use f='codebrowser/src/network/transportsender-impl.h' l='317' u='c' c='_ZN7Network15TransportSender10make_chaffB5cxx11Ev'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='811' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/network/compressor.cc' l='47' u='c' c='_ZN7Network10Compressor12compress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/compressor.cc' l='56' u='c' c='_ZN7Network10Compressor14uncompress_strERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/network.cc' l='95' u='c' c='_ZN7Network6Packet9toMessageEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='47' u='c' c='_ZL20network_order_stringB5cxx11t'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='53' u='c' c='_ZL20network_order_stringB5cxx11m'/>
+<use f='codebrowser/src/statesync/user.cc' l='83' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='221' u='c' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='57' u='c' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='65' u='c' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='73' u='c' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='76' u='c' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>

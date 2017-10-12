@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/terminal/parseraction.h' l='50' type='bool'/>
+<use f='codebrowser/src/terminal/parseraction.h' l='58' u='w' c='_ZN6Parser6ActionC1Ev'/>
+<offset>96</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='683' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='824' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='835' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='841' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='68' u='w' c='_ZNK6Parser5State5inputEw'/>
+<use f='codebrowser/src/terminal/parserstate.cc' l='75' u='w' c='_ZNK6Parser5State5inputEw'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='61' u='r' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='54' u='r' c='_ZN8Terminal10Dispatcher12newparamcharEPKN6Parser5ParamE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='65' u='r' c='_ZN8Terminal10Dispatcher7collectEPKN6Parser7CollectE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='203' u='r' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='205' u='w' c='_ZN8Terminal10Dispatcher8dispatchENS_13Function_TypeEPKN6Parser6ActionEPNS_11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='238' u='r' c='_ZN8Terminal10Dispatcher7OSC_putEPKN6Parser7OSC_PutE'/>

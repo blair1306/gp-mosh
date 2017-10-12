@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_list.h' l='1015' ll='1021' type='reference std::__cxx11::list::back()'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='245' u='c' c='_ZN7Overlay16PredictionEngine6cursorEv'/>
+<doc f='include/c++/5/bits/stl_list.h' l='1011'>/**
+       *  Returns a read/write reference to the data at the last element
+       *  of the %list.
+       */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='641' u='c' c='_ZN7Overlay16PredictionEngine15get_or_make_rowEii'/>

@@ -1,0 +1,8 @@
+<dec f='include/google/protobuf/stubs/atomicops.h' l='127' type='void google::protobuf::internal::MemoryBarrier()'/>
+<def f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='122' ll='124' type='void google::protobuf::internal::MemoryBarrier()'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='128' u='c' c='_ZN6google8protobuf8internal13Acquire_StoreEPVii'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='171' u='c' c='_ZN6google8protobuf8internal12Release_LoadEPVKi'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='228' u='c' c='_ZN6google8protobuf8internal13Acquire_StoreEPVll'/>
+<use f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='265' u='c' c='_ZN6google8protobuf8internal12Release_LoadEPVKl'/>
+<doc f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='120'>// 64-bit implementations of memory barrier can be simpler, because it
+// &quot;mfence&quot; is guaranteed to exist.</doc>

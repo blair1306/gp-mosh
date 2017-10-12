@@ -1,0 +1,2 @@
+<dec f='include/langinfo.h' l='279'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='76' u='c'/>

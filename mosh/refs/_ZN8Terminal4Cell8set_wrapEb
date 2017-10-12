@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='200' type='void Terminal::Cell::set_wrap(bool f)'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='228' u='c' c='_ZN8Terminal3Row8set_wrapEb'/>

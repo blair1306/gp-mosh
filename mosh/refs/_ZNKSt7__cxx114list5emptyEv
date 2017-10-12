@@ -1,0 +1,11 @@
+<def f='include/c++/5/bits/stl_list.h' l='940' ll='942' type='bool std::__cxx11::list::empty() const'/>
+<use f='include/c++/5/bits/list.tcc' l='430' u='c' c='_ZNSt7__cxx114list4sortEv'/>
+<use f='include/c++/5/bits/list.tcc' l='507' u='c' c='_ZNSt7__cxx114list4sortET_'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='245' u='c' c='_ZN7Overlay16PredictionEngine6cursorEv'/>
+<doc f='include/c++/5/bits/stl_list.h' l='936'>/**
+       *  Returns true if the %list is empty.  (Thus begin() would equal
+       *  end().)
+       */</doc>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='417' u='c' c='_ZN7Overlay16PredictionEngine11init_cursorERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='592' u='c' c='_ZN7Overlay16PredictionEngine4cullERKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='907' u='c' c='_ZNK7Overlay16PredictionEngine6activeEv'/>

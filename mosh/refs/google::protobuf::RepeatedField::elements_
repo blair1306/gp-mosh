@@ -1,0 +1,30 @@
+<dec f='include/google/protobuf/repeated_field.h' l='200' type='Element *'/>
+<use f='include/google/protobuf/repeated_field.h' l='580' u='w' c='_ZN6google8protobuf13RepeatedFieldC1Ev'/>
+<use f='include/google/protobuf/repeated_field.h' l='587' u='w' c='_ZN6google8protobuf13RepeatedFieldC1ERKNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='596' u='w' c='_ZN6google8protobuf13RepeatedFieldC1ET_RKS2_'/>
+<use f='include/google/protobuf/repeated_field.h' l='614' c='_ZN6google8protobuf13RepeatedFieldD1Ev'/>
+<use f='include/google/protobuf/repeated_field.h' l='643' u='w' c='_ZN6google8protobuf13RepeatedField18AddAlreadyReservedERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='649' c='_ZN6google8protobuf13RepeatedField18AddAlreadyReservedEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='657' c='_ZN6google8protobuf13RepeatedField6ResizeEiRKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='657' c='_ZN6google8protobuf13RepeatedField6ResizeEiRKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='666' u='a' c='_ZNK6google8protobuf13RepeatedField3GetEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='673' c='_ZN6google8protobuf13RepeatedField7MutableEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='680' u='w' c='_ZN6google8protobuf13RepeatedField3SetEiRKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='686' u='w' c='_ZN6google8protobuf13RepeatedField3AddERKT_'/>
+<use f='include/google/protobuf/repeated_field.h' l='692' c='_ZN6google8protobuf13RepeatedField3AddEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='732' c='_ZN6google8protobuf13RepeatedField9MergeFromERKNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='746' u='r' c='_ZN6google8protobuf13RepeatedField12mutable_dataEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='751' u='r' c='_ZNK6google8protobuf13RepeatedField4dataEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='758' u='r' c='_ZN6google8protobuf13RepeatedField4SwapEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='762' u='w' c='_ZN6google8protobuf13RepeatedField4SwapEPNS0_13RepeatedFieldIT_EE'/>
+<use f='include/google/protobuf/repeated_field.h' l='774' c='_ZN6google8protobuf13RepeatedField12SwapElementsEii'/>
+<use f='include/google/protobuf/repeated_field.h' l='774' c='_ZN6google8protobuf13RepeatedField12SwapElementsEii'/>
+<use f='include/google/protobuf/repeated_field.h' l='780' u='r' c='_ZN6google8protobuf13RepeatedField5beginEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='785' u='r' c='_ZNK6google8protobuf13RepeatedField5beginEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='790' c='_ZN6google8protobuf13RepeatedField3endEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='795' c='_ZNK6google8protobuf13RepeatedField3endEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='800' c='_ZNK6google8protobuf13RepeatedField22SpaceUsedExcludingSelfEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='800' u='r' c='_ZNK6google8protobuf13RepeatedField22SpaceUsedExcludingSelfEv'/>
+<use f='include/google/protobuf/repeated_field.h' l='809' u='r' c='_ZN6google8protobuf13RepeatedField7ReserveEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='812' u='w' c='_ZN6google8protobuf13RepeatedField7ReserveEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='814' u='r' c='_ZN6google8protobuf13RepeatedField7ReserveEi'/>

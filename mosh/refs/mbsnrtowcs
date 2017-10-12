@@ -1,0 +1,1 @@
+<def f='include/x86_64-linux-gnu/bits/wchar2.h' l='541' ll='556' macro='1' type='size_t mbsnrtowcs(wchar_t *__restrict __dst, const char **__restrict __src, size_t __nmc, size_t __len, mbstate_t *__restrict __ps)'/>

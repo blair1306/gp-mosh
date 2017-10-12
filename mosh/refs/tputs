@@ -1,0 +1,1 @@
+<dec f='include/term.h' l='768' type='int tputs(const char * , int , int (*)(int) )'/>

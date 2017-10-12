@@ -1,0 +1,5 @@
+<dec f='include/asm-generic/ioctls.h' l='37'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='406' u='c'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='736' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='237' u='c'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='401' u='c'/>

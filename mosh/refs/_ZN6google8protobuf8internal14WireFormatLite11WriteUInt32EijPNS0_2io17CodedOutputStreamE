@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='339' type='static void google::protobuf::internal::WireFormatLite::WriteUInt32(int field_number_arg, uint32 value, io::CodedOutputStream * output_arg)'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='309' u='c' c='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>

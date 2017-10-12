@@ -1,0 +1,2 @@
+<dec f='include/stdio.h' l='901' type='int obstack_vprintf(struct obstack *__restrict __obstack, const char *__restrict __format, __va_list_tag * __args)'/>
+<def f='include/x86_64-linux-gnu/bits/stdio2.h' l='213' ll='219' macro='1' type='int obstack_vprintf(struct obstack *__restrict __obstack, const char *__restrict __fmt, __va_list_tag * __ap)'/>

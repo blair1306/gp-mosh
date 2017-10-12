@@ -1,0 +1,10 @@
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='139'/>
+<inh f='include/google/protobuf/stubs/template_util.h' l='77' c='google::protobuf::internal::integral_constant'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='140'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='141'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='142'/>
+<def f='include/google/protobuf/stubs/type_traits.h' l='143'/>
+<doc f='include/google/protobuf/stubs/type_traits.h' l='136'>// is_pointer is false except for pointer types. A cv-qualified type (e.g.
+// &quot;int* const&quot;, as opposed to &quot;int const*&quot;) is cv-qualified if and only if
+// the underlying type is.</doc>

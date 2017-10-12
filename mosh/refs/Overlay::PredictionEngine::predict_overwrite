@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='265' type='bool'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='276' u='w' c='_ZN7Overlay16PredictionEngine21set_predict_overwriteEb'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='308' u='w' c='_ZN7Overlay16PredictionEngineC1Ev'/>
+<offset>1216</offset>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='696' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='757' u='r' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>

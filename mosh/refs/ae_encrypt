@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/crypto/ae.h' l='98' type='int ae_encrypt(ae_ctx * ctx, const void * nonce, const void * pt, int pt_len, const void * ad, int ad_len, void * ct, void * tag, int final)'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='212' u='c' c='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<doc f='codebrowser/src/crypto/ae.h' l='80'>/* --------------------------------------------------------------------------
+ *
+ * Initialize an ae_ctx context structure.
+ *
+ * Parameters:
+ *  ctx       - Pointer to an ae_ctx structure to be initialized
+ *  key       - Pointer to user-supplied key
+ *  key_len   - Length of key supplied, in bytes
+ *  nonce_len - Length of nonces to be used for this key, in bytes
+ *  tag_len   - Length of tags to be produced for this key, in bytes
+ *
+ * Returns:
+ *  AE_SUCCESS       - Success. Ctx ready for use.
+ *  AE_NOT_SUPPORTED - An unsupported length was supplied. Ctx is untouched.
+ *  Otherwise        - Error. Check implementation documentation for codes.
+ *
+ * ----------------------------------------------------------------------- */</doc>
+<def f='codebrowser/src/crypto/ocb.cc' l='990' ll='1178' type='int ae_encrypt(ae_ctx * ctx, const void * nonce, const void * pt, int pt_len, const void * ad, int ad_len, void * ct, void * tag, int final)'/>
+<doc f='codebrowser/src/crypto/ocb.cc' l='988'>/* ----------------------------------------------------------------------- */</doc>

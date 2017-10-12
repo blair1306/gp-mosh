@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='47' type='bool'/>
+<offset>8</offset>
+<doc f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='46'>// after acquire compare-and-swap.</doc>
+<doc f='include/google/protobuf/stubs/atomicops_internals_x86_gcc.h' l='47'>// Processor has SSE2.</doc>

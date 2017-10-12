@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/stubs/once.h' l='151' ll='155' type='void google::protobuf::GoogleOnceDynamic::Init(void (*)(T *) func_with_arg, T * arg)'/>

@@ -1,0 +1,8 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='71' ll='76' type='bool Terminal::Renditions::operator==(const Terminal::Renditions &amp; x) const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='108' u='c' c='_ZNK8Terminal4CelleqERKS0_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='342' u='c' c='_ZNK8Terminal9DrawStateeqERKS0_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='389' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='402' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='453' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='532' u='c' c='_ZN8Terminal10FrameState16update_renditionERKNS_10RenditionsEb'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='639' u='c' c='_ZNK8Terminal4Cell7compareERKS0_'/>

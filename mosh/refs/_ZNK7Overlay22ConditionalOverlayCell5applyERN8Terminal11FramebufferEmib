@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='105' type='void Overlay::ConditionalOverlayCell::apply(Terminal::Framebuffer &amp; fb, uint64_t confirmed_epoch, int row, bool flag) const'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='46' ll='75' type='void Overlay::ConditionalOverlayCell::apply(Terminal::Framebuffer &amp; fb, uint64_t confirmed_epoch, int row, bool flag) const'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='355' u='c' c='_ZNK7Overlay21ConditionalOverlayRow5applyERN8Terminal11FramebufferEmb'/>

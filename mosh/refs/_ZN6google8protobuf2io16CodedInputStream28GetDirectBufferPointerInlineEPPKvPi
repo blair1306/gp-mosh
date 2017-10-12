@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='192' type='void google::protobuf::io::CodedInputStream::GetDirectBufferPointerInline(const void ** data, int * size)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='974' ll='978' type='void google::protobuf::io::CodedInputStream::GetDirectBufferPointerInline(const void ** data, int * size)'/>
+<use f='include/google/protobuf/wire_format_lite_inl.h' l='269' u='c' c='_ZN6google8protobuf8internal14WireFormatLite30ReadRepeatedFixedSizePrimitiveEijPNS0_2io16CodedInputStreamEPNS0_13RepeatedFieldIT_EE'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='190'>// Like GetDirectBufferPointer, but this method is inlined, and does not
+  // attempt to Refresh() if the buffer is currently empty.</doc>

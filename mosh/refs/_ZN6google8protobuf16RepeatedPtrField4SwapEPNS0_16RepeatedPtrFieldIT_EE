@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/repeated_field.h' l='473' type='void google::protobuf::RepeatedPtrField::Swap(RepeatedPtrField&lt;Element&gt; * other)'/>
+<def f='include/google/protobuf/repeated_field.h' l='1186' ll='1189' type='void google::protobuf::RepeatedPtrField::Swap(RepeatedPtrField&lt;Element&gt; * other)'/>
+<doc f='include/google/protobuf/repeated_field.h' l='472'>// Swap entire contents with &quot;other&quot;.</doc>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='231' u='c' c='_ZN11HostBuffers11HostMessage4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='224' u='c' c='_ZN13ClientBuffers11UserMessage4SwapEPS0_'/>

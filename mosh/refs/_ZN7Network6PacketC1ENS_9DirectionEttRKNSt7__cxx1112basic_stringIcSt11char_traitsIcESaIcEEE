@@ -1,0 +1,2 @@
+<def f='codebrowser/src/network/network.h' l='84' ll='88' type='void Network::Packet::Packet(Network::Direction s_direction, uint16_t s_timestamp, uint16_t s_timestamp_reply, const string &amp; s_payload)'/>
+<use f='codebrowser/src/network/network.cc' l='113' u='c' c='_ZN7Network10Connection10new_packetERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

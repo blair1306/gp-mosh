@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='437' type='void Terminal::Framebuffer::reset()'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='380' ll='388' type='void Terminal::Framebuffer::reset()'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='558' u='c' c='_ZL7Esc_RISPN8Terminal11FramebufferEPNS_10DispatcherE'/>

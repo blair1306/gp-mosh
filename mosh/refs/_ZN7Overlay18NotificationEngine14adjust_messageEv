@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/frontend/terminaloverlay.h' l='158' type='void Overlay::NotificationEngine::adjust_message()'/>
+<def f='codebrowser/src/frontend/terminaloverlay.cc' l='308' ll='313' type='void Overlay::NotificationEngine::adjust_message()'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='340' u='c' c='_ZN7Overlay14OverlayManager5applyERN8Terminal11FramebufferE'/>

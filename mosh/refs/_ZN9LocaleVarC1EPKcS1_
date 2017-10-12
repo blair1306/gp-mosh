@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/locale_utils.h' l='41' ll='43' type='void LocaleVar::LocaleVar(const char * s_name, const char * s_value)'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='62' u='c' c='_Z9get_ctypev'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='64' u='c' c='_Z9get_ctypev'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='66' u='c' c='_Z9get_ctypev'/>
+<use f='codebrowser/src/util/locale_utils.cc' l='68' u='c' c='_Z9get_ctypev'/>

@@ -1,0 +1,8 @@
+<def f='codebrowser/src/terminal/parsertransition.h' l='43' ll='71'/>
+<size>24</size>
+<mbr r='Parser::Transition::action' o='0' t='ActionPointer'/>
+<mbr r='Parser::Transition::next_state' o='128' t='Parser::State *'/>
+<fun r='_ZN6Parser10TransitionC1ERKS0_'/>
+<fun r='_ZN6Parser10TransitionaSERKS0_'/>
+<fun r='_ZN6Parser10TransitionC1ENSt3tr110shared_ptrINS_6ActionEEEPNS_5StateE'/>
+<fun r='_ZN6Parser10TransitionC1EPNS_5StateENSt3tr110shared_ptrINS_6ActionEEE'/>

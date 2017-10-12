@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminaldispatcher.h' l='103' type='void Terminal::Dispatcher::newparamchar(const Parser::Param * act)'/>
+<use f='codebrowser/src/terminal/parseraction.cc' l='58' u='c' c='_ZNK6Parser5Param15act_on_terminalEPN8Terminal8EmulatorE'/>
+<def f='codebrowser/src/terminal/terminaldispatcher.cc' l='52' ll='61' type='void Terminal::Dispatcher::newparamchar(const Parser::Param * act)'/>

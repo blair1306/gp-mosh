@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/network/transportsender.h' l='95' type='bool'/>
+<use f='codebrowser/src/network/transportsender.h' l='136' u='r' c='_ZN7Network15TransportSender14start_shutdownEv'/>
+<use f='codebrowser/src/network/transportsender.h' l='136' u='w' c='_ZN7Network15TransportSender14start_shutdownEv'/>
+<use f='codebrowser/src/network/transportsender.h' l='140' u='r' c='_ZN7Network15TransportSender17get_current_stateEv'/>
+<use f='codebrowser/src/network/transportsender.h' l='143' u='r' c='_ZN7Network15TransportSender17set_current_stateERKT_'/>
+<use f='codebrowser/src/network/transportsender.h' l='149' u='r' c='_ZNK7Network15TransportSender24get_shutdown_in_progressEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='60' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='123' u='r' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='216' u='r' c='_ZN7Network15TransportSender14send_empty_ackEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='250' u='r' c='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='376' u='r' c='_ZNK7Network15TransportSender22shutdown_ack_timed_outEv'/>

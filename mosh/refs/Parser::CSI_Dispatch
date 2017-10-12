@@ -1,0 +1,6 @@
+<inh f='codebrowser/src/terminal/parseraction.h' l='46' c='Parser::Action'/>
+<def f='codebrowser/src/terminal/parseraction.h' l='100' ll='104'/>
+<size>16</size>
+<fun r='_ZN6Parser12CSI_Dispatch4nameB5cxx11Ev'/>
+<fun r='_ZNK6Parser12CSI_Dispatch15act_on_terminalEPN8Terminal8EmulatorE'/>
+<fun r='_ZNK6Parser12CSI_Dispatch15act_on_terminalEPN8Terminal8EmulatorE'/>

@@ -1,0 +1,19 @@
+<def f='include/c++/5/bits/stl_vector.h' l='253' ll='257' type='void std::vector::vector&lt;_Tp, _Alloc&gt;()'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='64' u='c' c='_ZN8Terminal8CompleteC1Emm'/>
+<use f='codebrowser/src/network/transportfragment.h' l='84' u='c' c='_ZN7Network16FragmentAssemblyC1Ev'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='112' u='c' c='_ZN7Overlay22ConditionalOverlayCellC1Emim'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='139' u='c' c='_ZN7Overlay21ConditionalOverlayRowC1Ei'/>
+<use f='codebrowser/src/frontend/terminaloverlay.h' l='319' u='c' c='_ZN7Overlay11TitleEngineC1Ev'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='250'>/**
+       *  @brief  Creates a %vector with no elements.
+       */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='978' u='c' c='_ZL15warn_unattachedRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='664' u='c' c='_ZN7Overlay16PredictionEngine13new_user_byteEcRKN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/network/network.cc' l='190' u='c' c='_ZNK7Network10Connection3fdsEv'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='180' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='48' u='c' c='_ZN8Terminal10DispatcherC1Ev'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='49' u='c' c='_ZN8Terminal10DispatcherC1Ev'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='81' u='c' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='81' u='c' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='81' u='c' c='_ZN8Terminal11FramebufferC1Eii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='81' u='c' c='_ZN8Terminal11FramebufferC1Eii'/>

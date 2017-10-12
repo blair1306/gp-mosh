@@ -1,0 +1,12 @@
+<use f='codebrowser/src/crypto/ocb.cc' l='184' macro='1' u='c'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='185' macro='1' u='c'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='186' macro='1' u='c'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='199' macro='1' u='c'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='206' macro='1' u='c'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='175' u='c' c='ae_init'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='175' u='c' c='_ZL10process_adP7_ae_ctxPKvii'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='175' u='c' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='175' u='c' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='175' u='c' c='ae_encrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='175' u='c' c='ae_decrypt'/>
+<use f='codebrowser/src/crypto/ocb.cc' l='175' u='c' c='ae_decrypt'/>

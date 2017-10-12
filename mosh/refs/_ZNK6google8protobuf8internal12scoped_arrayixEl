@@ -1,0 +1,3 @@
+<def f='include/google/protobuf/stubs/common.h' l='564' ll='568' type='C &amp; google::protobuf::internal::scoped_array::operator[](std::ptrdiff_t i) const'/>
+<doc f='include/google/protobuf/stubs/common.h' l='562'>// Get one element of the current object.
+  // Will assert() if there is no current object, or index i is negative.</doc>

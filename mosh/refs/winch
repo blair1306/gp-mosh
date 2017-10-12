@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='828' type='chtype winch(WINDOW * )'/>
+<doc f='include/curses.h' l='828'>/* implemented */</doc>

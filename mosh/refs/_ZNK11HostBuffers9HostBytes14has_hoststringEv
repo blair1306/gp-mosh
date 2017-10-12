@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='245' type='bool HostBuffers::HostBytes::has_hoststring() const'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='495' ll='497' type='bool HostBuffers::HostBytes::has_hoststring() const'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='457' u='c' c='_ZN11HostBuffers9HostBytes5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='518' u='c' c='_ZNK11HostBuffers9HostBytes24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='533' u='c' c='_ZNK11HostBuffers9HostBytes8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='556' u='c' c='_ZN11HostBuffers9HostBytes9MergeFromERKS0_'/>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='240'>// nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional bytes hoststring = 4;</doc>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='486'>// -------------------------------------------------------------------
+
+// Instruction
+
+// -------------------------------------------------------------------
+
+// HostBytes
+
+// optional bytes hoststring = 4;</doc>

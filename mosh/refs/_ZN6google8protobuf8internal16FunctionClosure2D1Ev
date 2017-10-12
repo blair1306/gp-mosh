@@ -1,0 +1,2 @@
+<inh f='include/google/protobuf/stubs/common.h' l='856' c='_ZN6google8protobuf7ClosureD1Ev'/>
+<def f='include/google/protobuf/stubs/common.h' l='962' type='void google::protobuf::internal::FunctionClosure2::~FunctionClosure2&lt;Arg1, Arg2&gt;()'/>

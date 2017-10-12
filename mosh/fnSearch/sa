@@ -1,0 +1,2 @@
+_ZN8Terminal9DrawState11save_cursorEv|Terminal::DrawState::save_cursor
+_ZN8Terminal11SavedCursorC1Ev|Terminal::SavedCursor::SavedCursor

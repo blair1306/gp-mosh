@@ -1,0 +1,2 @@
+<use f='include/google/protobuf/wire_format_lite.h' l='139' u='r' c='_ZN6google8protobuf8internal14WireFormatLite20WireTypeForFieldTypeENS2_9FieldTypeE'/>
+<dec f='include/google/protobuf/wire_format_lite.h' l='515' type='const WireFormatLite::WireType []'/>

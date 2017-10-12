@@ -1,0 +1,15 @@
+<def f='include/google/protobuf/stubs/common.h' l='533' ll='610'/>
+<fun r='_ZN6google8protobuf8internal12scoped_arrayC1EPT_'/>
+<fun r='_ZN6google8protobuf8internal12scoped_arrayD1Ev'/>
+<fun r='_ZN6google8protobuf8internal12scoped_array5resetEPT_'/>
+<fun r='_ZNK6google8protobuf8internal12scoped_arrayixEl'/>
+<fun r='_ZNK6google8protobuf8internal12scoped_array3getEv'/>
+<fun r='_ZNK6google8protobuf8internal12scoped_arrayeqEPT_'/>
+<fun r='_ZNK6google8protobuf8internal12scoped_arrayneEPT_'/>
+<fun r='_ZN6google8protobuf8internal12scoped_array4swapERNS1_12scoped_arrayIT_EE'/>
+<fun r='_ZN6google8protobuf8internal12scoped_array7releaseEv'/>
+<mbr r='google::protobuf::internal::scoped_array::array_' t='C *'/>
+<fun r='_ZNK6google8protobuf8internal12scoped_arrayeqERKNS1_12scoped_arrayIT_EE'/>
+<fun r='_ZNK6google8protobuf8internal12scoped_arrayneERKNS1_12scoped_arrayIT_EE'/>
+<fun r='_ZN6google8protobuf8internal12scoped_arrayC1ERKNS1_12scoped_arrayIT_EE'/>
+<fun r='_ZN6google8protobuf8internal12scoped_arrayaSERKNS1_12scoped_arrayIT_EE'/>

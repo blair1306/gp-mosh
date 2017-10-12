@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='138' type='ae_ctx *'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='161' u='w' c='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='166' u='r' c='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='173' u='r' c='_ZN6Crypto7SessionD1Ev'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='212' u='r' c='_ZN6Crypto7Session7encryptB5cxx11ERKNS_7MessageE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='272' u='r' c='_ZN6Crypto7Session7decryptEPKcm'/>
+<offset>320</offset>

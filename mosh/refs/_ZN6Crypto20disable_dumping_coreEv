@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='163' type='void Crypto::disable_dumping_core()'/>
+<def f='codebrowser/src/crypto/crypto.cc' l='293' ll='308' type='void Crypto::disable_dumping_core()'/>
+<doc f='codebrowser/src/crypto/crypto.cc' l='291'>/* Disable dumping core, as a precaution to avoid saving sensitive data
+   to disk. */</doc>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='112' u='c' c='main'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='172' u='c' c='main'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/src/statesync/user.h' l='53' ll='68'/>
+<size>56</size>
+<mbr r='Network::UserEvent::type' o='0' t='Network::UserEventType'/>
+<mbr r='Network::UserEvent::userbyte' o='64' t='Parser::UserByte'/>
+<mbr r='Network::UserEvent::resize' o='192' t='Parser::Resize'/>
+<fun r='_ZN7Network9UserEventC1ERKN6Parser8UserByteE'/>
+<fun r='_ZN7Network9UserEventC1ERKN6Parser6ResizeE'/>
+<fun r='_ZN7Network9UserEventC1Ev'/>
+<fun r='_ZNK7Network9UserEventeqERKS0_'/>

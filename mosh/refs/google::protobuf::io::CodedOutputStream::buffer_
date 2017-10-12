@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='755' type='uint8 *'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1003' u='r' c='_ZN6google8protobuf2io17CodedOutputStream34GetDirectBufferForNBytesAndAdvanceEi'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='1130' u='w' c='_ZN6google8protobuf2io17CodedOutputStream7AdvanceEi'/>
+<offset>64</offset>

@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/extension_set.h' l='399' type='uint8 * google::protobuf::internal::ExtensionSet::SerializeMessageSetWithCachedSizesToArray(uint8 * target) const'/>

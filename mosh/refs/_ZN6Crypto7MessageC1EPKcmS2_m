@@ -1,0 +1,1 @@
+<def f='codebrowser/src/crypto/crypto.h' l='124' ll='127' type='void Crypto::Message::Message(const char * nonce_bytes, size_t nonce_len, const char * text_bytes, size_t text_len)'/>

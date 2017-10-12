@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>base64.cc source code [codebrowser/src/crypto/base64.cc] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/crypto/base64.cc'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>crypto</a>/<a href='base64.cc.html'>base64.cc</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Mosh: the mobile shell</i></td></tr>
+<tr><th id="3">3</th><td><i>    Copyright 2012 Keith Winstein</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    This program is free software: you can redistribute it and/or modify</i></td></tr>
+<tr><th id="6">6</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="7">7</th><td><i>    the Free Software Foundation, either version 3 of the License, or</i></td></tr>
+<tr><th id="8">8</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="11">11</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="12">12</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="13">13</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="14">14</th><td><i></i></td></tr>
+<tr><th id="15">15</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="16">16</th><td><i>    along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    In addition, as a special exception, the copyright holders give</i></td></tr>
+<tr><th id="19">19</th><td><i>    permission to link the code of portions of this program with the</i></td></tr>
+<tr><th id="20">20</th><td><i>    OpenSSL library under certain conditions as described in each</i></td></tr>
+<tr><th id="21">21</th><td><i>    individual source file, and distribute linked combinations including</i></td></tr>
+<tr><th id="22">22</th><td><i>    the two.</i></td></tr>
+<tr><th id="23">23</th><td><i></i></td></tr>
+<tr><th id="24">24</th><td><i>    You must obey the GNU General Public License in all respects for all</i></td></tr>
+<tr><th id="25">25</th><td><i>    of the code used other than OpenSSL. If you modify file(s) with this</i></td></tr>
+<tr><th id="26">26</th><td><i>    exception, you may extend this exception to your version of the</i></td></tr>
+<tr><th id="27">27</th><td><i>    file(s), but you are not obligated to do so. If you do not wish to do</i></td></tr>
+<tr><th id="28">28</th><td><i>    so, delete this exception statement from your version. If you delete</i></td></tr>
+<tr><th id="29">29</th><td><i>    this exception statement from all source files in the program, then</i></td></tr>
+<tr><th id="30">30</th><td><i>    also delete it here.</i></td></tr>
+<tr><th id="31">31</th><td><i>*/</i></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../util/fatal_assert.h.html">"fatal_assert.h"</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="base64.h.html">"base64.h"</a></u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><em>static</em> <em>const</em> <em>char</em> <dfn class="tu decl def" id="table" title='table' data-type='const char [65]' data-ref="table">table</dfn>[] = <q>"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"</q>;</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><em>static</em> <em>const</em> <em>unsigned</em> <em>char</em> <dfn class="tu decl def" id="reverse" title='reverse' data-type='const unsigned char [256]' data-ref="reverse">reverse</dfn>[] = {</td></tr>
+<tr><th id="42">42</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="43">43</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="44">44</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0x3e</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0x3f</var>,</td></tr>
+<tr><th id="45">45</th><td>  <var>0x34</var>, <var>0x35</var>, <var>0x36</var>, <var>0x37</var>, <var>0x38</var>, <var>0x39</var>, <var>0x3a</var>, <var>0x3b</var>, <var>0x3c</var>, <var>0x3d</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="46">46</th><td>  <var>0xff</var>, <var>0x00</var>, <var>0x01</var>, <var>0x02</var>, <var>0x03</var>, <var>0x04</var>, <var>0x05</var>, <var>0x06</var>, <var>0x07</var>, <var>0x08</var>, <var>0x09</var>, <var>0x0a</var>, <var>0x0b</var>, <var>0x0c</var>, <var>0x0d</var>, <var>0x0e</var>,</td></tr>
+<tr><th id="47">47</th><td>  <var>0x0f</var>, <var>0x10</var>, <var>0x11</var>, <var>0x12</var>, <var>0x13</var>, <var>0x14</var>, <var>0x15</var>, <var>0x16</var>, <var>0x17</var>, <var>0x18</var>, <var>0x19</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="48">48</th><td>  <var>0xff</var>, <var>0x1a</var>, <var>0x1b</var>, <var>0x1c</var>, <var>0x1d</var>, <var>0x1e</var>, <var>0x1f</var>, <var>0x20</var>, <var>0x21</var>, <var>0x22</var>, <var>0x23</var>, <var>0x24</var>, <var>0x25</var>, <var>0x26</var>, <var>0x27</var>, <var>0x28</var>,</td></tr>
+<tr><th id="49">49</th><td>  <var>0x29</var>, <var>0x2a</var>, <var>0x2b</var>, <var>0x2c</var>, <var>0x2d</var>, <var>0x2e</var>, <var>0x2f</var>, <var>0x30</var>, <var>0x31</var>, <var>0x32</var>, <var>0x33</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="50">50</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="51">51</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="52">52</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="53">53</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="54">54</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="55">55</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="56">56</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="57">57</th><td>  <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>, <var>0xff</var>,</td></tr>
+<tr><th id="58">58</th><td>};</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td><i  data-doc="_ZL21base64_char_to_sixbith">/* Reverse maps from an ASCII char to a base64 sixbit value.  Returns &gt; 0x3f on failure. */</i></td></tr>
+<tr><th id="61">61</th><td><em>static</em> <em>unsigned</em> <em>char</em> <dfn class="tu decl def" id="_ZL21base64_char_to_sixbith" title='base64_char_to_sixbit' data-type='unsigned char base64_char_to_sixbit(unsigned char c)' data-ref="_ZL21base64_char_to_sixbith">base64_char_to_sixbit</dfn>(<em>unsigned</em> <em>char</em> <dfn class="local col5 decl" id="905c" title='c' data-type='unsigned char' data-ref="905c">c</dfn>)</td></tr>
+<tr><th id="62">62</th><td>{</td></tr>
+<tr><th id="63">63</th><td>  <b>return</b> <a class="tu ref" href="#reverse" title='reverse' data-use='r' data-ref="reverse">reverse</a>[<a class="local col5 ref" href="#905c" title='c' data-ref="905c">c</a>];</td></tr>
+<tr><th id="64">64</th><td>}</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td><em>bool</em> <dfn class="decl def" id="_Z13base64_decodePKcmPhPm" title='base64_decode' data-ref="_Z13base64_decodePKcmPhPm">base64_decode</dfn>( <em>const</em> <em>char</em> *<dfn class="local col6 decl" id="906b64" title='b64' data-type='const char *' data-ref="906b64">b64</dfn>, <em>const</em> <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col7 decl" id="907b64_len" title='b64_len' data-type='const size_t' data-ref="907b64_len">b64_len</dfn>,</td></tr>
+<tr><th id="67">67</th><td>		    <a class="typedef" href="../../../include/stdint.h.html#uint8_t" title='uint8_t' data-type='unsigned char' data-ref="uint8_t">uint8_t</a> *<dfn class="local col8 decl" id="908raw" title='raw' data-type='uint8_t *' data-ref="908raw">raw</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> *<dfn class="local col9 decl" id="909raw_len" title='raw_len' data-type='size_t *' data-ref="909raw_len">raw_len</dfn> )</td></tr>
+<tr><th id="68">68</th><td>{</td></tr>
+<tr><th id="69">69</th><td>  <a class="macro" href="../util/fatal_assert.h.html#46" title="((b64_len == 24) ? (void)0 : fatal_error (&quot;b64_len == 24&quot;, &quot;/home/jon/workspace/mosh/src/crypto/base64.cc&quot;, 69, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <a class="local col7 ref" href="#907b64_len" title='b64_len' data-ref="907b64_len">b64_len</a> == <var>24</var> ); <i>/* only useful for Mosh keys */</i></td></tr>
+<tr><th id="70">70</th><td>  <a class="macro" href="../util/fatal_assert.h.html#46" title="((*raw_len == 16) ? (void)0 : fatal_error (&quot;*raw_len == 16&quot;, &quot;/home/jon/workspace/mosh/src/crypto/base64.cc&quot;, 70, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( *<a class="local col9 ref" href="#909raw_len" title='raw_len' data-ref="909raw_len">raw_len</a> == <var>16</var> );</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td>  <a class="typedef" href="../../../include/stdint.h.html#uint32_t" title='uint32_t' data-type='unsigned int' data-ref="uint32_t">uint32_t</a> <dfn class="local col0 decl" id="910bytes" title='bytes' data-type='uint32_t' data-ref="910bytes">bytes</dfn> = <var>0</var>;</td></tr>
+<tr><th id="73">73</th><td>  <b>for</b> (<em>int</em> <dfn class="local col1 decl" id="911i" title='i' data-type='int' data-ref="911i">i</dfn> = <var>0</var>; <a class="local col1 ref" href="#911i" title='i' data-ref="911i">i</a> &lt; <var>22</var>; <a class="local col1 ref" href="#911i" title='i' data-ref="911i">i</a>++) {</td></tr>
+<tr><th id="74">74</th><td>    <em>unsigned</em> <em>char</em> <dfn class="local col2 decl" id="912sixbit" title='sixbit' data-type='unsigned char' data-ref="912sixbit">sixbit</dfn> = <a class="tu ref" href="#_ZL21base64_char_to_sixbith" title='base64_char_to_sixbit' data-use='c' data-ref="_ZL21base64_char_to_sixbith">base64_char_to_sixbit</a>(*(<a class="local col6 ref" href="#906b64" title='b64' data-ref="906b64">b64</a>++));</td></tr>
+<tr><th id="75">75</th><td>    <b>if</b> (<a class="local col2 ref" href="#912sixbit" title='sixbit' data-ref="912sixbit">sixbit</a> &gt; <var>0x3f</var>) {</td></tr>
+<tr><th id="76">76</th><td>      <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="77">77</th><td>    }</td></tr>
+<tr><th id="78">78</th><td>    <a class="local col0 ref" href="#910bytes" title='bytes' data-ref="910bytes">bytes</a> &lt;&lt;= <var>6</var>;</td></tr>
+<tr><th id="79">79</th><td>    <a class="local col0 ref" href="#910bytes" title='bytes' data-ref="910bytes">bytes</a> |= <a class="local col2 ref" href="#912sixbit" title='sixbit' data-ref="912sixbit">sixbit</a>;</td></tr>
+<tr><th id="80">80</th><td>    <i>/* write groups of 3 */</i></td></tr>
+<tr><th id="81">81</th><td>    <b>if</b> (<a class="local col1 ref" href="#911i" title='i' data-ref="911i">i</a> % <var>4</var> == <var>3</var>) {</td></tr>
+<tr><th id="82">82</th><td>      <a class="local col8 ref" href="#908raw" title='raw' data-ref="908raw">raw</a>[<var>0</var>] = <a class="local col0 ref" href="#910bytes" title='bytes' data-ref="910bytes">bytes</a> &gt;&gt; <var>16</var>;</td></tr>
+<tr><th id="83">83</th><td>      <a class="local col8 ref" href="#908raw" title='raw' data-ref="908raw">raw</a>[<var>1</var>] = <a class="local col0 ref" href="#910bytes" title='bytes' data-ref="910bytes">bytes</a> &gt;&gt; <var>8</var>;</td></tr>
+<tr><th id="84">84</th><td>      <a class="local col8 ref" href="#908raw" title='raw' data-ref="908raw">raw</a>[<var>2</var>] = <a class="local col0 ref" href="#910bytes" title='bytes' data-ref="910bytes">bytes</a>;</td></tr>
+<tr><th id="85">85</th><td>      <a class="local col8 ref" href="#908raw" title='raw' data-ref="908raw">raw</a> += <var>3</var>;</td></tr>
+<tr><th id="86">86</th><td>      <a class="local col0 ref" href="#910bytes" title='bytes' data-ref="910bytes">bytes</a> = <var>0</var>;</td></tr>
+<tr><th id="87">87</th><td>    }</td></tr>
+<tr><th id="88">88</th><td>  }</td></tr>
+<tr><th id="89">89</th><td>  <i>/* last byte of output */</i></td></tr>
+<tr><th id="90">90</th><td>  *<a class="local col8 ref" href="#908raw" title='raw' data-ref="908raw">raw</a> = <a class="local col0 ref" href="#910bytes" title='bytes' data-ref="910bytes">bytes</a> &gt;&gt; <var>4</var>;</td></tr>
+<tr><th id="91">91</th><td>  <b>if</b> (<a class="local col6 ref" href="#906b64" title='b64' data-ref="906b64">b64</a>[<var>0</var>] != <kbd>'='</kbd> || <a class="local col6 ref" href="#906b64" title='b64' data-ref="906b64">b64</a>[<var>1</var>] != <kbd>'='</kbd>) {</td></tr>
+<tr><th id="92">92</th><td>    <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="93">93</th><td>  }</td></tr>
+<tr><th id="94">94</th><td>  <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="95">95</th><td>}</td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><em>void</em> <dfn class="decl def" id="_Z13base64_encodePKhmPcm" title='base64_encode' data-ref="_Z13base64_encodePKhmPcm">base64_encode</dfn>( <em>const</em> <a class="typedef" href="../../../include/stdint.h.html#uint8_t" title='uint8_t' data-type='unsigned char' data-ref="uint8_t">uint8_t</a> *<dfn class="local col3 decl" id="913raw" title='raw' data-type='const uint8_t *' data-ref="913raw">raw</dfn>, <em>const</em> <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col4 decl" id="914raw_len" title='raw_len' data-type='const size_t' data-ref="914raw_len">raw_len</dfn>,</td></tr>
+<tr><th id="98">98</th><td>		    <em>char</em> *<dfn class="local col5 decl" id="915b64" title='b64' data-type='char *' data-ref="915b64">b64</dfn>, <em>const</em> <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col6 decl" id="916b64_len" title='b64_len' data-type='const size_t' data-ref="916b64_len">b64_len</dfn> )</td></tr>
+<tr><th id="99">99</th><td>{</td></tr>
+<tr><th id="100">100</th><td>  <a class="macro" href="../util/fatal_assert.h.html#46" title="((b64_len == 24) ? (void)0 : fatal_error (&quot;b64_len == 24&quot;, &quot;/home/jon/workspace/mosh/src/crypto/base64.cc&quot;, 100, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <a class="local col6 ref" href="#916b64_len" title='b64_len' data-ref="916b64_len">b64_len</a> == <var>24</var> ); <i>/* only useful for Mosh keys */</i></td></tr>
+<tr><th id="101">101</th><td>  <a class="macro" href="../util/fatal_assert.h.html#46" title="((raw_len == 16) ? (void)0 : fatal_error (&quot;raw_len == 16&quot;, &quot;/home/jon/workspace/mosh/src/crypto/base64.cc&quot;, 101, __func__ ))" data-ref="_M/fatal_assert">fatal_assert</a>( <a class="local col4 ref" href="#914raw_len" title='raw_len' data-ref="914raw_len">raw_len</a> == <var>16</var> );</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td>  <i>/* first 15 bytes of input */</i></td></tr>
+<tr><th id="104">104</th><td>  <b>for</b> (<em>int</em> <dfn class="local col7 decl" id="917i" title='i' data-type='int' data-ref="917i">i</dfn> = <var>0</var>; <a class="local col7 ref" href="#917i" title='i' data-ref="917i">i</a> &lt; <var>5</var>; <a class="local col7 ref" href="#917i" title='i' data-ref="917i">i</a>++) {</td></tr>
+<tr><th id="105">105</th><td>    <a class="typedef" href="../../../include/stdint.h.html#uint32_t" title='uint32_t' data-type='unsigned int' data-ref="uint32_t">uint32_t</a> <dfn class="local col8 decl" id="918bytes" title='bytes' data-type='uint32_t' data-ref="918bytes">bytes</dfn> = (<a class="local col3 ref" href="#913raw" title='raw' data-ref="913raw">raw</a>[<var>0</var>] &lt;&lt; <var>16</var>) | (<a class="local col3 ref" href="#913raw" title='raw' data-ref="913raw">raw</a>[<var>1</var>] &lt;&lt; <var>8</var>) | <a class="local col3 ref" href="#913raw" title='raw' data-ref="913raw">raw</a>[<var>2</var>];</td></tr>
+<tr><th id="106">106</th><td>    <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a>[<var>0</var>] = <a class="tu ref" href="#table" title='table' data-use='r' data-ref="table">table</a>[(<a class="local col8 ref" href="#918bytes" title='bytes' data-ref="918bytes">bytes</a> &gt;&gt; <var>18</var>) &amp; <var>0x3f</var>];</td></tr>
+<tr><th id="107">107</th><td>    <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a>[<var>1</var>] = <a class="tu ref" href="#table" title='table' data-use='r' data-ref="table">table</a>[(<a class="local col8 ref" href="#918bytes" title='bytes' data-ref="918bytes">bytes</a> &gt;&gt; <var>12</var>) &amp; <var>0x3f</var>];</td></tr>
+<tr><th id="108">108</th><td>    <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a>[<var>2</var>] = <a class="tu ref" href="#table" title='table' data-use='r' data-ref="table">table</a>[(<a class="local col8 ref" href="#918bytes" title='bytes' data-ref="918bytes">bytes</a> &gt;&gt; <var>6</var>) &amp; <var>0x3f</var>];</td></tr>
+<tr><th id="109">109</th><td>    <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a>[<var>3</var>] = <a class="tu ref" href="#table" title='table' data-use='r' data-ref="table">table</a>[(<a class="local col8 ref" href="#918bytes" title='bytes' data-ref="918bytes">bytes</a>) &amp; <var>0x3f</var>];</td></tr>
+<tr><th id="110">110</th><td>    <a class="local col3 ref" href="#913raw" title='raw' data-ref="913raw">raw</a> += <var>3</var>;</td></tr>
+<tr><th id="111">111</th><td>    <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a> += <var>4</var>;</td></tr>
+<tr><th id="112">112</th><td>  }</td></tr>
+<tr><th id="113">113</th><td>  </td></tr>
+<tr><th id="114">114</th><td>  <i>/* last byte of input, last 4 of output */</i></td></tr>
+<tr><th id="115">115</th><td>  <a class="typedef" href="../../../include/stdint.h.html#uint8_t" title='uint8_t' data-type='unsigned char' data-ref="uint8_t">uint8_t</a> <dfn class="local col9 decl" id="919lastchar" title='lastchar' data-type='uint8_t' data-ref="919lastchar">lastchar</dfn> = *<a class="local col3 ref" href="#913raw" title='raw' data-ref="913raw">raw</a>;</td></tr>
+<tr><th id="116">116</th><td>  <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a>[<var>0</var>] = <a class="tu ref" href="#table" title='table' data-use='r' data-ref="table">table</a>[(<a class="local col9 ref" href="#919lastchar" title='lastchar' data-ref="919lastchar">lastchar</a> &gt;&gt; <var>2</var>) &amp; <var>0x3f</var>];</td></tr>
+<tr><th id="117">117</th><td>  <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a>[<var>1</var>] = <a class="tu ref" href="#table" title='table' data-use='r' data-ref="table">table</a>[(<a class="local col9 ref" href="#919lastchar" title='lastchar' data-ref="919lastchar">lastchar</a> &lt;&lt; <var>4</var>) &amp; <var>0x3f</var>];</td></tr>
+<tr><th id="118">118</th><td>  <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a>[<var>2</var>] = <kbd>'='</kbd>;</td></tr>
+<tr><th id="119">119</th><td>  <a class="local col5 ref" href="#915b64" title='b64' data-ref="915b64">b64</a>[<var>3</var>] = <kbd>'='</kbd>;</td></tr>
+<tr><th id="120">120</th><td>}</td></tr>
+<tr><th id="121">121</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>mosh-1.3.2-38-ge9c3bbd</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/transportsender.h' l='68' type='void Network::TransportSender::send_empty_ack()'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='192' u='c' c='_ZN7Network15TransportSender4tickEv'/>
+<def f='codebrowser/src/network/transportsender-impl.h' l='206' ll='226' type='void Network::TransportSender::send_empty_ack()'/>

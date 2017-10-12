@@ -1,0 +1,5 @@
+<use f='codebrowser/src/util/select.h' l='65' u='w' c='_ZN6SelectC1Ev'/>
+<use f='codebrowser/src/util/select.h' l='72' u='a' c='_ZN6SelectC1Ev'/>
+<use f='codebrowser/src/util/select.h' l='150' u='a' c='_ZN6Select6selectEi'/>
+<dec f='codebrowser/src/util/select.h' l='236' type='sigset_t'/>
+<offset>4160</offset>

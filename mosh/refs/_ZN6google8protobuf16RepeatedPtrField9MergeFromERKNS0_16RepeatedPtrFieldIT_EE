@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/repeated_field.h' l='457' type='void google::protobuf::RepeatedPtrField::MergeFrom(const RepeatedPtrField&lt;Element&gt; &amp; other)'/>
+<def f='include/google/protobuf/repeated_field.h' l='1164' ll='1168' type='void google::protobuf::RepeatedPtrField::MergeFrom(const RepeatedPtrField&lt;Element&gt; &amp; other)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='213' u='c' c='_ZN11HostBuffers11HostMessage9MergeFromERKS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='206' u='c' c='_ZN13ClientBuffers11UserMessage9MergeFromERKS0_'/>

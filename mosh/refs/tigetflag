@@ -1,0 +1,6 @@
+<dec f='include/curses.h' l='859' type='int tigetflag(const char * )'/>
+<doc f='include/curses.h' l='856'>/*
+ * These are also declared in &lt;term.h&gt;:
+ */</doc>
+<doc f='include/curses.h' l='859'>/* implemented */</doc>
+<use f='codebrowser/src/terminal/terminaldisplayinit.cc' l='67' u='c' c='_ZL7ti_flagPKc'/>

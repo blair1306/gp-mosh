@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/select.h' l='85' ll='91' type='void Select::add_fd(int fd)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='695' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='697' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='456' u='c' c='_ZN9STMClient4mainEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='458' u='c' c='_ZN9STMClient4mainEv'/>

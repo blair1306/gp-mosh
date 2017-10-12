@@ -1,0 +1,2 @@
+<def f='codebrowser/src/crypto/prng.h' l='72' ll='76' type='uint8_t PRNG::uint8()'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='313' u='c' c='_ZN7Network15TransportSender10make_chaffB5cxx11Ev'/>

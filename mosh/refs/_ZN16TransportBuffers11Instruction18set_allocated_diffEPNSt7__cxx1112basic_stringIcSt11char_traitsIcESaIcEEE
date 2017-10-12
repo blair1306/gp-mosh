@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='145' type='void TransportBuffers::Instruction::set_allocated_diff(::std::string * diff)'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='387' ll='399' type='void TransportBuffers::Instruction::set_allocated_diff(::std::string * diff)'/>

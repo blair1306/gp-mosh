@@ -1,0 +1,3 @@
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='282' u='c' c='_ZN13ClientBuffers13ResizeMessageaSERKS0_'/>
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='302' type='void ClientBuffers::ResizeMessage::CopyFrom(const ClientBuffers::ResizeMessage &amp; from)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='785' ll='789' type='void ClientBuffers::ResizeMessage::CopyFrom(const ClientBuffers::ResizeMessage &amp; from)'/>

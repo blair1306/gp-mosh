@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/crypto/ae.h' l='59' type='void ae_free(ae_ctx * ctx)'/>
+<doc f='codebrowser/src/crypto/ae.h' l='59'>/* Deallocate ae_ctx struct            */</doc>

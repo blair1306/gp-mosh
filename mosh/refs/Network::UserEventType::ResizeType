@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/statesync/user.h' l='50' type='1'/>
+<use f='codebrowser/src/statesync/user.h' l='61' u='r' c='_ZN7Network9UserEventC1ERKN6Parser6ResizeE'/>
+<use f='codebrowser/src/statesync/user.cc' l='90' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/user.cc' l='131' c='_ZNK7Network10UserStream10get_actionEj'/>

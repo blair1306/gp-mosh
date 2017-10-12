@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='327' type='bool HostBuffers::ResizeMessage::has_width() const'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='575' ll='577' type='bool HostBuffers::ResizeMessage::has_width() const'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='733' u='c' c='_ZNK11HostBuffers13ResizeMessage24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='752' u='c' c='_ZNK11HostBuffers13ResizeMessage8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='782' u='c' c='_ZN11HostBuffers13ResizeMessage9MergeFromERKS0_'/>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='322'>// nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // optional int32 width = 5;</doc>
+<doc f='codebrowser/src/protobufs/hostinput.pb.h' l='570'>// -------------------------------------------------------------------
+
+// ResizeMessage
+
+// optional int32 width = 5;</doc>

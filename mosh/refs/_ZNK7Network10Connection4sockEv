@@ -1,0 +1,5 @@
+<def f='codebrowser/src/network/network.h' l='197' type='int Network::Connection::sock() const'/>
+<use f='codebrowser/src/network/network.cc' l='330' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='335' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='405' u='c' c='_ZN7Network10Connection4sendERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/network/network.cc' l='582' u='c' c='_ZNK7Network10Connection4portB5cxx11Ev'/>

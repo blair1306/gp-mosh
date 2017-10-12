@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/repeated_field.h' l='534' type='Element * google::protobuf::RepeatedPtrField::ReleaseLast()'/>
+<def f='include/google/protobuf/repeated_field.h' l='1206' ll='1209' type='Element * google::protobuf::RepeatedPtrField::ReleaseLast()'/>
+<doc f='include/google/protobuf/repeated_field.h' l='532'>// Remove the last element and return it, passing ownership to the caller.
+  // Requires:  size() &gt; 0</doc>

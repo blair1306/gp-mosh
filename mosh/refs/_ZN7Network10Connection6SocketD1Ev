@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/network/network.h' l='157' type='void Network::Connection::Socket::~Socket()'/>
+<def f='codebrowser/src/network/network.cc' l='635' ll='638' type='void Network::Connection::Socket::~Socket()'/>

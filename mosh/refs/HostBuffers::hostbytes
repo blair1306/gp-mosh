@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='442' type='::google::protobuf::internal::ExtensionIdentifier&lt; ::HostBuffers::Instruction, ::google::protobuf::internal::MessageTypeTraits&lt; ::HostBuffers::HostBytes&gt;, 11, false&gt;'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='1000' ll='1002' type='::google::protobuf::internal::ExtensionIdentifier&lt; ::HostBuffers::Instruction, ::google::protobuf::internal::MessageTypeTraits&lt; ::HostBuffers::HostBytes&gt;, 11, false&gt;'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='92' u='r' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='110' u='r' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='111' u='r' c='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

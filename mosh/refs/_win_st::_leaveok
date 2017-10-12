@@ -1,0 +1,3 @@
+<dec f='include/curses.h' l='438' type='bool'/>
+<offset>272</offset>
+<doc f='include/curses.h' l='438'>/* OK to not reset cursor on exit? */</doc>

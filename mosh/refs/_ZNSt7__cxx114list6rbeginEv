@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_list.h' l='866' ll='868' type='reverse_iterator std::__cxx11::list::rbegin()'/>
+<doc f='include/c++/5/bits/stl_list.h' l='861'>/**
+       *  Returns a read/write reverse iterator that points to the last
+       *  element in the %list.  Iteration is done in reverse element
+       *  order.
+       */</doc>

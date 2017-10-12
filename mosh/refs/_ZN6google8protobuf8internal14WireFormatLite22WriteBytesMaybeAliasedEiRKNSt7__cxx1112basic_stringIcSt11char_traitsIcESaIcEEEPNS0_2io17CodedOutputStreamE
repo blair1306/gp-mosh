@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/wire_format_lite.h' l='356' type='static void google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(int field_number_arg, const string &amp; value, io::CodedOutputStream * output_arg)'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='519' u='c' c='_ZNK11HostBuffers9HostBytes24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='334' u='c' c='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='340' u='c' c='_ZNK16TransportBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='512' u='c' c='_ZNK13ClientBuffers9Keystroke24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>

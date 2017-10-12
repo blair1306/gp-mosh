@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='98' type='::ClientBuffers::Instruction * ClientBuffers::UserMessage::mutable_instruction(int index)'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='385' ll='388' type='::ClientBuffers::Instruction * ClientBuffers::UserMessage::mutable_instruction(int index)'/>
+<use f='codebrowser/src/statesync/user.cc' l='83' u='c' c='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>

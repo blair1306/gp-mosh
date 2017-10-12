@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='435' type='HostBuffers::EchoAck *'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='23' u='r' c='_ZN11HostBuffers39protobuf_ShutdownFile_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='36' u='w' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='53' u='r' c='_ZN11HostBuffers34protobuf_AddDesc_hostinput_2eprotoEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='852' u='r' c='_ZN11HostBuffers7EchoAck10SharedDtorEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='862' u='r' c='_ZN11HostBuffers7EchoAck16default_instanceEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='863' u='r' c='_ZN11HostBuffers7EchoAck16default_instanceEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='866' type='HostBuffers::EchoAck *'/>

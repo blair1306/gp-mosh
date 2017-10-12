@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='303' type='void ClientBuffers::ResizeMessage::MergeFrom(const ClientBuffers::ResizeMessage &amp; from)'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='600' u='c' c='_ZN13ClientBuffers13ResizeMessageC1ERKS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='769' u='c' c='_ZN13ClientBuffers13ResizeMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<def f='codebrowser/src/protobufs/userinput.pb.cc' l='772' ll='783' type='void ClientBuffers::ResizeMessage::MergeFrom(const ClientBuffers::ResizeMessage &amp; from)'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='788' u='c' c='_ZN13ClientBuffers13ResizeMessage8CopyFromERKS0_'/>

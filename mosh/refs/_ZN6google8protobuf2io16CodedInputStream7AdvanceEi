@@ -1,0 +1,14 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='529' type='void google::protobuf::io::CodedInputStream::Advance(int amount)'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='796' u='c' c='_ZN6google8protobuf2io16CodedInputStream12ReadVarint32EPj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='806' u='c' c='_ZN6google8protobuf2io16CodedInputStream12ReadVarint64EPm'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='854' u='c' c='_ZN6google8protobuf2io16CodedInputStream18ReadLittleEndian32EPj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='868' u='c' c='_ZN6google8protobuf2io16CodedInputStream18ReadLittleEndian64EPm'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='881' u='c' c='_ZN6google8protobuf2io16CodedInputStream7ReadTagEv'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='901' u='c' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='912' u='c' c='_ZN6google8protobuf2io16CodedInputStream17ReadTagWithCutoffEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='939' u='c' c='_ZN6google8protobuf2io16CodedInputStream9ExpectTagEj'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='948' u='c' c='_ZN6google8protobuf2io16CodedInputStream9ExpectTagEj'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1125' ll='1127' type='void google::protobuf::io::CodedInputStream::Advance(int amount)'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='526'>// Private member functions.
+
+  // Advance the buffer by a given number of bytes.</doc>

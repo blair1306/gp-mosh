@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='227' type='bool Terminal::Row::get_wrap() const'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='365' u='c' c='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>

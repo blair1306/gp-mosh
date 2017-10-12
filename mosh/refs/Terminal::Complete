@@ -1,0 +1,24 @@
+<def f='codebrowser/src/statesync/completeterminal.h' l='45' ll='84'/>
+<size>496</size>
+<mbr r='Terminal::Complete::parser' o='0' t='Parser::UTF8Parser'/>
+<mbr r='Terminal::Complete::terminal' o='192' t='Terminal::Emulator'/>
+<mbr r='Terminal::Complete::display' o='3328' t='Terminal::Display'/>
+<mbr r='Terminal::Complete::actions' o='3520' t='Parser::Actions'/>
+<mbr r='Terminal::Complete::input_history' o='3712' t='input_history_type'/>
+<mbr r='Terminal::Complete::echo_ack' o='3904' t='uint64_t'/>
+<smbr r='Terminal::Complete::ECHO_TIMEOUT' t='const int'/>
+<fun r='_ZN8Terminal8CompleteC1Emm'/>
+<fun r='_ZN8Terminal8Complete3actERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN8Terminal8Complete3actB5cxx11ERKN6Parser6ActionE'/>
+<fun r='_ZNK8Terminal8Complete6get_fbEv'/>
+<fun r='_ZN8Terminal8Complete11reset_inputEv'/>
+<fun r='_ZNK8Terminal8Complete12get_echo_ackEv'/>
+<fun r='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<fun r='_ZN8Terminal8Complete20register_input_frameEmm'/>
+<fun r='_ZNK8Terminal8Complete9wait_timeEm'/>
+<fun r='_ZNK8Terminal8Complete8subtractEPKS0_'/>
+<fun r='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<fun r='_ZNK8Terminal8Complete9init_diffB5cxx11Ev'/>
+<fun r='_ZN8Terminal8Complete12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK8Terminal8CompleteeqERKS0_'/>
+<fun r='_ZNK8Terminal8Complete7compareERKS0_'/>

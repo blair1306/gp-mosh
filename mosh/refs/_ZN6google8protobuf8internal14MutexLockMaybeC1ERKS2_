@@ -1,0 +1,1 @@
+<dec f='include/google/protobuf/stubs/common.h' l='1146' type='void google::protobuf::internal::MutexLockMaybe::MutexLockMaybe(const google::protobuf::internal::MutexLockMaybe &amp; )'/>

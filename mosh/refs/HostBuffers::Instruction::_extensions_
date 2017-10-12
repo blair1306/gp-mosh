@@ -1,0 +1,26 @@
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='m'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='m'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='m'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' c='_ZNK11HostBuffers11Instruction12GetExtensionERKN6google8protobuf8internal19ExtensionIdentifierIS0_T_XT0_EXT1_EEE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' c='_ZNK11HostBuffers11Instruction12GetExtensionERKN6google8protobuf8internal19ExtensionIdentifierIS0_T_XT0_EXT1_EEEi'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' c='_ZNK11HostBuffers11Instruction20GetRepeatedExtensionERKN6google8protobuf8internal19ExtensionIdentifierIS0_T_XT0_EXT1_EEE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='174' macro='1' u='a'/>
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='178' type='::google::protobuf::internal::ExtensionSet'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='296' u='m' c='_ZN11HostBuffers11Instruction5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='321' u='m' c='_ZN11HostBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='341' u='m' c='_ZNK11HostBuffers11Instruction24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='352' u='m' c='_ZNK11HostBuffers11Instruction8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='369' u='m' c='_ZN11HostBuffers11Instruction9MergeFromERKS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='369' u='r' c='_ZN11HostBuffers11Instruction9MergeFromERKS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='382' u='m' c='_ZNK11HostBuffers11Instruction13IsInitializedEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='389' u='m' c='_ZN11HostBuffers11Instruction4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='389' u='a' c='_ZN11HostBuffers11Instruction4SwapEPS0_'/>
+<offset>64</offset>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportsender.h' l='69' type='void Network::TransportSender::send_in_fragments(const string &amp; diff, uint64_t new_num)'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='222' u='c' c='_ZN7Network15TransportSender14send_empty_ackEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='260' u='c' c='_ZN7Network15TransportSender16send_to_receiverERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/network/transportsender-impl.h' l='320' ll='356' type='void Network::TransportSender::send_in_fragments(const string &amp; diff, uint64_t new_num)'/>

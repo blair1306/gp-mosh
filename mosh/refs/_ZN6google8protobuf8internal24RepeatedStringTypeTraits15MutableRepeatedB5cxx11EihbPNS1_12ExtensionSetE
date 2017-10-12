@@ -1,0 +1,1 @@
+<def f='include/google/protobuf/extension_set.h' l='835' ll='841' type='static RepeatedPtrField&lt;string&gt; * google::protobuf::internal::RepeatedStringTypeTraits::MutableRepeated(int number, FieldType field_type, bool is_packed, google::protobuf::internal::ExtensionSet * set)'/>

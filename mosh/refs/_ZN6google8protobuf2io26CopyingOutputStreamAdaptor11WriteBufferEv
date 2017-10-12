@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='305' type='bool google::protobuf::io::CopyingOutputStreamAdaptor::WriteBuffer()'/>
+<doc f='include/google/protobuf/io/zero_copy_stream_impl_lite.h' l='304'>// Write the current buffer, if it is present.</doc>

@@ -1,0 +1,8 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='327' type='int Terminal::DrawState::get_background_rendition() const'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='378' u='c' c='_ZN8Terminal11Framebuffer6newrowEv'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='453' u='c' c='_ZN8Terminal11Framebuffer10reset_cellEPNS_4CellE'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.h' l='454' u='c' c='_ZN8Terminal11Framebuffer9reset_rowEPNS_3RowE'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='164' u='c' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='372' u='c' c='_ZN8Terminal11Framebuffer11insert_cellEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='377' u='c' c='_ZN8Terminal11Framebuffer11delete_cellEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='422' u='c' c='_ZN8Terminal11Framebuffer6resizeEii'/>

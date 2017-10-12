@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/network/transportsender.h' l='94' type='unsigned int'/>
+<use f='codebrowser/src/network/transportsender.h' l='147' u='w' c='_ZN7Network15TransportSender11set_verboseEj'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='59' u='w' c='_ZN7Network15TransportSenderC1EPNS_10ConnectionERT_'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='175' u='r' c='_ZN7Network15TransportSender4tickEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='345' u='r' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>

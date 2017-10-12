@@ -1,0 +1,15 @@
+<def f='include/google/protobuf/wire_format_lite.h' l='86' ll='93'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='71'>// -----------------------------------------------------------------
+  // Helper constants and functions related to the format.  These are
+  // mostly meant for internal and generated code to use.
+
+  // The wire format is composed of a sequence of tag/value pairs, each
+  // of which contains the value of one field (or one element of a repeated
+  // field).  Each tag is encoded as a varint.  The lower bits of the tag
+  // identify its wire type, which specifies the format of the data to follow.
+  // The rest of the bits contain the field number.  Each type of field (as
+  // declared by FieldDescriptor::Type, in descriptor.h) maps to one of
+  // these wire types.  Immediately following each tag is the field&apos;s value,
+  // encoded in the format specified by the wire type.  Because the tag
+  // identifies the encoding of this data, it is possible to skip
+  // unrecognized fields for forwards compatibility.</doc>

@@ -1,0 +1,2 @@
+<dec f='include/string.h' l='231' type='char * strchr(const char * __s, int __c)'/>
+<use f='codebrowser/src/terminal/terminaldispatcher.cc' l='90' u='c' c='_ZN8Terminal10Dispatcher12parse_paramsEv'/>

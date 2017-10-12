@@ -1,0 +1,4 @@
+<def f='codebrowser/src/network/networktransport.h' l='78' type='int Network::Transport::wait_time()'/>
+<doc f='codebrowser/src/network/networktransport.h' l='77'>/* Returns the number of ms to wait until next possible event. */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='668' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='442' u='c' c='_ZN9STMClient4mainEv'/>

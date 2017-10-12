@@ -1,0 +1,2 @@
+<inh f='include/c++/5/exception' l='64' c='_ZNSt9exceptionD1Ev'/>
+<def f='codebrowser/src/crypto/crypto.h' l='58' type='void Crypto::CryptoException::~CryptoException()'/>

@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/wire_format_lite.h' l='137' ll='140' type='static WireFormatLite::WireType google::protobuf::internal::WireFormatLite::WireTypeForFieldType(WireFormatLite::FieldType type)'/>
+<doc f='include/google/protobuf/wire_format_lite.h' l='136'>// Given a FieldSescriptor::Type return its WireType</doc>

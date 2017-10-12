@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/network/transportsender.h' l='160' type='unsigned int Network::TransportSender::send_interval() const'/>
+<def f='codebrowser/src/network/transportsender-impl.h' l='73' ll='84' type='unsigned int Network::TransportSender::send_interval() const'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='108' u='c' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='111' u='c' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='124' u='c' c='_ZN7Network15TransportSender16calculate_timersEv'/>
+<use f='codebrowser/src/network/transportsender-impl.h' l='349' u='c' c='_ZN7Network15TransportSender17send_in_fragmentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm'/>
+<doc f='codebrowser/src/network/transportsender-impl.h' l='72'>/* Try to send roughly two frames per RTT, bounded by limits on frame rate */</doc>

@@ -1,0 +1,15 @@
+<def f='codebrowser/src/statesync/user.h' l='70' ll='93'/>
+<size>80</size>
+<mbr r='Network::UserStream::actions' o='0' t='deque&lt;Network::UserEvent&gt;'/>
+<fun r='_ZN7Network10UserStreamC1Ev'/>
+<fun r='_ZN7Network10UserStream9push_backERKN6Parser8UserByteE'/>
+<fun r='_ZN7Network10UserStream9push_backERKN6Parser6ResizeE'/>
+<fun r='_ZNK7Network10UserStream5emptyEv'/>
+<fun r='_ZNK7Network10UserStream4sizeEv'/>
+<fun r='_ZNK7Network10UserStream10get_actionEj'/>
+<fun r='_ZN7Network10UserStream8subtractEPKS0_'/>
+<fun r='_ZNK7Network10UserStream9diff_fromB5cxx11ERKS0_'/>
+<fun r='_ZNK7Network10UserStream9init_diffB5cxx11Ev'/>
+<fun r='_ZN7Network10UserStream12apply_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK7Network10UserStreameqERKS0_'/>
+<fun r='_ZN7Network10UserStream7compareERKS0_'/>

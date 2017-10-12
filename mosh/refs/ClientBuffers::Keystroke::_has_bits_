@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='262' type='::google::protobuf::uint32 [1]'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='414' u='r' c='_ZNK13ClientBuffers9Keystroke8has_keysEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='417' u='w' c='_ZN13ClientBuffers9Keystroke12set_has_keysEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='420' u='w' c='_ZN13ClientBuffers9Keystroke14clear_has_keysEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='417' u='r' c='_ZN13ClientBuffers9Keystroke10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='417' u='r' c='_ZN13ClientBuffers9Keystroke10SharedCtorEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='455' u='r' c='_ZN13ClientBuffers9Keystroke5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='455' u='r' c='_ZN13ClientBuffers9Keystroke5ClearEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='524' u='r' c='_ZNK13ClientBuffers9Keystroke8ByteSizeEv'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='548' u='r' c='_ZN13ClientBuffers9Keystroke9MergeFromERKS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='570' u='a' c='_ZN13ClientBuffers9Keystroke4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='570' u='a' c='_ZN13ClientBuffers9Keystroke4SwapEPS0_'/>
+<offset>320</offset>

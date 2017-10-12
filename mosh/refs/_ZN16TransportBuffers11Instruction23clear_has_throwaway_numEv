@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='170' type='void TransportBuffers::Instruction::clear_has_throwaway_num()'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='308' ll='310' type='void TransportBuffers::Instruction::clear_has_throwaway_num()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='313' u='c' c='_ZN16TransportBuffers11Instruction19clear_throwaway_numEv'/>

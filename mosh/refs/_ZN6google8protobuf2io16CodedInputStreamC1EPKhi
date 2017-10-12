@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/io/coded_stream.h' l='164' type='void google::protobuf::io::CodedInputStream::CodedInputStream(const uint8 * buffer, int size)'/>
+<def f='include/google/protobuf/io/coded_stream.h' l='1186' ll='1205' type='void google::protobuf::io::CodedInputStream::CodedInputStream(const uint8 * buffer, int size)'/>
+<doc f='include/google/protobuf/io/coded_stream.h' l='161'>// Create a CodedInputStream that reads from the given flat array.  This is
+  // faster than using an ArrayInputStream.  PushLimit(size) is implied by
+  // this constructor.</doc>

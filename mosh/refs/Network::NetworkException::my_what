@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/network.h' l='63' type='string'/>
+<use f='codebrowser/src/network/network.h' l='67' u='w' c='_ZN7Network16NetworkExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<use f='codebrowser/src/network/network.h' l='68' u='m' c='_ZNK7Network16NetworkException4whatEv'/>
+<offset>384</offset>

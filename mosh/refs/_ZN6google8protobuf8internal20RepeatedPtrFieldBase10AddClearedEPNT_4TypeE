@@ -1,0 +1,2 @@
+<dec f='include/google/protobuf/repeated_field.h' l='334' type='void google::protobuf::internal::RepeatedPtrFieldBase::AddCleared(typename TypeHandler::Type * value)'/>
+<def f='include/google/protobuf/repeated_field.h' l='1038' ll='1042' type='void google::protobuf::internal::RepeatedPtrFieldBase::AddCleared(typename TypeHandler::Type * value)'/>

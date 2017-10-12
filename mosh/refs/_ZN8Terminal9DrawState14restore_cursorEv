@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='330' type='void Terminal::DrawState::restore_cursor()'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='288' ll='298' type='void Terminal::DrawState::restore_cursor()'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='441' u='c' c='_ZL9Esc_DECRCPN8Terminal11FramebufferEPNS_10DispatcherE'/>

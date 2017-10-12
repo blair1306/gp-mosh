@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='113' type='::google::protobuf::RepeatedPtrField&lt; ::HostBuffers::Instruction&gt;'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='458' u='m' c='_ZNK11HostBuffers11HostMessage16instruction_sizeEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='461' u='m' c='_ZN11HostBuffers11HostMessage17clear_instructionEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='465' u='m' c='_ZNK11HostBuffers11HostMessage11instructionEi'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='469' u='m' c='_ZN11HostBuffers11HostMessage19mutable_instructionEi'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='473' u='m' c='_ZN11HostBuffers11HostMessage15add_instructionEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='478' u='a' c='_ZNK11HostBuffers11HostMessage11instructionEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.h' l='483' u='a' c='_ZN11HostBuffers11HostMessage19mutable_instructionEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='118' u='m' c='_ZN11HostBuffers11HostMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='213' u='m' c='_ZN11HostBuffers11HostMessage9MergeFromERKS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='213' u='r' c='_ZN11HostBuffers11HostMessage9MergeFromERKS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='231' u='m' c='_ZN11HostBuffers11HostMessage4SwapEPS0_'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='231' u='a' c='_ZN11HostBuffers11HostMessage4SwapEPS0_'/>
+<offset>384</offset>

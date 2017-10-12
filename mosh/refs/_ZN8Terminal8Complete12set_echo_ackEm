@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='72' type='bool Terminal::Complete::set_echo_ack(uint64_t now)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='875' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<def f='codebrowser/src/statesync/completeterminal.cc' l='135' ll='157' type='bool Terminal::Complete::set_echo_ack(uint64_t now)'/>

@@ -1,0 +1,3 @@
+_ZNK6Crypto15CryptoException4whatEv|Crypto::CryptoException::what
+_ZNK7Network16NetworkException4whatEv|Network::NetworkException::what
+_ZNKSt3tr112bad_weak_ptr4whatEv|std::tr1::bad_weak_ptr::what

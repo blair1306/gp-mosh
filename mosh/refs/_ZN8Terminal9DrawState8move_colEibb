@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='299' type='void Terminal::DrawState::move_col(int N, bool relative = false, bool implicit = false)'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='159' u='c' c='_ZNK7Overlay21ConditionalCursorMove5applyERN8Terminal11FramebufferEm'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='78' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='91' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='117' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='135' u='c' c='_ZN8Terminal8Emulator5printEPKN6Parser5PrintE'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='147' ll='168' type='void Terminal::DrawState::move_col(int N, bool relative = false, bool implicit = false)'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='114' u='c' c='_ZL14CSI_cursormovePN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='117' u='c' c='_ZL14CSI_cursormovePN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='122' u='c' c='_ZL14CSI_cursormovePN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='180' u='c' c='_ZL7Ctrl_CRPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='188' u='c' c='_ZL7Ctrl_BSPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='204' u='c' c='_ZL8Ctrl_NELPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='222' u='c' c='_ZL4HT_nPN8Terminal11FramebufferEm'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='284' u='c' c='_ZL12get_DEC_modeiPN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='293' u='c' c='_ZL12get_DEC_modeiPN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='397' u='c' c='_ZL11CSI_DECSTBMPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='479' u='c' c='_ZL6CSI_ILPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='493' u='c' c='_ZL6CSI_DLPN8Terminal11FramebufferEPNS_10DispatcherE'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='535' u='c' c='_ZL7CSI_HPAPN8Terminal11FramebufferEPNS_10DispatcherE'/>

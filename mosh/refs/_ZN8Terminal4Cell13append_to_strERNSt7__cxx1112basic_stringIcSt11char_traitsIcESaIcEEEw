@@ -1,0 +1,2 @@
+<def f='codebrowser/src/terminal/terminalframebuffer.h' l='144' ll='157' type='static void Terminal::Cell::append_to_str(std::string &amp; dest, const wchar_t c)'/>
+<use f='codebrowser/src/terminal/terminaldisplay.h' l='54' u='c' c='_ZN8Terminal10FrameState6appendEw'/>

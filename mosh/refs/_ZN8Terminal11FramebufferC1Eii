@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='383' type='void Terminal::Framebuffer::Framebuffer(int s_width, int s_height)'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='97' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.h' l='98' u='c' c='_ZN9STMClientC1EPKcS1_S1_S1_jS1_'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='243' u='c' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='244' u='c' c='_ZN9STMClient9main_initEv'/>
+<use f='codebrowser/src/terminal/terminal.cc' l='44' u='c' c='_ZN8Terminal8EmulatorC1Emm'/>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='80' ll='88' type='void Terminal::Framebuffer::Framebuffer(int s_width, int s_height)'/>

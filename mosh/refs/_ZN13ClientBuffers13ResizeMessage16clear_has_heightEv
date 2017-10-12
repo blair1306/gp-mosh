@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/protobufs/userinput.pb.h' l='344' type='void ClientBuffers::ResizeMessage::clear_has_height()'/>
+<def f='codebrowser/src/protobufs/userinput.pb.h' l='523' ll='525' type='void ClientBuffers::ResizeMessage::clear_has_height()'/>
+<use f='codebrowser/src/protobufs/userinput.pb.h' l='528' u='c' c='_ZN13ClientBuffers13ResizeMessage12clear_heightEv'/>

@@ -1,0 +1,8 @@
+<inh f='include/c++/5/exception' l='60' c='std::exception'/>
+<def f='codebrowser/src/crypto/crypto.h' l='51' ll='59'/>
+<size>48</size>
+<mbr r='Crypto::CryptoException::text' o='64' t='string'/>
+<mbr r='Crypto::CryptoException::fatal' o='320' t='bool'/>
+<fun r='_ZN6Crypto15CryptoExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb'/>
+<fun r='_ZNK6Crypto15CryptoException4whatEv'/>
+<fun r='_ZN6Crypto15CryptoExceptionD1Ev'/>

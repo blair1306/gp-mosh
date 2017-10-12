@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/terminal/terminaluserinput.h' l='44' type='1'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='55' u='r' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>
+<use f='codebrowser/src/terminal/terminaluserinput.cc' l='59' c='_ZN8Terminal9UserInput5inputB5cxx11EPKN6Parser8UserByteEb'/>

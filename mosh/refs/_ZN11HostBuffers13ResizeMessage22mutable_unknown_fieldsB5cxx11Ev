@@ -1,0 +1,4 @@
+<def f='codebrowser/src/protobufs/hostinput.pb.h' l='291' ll='293' type='::std::string * HostBuffers::ResizeMessage::mutable_unknown_fields()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='661' u='c' c='_ZN11HostBuffers13ResizeMessage5ClearEv'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='669' u='c' c='_ZN11HostBuffers13ResizeMessage27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='789' u='c' c='_ZN11HostBuffers13ResizeMessage9MergeFromERKS0_'/>

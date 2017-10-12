@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='935' type='bool is_scrollok(const WINDOW * )'/>
+<doc f='include/curses.h' l='935'>/* generated */</doc>

@@ -1,0 +1,5 @@
+<dec f='include/google/protobuf/repeated_field.h' l='275' type='int google::protobuf::internal::RepeatedPtrFieldBase::size() const'/>
+<def f='include/google/protobuf/repeated_field.h' l='878' ll='880' type='int google::protobuf::internal::RepeatedPtrFieldBase::size() const'/>
+<use f='include/google/protobuf/repeated_field.h' l='886' u='c' c='_ZNK6google8protobuf8internal20RepeatedPtrFieldBase3GetEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='895' u='c' c='_ZN6google8protobuf8internal20RepeatedPtrFieldBase7MutableEi'/>
+<use f='include/google/protobuf/repeated_field.h' l='1108' u='c' c='_ZNK6google8protobuf16RepeatedPtrField4sizeEv'/>

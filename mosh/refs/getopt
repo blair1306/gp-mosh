@@ -1,0 +1,6 @@
+<dec f='include/getopt.h' l='150' type='int getopt(int ___argc, char *const * ___argv, const char * __shortopts)'/>
+<use f='codebrowser/src/frontend/mosh-client.cc' l='130' u='c' c='main'/>
+<doc f='include/getopt.h' l='147'>/* Many other libraries have conflicting prototypes for getopt, with
+   differences in the consts, in stdlib.h.  To avoid compilation
+   errors, only prototype getopt for the GNU C library.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='211' u='c' c='main'/>

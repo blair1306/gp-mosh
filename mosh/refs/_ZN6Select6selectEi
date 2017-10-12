@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/select.h' l='119' ll='186' type='int Select::select(int timeout)'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='700' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<doc f='codebrowser/src/util/select.h' l='118'>/* timeout unit: milliseconds; negative timeout means wait forever */</doc>
+<use f='codebrowser/src/frontend/stmclient.cc' l='460' u='c' c='_ZN9STMClient4mainEv'/>

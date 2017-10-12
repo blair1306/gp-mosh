@@ -1,0 +1,2 @@
+<def f='include/google/protobuf/repeated_field.h' l='292' ll='298' type='void google::protobuf::internal::RepeatedPtrFieldBase::CloseGap(int start, int num)'/>
+<use f='include/google/protobuf/repeated_field.h' l='1155' u='c' c='_ZN6google8protobuf16RepeatedPtrField15ExtractSubrangeEiiPPT_'/>

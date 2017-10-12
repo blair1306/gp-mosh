@@ -1,0 +1,3 @@
+<def f='include/google/protobuf/stubs/common.h' l='572' ll='574' type='C * google::protobuf::internal::scoped_array::get() const'/>
+<doc f='include/google/protobuf/stubs/common.h' l='570'>// Get a pointer to the zeroth element of the current object.
+  // If there is no current object, return NULL.</doc>

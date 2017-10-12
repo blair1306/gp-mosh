@@ -1,0 +1,3 @@
+_ZNK6google8protobuf14FatalException4lineEv|google::protobuf::FatalException::line
+_ZNK8Terminal9DrawState12limit_bottomEv|Terminal::DrawState::limit_bottom
+_ZNK8Terminal9DrawState9limit_topEv|Terminal::DrawState::limit_top

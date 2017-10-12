@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='312' type='int Terminal::DrawState::get_next_tab(int count) const'/>
+<doc f='codebrowser/src/terminal/terminalframebuffer.h' l='311'>/* Default tabs can&apos;t be restored without resetting the draw state. */</doc>
+<def f='codebrowser/src/terminal/terminalframebuffer.cc' l='214' ll='230' type='int Terminal::DrawState::get_next_tab(int count) const'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='213' u='c' c='_ZL4HT_nPN8Terminal11FramebufferEm'/>

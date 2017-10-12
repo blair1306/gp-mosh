@@ -1,0 +1,5 @@
+<dec f='include/netdb.h' l='570' type='int'/>
+<offset>32</offset>
+<doc f='include/netdb.h' l='570'>/* Protocol family for socket.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='296' u='w' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='380' u='w' c='_ZN7Network10ConnectionC1EPKcS2_S2_'/>

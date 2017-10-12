@@ -1,0 +1,4 @@
+<dec f='include/google/protobuf/stubs/common.h' l='1111' type='void google::protobuf::internal::Mutex::Unlock()'/>
+<use f='include/google/protobuf/stubs/common.h' l='1128' u='c' c='_ZN6google8protobuf8internal9MutexLockD1Ev'/>
+<use f='include/google/protobuf/stubs/common.h' l='1143' u='c' c='_ZN6google8protobuf8internal14MutexLockMaybeD1Ev'/>
+<doc f='include/google/protobuf/stubs/common.h' l='1110'>// Release this Mutex.  Caller must hold it exclusively.</doc>

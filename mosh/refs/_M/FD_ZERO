@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/sys/select.h' l='93'/>
+<use f='codebrowser/src/util/select.h' l='68' u='c'/>
+<use f='codebrowser/src/util/select.h' l='69' u='c'/>
+<use f='codebrowser/src/util/select.h' l='95' u='c'/>
+<use f='codebrowser/src/util/select.h' l='179' u='c'/>

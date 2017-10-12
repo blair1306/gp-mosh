@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/network/networktransport.h' l='71' type='void Network::Transport::Transport&lt;MyState, RemoteState&gt;(MyState &amp; initial_state, RemoteState &amp; initial_remote, const char * key_str, const char * ip, const char * port)'/>
+<def f='codebrowser/src/network/networktransport-impl.h' l='57' ll='69' type='void Network::Transport::Transport&lt;MyState, RemoteState&gt;(MyState &amp; initial_state, RemoteState &amp; initial_remote, const char * key_str, const char * ip, const char * port)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='253' u='c' c='_ZN9STMClient9main_initEv'/>

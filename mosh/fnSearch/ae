@@ -1,0 +1,5 @@
+ae_clear|ae_clear
+ae_ctx_sizeof|ae_ctx_sizeof
+ae_decrypt|ae_decrypt
+ae_encrypt|ae_encrypt
+ae_init|ae_init

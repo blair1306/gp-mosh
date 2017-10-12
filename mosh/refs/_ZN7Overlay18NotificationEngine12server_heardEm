@@ -1,0 +1,3 @@
+<def f='codebrowser/src/frontend/terminaloverlay.h' l='161' type='void Overlay::NotificationEngine::server_heard(uint64_t s_last_word)'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='203' u='c' c='_ZN9STMClient8shutdownEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='293' u='c' c='_ZN9STMClient21process_network_inputEv'/>

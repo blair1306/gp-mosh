@@ -1,0 +1,9 @@
+<def f='codebrowser/src/statesync/completeterminal.h' l='69' type='const Terminal::Framebuffer &amp; Terminal::Complete::get_fb() const'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='272' u='c' c='_ZN9STMClient16output_new_frameEv'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='82' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='82' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='83' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='84' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='89' u='c' c='_ZNK8Terminal8Complete9diff_fromB5cxx11ERKS0_'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='101' u='c' c='_ZNK8Terminal8Complete9init_diffB5cxx11Ev'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='101' u='c' c='_ZNK8Terminal8Complete9init_diffB5cxx11Ev'/>

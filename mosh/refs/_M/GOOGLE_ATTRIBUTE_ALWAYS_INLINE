@@ -1,0 +1,14 @@
+<dec f='include/google/protobuf/stubs/common.h' l='214'/>
+<doc f='include/google/protobuf/stubs/common.h' l='212'>// For functions we want to force inline.
+// Introduced in gcc 3.1.</doc>
+<use f='include/google/protobuf/io/coded_stream.h' l='193' u='c'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='209' u='c'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='239' u='c'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='250' u='c'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='259' u='c'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='270' u='c'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='719' u='c'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='782' u='c'/>
+<use f='include/google/protobuf/io/coded_stream.h' l='784' u='c'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='506' u='c'/>
+<use f='include/google/protobuf/wire_format_lite.h' l='512' u='c'/>

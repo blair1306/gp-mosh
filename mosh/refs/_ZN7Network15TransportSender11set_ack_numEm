@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/network/transportsender.h' l='127' type='void Network::TransportSender::set_ack_num(uint64_t s_ack_num)'/>
+<doc f='codebrowser/src/network/transportsender.h' l='126'>/* Executed upon entry to new receiver state */</doc>
+<def f='codebrowser/src/network/transportsender-impl.h' l='388' ll='392' type='void Network::TransportSender::set_ack_num(uint64_t s_ack_num)'/>
+<doc f='codebrowser/src/network/transportsender-impl.h' l='387'>/* Executed upon entry to new receiver state */</doc>

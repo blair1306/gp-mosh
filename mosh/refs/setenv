@@ -1,0 +1,6 @@
+<dec f='include/stdlib.h' l='584' type='int setenv(const char * __name, const char * __value, int __replace)'/>
+<doc f='include/stdlib.h' l='582'>/* Set NAME to VALUE in the environment.
+   If REPLACE is nonzero, overwrite an existing value.  */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='548' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='554' u='c' c='_ZL10run_serverPKcS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPPcijb'/>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='943' u='c' c='_ZL13chdir_homedirv'/>

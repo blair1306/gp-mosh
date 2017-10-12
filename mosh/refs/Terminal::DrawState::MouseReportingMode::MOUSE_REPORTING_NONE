@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/terminal/terminalframebuffer.h' l='276' type='0'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='301' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminaldisplay.cc' l='307' u='r' c='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='74' u='r' c='_ZN8Terminal9DrawStateC1Eii'/>
+<use f='codebrowser/src/terminal/terminalfunctions.cc' l='338' u='r' c='_ZL9CSI_DECRMPN8Terminal11FramebufferEPNS_10DispatcherE'/>

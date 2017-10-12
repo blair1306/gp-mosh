@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/crypto/crypto.h' l='146' type='const int'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='162' u='r' c='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>
+<use f='codebrowser/src/crypto/crypto.cc' l='163' u='r' c='_ZN6Crypto7SessionC1ENS_9Base64KeyE'/>
+<use f='codebrowser/src/network/network.cc' l='464' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>
+<use f='codebrowser/src/network/network.cc' l='465' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

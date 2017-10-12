@@ -1,0 +1,6 @@
+<dec f='include/google/protobuf/stubs/common.h' l='137' type='void google::protobuf::internal::VerifyVersion(int headerVersion, int minLibraryVersion, const char * filename)'/>
+<doc f='include/google/protobuf/stubs/common.h' l='135'>// Verifies that the headers and libraries are compatible.  Use the macro
+// below to call this.</doc>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='30' macro='1' u='c'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='31' macro='1' u='c'/>
+<use f='codebrowser/src/protobufs/userinput.pb.cc' l='29' macro='1' u='c'/>

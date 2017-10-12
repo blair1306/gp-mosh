@@ -1,0 +1,12 @@
+<def f='include/c++/5/bits/basic_string.h' l='610' ll='612' type='iterator std::__cxx11::basic_string::begin()'/>
+<doc f='include/c++/5/bits/basic_string.h' l='606'>/**
+       *  Returns a read/write iterator that points to the first character in
+       *  the %string.
+       */</doc>
+<use f='codebrowser/src/frontend/stmclient.cc' l='188' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='190' u='c' c='_ZN9STMClient4initEv'/>
+<use f='codebrowser/src/frontend/terminaloverlay.cc' l='261' u='c' c='_ZNK7Overlay18NotificationEngine5applyERN8Terminal11FramebufferE'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='187' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='187' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='codebrowser/src/network/transportfragment.cc' l='188' u='c' c='_ZN7Network10Fragmenter14make_fragmentsERKN16TransportBuffers11InstructionEm'/>
+<use f='include/google/protobuf/stubs/stl_util.h' l='85' u='c' c='_ZN6google8protobuf15string_as_arrayEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

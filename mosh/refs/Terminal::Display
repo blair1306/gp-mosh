@@ -1,0 +1,12 @@
+<def f='codebrowser/src/terminal/terminaldisplay.h' l='64' ll='84'/>
+<size>24</size>
+<mbr r='Terminal::Display::has_ech' o='0' t='bool'/>
+<mbr r='Terminal::Display::has_bce' o='8' t='bool'/>
+<mbr r='Terminal::Display::has_title' o='16' t='bool'/>
+<mbr r='Terminal::Display::smcup' o='64' t='const char *'/>
+<mbr r='Terminal::Display::rmcup' o='128' t='const char *'/>
+<fun r='_ZNK8Terminal7Display7put_rowEbRNS_10FrameStateERKNS_11FramebufferEiRKNS_3RowEb'/>
+<fun r='_ZNK8Terminal7Display4openB5cxx11Ev'/>
+<fun r='_ZNK8Terminal7Display5closeB5cxx11Ev'/>
+<fun r='_ZNK8Terminal7Display9new_frameB5cxx11EbRKNS_11FramebufferES3_'/>
+<fun r='_ZN8Terminal7DisplayC1Eb'/>

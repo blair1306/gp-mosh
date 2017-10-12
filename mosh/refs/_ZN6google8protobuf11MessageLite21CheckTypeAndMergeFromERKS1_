@@ -1,0 +1,14 @@
+<dec f='include/google/protobuf/message_lite.h' l='108' type='void google::protobuf::MessageLite::CheckTypeAndMergeFrom(const google::protobuf::MessageLite &amp; other)'/>
+<use f='include/google/protobuf/repeated_field.h' l='375' u='c' c='_ZN6google8protobuf8internal18GenericTypeHandler5MergeERKT_PS3_'/>
+<doc f='include/google/protobuf/message_lite.h' l='106'>// If |other| is the exact same class as this, calls MergeFrom().  Otherwise,
+  // results are undefined (probably crash).</doc>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='206' c='_ZN11HostBuffers11HostMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='362' c='_ZN11HostBuffers11Instruction21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='548' c='_ZN11HostBuffers9HostBytes21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='774' c='_ZN11HostBuffers13ResizeMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/hostinput.pb.cc' l='961' c='_ZN11HostBuffers7EchoAck21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='411' c='_ZN16TransportBuffers11Instruction21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='199' c='_ZN13ClientBuffers11UserMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='355' c='_ZN13ClientBuffers11Instruction21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='541' c='_ZN13ClientBuffers9Keystroke21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>
+<ovr f='codebrowser/src/protobufs/userinput.pb.cc' l='767' c='_ZN13ClientBuffers13ResizeMessage21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE'/>

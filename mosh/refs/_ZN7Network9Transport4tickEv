@@ -1,0 +1,4 @@
+<def f='codebrowser/src/network/networktransport.h' l='75' type='void Network::Transport::tick()'/>
+<doc f='codebrowser/src/network/networktransport.h' l='74'>/* Send data or an ack if necessary. */</doc>
+<use f='codebrowser/src/frontend/mosh-server.cc' l='887' u='c' c='_ZL5serveiRN8Terminal8CompleteERN7Network9TransportIS0_NS2_10UserStreamEEEll'/>
+<use f='codebrowser/src/frontend/stmclient.cc' l='547' u='c' c='_ZN9STMClient4mainEv'/>

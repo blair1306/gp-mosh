@@ -1,0 +1,4 @@
+<dec f='include/string.h' l='65' type='int memcmp(const void * __s1, const void * __s2, size_t __n)'/>
+<doc f='include/string.h' l='64'>/* Compare N bytes of S1 and S2.  */</doc>
+<use f='codebrowser/src/network/network.cc' l='328' u='c' c='_ZN7Network10Connection8try_bindEPKcii'/>
+<use f='codebrowser/src/network/network.cc' l='561' u='c' c='_ZN7Network10Connection8recv_oneB5cxx11Ei'/>

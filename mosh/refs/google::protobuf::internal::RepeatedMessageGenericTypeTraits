@@ -1,0 +1,5 @@
+<def f='include/google/protobuf/extension_set.h' l='1010' ll='1018'/>
+<size>1</size>
+<doc f='include/google/protobuf/extension_set.h' l='1008'>// This class exists only to hold a generic default empty repeated field for all
+// message-type repeated field extensions.</doc>
+<smbr r='google::protobuf::internal::RepeatedMessageGenericTypeTraits::default_repeated_field_' t='const RepeatedFieldType *'/>

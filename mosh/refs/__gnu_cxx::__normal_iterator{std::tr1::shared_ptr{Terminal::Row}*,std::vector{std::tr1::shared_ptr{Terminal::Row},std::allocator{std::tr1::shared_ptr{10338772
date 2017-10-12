@@ -1,0 +1,2 @@
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='320' u='c' c='_ZN8Terminal11Framebuffer11insert_lineEii'/>
+<use f='codebrowser/src/terminal/terminalframebuffer.cc' l='344' u='c' c='_ZN8Terminal11Framebuffer11delete_lineEii'/>

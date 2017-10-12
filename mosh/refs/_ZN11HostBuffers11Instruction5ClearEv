@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/hostinput.pb.h' l='153' type='void HostBuffers::Instruction::Clear()'/>
+<inh f='include/google/protobuf/message_lite.h' l='96' c='_ZN6google8protobuf11MessageLite5ClearEv'/>
+<def f='codebrowser/src/protobufs/hostinput.pb.cc' l='295' ll='299' type='void HostBuffers::Instruction::Clear()'/>
+<use f='codebrowser/src/protobufs/hostinput.pb.cc' l='375' u='c' c='_ZN11HostBuffers11Instruction8CopyFromERKS0_'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/statesync/completeterminal.h' l='57' type='input_history_type'/>
+<use f='codebrowser/src/statesync/completeterminal.h' l='64' u='w' c='_ZN8Terminal8CompleteC1Emm'/>
+<offset>3712</offset>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='140' u='m' c='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='141' u='m' c='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='148' u='m' c='_ZN8Terminal8Complete12set_echo_ackEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='161' u='m' c='_ZN8Terminal8Complete20register_input_frameEmm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='166' u='m' c='_ZNK8Terminal8Complete9wait_timeEm'/>
+<use f='codebrowser/src/statesync/completeterminal.cc' l='170' u='m' c='_ZNK8Terminal8Complete9wait_timeEm'/>

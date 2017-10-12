@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/network/network.h' l='114' type='const int'/>
+<doc f='codebrowser/src/network/network.h' l='110'>/*
+     * For IPv6, we don&apos;t want to ever have MTU issues, so make a
+     * conservative guess about header size.
+     */</doc>
+<doc f='codebrowser/src/network/network.h' l='114'>/* base IPv6 header */</doc>
+<use f='codebrowser/src/network/network.cc' l='208' u='r' c='_ZN7Network10Connection7set_MTUEi'/>

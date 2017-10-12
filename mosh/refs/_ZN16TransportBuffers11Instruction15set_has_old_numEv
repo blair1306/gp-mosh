@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/protobufs/transportinstruction.pb.h' l='163' type='void TransportBuffers::Instruction::set_has_old_num()'/>
+<def f='codebrowser/src/protobufs/transportinstruction.pb.h' l='233' ll='235' type='void TransportBuffers::Instruction::set_has_old_num()'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.h' l='248' u='c' c='_ZN16TransportBuffers11Instruction11set_old_numEm'/>
+<use f='codebrowser/src/protobufs/transportinstruction.pb.cc' l='203' u='c' c='_ZN16TransportBuffers11Instruction27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE'/>

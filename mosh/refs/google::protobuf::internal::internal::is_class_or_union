@@ -1,0 +1,4 @@
+<def f='include/google/protobuf/stubs/type_traits.h' l='149' ll='153'/>
+<fun r='_ZN6google8protobuf8internal8internal17is_class_or_union6testerEMT_FvvE'/>
+<fun r='_ZN6google8protobuf8internal8internal17is_class_or_union6testerEz'/>
+<smbr r='google::protobuf::internal::internal::is_class_or_union::value' t='const bool'/>
